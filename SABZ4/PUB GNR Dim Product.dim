@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="950d2c1b-5654-4e66-95d5-9b5dfda8e28b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="92821560-33f1-4f0c-be6b-dda29a73d02c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>PUB GNR Dim Product</ID>
   <Name>PUB GNR Dim Product</Name>
   <CreatedTimestamp>2020-02-29T07:25:09.843333Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="54" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="2125" scrolltop="-3520" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="10372" y="16801" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="54" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="2125" scrolltop="-3520" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="11562" y="12885" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -562,11 +562,11 @@
   </Annotations>
   <LastProcessed>2022-02-22T03:10:54.76Z</LastProcessed>
   <State>Processed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="4d91d7e7-7f0b-4cd4-8511-447dcc9d5aef">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="b02a9a95-7bd4-4b7a-b871-156783e812b0">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="f8cbb964-b34d-4af0-845c-15ba67fa57b9">
+  <ErrorConfiguration dwd:design-time-name="c9e02fb6-5b30-42fa-8eb9-f9cf9cb1bf2a">
     <KeyNotFound>IgnoreError</KeyNotFound>
     <KeyDuplicate>ReportAndContinue</KeyDuplicate>
     <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
@@ -575,168 +575,158 @@
   <Language>1065</Language>
   <UnknownMemberName>UnknownProduct</UnknownMemberName>
   <UnknownMemberTranslations>
-    <UnknownMemberTranslation dwd:design-time-name="03529339-1fe4-436f-875c-fee9c165fae2">
+    <UnknownMemberTranslation dwd:design-time-name="4eaf907d-4023-408c-a843-948c88282988">
       <Language>1065</Language>
       <Caption>محصول نامشخص</Caption>
     </UnknownMemberTranslation>
   </UnknownMemberTranslations>
   <Translations>
-    <Translation dwd:design-time-name="20461351-7027-4eee-84fb-1ab96887cd84">
+    <Translation dwd:design-time-name="cad0c453-1888-4e67-85c1-11644374d216">
       <Language>1065</Language>
       <Caption>محصولات</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute dwd:design-time-name="13bdbe82-fc72-49c6-836f-d4c1effbedff">
+    <Attribute dwd:design-time-name="38f3212b-fdc3-4500-9ec2-c1b4a5a0ba6b">
       <ID>Product Id</ID>
       <Name>Product Id</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="62137538-5ef3-4851-a1a1-06c7c77b5fe4">
+        <KeyColumn dwd:design-time-name="2b26ea1b-950f-424a-b37b-454a66cdfb67">
           <DataType>BigInt</DataType>
           <DataSize>16</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b8dc9682-6cf8-4b50-8bb4-c4ea9722c04e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4f913bc5-00d7-43b8-9ebd-8e5dc1c83b99">
             <TableID>dbo_PUB_GNR_Dim_Product</TableID>
             <ColumnID>Product_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="92088313-2022-4276-9a1c-4ef01a1fafd0">
+      <NameColumn dwd:design-time-name="0b7025fd-3cc7-49d3-bb87-0eb8eefab3b9">
         <DataType>WChar</DataType>
         <DataSize>200</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="964ca963-75e8-4173-9d98-4c16211fb6be">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d0116727-624e-4f68-a353-aa33ac01d0bc">
           <TableID>dbo_PUB_GNR_Dim_Product</TableID>
           <ColumnID>Product_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="bf19d98e-84f4-4bef-ba94-e03b7246d7ee">
+        <Translation dwd:design-time-name="c6c9d6e7-fe15-4852-aa3c-31efc0a557b4">
           <Language>1065</Language>
           <Caption>عنوان محصول</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="f0fd961f-e502-467f-87dc-747fb92d862b">
+        <AttributeRelationship dwd:design-time-name="8423fcb2-1553-4fa4-bedb-84b7b9ea2f3a">
           <AttributeID>Company Id</AttributeID>
           <Name>Company Id</Name>
           <Translations>
-            <Translation dwd:design-time-name="c73e150a-ab55-4bba-b959-50740987c227">
+            <Translation dwd:design-time-name="135421ca-4292-494a-8349-54000e6538ad">
               <Language>1065</Language>
               <Caption>نام شرکت</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="990f62ff-24b5-4c00-a276-db1985ea57ce">
+        <AttributeRelationship dwd:design-time-name="29b13e76-152f-4ba2-8547-3e2f8a712d77">
           <AttributeID>Lesson Id</AttributeID>
           <Name>Lesson Id</Name>
           <Translations>
-            <Translation dwd:design-time-name="08664e05-a945-426a-817c-049722f60312">
+            <Translation dwd:design-time-name="2e13d175-0efb-48d2-a4a4-1e118f2fd868">
               <Language>1065</Language>
               <Caption>درس</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="a52f4a62-ac93-449d-b351-766981b25595">
+        <AttributeRelationship dwd:design-time-name="78396001-d936-485d-a786-7b0cf3e0e5c4">
           <AttributeID>Product Grade Id</AttributeID>
           <Name>Product Grade Id</Name>
           <Translations>
-            <Translation dwd:design-time-name="8b8c49de-24c6-4485-91f9-b2fd3965152d">
+            <Translation dwd:design-time-name="f58a59ef-878d-4726-87f5-24ef68f6ee03">
               <Language>1065</Language>
               <Caption>پایه تحصیلی</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="8324993c-26ff-410b-9126-6e859d59b048">
+        <AttributeRelationship dwd:design-time-name="3c274d42-34e5-4d1f-bd3d-52e0fd64442b">
           <AttributeID>Sales Organization Id</AttributeID>
           <Name>Sales Organization Id</Name>
           <Translations>
-            <Translation dwd:design-time-name="2513546c-11f4-4069-94b7-0339a668a308">
+            <Translation dwd:design-time-name="87a6c343-23d3-498b-a298-0dae3d16b893">
               <Language>1065</Language>
               <Caption>سازمان</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="124571f4-2065-4eb8-84f6-20704f5fc430">
+        <AttributeRelationship dwd:design-time-name="c6cdc28d-173f-45c0-9a9e-820e31c112e8">
           <AttributeID>Product Fee</AttributeID>
           <Name>Product Fee</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="f3e12bcb-7ef8-4ef9-9c3b-e0be6d32c890">
+        <AttributeRelationship dwd:design-time-name="578bf923-935e-4455-af24-81a104f39b09">
           <AttributeID>Product Id 1</AttributeID>
           <Name>Product Id_Code</Name>
           <Translations>
-            <Translation dwd:design-time-name="80973bb4-dc11-41af-91c3-b53f44ed55b7">
+            <Translation dwd:design-time-name="f4669824-17e9-4ac4-ad3e-0fa0f5a4c355">
               <Language>1065</Language>
               <Caption>کد عددی محصول</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="c7862884-509d-4b0d-afa1-4fe4ba46c024">
+        <AttributeRelationship dwd:design-time-name="216f3f03-15bf-40bb-99dd-c52b8fe2080a">
           <AttributeID>Product Parent Id 1</AttributeID>
           <Name>Product Parent Id_Code</Name>
           <Translations>
-            <Translation dwd:design-time-name="4046d515-5dbf-4a99-bada-8b20f6d7dd10">
+            <Translation dwd:design-time-name="2ed9a0e4-1764-43fe-b099-928837346424">
               <Language>1065</Language>
               <Caption>کد عددی محصول والد</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="5f314867-6b9d-4e25-b793-aa9775423da5">
+        <AttributeRelationship dwd:design-time-name="4a1df602-88f7-4375-8d83-a1197b0497e2">
           <AttributeID>Sdate</AttributeID>
           <Name>Sdate</Name>
           <Translations>
-            <Translation dwd:design-time-name="b16e80ca-25ee-4345-8fa7-59a01dbd6f54">
+            <Translation dwd:design-time-name="a4d7afc0-d976-44fb-97d3-a302f7a794ef">
               <Language>1065</Language>
               <Caption>تاریخ اولین ورود به انبار</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="97cb08f6-1d86-439f-9025-8a5c29aa32fe">
+        <AttributeRelationship dwd:design-time-name="ed412e38-3671-42ac-841d-720eac4ded58">
           <AttributeID>First In Forecast Value</AttributeID>
           <Name>First In Forecast Value</Name>
           <Translations>
-            <Translation dwd:design-time-name="8682534d-79c1-41bb-b44c-38121c65e70c">
+            <Translation dwd:design-time-name="eefbb4ac-9177-44a3-b500-83d5442342e6">
               <Language>1065</Language>
               <Caption>اولین پیش بینی ورود به انبار crm</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="044f2cff-ef97-431d-92ac-f72117830401">
+        <AttributeRelationship dwd:design-time-name="6486815c-9734-4fa2-a52a-4dbc4bdce164">
           <AttributeID>Product Group Parent Id</AttributeID>
           <Name>Product Group Parent Id</Name>
           <Translations>
-            <Translation dwd:design-time-name="433166a2-3f6d-4536-967b-41c5044413be">
+            <Translation dwd:design-time-name="39fa5443-e1f3-4b8e-a27c-ad3493c22dd2">
               <Language>1065</Language>
               <Caption>عنوان نوع گروه محصول</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="117a1a10-375d-49d4-b18e-1eb7d77cb191">
+        <AttributeRelationship dwd:design-time-name="02ca0ece-aaa8-4d20-8f00-6d67bec55c7b">
           <AttributeID>Product Group Id 1</AttributeID>
           <Name>Product Group Id_Product</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="bf063a98-800a-43a4-b3a8-c50c16c7f17f">
-          <AttributeID>Organization ID</AttributeID>
-          <Name>Organization ID</Name>
-          <Translations>
-            <Translation dwd:design-time-name="a8451c4f-2c42-48ce-8cb0-46c096524391">
-              <Language>1065</Language>
-              <Caption>سازمان اصلی</Caption>
-            </Translation>
-          </Translations>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="e400cf4d-08a3-492b-bb6e-eb3c20876351">
+        <AttributeRelationship dwd:design-time-name="fbd6b872-0481-4e06-9627-e054b52c2130">
           <AttributeID>Product Parent Id</AttributeID>
           <Name>Product Parent Id</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="fb9dba17-a896-48e1-bede-4232ac864f56">
+        <AttributeRelationship dwd:design-time-name="0daa7eab-c4ed-481a-aa1c-7160f10070af">
           <AttributeID>Product Grade Group ID</AttributeID>
           <Name>Product Grade Group ID</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="b19ab132-c104-4d56-94b1-818adb544b45">
+        <AttributeRelationship dwd:design-time-name="e1803fae-5cd8-4f3f-b15a-8fd25b3c8ff8">
           <AttributeID>Major Id</AttributeID>
           <Name>MajorTitle</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="29950ed3-8895-4711-a900-928acea2f334">
+        <AttributeRelationship dwd:design-time-name="a6e3409a-259f-49ae-b861-81fdff8f1514">
           <AttributeID>Takhasos</AttributeID>
           <Name>Takhasos</Name>
         </AttributeRelationship>
@@ -745,39 +735,39 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="9ed77073-8758-44d7-81eb-6c2a72fd7fa6">
+    <Attribute dwd:design-time-name="0aab2d17-1663-44c1-bf33-a9fb2cae5a9b">
       <ID>Company Id</ID>
       <Name>Company Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="531f1361-c698-4e1e-8084-f575d16005a6">
+        <KeyColumn dwd:design-time-name="938ac355-7337-4341-be23-8af5cee0e7f6">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="cb8dad27-da09-4834-b491-236da92575f9">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="434eaf5a-d2dd-4b0b-accb-aed116d8f891">
             <TableID>dbo_GRL_GNR_Dim_Company</TableID>
             <ColumnID>Company_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="cc29635b-5afb-43d2-aea2-aa607437207b">
+      <NameColumn dwd:design-time-name="1249d8b0-6876-43b6-b912-12fecfcc5c2b">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="75b7c32a-703d-4584-b651-14629c32a579">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="c5f19235-eec2-453e-ad6f-d76a2636e818">
           <TableID>dbo_GRL_GNR_Dim_Company</TableID>
           <ColumnID>Company_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="ffcd5fb5-1c1a-4806-9b06-2a8aee848520">
+        <Translation dwd:design-time-name="3f1c2901-7ccc-46be-8d55-1eb31f9deea7">
           <Language>1065</Language>
           <Caption>نام شرکت</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="a9d4f810-02d4-4111-b7f7-eb8a7587594c">
+        <AttributeRelationship dwd:design-time-name="35263918-124e-438f-bd11-a2aca00737ca">
           <AttributeID>Industry Id</AttributeID>
           <Name>Industry Id</Name>
           <Translations>
-            <Translation dwd:design-time-name="69ade96c-0dc3-4db4-b0f9-fa0c1aa1baf5">
+            <Translation dwd:design-time-name="05014bcd-c14f-45d1-bfc7-589365cc9188">
               <Language>1065</Language>
               <Caption>عنوان صنعت</Caption>
             </Translation>
@@ -788,29 +778,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="9a74fb9a-e945-4dc2-b938-e2da573474b8">
+    <Attribute dwd:design-time-name="76a4fb0b-2ff3-43f0-a933-7c0436975688">
       <ID>Industry Id</ID>
       <Name>Industry Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="fc747b08-e12c-46a7-873a-aba298918b6a">
+        <KeyColumn dwd:design-time-name="4700fb8d-d420-4ab4-a371-4d3a5e9f2305">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ab6d5f60-6bc6-4313-80bc-881f0ba123de">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d4848035-c365-4b41-a160-9fd9ca47b9bb">
             <TableID>dbo_GRL_GNR_Dim_Industry</TableID>
             <ColumnID>Industry_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="75350fe9-c1f9-4104-afb4-572715434553">
+      <NameColumn dwd:design-time-name="cc6b088a-4ba9-4764-834d-d34b2b66b7ab">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="7fea31be-c139-45ac-86c2-b5249444982a">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a0192a05-d2d1-4306-9cc7-447248aa1663">
           <TableID>dbo_GRL_GNR_Dim_Industry</TableID>
           <ColumnID>Industry_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="7f060f92-02f9-4859-9aea-df29db8fafa3">
+        <Translation dwd:design-time-name="c36ab130-4814-4fb0-921c-f7311ef1a553">
           <Language>1065</Language>
           <Caption>عنوان صنعت</Caption>
         </Translation>
@@ -819,39 +809,39 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="ca37120b-0d0d-4615-97ad-21f14dd7a4d1">
+    <Attribute dwd:design-time-name="f2929d1d-6a64-4cec-96e2-a2385163e8c2">
       <ID>Product Parent Id</ID>
       <Name>Product Parent Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e8f9dd83-a9de-40c6-a152-b17b80bfb74d">
+        <KeyColumn dwd:design-time-name="c84e6b58-75e3-415c-b20a-a812f431263d">
           <DataType>BigInt</DataType>
           <DataSize>16</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b46b2c4d-9ad7-4baf-9e19-fc3b6ce5820a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="140f4820-8e1e-49e6-a2dd-3668aee782a3">
             <TableID>dbo_Vwe_PUB_GNR_Dim_ParentProduct</TableID>
             <ColumnID>ProductParent_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="d20acc69-c795-4966-9df3-03f207fba361">
+      <NameColumn dwd:design-time-name="5f65ba88-dea5-4849-9291-b68943faba14">
         <DataType>WChar</DataType>
         <DataSize>200</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="92672853-0a5d-490d-a550-1ca19da1cfe2">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="79b4bcab-2a35-4d97-8107-e7d18976d6ac">
           <TableID>dbo_Vwe_PUB_GNR_Dim_ParentProduct</TableID>
           <ColumnID>ProductParent_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="37ae213d-f468-4d6c-8822-aad1aca25b87">
+        <Translation dwd:design-time-name="8b0bb57b-b027-429f-8ebf-0a1f501ae2a2">
           <Language>1065</Language>
           <Caption>محصول والد</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="b9b85e66-1c22-4a37-bcf3-b80f9f9fcd3a">
+        <AttributeRelationship dwd:design-time-name="42b49055-ed54-4548-ae2e-c75a85257fac">
           <AttributeID>Product Group Title</AttributeID>
           <Name>Product Group Title</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="4f84db1e-721e-4a3d-b2c8-2d9fc9f5fd74">
+        <AttributeRelationship dwd:design-time-name="fd8eb6a4-aa01-469a-8ea9-cdf32f49fd2c">
           <AttributeID>Product Group Id 1 1</AttributeID>
           <Name>Product Group Id</Name>
         </AttributeRelationship>
@@ -860,28 +850,28 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="66dfe547-55a4-4509-bddb-8c9b70137d5c">
+    <Attribute dwd:design-time-name="d7194145-3992-4e54-80dd-1219862ea69e">
       <ID>Product Grade Id</ID>
       <Name>Product Grade Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="bc2ad7e3-f1b1-4c96-8494-7449a5dad24f">
+        <KeyColumn dwd:design-time-name="a71d2712-1fa5-432c-a6e4-1c06b9fea103">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="af6b6384-ed54-4d60-9e8b-a9b0d0514a7e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c417df84-bafa-49bb-b2d7-14ad38b5a341">
             <TableID>dbo_PUB_GNR_Dim_ProductGrade</TableID>
             <ColumnID>ProductGrade_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="ffeb9c8a-bcc9-4010-aa92-22d47fc1fbed">
+      <NameColumn dwd:design-time-name="a3db1dfb-a8f6-4de9-a4b8-b1253623e4eb">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="ffdcb5f4-249d-44bc-b518-de1cc3543151">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a9371dc1-7e07-4116-b183-3ad0fcef4d9b">
           <TableID>dbo_PUB_GNR_Dim_ProductGrade</TableID>
           <ColumnID>ProductGrade_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="d3f1b801-401d-4566-b242-181d92735120">
+        <Translation dwd:design-time-name="d13117be-8f10-4c37-a5ca-ff80f385e846">
           <Language>1065</Language>
           <Caption>پایه تحصیلی</Caption>
         </Translation>
@@ -890,28 +880,28 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="334f5e25-4aba-4df0-969e-bf5538597d15">
+    <Attribute dwd:design-time-name="d24da6b2-877d-4329-9541-56e4405bdc0d">
       <ID>Lesson Id</ID>
       <Name>Lesson Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="52b457fe-ba55-434a-accf-5608021fded9">
+        <KeyColumn dwd:design-time-name="efa5a6ed-2a97-4a3c-a699-22fe293d27f6">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c40041d4-acb6-47b6-89a8-c03304c2c409">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9e594461-b78e-46b3-9581-36b6d054019c">
             <TableID>dbo_PUB_GNR_Dim_Product</TableID>
             <ColumnID>Lesson_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="58020835-ae3a-4173-b7a5-c51d3729075f">
+      <NameColumn dwd:design-time-name="a222fe0c-33d1-43e7-9c1f-5ab6f819e758">
         <DataType>WChar</DataType>
         <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="39b02ced-d2e7-427f-a215-066bbc364e41">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="353e9210-abc4-4a4c-9adc-8413465015db">
           <TableID>dbo_PUB_GNR_Dim_Lesson</TableID>
           <ColumnID>Lesson_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="a5177f63-f1df-430a-b810-96c2ab76a204">
+        <Translation dwd:design-time-name="60ce8602-3cd3-476b-9b1b-e84ebbf50b72">
           <Language>1065</Language>
           <Caption>درس</Caption>
         </Translation>
@@ -919,28 +909,28 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="bd4ed012-e5df-48ce-8c6f-e381e58899f8">
+    <Attribute dwd:design-time-name="3eee3d16-667b-4845-85b3-a2a770868b6d">
       <ID>Sales Organization Id</ID>
       <Name>Sales Organization Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e1e1f764-d489-4d40-8cfd-5d171e87863a">
+        <KeyColumn dwd:design-time-name="2aca1625-cf89-41fa-a1d6-15f41787b74a">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="27b47778-f0f6-45de-b071-8ceb8574af1d">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1274e97d-e681-4e66-a7ed-c4b0295479a5">
             <TableID>SLE_PUB_SLE_Dim_SalesOrganization</TableID>
             <ColumnID>SalesOrganization_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="aaa02d5e-b7a2-4f22-bb4f-21fd4eb59a72">
+      <NameColumn dwd:design-time-name="df7ec19e-db52-48ab-bc06-70624aeb36cd">
         <DataType>WChar</DataType>
         <DataSize>500</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="4d9c33a3-7d2d-464b-b5c9-272b9413a742">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f7a08495-e7b7-4a24-a38f-1caeb54206f0">
           <TableID>SLE_PUB_SLE_Dim_SalesOrganization</TableID>
           <ColumnID>SalesOrganization_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="1707573f-4967-418b-a454-885681fd349f">
+        <Translation dwd:design-time-name="00a7de5f-de8c-40f6-aaf3-600e07105083">
           <Language>1065</Language>
           <Caption>سازمان</Caption>
         </Translation>
@@ -948,21 +938,21 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e11c64ca-8a23-4eff-8d50-2544564d2ad0">
+    <Attribute dwd:design-time-name="74d1142f-4ebe-4a87-af68-605e2bbb4233">
       <ID>Product Fee</ID>
       <Name>Product Fee</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f2703bf5-c1d9-4f33-9335-39505fad55fd">
+        <KeyColumn dwd:design-time-name="bca66dba-287e-4117-b3e8-078d797565ee">
           <DataType>Double</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0724c46d-fbb5-4b1d-8d71-585622c14385">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="42236b7c-3136-4ea4-96fc-9effe8da981c">
             <TableID>dbo_PUB_GNR_Dim_Product</TableID>
             <ColumnID>Product_Fee</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="946d8e5e-4ad3-49ef-9aa1-7b484b36f5d3">
+      <NameColumn dwd:design-time-name="3972784c-49db-4a79-aa9e-09372687439c">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="d0b4464a-a895-4db1-bc81-7b3f0a8868ec">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="88836e78-b7a6-4002-8be5-3c59bd33389e">
           <TableID>dbo_PUB_GNR_Dim_Product</TableID>
           <ColumnID>Product_Fee</ColumnID>
         </Source>
@@ -970,28 +960,28 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e90dbe43-4185-4ffa-9c76-faa8a1ea9663">
+    <Attribute dwd:design-time-name="c04df529-21c7-4dfc-9887-e7c86f0ad0a3">
       <ID>Product Id 1</ID>
       <Name>Product Id_Code</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="02bf5842-3f86-4a21-8445-37cadce93dc1">
+        <KeyColumn dwd:design-time-name="d5f4c78f-41f0-4bf4-a05c-4b9804d47fbc">
           <DataType>BigInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="07617c94-4c53-494a-9b95-6868192ce182">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="93efb6a9-2a42-4904-9f05-e4f84bf54b7e">
             <TableID>dbo_PUB_GNR_Dim_Product</TableID>
             <ColumnID>Product_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="63e3b2b3-e3a2-4a33-9d1a-b7168a908d20">
+      <NameColumn dwd:design-time-name="98f9c8d0-4b5f-4836-9b65-822fceeb65e7">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="57bbd109-e905-46a6-9ac0-53eb0c3846b0">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="fd68a3e9-570a-48d2-93ab-cebc237adc12">
           <TableID>dbo_PUB_GNR_Dim_Product</TableID>
           <ColumnID>Product_Code</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="abf5d634-ace4-4d33-a331-4d558931eeac">
+        <Translation dwd:design-time-name="fa207585-1b28-4af3-bbd2-94cfa662cad6">
           <Language>1065</Language>
           <Caption>کد عددی محصول</Caption>
         </Translation>
@@ -1000,29 +990,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="baae9a05-f77a-470a-b1ce-f783a5af2c52">
+    <Attribute dwd:design-time-name="cedb8339-b7f1-41a4-8dc5-08c075858cb8">
       <ID>Product Parent Id 1</ID>
       <Name>Product Parent Id_Code</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="89967ad6-7067-4c01-b1b4-baab31863595">
+        <KeyColumn dwd:design-time-name="ccd0fcdd-babc-49eb-b17e-5d2dd371008f">
           <DataType>BigInt</DataType>
           <DataSize>16</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e131cc96-56cb-4d26-9986-a1371676661b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c954fd11-2923-47a1-84bd-710400313ee1">
             <TableID>dbo_Vwe_PUB_GNR_Dim_ParentProduct</TableID>
             <ColumnID>ProductParent_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="93214817-b77a-4fc3-b93a-81b50b4be4d9">
+      <NameColumn dwd:design-time-name="24b1145a-cb82-438a-ac11-03c0752f1142">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="f33eb97d-6817-4969-878c-ae2488ce3325">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="0ba90fcd-109c-480f-8c0c-b62059b459a0">
           <TableID>dbo_Vwe_PUB_GNR_Dim_ParentProduct</TableID>
           <ColumnID>ParentProduct_Code</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="5ca17b1d-8550-4e41-8b2f-b314d833494f">
+        <Translation dwd:design-time-name="a0b0e804-602f-4da6-812e-818a4824c4d4">
           <Language>1065</Language>
           <Caption>کد عددی محصول والد</Caption>
         </Translation>
@@ -1031,29 +1021,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="afb0ebd0-8079-49ae-900e-a8c175562ed3">
+    <Attribute dwd:design-time-name="11a76bb3-5148-4a69-9959-e408e3d7f963">
       <ID>Sdate</ID>
       <Name>Sdate</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="fbf89aec-cc7d-45cc-a4f0-904540b93bf7">
+        <KeyColumn dwd:design-time-name="106078bf-8250-4bbb-a3cf-6f3b5afa5eb9">
           <DataType>WChar</DataType>
           <DataSize>1024</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ebc6f4ea-3814-468a-bf41-36f02b467bad">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6c4dd138-b04d-40d1-a9a3-8f332d6f3c0d">
             <TableID>dbo_PUB_GNR_Dim_Product</TableID>
             <ColumnID>sdate</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="9b58f3a3-6679-45e4-97c9-96b9bf15832f">
+      <NameColumn dwd:design-time-name="d7d1a70b-959d-4ff5-945a-952f8412fefa">
         <DataType>WChar</DataType>
         <DataSize>1024</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="2d4958fb-96b8-4fc3-a386-17ceeb45fc08">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a76353db-329a-45c2-ac3c-4b4efe35277e">
           <TableID>dbo_PUB_GNR_Dim_Product</TableID>
           <ColumnID>sdate</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="fa7f8cce-0a1d-44a1-b7eb-dc2a9278b788">
+        <Translation dwd:design-time-name="e992cd3c-dafa-4bbe-a371-6f95a82aad7f">
           <Language>1065</Language>
           <Caption>تاریخ اولین ورود به انبار</Caption>
         </Translation>
@@ -1061,27 +1051,27 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="05e6d748-3d42-4ba4-9fa2-e32c942453b2">
+    <Attribute dwd:design-time-name="44d86998-25ee-4904-8305-a0c79cbc752e">
       <ID>First In Forecast Value</ID>
       <Name>First In Forecast Value</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="fbe7d7a7-767e-4818-b650-cdc54e0be31a">
+        <KeyColumn dwd:design-time-name="95195be1-30ba-4c6b-880a-9e51c4f85053">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="63170a8f-efce-4cb5-ae80-5a1a20fa8484">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="94f3f04f-9ba0-4720-95eb-e18e0a6a75d0">
             <TableID>dbo_PUB_GNR_Dim_Product</TableID>
             <ColumnID>FirstInForecast_Value</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="e120b751-29c4-4a19-b76b-e80f0684d860">
+      <NameColumn dwd:design-time-name="1328827c-c0ea-4b55-8708-c37908af8764">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="fd232a19-abb4-41e9-a0a4-737e811134a5">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="ac5da551-66f1-48c2-a86f-d2c4ed9ec5f6">
           <TableID>dbo_PUB_GNR_Dim_Product</TableID>
           <ColumnID>FirstInForecast_Value</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="86802740-f14b-469e-8952-b8cb91306e78">
+        <Translation dwd:design-time-name="5a873fd0-20f7-4ca9-b5b9-1dba9afd5302">
           <Language>1065</Language>
           <Caption>اولین پیش بینی ورود به انبار crm</Caption>
         </Translation>
@@ -1089,28 +1079,28 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="115bfa7e-5190-421c-9de5-80c6cd61d9c8">
+    <Attribute dwd:design-time-name="9f20b71f-2850-4766-90f3-ffd360023c60">
       <ID>Product Group Parent Id</ID>
       <Name>Product Group Parent Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="7a9cae1f-2e5f-4ccf-81d0-7f778492e22a">
+        <KeyColumn dwd:design-time-name="c90d9695-4931-4e10-9413-d16fc7593ba6">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e0139bbf-422c-4dc3-bbe4-722200d40e46">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3de7faa4-eb9d-4785-aff4-273ec1274ed4">
             <TableID>dbo_PUB_GNR_Dim_ProductGroupParent</TableID>
             <ColumnID>ProductGroupParent_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="c3f1dc5b-080a-429f-856c-9be4e57bff30">
+      <NameColumn dwd:design-time-name="a014516a-772e-436e-8c3e-8b6725b8a075">
         <DataType>WChar</DataType>
         <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="ed18d555-3137-46db-9ce0-6a07859cf404">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a04175c0-067c-40f5-b163-450519f9d2f7">
           <TableID>dbo_PUB_GNR_Dim_ProductGroupParent</TableID>
           <ColumnID>ProductGroupParent_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="a8a8291b-140c-4344-a19a-e99bdd8013d1">
+        <Translation dwd:design-time-name="7702c54a-a5b5-4af7-8fe5-58827acd5c87">
           <Language>1065</Language>
           <Caption>عنوان نوع گروه محصول</Caption>
         </Translation>
@@ -1118,51 +1108,22 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="f0b9de72-fd42-49ad-a680-067576425c74">
-      <ID>Organization ID</ID>
-      <Name>Organization ID</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="b87dbc9e-b917-438a-a651-866f425d0d2b">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7f83fa3c-8670-4440-8bef-8aa394b5605b">
-            <TableID>dbo_PUB_GNR_Dim_Product</TableID>
-            <ColumnID>OrganizationID</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <NameColumn dwd:design-time-name="e0ef8341-fa90-481a-8c95-cfa873e896b2">
-        <DataType>WChar</DataType>
-        <DataSize>500</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="bd7d0d1c-cd56-4a4a-96e0-306321678c4d">
-          <TableID>SLE_PUB_SLE_Dim_SalesOrganization</TableID>
-          <ColumnID>SalesOrganization_Title</ColumnID>
-        </Source>
-      </NameColumn>
-      <Translations>
-        <Translation dwd:design-time-name="67a464c8-664f-4b69-b46e-782be1c88240">
-          <Language>1065</Language>
-          <Caption>سازمان اصلی</Caption>
-        </Translation>
-      </Translations>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="f64f532f-0b06-4e11-976c-c03d82870b6c">
+    <Attribute dwd:design-time-name="6734ae7b-4751-4805-a0d0-753b2a3db696">
       <ID>Product Group Id 1</ID>
       <Name>Product Group Id_Product</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="22bd32dd-a22f-425d-9966-3eee79a7b5b8">
+        <KeyColumn dwd:design-time-name="d79cfd4a-a14d-42ea-8053-5693b8abdaf1">
           <DataType>BigInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f1f10d18-65c6-4cd1-b1bf-bdaa58b00817">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3bc53e17-506c-4a91-9782-d6aa0bebbbff">
             <TableID>dbo_PUB_GNR_Dim_Product</TableID>
             <ColumnID>ProductGroup_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="3bf0054f-f916-43b3-ad49-2e1b603fc7fd">
+      <NameColumn dwd:design-time-name="4d1aaa45-2c84-48f7-92db-f3cda8da59b7">
         <DataType>WChar</DataType>
         <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="809beb28-8ed6-4084-a996-c46204382cb8">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="1a02f98d-8e3e-4b2f-913e-f36a019fc8a0">
           <TableID>dbo_pub_GNR_Dim_ProductGroup</TableID>
           <ColumnID>ProductGroup_Title</ColumnID>
         </Source>
@@ -1170,28 +1131,28 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d2d2cb42-1908-42f0-99c5-c92507f20da5">
+    <Attribute dwd:design-time-name="53f50b85-b8eb-45c1-93c2-c08d8a57b87f">
       <ID>Product Group Id 1 1</ID>
       <Name>Product Group Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="dcc991c1-b204-41c3-9311-9a77a8c88b2e">
+        <KeyColumn dwd:design-time-name="b8dce419-52a1-4fab-8e97-e357a71cf27c">
           <DataType>BigInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d833838b-7401-45bc-a1e6-8a204086c422">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="efd0821a-e15d-4a9d-ba6e-d79dee1ac60b">
             <TableID>dbo_pub_GNR_Dim_ProductGroup</TableID>
             <ColumnID>ProductGroup_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="c865a7cc-b518-458e-a0c5-a81d1900724a">
+      <NameColumn dwd:design-time-name="1bc2fe7b-cdcb-4f21-9be0-31f04c453bab">
         <DataType>WChar</DataType>
         <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="cbb77805-8963-4319-a56b-16ca807cc591">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="ce861485-6ca4-4db8-9f69-62faeb35f1ee">
           <TableID>dbo_pub_GNR_Dim_ProductGroup</TableID>
           <ColumnID>ProductGroup_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="5489892d-1a5f-4caa-a5df-df6166af98c2">
+        <Translation dwd:design-time-name="c55afc84-bceb-4a4a-bb9c-c93bbb5c6c94">
           <Language>1065</Language>
           <Caption>گروه محصول</Caption>
         </Translation>
@@ -1200,14 +1161,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d1a649e0-5a62-4e9d-a4b4-5756458e6cec">
+    <Attribute dwd:design-time-name="c650ee2e-466e-4516-ae20-71290a91f574">
       <ID>Product Group Title</ID>
       <Name>Product Group Title</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b73affc5-843e-48cf-9ea4-29948dccd65c">
+        <KeyColumn dwd:design-time-name="684309bb-8637-4df8-9e45-2f199b9ca010">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ad9df030-785e-45c5-ad96-553454055121">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="88504fa9-d7a8-4fde-9a58-88fbdc06aa0b">
             <TableID>dbo_pub_GNR_Dim_ProductGroup</TableID>
             <ColumnID>ProductGroup_Title</ColumnID>
           </Source>
@@ -1216,28 +1177,28 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1cc4d132-6859-49a3-9314-40d30279b594">
+    <Attribute dwd:design-time-name="2ebbd856-2745-4573-9921-639406954103">
       <ID>Product Grade Group ID</ID>
       <Name>Product Grade Group ID</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0f917596-c4df-4d85-93ba-7a96d5a8e398">
+        <KeyColumn dwd:design-time-name="aca1785d-0d3d-4927-b7a4-e1dcc8521b2a">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="87404323-421f-459f-b63e-f9fe28f84dee">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="519945d0-3d2c-4a76-8150-a893b1442d33">
             <TableID>dbo_PUB_GNR_Dim_Product</TableID>
             <ColumnID>ProductGrade_Group_ID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="99115de8-4329-4eab-8de5-2aac4db6bd11">
+      <NameColumn dwd:design-time-name="93a3244c-5747-4ee1-8723-1095a87af358">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="c5126440-c297-428b-a821-7dd1754e8f55">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="81c7b403-8598-4cd6-8803-0ecf7cedda97">
           <TableID>PUB_GNR_Dim_ProductGrade_Group</TableID>
           <ColumnID>ProductGrade_Group_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="f918cc41-1cc8-4498-8d13-3f505726f833">
+        <Translation dwd:design-time-name="d77178a7-bad4-488b-8b9f-36a9fb169948">
           <Language>1065</Language>
           <Caption>مقطع تحصیلی</Caption>
         </Translation>
@@ -1245,22 +1206,22 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="02965f27-ddf6-4574-809b-cabc395d5577">
+    <Attribute dwd:design-time-name="36fe37ae-954d-43a9-9beb-ba00477d24f5">
       <ID>Major Id</ID>
       <Name>MajorTitle</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="697b27a2-c4b7-4389-968e-1e48e5f01666">
+        <KeyColumn dwd:design-time-name="a17dc8ea-5958-49fd-8c2a-427ca828e834">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="dd4adf0e-8042-47f2-b283-f0ed78ee4e32">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f107eac0-5c19-46e2-8886-e6880236bf65">
             <TableID>dbo_PUB_GNR_Dim_Product</TableID>
             <ColumnID>Major_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="78da1f94-8324-48ca-becb-17cf0f063220">
+      <NameColumn dwd:design-time-name="57cf80f7-4d84-4e04-ba13-341abcf445cc">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="2d05c586-9d3f-4e8e-bfb8-041ebcf0aebd">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="21ca98b3-27e0-4e7d-bf71-b2ddba3763b8">
           <TableID>dbo_PUB_GNR_Dim_ProductMajor</TableID>
           <ColumnID>Major_Title</ColumnID>
         </Source>
@@ -1268,14 +1229,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="586609cc-cfc1-431b-8ea3-6c66e3f5b211">
+    <Attribute dwd:design-time-name="365a11f8-91d7-4943-9ef9-b9acb74fce73">
       <ID>Takhasos</ID>
       <Name>Takhasos</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4c9f22f4-f0d1-4304-803e-05d3831ff6eb">
+        <KeyColumn dwd:design-time-name="3e9adc39-2091-4b1b-b776-d1c9c89c16e9">
           <DataType>WChar</DataType>
           <DataSize>5</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="adc35b4c-5c3f-42a1-b2b1-ac6eb0cc947e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6cc4f8aa-cbb2-432c-9fd0-47103496e69b">
             <TableID>dbo_PUB_GNR_Dim_Product</TableID>
             <ColumnID>Takhasos</ColumnID>
           </Source>
@@ -1287,40 +1248,40 @@
   </Attributes>
   <AttributeAllMemberName>AllProduct</AttributeAllMemberName>
   <AttributeAllMemberTranslations>
-    <AttributeAllMemberTranslation dwd:design-time-name="4ac067e2-d7c3-4d54-a738-4d9b8561c652">
+    <AttributeAllMemberTranslation dwd:design-time-name="02730a44-574f-4ff9-82b7-d692047e9a2e">
       <Language>1065</Language>
       <Caption>همه محصولات</Caption>
     </AttributeAllMemberTranslation>
   </AttributeAllMemberTranslations>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="7dde6140-f711-465d-861d-452d45d478d2">
+    <Hierarchy dwd:design-time-name="af1321c3-73a2-49fd-854c-c12156051852">
       <ID>Hierarchy</ID>
       <Name>Product Group - Product</Name>
       <Translations>
-        <Translation dwd:design-time-name="f33bef4e-71ed-409c-918c-1830d47dcce2">
+        <Translation dwd:design-time-name="e9eefa02-3a57-44c9-a1bb-f2c230235aea">
           <Language>1065</Language>
           <Caption>ساختار درختی گروه محصول - محصول</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level dwd:design-time-name="3399c700-2090-4a7b-a4db-0b3ca6b8c5f0">
+        <Level dwd:design-time-name="d2a7f40a-cb52-4c32-af4e-cbc54e26d5a0">
           <ID>Product Group Id 1</ID>
           <Name>Product Group Id 1</Name>
           <SourceAttributeID>Product Group Id 1 1</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="f5a33895-6e57-49bc-b1ff-43456c846ad5">
+            <Translation dwd:design-time-name="6bf5658f-37b7-47b7-8f5b-dd84c225aaf6">
               <Language>1065</Language>
               <Caption>گروه محصول</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="7b1b48a7-0a70-40ea-adf6-fd4b4935c33a">
+        <Level dwd:design-time-name="4140a18f-56be-45c4-8798-68cc7461825b">
           <ID>Product Id</ID>
           <Name>Product Id</Name>
           <SourceAttributeID>Product Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="88bb0255-8f7c-42c3-8273-f1c658ec2588">
+            <Translation dwd:design-time-name="8c3da715-1263-4897-804e-cc89a0666100">
               <Language>1065</Language>
               <Caption>عنوان محصول</Caption>
             </Translation>
@@ -1328,34 +1289,34 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="331ceef3-618e-4e21-bff9-a6221ca707a7">
+    <Hierarchy dwd:design-time-name="63662caf-cdc9-4f8e-a043-f63348f32776">
       <ID>Hierarchy 1</ID>
       <Name>Company - Product</Name>
       <Translations>
-        <Translation dwd:design-time-name="9500f2c7-269e-4aa7-bd3a-270dad706465">
+        <Translation dwd:design-time-name="65022145-9319-4036-a5c5-47c190662dcb">
           <Language>1065</Language>
           <Caption>ساختار درختی شرکت - محصول</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level dwd:design-time-name="2e5a797f-2258-4253-bf17-15efa5f4c1c8">
+        <Level dwd:design-time-name="331099f3-303b-47cf-8b8f-edf5d8e41068">
           <ID>Company Id</ID>
           <Name>Company Id</Name>
           <SourceAttributeID>Company Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="17d8c4e9-59fa-42fd-b888-8bd63b880350">
+            <Translation dwd:design-time-name="2af8c4e5-e05f-428c-90be-2ccf7953dabe">
               <Language>1065</Language>
               <Caption>نام شرکت</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="7cf1642c-664b-4ef9-93d2-96b0919817e0">
+        <Level dwd:design-time-name="7403fe7b-6818-4abd-8e39-aa6db2f19a14">
           <ID>Product Id</ID>
           <Name>Product Id</Name>
           <SourceAttributeID>Product Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="86c7aec0-5a24-4c95-b310-286c79dccf1f">
+            <Translation dwd:design-time-name="4621c242-9e82-4274-b4e6-248f06c35125">
               <Language>1065</Language>
               <Caption>عنوان محصول</Caption>
             </Translation>
@@ -1363,45 +1324,45 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="11fcee8b-dbc6-45f9-ba16-68c07b115628">
+    <Hierarchy dwd:design-time-name="2fbc2978-51e5-4ee0-bc10-8e539581102b">
       <ID>Hierarchy 2</ID>
       <Name>Industry - Company - Product</Name>
       <Translations>
-        <Translation dwd:design-time-name="83315fda-87a6-4ffb-bc16-9f32a5c12c6a">
+        <Translation dwd:design-time-name="dee5d77d-1e38-408f-8b55-8357799b2f9b">
           <Language>1065</Language>
           <Caption>ساختار درختی صنعت - شرکت - محصول</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level dwd:design-time-name="8ab90f1a-e783-4faf-ae60-95ac0fccb47c">
+        <Level dwd:design-time-name="5dcf7af6-6a32-410b-a5ca-a692378e860b">
           <ID>Industry Id</ID>
           <Name>Industry Id</Name>
           <SourceAttributeID>Industry Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="aec6d2c9-e735-47ae-856f-ef2ce27d8cc7">
+            <Translation dwd:design-time-name="05fb0b1d-68c5-40e9-8fdd-56a713953110">
               <Language>1065</Language>
               <Caption>عنوان صنعت</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="1d6cabc5-fef9-409b-898a-8ce0c3780d8e">
+        <Level dwd:design-time-name="8c5d90f9-751e-4fd1-9092-4c36abd82794">
           <ID>Company Id</ID>
           <Name>Company Id</Name>
           <SourceAttributeID>Company Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="c54b1291-8460-4019-901b-df810b0830cc">
+            <Translation dwd:design-time-name="3b447d0c-8836-4696-b8ca-00bb4504a77f">
               <Language>1065</Language>
               <Caption>نام شرکت</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="585fbf7f-9ea3-4de9-8bb2-5cc23584a6d4">
+        <Level dwd:design-time-name="fc4b46a5-243e-46f4-b405-3204ed230887">
           <ID>Product Id</ID>
           <Name>Product Id</Name>
           <SourceAttributeID>Product Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="5fe53074-0744-4668-b157-8fb3edf36060">
+            <Translation dwd:design-time-name="0066bd4c-2581-4983-bff5-195df4eaf96e">
               <Language>1065</Language>
               <Caption>عنوان محصول</Caption>
             </Translation>
@@ -1409,60 +1370,60 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="1ce1436e-8e6c-44b6-9be2-b6d6aca801ba">
+    <Hierarchy dwd:design-time-name="20638ec6-cb4e-4068-ab13-6684ebe7405c">
       <ID>Hierarchy 3</ID>
       <Name>Company - ProductParent - Product</Name>
       <Levels>
-        <Level dwd:design-time-name="f70407eb-8e4c-4558-9f45-4c2ec6783925">
+        <Level dwd:design-time-name="a18043fb-3435-41ca-ab91-efc2a5bc3d69">
           <ID>Company Id</ID>
           <Name>Company Id</Name>
           <SourceAttributeID>Company Id</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="8db995d7-5bb1-40c4-8d83-615a38576b87">
+        <Level dwd:design-time-name="dbdaaceb-5558-41c0-9305-75a3e3a696ab">
           <ID>Product Parent Id</ID>
           <Name>Product Parent Id</Name>
           <SourceAttributeID>Product Parent Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="c7d108bf-8292-4ee7-963b-e5176a97f7b8">
+            <Translation dwd:design-time-name="dede6f6e-47c6-4103-bef5-b2816dd69fc1">
               <Language>1065</Language>
               <Caption>محصول والد</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="ee0f60e8-b985-4b67-bcbd-e06db395983e">
+        <Level dwd:design-time-name="bde06d84-fb23-44f5-b17e-07bf14980500">
           <ID>Product Id</ID>
           <Name>Product Id</Name>
           <SourceAttributeID>Product Id</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="e8102cf9-2e4d-4d02-bf29-7ef0fdb0f4a2">
+    <Hierarchy dwd:design-time-name="e000a39d-4fc9-4525-b62d-4aec2b509541">
       <ID>Hierarchy 1 1</ID>
       <Name>ProductParent - Product</Name>
       <Translations>
-        <Translation dwd:design-time-name="a755eb75-67ab-4a95-9d10-00717a5d4da0">
+        <Translation dwd:design-time-name="ad5f8374-ef97-4ee6-ba16-9bbcbf63a8fa">
           <Language>1065</Language>
           <Caption>ساختار درختی محصول والد - محصول</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level dwd:design-time-name="33d125e0-42ef-4d62-a4ba-694e72531dfe">
+        <Level dwd:design-time-name="38bf0598-ee4d-41bb-8771-bf02b2938113">
           <ID>Product Parent Id</ID>
           <Name>Product Parent Id</Name>
           <SourceAttributeID>Product Parent Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="0c2eab7e-b7ac-45e6-8307-c164a7b2d1ed">
+            <Translation dwd:design-time-name="f35d09bc-9bbd-4e15-8c6c-3f3ffb047352">
               <Language>1065</Language>
               <Caption>محصول والد</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="ea656afe-db56-416e-824d-2298f702f9ed">
+        <Level dwd:design-time-name="73a27cfa-8519-47fc-bb70-ffe9c0cfe9cf">
           <ID>Product Id</ID>
           <Name>Product Id</Name>
           <SourceAttributeID>Product Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="63039684-0522-4586-a58d-0ab2318a62a6">
+            <Translation dwd:design-time-name="d856871a-4b20-4d95-934f-feacedd11887">
               <Language>1065</Language>
               <Caption>محصول</Caption>
             </Translation>
@@ -1470,38 +1431,38 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="a8738021-794c-43ce-b49a-71355d5c4ab0">
+    <Hierarchy dwd:design-time-name="cc36673c-d28f-468e-a288-f3427c0b0241">
       <ID>Hierarchy 4</ID>
       <Name>ProductGroup - ProductParent - Product</Name>
       <Translations>
-        <Translation dwd:design-time-name="f55b9909-ad79-4592-877b-42620b0b76e2">
+        <Translation dwd:design-time-name="326f4475-4574-424e-a01a-1624ca6b81ba">
           <Language>1065</Language>
           <Caption>ساختار درختی گروه محصول - محصول والد - محصول</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level dwd:design-time-name="a6b34f05-78bb-4c17-951d-3261dc6c1ff4">
+        <Level dwd:design-time-name="a7b0ff5c-c81c-4848-932b-f5879de6f25c">
           <ID>Product Group Title</ID>
           <Name>Product Group Title</Name>
           <SourceAttributeID>Product Group Title</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="c75a5311-f4a2-4484-9a9a-d1f55245e5cc">
+        <Level dwd:design-time-name="ac7c566a-d9a2-410a-aa8c-22ca7146f75b">
           <ID>Product Parent Id</ID>
           <Name>Product Parent Id</Name>
           <SourceAttributeID>Product Parent Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="ac531c8d-5250-4298-ac8d-087e678664fc">
+            <Translation dwd:design-time-name="15da5a4e-7d21-4287-8807-ee74601999aa">
               <Language>1065</Language>
               <Caption>محصول والد</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="9a44d1b5-8b70-4b75-a1e2-4d60ae0b781e">
+        <Level dwd:design-time-name="9cb343a1-47f9-4b8b-abc2-e4154de9ceff">
           <ID>Product Id</ID>
           <Name>Product Id</Name>
           <SourceAttributeID>Product Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="60912716-d3a4-483f-9063-353e68d22024">
+            <Translation dwd:design-time-name="cb7e5965-1b72-41ab-bf2b-429a71b74ca3">
               <Language>1065</Language>
               <Caption>محصول</Caption>
             </Translation>
@@ -1509,33 +1470,33 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="cf4d30eb-8af1-44ec-b0b4-7a08802e4809">
+    <Hierarchy dwd:design-time-name="86dea803-113b-4cdf-8914-32be9664b4e7">
       <ID>Hierarchy 5</ID>
       <Name>ProductGrade - Product</Name>
       <Translations>
-        <Translation dwd:design-time-name="2345e728-490c-4087-93cc-35812c9939bb">
+        <Translation dwd:design-time-name="5313b485-9dba-49a0-8e01-6746de1b714a">
           <Language>1065</Language>
           <Caption>ساختار درختی پایه تحصیلی - محصول</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level dwd:design-time-name="75e786a0-8e80-4c28-9237-7ac771b1e56c">
+        <Level dwd:design-time-name="1ba6cd0e-be9d-4654-bda1-9258760e71d8">
           <ID>Product Grade Id</ID>
           <Name>Product Grade Id</Name>
           <SourceAttributeID>Product Grade Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="30df4a88-ab12-495e-8bf2-c9fd632f98c8">
+            <Translation dwd:design-time-name="aefedbe5-f280-425e-83b5-76f73a307ce7">
               <Language>1065</Language>
               <Caption>پایه تحصیلی</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="f1ecd870-ad70-4a82-a681-851dcea49968">
+        <Level dwd:design-time-name="001b0cff-55e6-442a-ba1b-c4692dc6350e">
           <ID>Product Id</ID>
           <Name>Product Id</Name>
           <SourceAttributeID>Product Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="0c1c0fc5-41c4-4148-823e-8818607cf98a">
+            <Translation dwd:design-time-name="d7494a13-dc60-40e8-a65d-688b4bcda114">
               <Language>1065</Language>
               <Caption>محصول</Caption>
             </Translation>
@@ -1543,33 +1504,33 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="bbaa7096-7bf4-498d-bb73-74fef75e4f93">
+    <Hierarchy dwd:design-time-name="c83a3635-8989-4059-84be-03083829753b">
       <ID>Hierarchy 6</ID>
       <Name>Lesson - Product</Name>
       <Translations>
-        <Translation dwd:design-time-name="d2f57b16-6133-4c15-8dbe-1b60aa8f0fd9">
+        <Translation dwd:design-time-name="9aed2748-37cb-45dd-a8a7-e112c9be3e03">
           <Language>1065</Language>
           <Caption>ساختار درختی درس - محصول</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level dwd:design-time-name="f932b638-09fc-484d-a0a2-f049c53d1758">
+        <Level dwd:design-time-name="c4d259a0-a04b-4e3b-acd1-6670cb2fd274">
           <ID>Lesson Id</ID>
           <Name>Lesson Id</Name>
           <SourceAttributeID>Lesson Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="357cbd5b-39ad-46a7-abf6-dc50f3a81c8d">
+            <Translation dwd:design-time-name="57c3cf8b-8faf-4f80-91ae-763814724e62">
               <Language>1065</Language>
               <Caption>درس</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="d2901396-3e00-4a93-9415-bfaa58eb2617">
+        <Level dwd:design-time-name="5ec1f45e-6b4c-4361-adc3-9498ed05a123">
           <ID>Product Id</ID>
           <Name>Product Id</Name>
           <SourceAttributeID>Product Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="6118f62f-ce63-495b-b634-50d1aa1a18b9">
+            <Translation dwd:design-time-name="8a48b4dc-bee2-4b00-acea-e76fb5d34728">
               <Language>1065</Language>
               <Caption>محصول</Caption>
             </Translation>
@@ -1577,49 +1538,49 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="b40082d6-1370-41c4-ab88-20b2bcaa04d0">
+    <Hierarchy dwd:design-time-name="8abef9d6-643b-4ac6-b9b8-72f0be034f10">
       <ID>Hierarchy 7</ID>
       <Name>Hierarchy</Name>
       <Levels>
-        <Level dwd:design-time-name="47a149bb-e5e9-4be2-af81-2cd4a231e93d">
+        <Level dwd:design-time-name="d0514d43-c53a-4127-971f-dd4cb2dac78d">
           <ID>Product Parent Id</ID>
           <Name>Product Parent Id</Name>
           <SourceAttributeID>Product Parent Id</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="e0b8ce01-34f3-4339-af87-61db5128184e">
+        <Level dwd:design-time-name="b22b2e12-5e87-4fd1-95d0-624202695ad8">
           <ID>Product Id</ID>
           <Name>Product Id</Name>
           <SourceAttributeID>Product Id</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="39671c51-6361-4deb-bbdb-6321bfe1f279">
+    <Hierarchy dwd:design-time-name="b0a3e7fb-72ba-4ed0-8ec8-c7dac39176bf">
       <ID>Hierarchy 1 2</ID>
       <Name>Organization - ProductParent</Name>
       <Translations>
-        <Translation dwd:design-time-name="d787210a-f57f-4483-80fa-69b7961c4cd1">
+        <Translation dwd:design-time-name="f832cc35-2fcb-4071-bb73-dbbc066da249">
           <Language>1065</Language>
           <Caption>ساختار درختی سازمان - محصول والد</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level dwd:design-time-name="e63a4eb6-9a30-41b5-bcfb-6d0a8081bdd9">
+        <Level dwd:design-time-name="a320a009-7e3a-4f38-a8fb-64341f1e9b64">
           <ID>Sales Organization Id</ID>
           <Name>Sales Organization Id</Name>
           <SourceAttributeID>Sales Organization Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="ab4b7279-27b9-4686-9926-20dcd64ba8d1">
+            <Translation dwd:design-time-name="fb2b0e92-9902-4492-b988-c3a371766743">
               <Language>1065</Language>
               <Caption>سازمان</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="2c06231e-14af-4c2d-8471-2c3de883aed0">
+        <Level dwd:design-time-name="245bd115-07b8-49b4-bb5e-86885d1e16bf">
           <ID>Product Parent Id</ID>
           <Name>Product Parent Id</Name>
           <SourceAttributeID>Product Parent Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="db3bda69-6ec4-4b8f-94e8-89ae5b3e113e">
+            <Translation dwd:design-time-name="760a2a11-71f7-4edb-93e4-89b30b8a36aa">
               <Language>1065</Language>
               <Caption>محصول والد</Caption>
             </Translation>
@@ -1627,54 +1588,43 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="a4ea5b98-4454-467b-811b-819964575169">
+    <Hierarchy dwd:design-time-name="12fa6d20-550d-4d0a-8722-d9147bc86722">
       <ID>Hierarchy 1 3</ID>
       <Name>Hierarchy 1</Name>
       <Levels>
-        <Level dwd:design-time-name="af6e8e3c-258a-4b52-9908-16edfcc72b29">
+        <Level dwd:design-time-name="3e54723d-9ade-446f-9703-f53cfa5ee26c">
           <ID>Sales Organization Id</ID>
           <Name>Sales Organization Id</Name>
           <SourceAttributeID>Sales Organization Id</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="26c64010-801e-43b7-9f21-1795c6963a88">
+        <Level dwd:design-time-name="9ae85ba6-ce39-4bc1-ab3a-3ebee667dfb9">
           <ID>Product Id</ID>
           <Name>Product Id</Name>
           <SourceAttributeID>Product Id</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="b17cc987-0994-409f-a06c-91f27540b8e5">
+    <Hierarchy dwd:design-time-name="979f4707-7e50-40af-b9d7-4544f9e3f372">
       <ID>Hierarchy 2 1</ID>
       <Name>organization - group - product</Name>
       <Translations>
-        <Translation dwd:design-time-name="acab79d7-4ae8-415a-ac07-759f32d72568">
+        <Translation dwd:design-time-name="d5440fe3-b638-4aa8-8e13-4655127c5316">
           <Language>1065</Language>
           <Caption>ساختار درختی سازمان - گروه محصول - محصول</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level dwd:design-time-name="9844ed54-7527-4668-a37a-a773ef9fbf39">
-          <ID>Organization ID</ID>
-          <Name>Organization ID</Name>
-          <SourceAttributeID>Organization ID</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="2e3e9d82-3efc-4445-8ce4-da9f5e9306bb">
-              <Language>1065</Language>
-              <Caption>سازمان</Caption>
-            </Translation>
-          </Translations>
-        </Level>
-        <Level dwd:design-time-name="189f16cc-8f16-4712-b0e4-9f59fb4313bd">
+        <Level dwd:design-time-name="56586f14-f3d6-4b1e-82cc-8ab530a50ee3">
           <ID>Product Group Id_Product</ID>
           <Name>Product Group Id_Product</Name>
           <SourceAttributeID>Product Group Id 1</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="0f3ed2f0-061f-48a0-b70d-eecc954d5a76">
+        <Level dwd:design-time-name="56bfc923-ef96-4f09-8266-6ee20c886a29">
           <ID>Product Id</ID>
           <Name>Product Id</Name>
           <SourceAttributeID>Product Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="f51321ea-b32c-43f0-b1d0-0386bd6bee22">
+            <Translation dwd:design-time-name="ca7ae36e-a6d1-4534-804d-966f7dfaaecc">
               <Language>1065</Language>
               <Caption>محصول</Caption>
             </Translation>
@@ -1682,55 +1632,55 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="82f7e74a-e43d-468a-9402-f474a687c659">
+    <Hierarchy dwd:design-time-name="4c127c30-d2e6-4e54-8aff-3e258b5f9753">
       <ID>Hierarchy 2 2</ID>
       <Name>Org-Group-Parent-Product</Name>
       <Translations>
-        <Translation dwd:design-time-name="78c3313b-56a8-4833-ad02-1f4babb6616d">
+        <Translation dwd:design-time-name="964bcece-5a32-49bf-8b5a-6d3476307913">
           <Language>1065</Language>
           <Caption>ساختار درختی سازمان- گروه محصول - محصول والد - محصول</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level dwd:design-time-name="738745e1-6fa1-41d7-865e-331e1c7de178">
+        <Level dwd:design-time-name="6faed7ac-5fd3-4430-af0a-a4f0c8a6d526">
           <ID>Sales Organization Id</ID>
           <Name>Sales Organization Id</Name>
           <SourceAttributeID>Sales Organization Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="bc06459a-61c6-4d26-971b-56d48a95bb5d">
+            <Translation dwd:design-time-name="a51aeb01-af79-4902-9004-955958eeb47a">
               <Language>1065</Language>
               <Caption>سازمان</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="1ee94639-418b-423a-b4cd-7ac14669723b">
+        <Level dwd:design-time-name="95ab4264-ab7a-4ba1-b6fe-2d64f9349bee">
           <ID>Product Group Id</ID>
           <Name>Product Group Id</Name>
           <SourceAttributeID>Product Group Id 1 1</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="13d59392-a1a2-4f35-b1e2-1402fee6b5f2">
+            <Translation dwd:design-time-name="fc172b9a-d4c3-49ac-a549-e201886e6de2">
               <Language>1065</Language>
               <Caption>گروه محصول</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="c958d852-f741-4ce0-80f4-a83da2380cc6">
+        <Level dwd:design-time-name="91be33d3-08b4-42a2-a8bb-80752ae40a93">
           <ID>Product Parent Id</ID>
           <Name>Product Parent Id</Name>
           <SourceAttributeID>Product Parent Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="14b0f9a8-f70c-47e7-8c5a-dedeb529ccb2">
+            <Translation dwd:design-time-name="db2a46a2-8404-4ec8-a135-3e4a9c293c94">
               <Language>1065</Language>
               <Caption>محصول والد</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="89429b95-3984-44ed-a4a7-29578ff568cd">
+        <Level dwd:design-time-name="43e2839b-e72d-4ed2-8c79-f14eca87c67f">
           <ID>Product Id</ID>
           <Name>Product Id</Name>
           <SourceAttributeID>Product Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="b8e75343-8b2c-4a95-b11c-73fb37ead387">
+            <Translation dwd:design-time-name="0ef7ca89-cb55-4799-86e7-e26ba86b8251">
               <Language>1065</Language>
               <Caption>محصول</Caption>
             </Translation>
@@ -1738,44 +1688,44 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="82ee39c0-0145-438f-9bb3-2e618ce6d376">
+    <Hierarchy dwd:design-time-name="084963c2-4b8a-45da-aa9c-230a2dcd3da2">
       <ID>Hierarchy 2 3</ID>
       <Name>GradeGroup-Garde-Product</Name>
       <Translations>
-        <Translation dwd:design-time-name="2442203d-c81f-42c9-81c1-6b8f7d834c7f">
+        <Translation dwd:design-time-name="9f1a32a5-b061-4569-8f85-080b94c2cd33">
           <Language>1065</Language>
           <Caption>ساختار درختی مقطع -پایه -محصول</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level dwd:design-time-name="c9e24880-4fcf-490b-9007-4d75d7804d4d">
+        <Level dwd:design-time-name="6ad15742-1f34-401d-aeb9-d094ba400c8f">
           <ID>Product Grade Group ID</ID>
           <Name>Product Grade Group ID</Name>
           <SourceAttributeID>Product Grade Group ID</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="9da36b64-63e2-40aa-9d1b-1abcea1c3d74">
+            <Translation dwd:design-time-name="d87112bb-34ea-4ee2-a226-31312c7648d0">
               <Language>1065</Language>
               <Caption>مقطع تحصیلی</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="d22004a4-6411-4123-ac80-18fcf84b4e38">
+        <Level dwd:design-time-name="aa652b4d-510c-466d-bf09-57d56acb8884">
           <ID>Product Grade Id</ID>
           <Name>Product Grade Id</Name>
           <SourceAttributeID>Product Grade Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="c97d639f-50d4-4ea3-a4f2-9d4333f400b7">
+            <Translation dwd:design-time-name="f18281d2-b728-4139-a768-3b5ebcaeacb2">
               <Language>1065</Language>
               <Caption>پایه تحصیلی</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="3440b3d7-635a-4199-9381-55c2de4d4b42">
+        <Level dwd:design-time-name="118eef4f-6753-43f3-9212-1820a5ed32bb">
           <ID>Product Id</ID>
           <Name>Product Id</Name>
           <SourceAttributeID>Product Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="0e1ce6b9-b07b-4f00-93f6-739cda1d4330">
+            <Translation dwd:design-time-name="fd866bf5-92ea-4fe2-839e-3bdb43979ea1">
               <Language>1065</Language>
               <Caption>محصول</Caption>
             </Translation>
@@ -1784,12 +1734,12 @@
       </Levels>
     </Hierarchy>
   </Hierarchies>
-  <ProactiveCaching dwd:design-time-name="e25b4bd9-1eab-4c51-a877-0017a22ac883">
+  <ProactiveCaching dwd:design-time-name="682c92db-52a5-4060-aba8-e4df621553b8">
     <SilenceInterval>-PT1S</SilenceInterval>
     <Latency>-PT1S</Latency>
     <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
     <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="ddeb9f9f-2f04-4844-8496-d4683dc6cc57" />
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="d7ecfc19-6d03-477f-8401-3cbd019135a3" />
   </ProactiveCaching>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>
