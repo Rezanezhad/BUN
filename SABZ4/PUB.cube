@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="584" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-12947" scrolltop="-16956" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="14711" y="12885" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="584" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-12947" scrolltop="-16956" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="32068" y="20585" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -1265,7 +1265,7 @@
               <point x="34546" y="-5965" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Vwe_PUB_GNR_Dim_ParentProduct" left="8397" top="-17175" logicalid="366" controlid="75" masterid="0" hint1="0" hint2="0" width="4692" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Vwe_PUB_GNR_Dim_Parent_Product" left="8397" top="-17175" logicalid="366" controlid="75" masterid="0" hint1="0" hint2="0" width="4692" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e00005412000088130000" />
             </control>
@@ -9781,6 +9781,25 @@
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="4d4ee8c7-c1f4-4944-8216-ecb35778a02b">
                     <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
                     <ColumnID>Product_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6d40435a-5dd7-4e54-9aa7-b0a2ac881a70">
+          <CubeDimensionID>Dim Sale Office</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a9f76d14-b5d6-41d1-b8a6-fbcf6b59e86e">
+              <AttributeID>Sales Office ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4b9cfee0-bc67-4e3c-977e-f494f48bb012">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0f0c2b45-66d0-4dda-9128-d3cf85b89fc6">
+                    <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
+                    <ColumnID>SaleOfficeRef</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
@@ -22581,6 +22600,25 @@
             </Attribute>
           </Attributes>
         </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="18863f89-50c3-4c0c-bb66-b2e09941ef59">
+          <CubeDimensionID>Dim Sale Office</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0fa7e27c-0f7c-4383-81e3-788b7f6136b3">
+              <AttributeID>Sales Office ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0d5ef2e4-74ee-402d-9330-af88c697c250">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c3f1479a-7c38-4a94-8663-87f4cb25b869">
+                    <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
+                    <ColumnID>SaleOfficeRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
       </Dimensions>
       <Partitions />
       <ProactiveCaching dwd:design-time-name="2c446a3b-2f5f-4a99-b3b0-def8219f8962">
@@ -25053,25 +25091,6 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9aaf5c92-089c-472a-934f-79d1f48c2b0e">
-          <CubeDimensionID>Dim Sale Office</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="20656285-8c72-4b92-aae4-2ac0599843d0">
-              <AttributeID>Sales Office ID</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="8c1df5a8-8790-4058-be1d-f9d2ae39ea36">
-                  <DataType>Integer</DataType>
-                  <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="621dd625-2173-4c7c-8b53-4c04a4161e33">
-                    <TableID>dbo_Vw_PUB_SLE_Fact_ReturnSaleTax</TableID>
-                    <ColumnID>SalesOfficeRef</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
         <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8a819096-b762-4829-8525-934cc0e8fb60">
           <CubeDimensionID>Vw PUB SLE Dim Return Sale Tax Number</CubeDimensionID>
           <Attributes>
@@ -25141,6 +25160,44 @@
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="a8bf9ce1-31a3-48f0-88bb-bb828bba7a41">
                     <TableID>dbo_Vw_PUB_SLE_Fact_ReturnSaleTax</TableID>
                     <ColumnID>Date_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="341de589-0c72-4929-92ac-aee5cb2605b3">
+          <CubeDimensionID>PUB SLE Dim Sale Office</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0eda3532-1221-41f7-ab43-c5bef447cea3">
+              <AttributeID>Sale Office Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9852106f-0b8b-4b68-8526-2aa4bf5b37d1">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="45f4652c-42e6-435b-a57d-0a66d8e00dd0">
+                    <TableID>dbo_Vw_PUB_SLE_Fact_ReturnSaleTax</TableID>
+                    <ColumnID>SaleOffice_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="66004c57-02da-4c9d-9b76-52a7274661f6">
+          <CubeDimensionID>Dim Sale Office</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="76e80447-6526-48ed-94ed-868fe0535117">
+              <AttributeID>Sales Office ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fe669185-6ae2-4f84-b9ce-27aab468236e">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6e5aaaaa-1cd6-4c23-a62a-38f839995bf2">
+                    <TableID>dbo_Vw_PUB_SLE_Fact_ReturnSaleTax</TableID>
+                    <ColumnID>SalesOfficeRef</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
@@ -25498,25 +25555,6 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="586c9a2a-8ad6-40b5-85c6-276498c5b8fc">
-          <CubeDimensionID>Dim Sale Office</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="e2577301-522c-4eb9-a80f-71524e89a03f">
-              <AttributeID>Sales Office ID</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="8cbaf933-6329-4f67-812d-51faeb57c407">
-                  <DataType>Integer</DataType>
-                  <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="563f2e3f-77ff-4799-a227-44ef78bcdea4">
-                    <TableID>dbo_Vw_PUB_SLE_Fact_Sale_ForDiscount</TableID>
-                    <ColumnID>SalesOfficeRef</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
         <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0d9481a5-49c9-4ce7-b539-3a052646c0a0">
           <CubeDimensionID>Vw PUB SLE Dim Sale For Discount Sanad</CubeDimensionID>
           <Attributes>
@@ -25585,6 +25623,44 @@
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="68dee0fc-1f04-4f46-af13-05123d5c32bc">
                     <TableID>dbo_Vw_PUB_SLE_Fact_Sale_ForDiscount</TableID>
                     <ColumnID>Date_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2c2314f1-cfd8-4176-873c-37650c2eeba1">
+          <CubeDimensionID>Dim Sale Office</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="948e68f5-da72-4986-abd1-b6a63592a0ed">
+              <AttributeID>Sales Office ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="72608a6a-e920-4b3b-ac61-930b9252e168">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="739b6f05-f114-4b43-93b9-97e8ea06e402">
+                    <TableID>dbo_Vw_PUB_SLE_Fact_Sale_ForDiscount</TableID>
+                    <ColumnID>SalesOfficeRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="eb0a3b16-972f-4600-bc59-367d939d6be2">
+          <CubeDimensionID>PUB SLE Dim Sale Office</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="175a099f-065d-4331-b9e0-04892fc64579">
+              <AttributeID>Sale Office Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e19c4d1f-f65f-4d73-b210-1b6691b9e7b4">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a6d5a135-bc20-49f1-90da-470509fb9d6e">
+                    <TableID>dbo_Vw_PUB_SLE_Fact_Sale_ForDiscount</TableID>
+                    <ColumnID>SaleOffice_Id</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
@@ -25759,25 +25835,6 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f9632c65-3754-4d34-bb14-284068c6d0ba">
-          <CubeDimensionID>Dim Sale Office</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="a163a1c7-fd15-43bf-9395-d2b8c8beb378">
-              <AttributeID>Sales Office ID</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="606c1150-14ea-4111-aa7b-27857fb66d5c">
-                  <DataType>Integer</DataType>
-                  <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="33b97f47-893e-41b1-a183-3a28989bcfd9">
-                    <TableID>PUB_SLE_Fact_GiftsSaleForDiscount</TableID>
-                    <ColumnID>SalesOfficeRef</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
         <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a8970cbf-d40b-4151-9acb-bc9112f8f51b">
           <CubeDimensionID>Vw PUB GNR Dim Entire Product</CubeDimensionID>
           <Attributes>
@@ -25809,6 +25866,44 @@
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="494259df-8709-47cf-a57c-66dfb9eb012c">
                     <TableID>PUB_SLE_Fact_GiftsSaleForDiscount</TableID>
                     <ColumnID>Date_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="164d5fca-4b04-445b-82bc-fa6115352698">
+          <CubeDimensionID>PUB SLE Dim Sale Office</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="cf62a030-2e57-4253-bc21-863680fff1ce">
+              <AttributeID>Sale Office Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a80aeff7-78d7-409e-b1ce-4b61fdf2145f">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9ca16ced-6156-4ea8-aef1-8a7a54103e11">
+                    <TableID>PUB_SLE_Fact_GiftsSaleForDiscount</TableID>
+                    <ColumnID>SaleOffice_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1698c497-5d60-4343-a8cc-613775e01e21">
+          <CubeDimensionID>Dim Sale Office</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3672e5ce-61a5-4ea6-b296-dc63cdb19caa">
+              <AttributeID>Sales Office ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9f486b39-f921-46b6-bf79-2f354236d7ee">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7fbe3f53-a3b2-4813-aa44-e73b5baa94de">
+                    <TableID>PUB_SLE_Fact_GiftsSaleForDiscount</TableID>
+                    <ColumnID>SalesOfficeRef</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
@@ -26219,6 +26314,25 @@
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="9d4b3445-920d-4285-8bf8-277aa76a350a">
                     <TableID>Vw_PUB_SLE_Fact_Sale_ForDiscountGift</TableID>
                     <ColumnID>Date_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b9684998-0806-47a4-8184-acb28fdadc76">
+          <CubeDimensionID>PUB SLE Dim Sale Office</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6a95a568-223f-4633-84aa-b09975d392a3">
+              <AttributeID>Sale Office Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c6b0af05-7d2f-48f1-a63a-d4307e2bb4bc">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="48c94974-3692-409c-8d35-5ddfef64e8c2">
+                    <TableID>Vw_PUB_SLE_Fact_Sale_ForDiscountGift</TableID>
+                    <ColumnID>SaleOffice_Id</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
@@ -27646,6 +27760,25 @@
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="463e7105-dea7-4963-847f-ccdc7d7dcf8d">
                     <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
                     <ColumnID>Product_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1687d24a-c1ed-42bb-9c49-30e3c8ff4722">
+          <CubeDimensionID>Dim Sale Office</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ef88ecac-b106-4d11-a5cd-f074d3d284d2">
+              <AttributeID>Sales Office ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="439add8e-8730-418a-a42b-4beba4bb2b95">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ff93c654-7512-4fca-b58d-50a38fbbdd64">
+                    <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
+                    <ColumnID>SaleOfficeRef</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
@@ -31429,14 +31562,14 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE;  
+CALCULATE;   
 CREATE MEMBER CURRENTCUBE.[Measures].[SLP_Return Sale Second Qty_Y]
  AS ([Return Sale Second Qty],
 ParallelPeriod([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year] ,
              1,
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember)
 ), 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';   
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';    
 CREATE MEMBER CURRENTCUBE.[Measures].[SLP_AVG_Saraneh_Mahsoul_Y]
  AS (
 [SLP_AVG_Saraneh_Mahsoul],
@@ -31444,10 +31577,10 @@ ParallelPeriod([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year] ,
              1,
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember)
 ), 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';    
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';     
 CREATE MEMBER CURRENTCUBE.[Measures].[SLP_AVG_Saraneh_Mahsoul]
  AS ([Measures].[SLP_PUB SLE Fact Sale_ParentProduct Id Distinct Count]/[Measures].[SLP_PUB SLE Fact Sale_Customer Id Distinct Count]), 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';      
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';       
 CREATE MEMBER CURRENTCUBE.[Measures].[SLP_PUB SLE Fact Sale_Sanad Number Distinct Count_Y]
  AS (
 [Measures].[SLP_PUB SLE Fact Sale_Sanad Number Distinct Count],
@@ -31455,13 +31588,13 @@ ParallelPeriod([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year] ,
              1,
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember)
 ), 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';        
 CREATE MEMBER CURRENTCUBE.[Measures].[SLP_AVG_Saraneh_Factor]
  AS ([Measures].[SLP_PUB SLE Fact Sale_Sanad Number Distinct Count]/[Measures].[SLP_PUB SLE Fact Sale_Customer Id Distinct Count]), 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';        
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';         
 CREATE MEMBER CURRENTCUBE.[Measures].[SLP_ِDropSize]
  AS ([Measures].[SLP_PUB SLE Fact Sale _ Product Id Count]/[Measures].[SLP_PUB SLE Fact Sale_Sanad Number Distinct Count]), 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';         
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';          
 CREATE MEMBER CURRENTCUBE.[Measures].[SLP_PUB SLE Fact Sale Net Value Aggregation By Year_Y]
  AS (
 [SLP_PUB SLE Fact Sale Net Value Aggregation By Year] ,
@@ -31469,7 +31602,7 @@ ParallelPeriod([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year] ,
              1,
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember)
 ), 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';         
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';          
 CREATE MEMBER CURRENTCUBE.[Measures].[SLP_PUB SLE Fact Sale _ Count SalesPure_Y]
  AS (
 [SLP_PUB SLE Fact Sale _ Count SalesPure] ,
@@ -31477,15 +31610,15 @@ ParallelPeriod([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year] ,
              1,
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember)
 ), 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';            
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';             
 CREATE MEMBER CURRENTCUBE.[Measures].[SLP_PUB SLE Fact Sale _ Count SalesPure]
  AS (
 [Measures].[SLP_PUB SLE Fact Sale _ Count Sale] - [Measures].[SLP_PUB SLE Fact Return Sale_Count Return Sale First Qty]
 ), 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';         
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';          
 CREATE MEMBER CURRENTCUBE.[Measures].[SLP_PUB SLE Fact Sale Net Value Aggregation By Year]
  AS [Measures].[PUB SLE Fact Sale Value Aggregation By Year]-[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year]-[Measures].[PUB SLE Fact Speicial Discount Value Aggregation], 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';                                                                                                                                                        
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'SLP';                                                                                                                                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Target Total QTY Aggregation]
  AS (
 AGGREGATE(
@@ -31496,7 +31629,7 @@ PeriodsToDate(
 [Measures].[PUB SLE Fact Sale Target Total QTY]
 )
 ), 
-VISIBLE = 1;                                                                                                                                               
+VISIBLE = 1;                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Target Total QTY Aggregation BY Year 4]
  AS (
 AGGREGATE(
@@ -31508,15 +31641,15 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##0.00;-#,##0.00", 
-VISIBLE = 1;                                                                                                                                                   
+VISIBLE = 1;                                                                                                                                                    
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Target Total Til Begin Of Current Date QTY Aggregation]
  AS [Measures].[PUB SLE Fact Sale Target Total Til Begin Of Current Mont QTY Aggregation]+[Measures].[PUB SLE Fact Sale Target Month Now QTY Per Day Aggregation], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                   
+VISIBLE = 1;                                                                                                                                                    
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Target Total Til Begin Of Current Date QTY Aggregation By Year 4]
  AS [Measures].[PUB SLE Fact Sale Target Total Til Begin Of Current Mont QTY Aggregation By Year 4]+[Measures].[PUB SLE Fact Sale Target Month Now QTY Per Day Aggregation By Year 4], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                   
+VISIBLE = 1;                                                                                                                                                    
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Target Month Now QTY Per Day Aggregation]
  AS (
 AGGREGATE(
@@ -31528,7 +31661,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                   
+VISIBLE = 1;                                                                                                                                                    
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Target Month Now QTY Per Day Aggregation By Year 4]
  AS (
 AGGREGATE(
@@ -31540,7 +31673,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                   
+VISIBLE = 1;                                                                                                                                                    
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Target Total Til Begin Of Current Mont QTY Aggregation]
  AS (
 AGGREGATE(
@@ -31552,7 +31685,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                   
+VISIBLE = 1;                                                                                                                                                    
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Target Total Til Begin Of Current Mont QTY Aggregation By Year 4]
  AS (
 AGGREGATE(
@@ -31564,11 +31697,11 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                   
+VISIBLE = 1;                                                                                                                                                    
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Target Total Til Begin Of Current Date QTY]
  AS [Measures].[PUB SLE Fact Sale Target Total Til Begin Of Current Mont QTY]+[Measures].[PUB SLE Fact Sale Target Month Now QTY Per Day], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                   
+VISIBLE = 1;                                                                                                                                                    
                                                                                                                            
                                                                                                            
                                                                                                                           
@@ -31577,13 +31710,13 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB CRM Fact Print Order Avg Print Order O
 /
 [Measures].[PUB CRM Fact Print Order Count], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                     
+VISIBLE = 1;                                                                                                                                                      
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB CRM Fact Print Order Avg Print Order On Max Date]
  AS [Measures].[PUB CRM Fact Print Order Value Print Status]
 /
 [Measures].[PUB CRM Fact Print Order Count], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                       
+VISIBLE = 1;                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory Sum Consumer Qty without Zero]
  AS iif
 (
@@ -31594,7 +31727,7 @@ null
 [Measures].[PUB INV Fact Product Inventory Sum Consumer Qty None Zero]
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                        
+VISIBLE = 1;                                                                                                                                                         
                                                                                               
                                                                                                    
                                                                                                                                  
@@ -31607,7 +31740,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale AVG Net Qty]
 [Measures].[PUB SLE Fact Sale Distinct Date Id Count]
 ,0), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                          
+VISIBLE = 1;                                                                                                                                                           
                                                                                                                                  
                                                                                                                                  
                                                                                                                                   
@@ -31626,7 +31759,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                            
+VISIBLE = 1;                                                                                                                                                             
                                                                                                                     
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Gifts Sale Aggregation First Qty]
  AS (
@@ -31639,7 +31772,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                            
+VISIBLE = 1;                                                                                                                                                             
                                                                                                                               
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Aggregation Qty Perv1]
  AS (
@@ -31649,7 +31782,7 @@ ParallelPeriod([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].Year ,
              1,
         [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember)), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                            
+VISIBLE = 1;                                                                                                                                                             
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Aggregation Qty Perv1 By Year 4]
  AS (
 [Measures].[PUB SLE Fact Sale Aggregation Qty]
@@ -31658,7 +31791,7 @@ ParallelPeriod([GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Da
              1,
         [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember)), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                            
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                             
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Aggregation Qty]
  AS (
 AGGREGATE(
@@ -31670,7 +31803,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                            
+VISIBLE = 1;                                                                                                                                                             
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Aggregation Qty By Year 4]
  AS (
 AGGREGATE(
@@ -31682,7 +31815,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                             
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                              
                                                                                                           
                                                                                                        
                                                                                                                     
@@ -31698,7 +31831,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                            
+VISIBLE = 1;                                                                                                                                                             
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory Aggregation Garbage Donation Qty By Year 4]
  AS (
 AGGREGATE(
@@ -31710,7 +31843,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                             
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                              
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory The first balance of the course]
  AS (
 [Measures].[PUB INV Fact Product Inventory Sum None Zero]
@@ -31718,7 +31851,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory The first b
 [GRL INV Dim Voucher Type].[Parent Voucher Type Id].&amp;[1]
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                             
+VISIBLE = 1;                                                                                                                                                              
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory Latte circulation]
  AS (
 [Measures].[PUB INV Fact Product Inventory Sum None Zero]
@@ -31732,7 +31865,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory Latte circu
 [GRL INV Dim Voucher Type].[Voucher Type Id].&amp;[100000000019]
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                               
+VISIBLE = 1;                                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB PRD Fact Production Aggregation ACM]
  AS (
 AGGREGATE(
@@ -31744,14 +31877,14 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB PRD Fact Production';                                                                                                                                                                
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB PRD Fact Production';                                                                                                                                                                 
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Production Remaining in the way of products]
  AS iif([Measures].[PUB CRM Fact Print Order Tirazh Aggregation]=null,
 null,
 [Measures].[PUB CRM Fact Print Order Tirazh Aggregation]-[Measures].[PUB PRD Fact Production Aggregation ACM]
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB PRD Fact Production';                                                                                                                                                                  
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB PRD Fact Production';                                                                                                                                                                   
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB CRM Fact Print Order Tirazh Aggregation None Zero]
  AS iif(
 [Measures].[PUB CRM Fact Print Order Tirazh]=0,
@@ -31768,7 +31901,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB CRM Fact Print Order';                                                                                                                                                                  
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB CRM Fact Print Order';                                                                                                                                                                   
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB CRM Fact Print Order Tirazh Aggregation None Zero By Year 4]
  AS iif(
 [Measures].[PUB CRM Fact Print Order Tirazh]=0,
@@ -31785,7 +31918,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB CRM Fact Print Order';                                                                                                                                                                   
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB CRM Fact Print Order';                                                                                                                                                                    
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB CRM Fact Print Order Tirazh Aggregation]
  AS (
 AGGREGATE(
@@ -31797,7 +31930,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB CRM Fact Print Order';                                                                                                                                                                   
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB CRM Fact Print Order';                                                                                                                                                                    
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB CRM Fact Print Order Tirazh Aggregation By Year 4]
  AS (
 AGGREGATE(
@@ -31809,7 +31942,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB CRM Fact Print Order';                                                                                                                                                      
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB CRM Fact Print Order';                                                                                                                                                       
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Gift Value Aggregation Gross sales amount]
  AS (
 AGGREGATE(
@@ -31821,7 +31954,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                      
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                       
                                                                                                                                             
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Aggregation Gross sales amount]
  AS (
@@ -31834,7 +31967,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                    
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                     
                                                                                                                 
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Gift Gross Sub Aggregation Normal Discount Amount]
  AS (
@@ -31847,7 +31980,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                      
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                       
                                                                                           
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Gross Sub Aggregation Normal Discount Amount]
  AS (
@@ -31860,7 +31993,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                      
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                       
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Gross Sub Aggregation Normal Discount Amount By Year 4]
  AS (
 AGGREGATE(
@@ -31872,23 +32005,23 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                    
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                     
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Sub Aggregation Normal Discount Amount]
  AS [Measures].[PUB SLE Fact Sale Gross Sub Aggregation Normal Discount Amount] - [Measures].[PUB SLE Fact Return Sale Sub Aggregation Normal Discount Amount], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                      
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                       
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Net Sale Gift Value Aggregation Normal Discount Amount]
  AS [Measures].[PUB SLE Fact Sale Gift Value Aggregation Gross sales amount] - [Measures].[PUB SLE Fact Return Sale Gift Value Aggregation Normal Discount Amount], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                      
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                       
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Net Sale Gift SUB Aggregation Normal Discount Amount]
  AS [Measures].[PUB SLE Fact Sale Gift Gross Sub Aggregation Normal Discount Amount] - [Measures].[PUB SLE Fact Return Sale Gift Sub Aggregation Normal Discount Amount], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                    
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                     
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Sub Aggregation Normal Discount Amount By Year 4]
  AS [Measures].[PUB SLE Fact Sale Gross Sub Aggregation Normal Discount Amount By Year 4] - [Measures].[PUB SLE Fact Return Sale Sub Aggregation Normal Discount Amount By Year 4], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                      
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                       
                                                                                                  
                                                                                                       
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Gift Value Aggregation Normal Discount Amount]
@@ -31902,7 +32035,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                      
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                       
                                                                                                                             
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Gift Sub Aggregation Normal Discount Amount]
  AS (
@@ -31915,7 +32048,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                      
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                       
                                                                                              
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Sub Aggregation Normal Discount Amount]
  AS (
@@ -31928,7 +32061,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                      
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                       
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Sub Aggregation Normal Discount Amount By Year 4]
  AS (
 AGGREGATE(
@@ -31940,7 +32073,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                           
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                            
                                                                                                                                             
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory Count]
  AS iif(
@@ -31950,7 +32083,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory Count]
 ,null
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                  
                                                                                                                                  
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory Count By Year 4]
  AS iif(
@@ -31960,7 +32093,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory Count By Ye
 ,null
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                  
                                                                                                                           
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory Sum None Zero Perv1 Month]
  AS (
@@ -31970,7 +32103,7 @@ ParallelPeriod([GRL GNR Dim Full Date weekly].[Year-Half Year-Quarter-Month-Date
              1,
           [GRL GNR Dim Full Date weekly].[Year-Half Year-Quarter-Month-Date].currentmember)), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                  
                                                                                                                    
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory Sum None Zero Perv1 Month By Year 4]
  AS (
@@ -31980,7 +32113,7 @@ ParallelPeriod([GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Da
              1,
            [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember)), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                  
                                                                                                          
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory Sum None Zero Perv2 Month]
  AS (
@@ -31990,7 +32123,7 @@ ParallelPeriod([GRL GNR Dim Full Date weekly].[Year-Half Year-Quarter-Month-Date
              2,
           [GRL GNR Dim Full Date weekly].[Year-Half Year-Quarter-Month-Date].currentmember)), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                  
                                                                                                                    
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory Sum None Zero Perv2 Month By Year 4]
  AS (
@@ -32000,7 +32133,7 @@ ParallelPeriod([GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Da
              2,
           [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember)), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                  
                                                                                                           
                                                                                                                                              
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value By Year perv2 By Year 4]
@@ -32011,7 +32144,7 @@ ParallelPeriod([GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Da
              2,
          [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember)), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty By Year perv2]
  AS (
 [Measures].[PUB SLE Fact Sale Net Qty with Sale Return]
@@ -32020,7 +32153,7 @@ ParallelPeriod([GRL GNR Dim Full Date weekly].[Year-Half Year-Quarter-Month-Date
              2,
           [GRL GNR Dim Full Date weekly].[Year-Half Year-Quarter-Month-Date].currentmember)), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty By Year perv2 By Year 4]
  AS (
 [Measures].[PUB SLE Fact Sale Net Qty with Sale Return By Year 4]
@@ -32029,7 +32162,7 @@ ParallelPeriod([GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Da
              2,
           [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember)), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                         
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                          
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory Sum None Zero]
  AS (
 AGGREGATE(
@@ -32041,7 +32174,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                  
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory Sum Consumer Qty None Zero]
  AS (
 AGGREGATE(
@@ -32053,7 +32186,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                              
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                               
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory Sum Consumer Qty None Zero Perv]
  AS (
 [Measures].[PUB INV Fact Product Inventory Sum Consumer Qty None Zero]
@@ -32064,7 +32197,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory Sum None Zero By Year 4]
  AS (
 AGGREGATE(
@@ -32076,7 +32209,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                  
                                                                                                                          
                                                                                                                                                                                                                                                                                      
                                                                                                                                         
@@ -32090,7 +32223,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB PRD Fact Production';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB PRD Fact Production';                                                                                                                                                                        
                                                                                                                                                   
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB PRD Fact Production Aggregation]
  AS iif(
@@ -32108,7 +32241,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB PRD Fact Production';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB PRD Fact Production';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB PRD Fact Production Aggregation By Year 4]
  AS iif(
 [Measures].[PUB PRD Fact Production Second Qty]=0,
@@ -32125,7 +32258,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB PRD Fact Production';                                                                                                                                                                           
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB PRD Fact Production';                                                                                                                                                                            
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB PRD Fact Production Aggregation Perv]
  AS (
 [PUB PRD Fact Production Aggregation All Month]
@@ -32136,7 +32269,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB PRD Fact Production';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB PRD Fact Production';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB PRD Fact Production Aggregation Perv By Year 4]
  AS (
 [PUB PRD Fact Production Aggregation By Year 4]
@@ -32147,7 +32280,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB PRD Fact Production';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB PRD Fact Production';                                                                                                                                                                        
                                                                                                                                              
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Cumulative Deviation Real]
  AS iif (
@@ -32164,7 +32297,7 @@ null
 )*100
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Cumulative Deviation Real By Year 4]
  AS iif (
 ([Measures].[PUB SLE Fact Sale Net Value with Sale Return By Year 4]=null or [Measures].[PUB SLE Fact Sale Net Value Perv By Year 4]=null )
@@ -32180,7 +32313,7 @@ null
 )*100
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                               
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Cumulative Deviation Real]
  AS iif (
 ([Measures].[PUB SLE Fact Sale Net Qty with Sale Return]=null or [Measures].[PUB SLE Fact Sale Net Qty Perv]=null )
@@ -32196,7 +32329,7 @@ null
 )*100
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Cumulative Deviation Real By Year 4]
  AS iif (
 ([Measures].[PUB SLE Fact Sale Net Qty with Sale Return By Year 4]=null or [Measures].[PUB SLE Fact Sale Net Qty Perv By Year 4]=null )
@@ -32212,24 +32345,24 @@ null
 )*100
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                    
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                     
                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Value Perv]
  AS [Measures].[PUB SLE Fact Sale Value Perv]-[Measures].[PUB SLE Fact Return Sale Value Perv]-[Measures].[PUB SLE Fact Special Discount Value Perv], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Value Perv By Year 4]
  AS [Measures].[PUB SLE Fact Sale Value Perv By Year 4]-[Measures].[PUB SLE Fact Return Sale Value Perv By Year 4]-[Measures].[PUB SLE Fact Special Discount Value Perv By Year 4], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                               
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Qty Perv]
  AS [Measures].[PUB SLE Fact Sale Qty Perv]-[Measures].[PUB SLE Fact Return Sale Qty Perv], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Qty Perv By Year 4]
  AS [Measures].[PUB SLE Fact Sale Qty Perv By Year 4]-[Measures].[PUB SLE Fact Return Sale Qty Perv By Year 4], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Value Perv]
  AS (
 [Measures].[Return Sale Value]
@@ -32240,7 +32373,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Value Perv By Year 4]
  AS (
 [Measures].[Return Sale Value]
@@ -32251,7 +32384,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                               
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Qty Perv]
  AS (
 [Measures].[Return Sale Second Qty]
@@ -32262,7 +32395,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Qty Perv By Year 4]
  AS (
 [Measures].[Return Sale Second Qty]
@@ -32273,7 +32406,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';                                                                                                                                                                    
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';                                                                                                                                                                     
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Special Discount Value Perv]
  AS (
 [Measures].[PUB SLE Fact Special Discount Special Discount Value]
@@ -32284,7 +32417,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                    
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                     
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Special Discount Value Perv By Year 4]
  AS (
 [Measures].[PUB SLE Fact Special Discount Special Discount Value]
@@ -32295,7 +32428,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Perv]
  AS (
 [Measures].[PUB SLE Fact Sale Net Value]
@@ -32306,7 +32439,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Perv By Year 4]
  AS (
 [Measures].[PUB SLE Fact Sale Net Value]
@@ -32317,7 +32450,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                               
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Perv]
  AS (
 [Measures].[PUB SLE Fact Sale Second Qty]
@@ -32328,7 +32461,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Perv By Year 4]
  AS (
 [Measures].[PUB SLE Fact Sale Second Qty]
@@ -32339,7 +32472,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                         
                                                                                                                                             
                                                                                                                                                  
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Budget Qty Aggregation 98]
@@ -32354,7 +32487,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Budget Qty Aggregation 98 By Year 4]
  AS (
 AGGREGATE(
@@ -32367,7 +32500,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                         
                                                                                                          
                                                                                                          
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Budjet Qty Aggregation By Total Year Cumulative Deviation]
@@ -32379,7 +32512,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Budjet Qty Aggregation B
 )*100
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Budjet Qty Aggregation By Total Year Cumulative Deviation By Year 4]
  AS iif(
 [Measures].[PUB SLE Fact Sale Net Qty Aggregation By Year By Year 4]=null,null,(
@@ -32389,7 +32522,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Budjet Qty Aggregation B
 )*100
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                         
                                                                                                              
                                                                                                                 
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Budjet Qty Aggregation By Year Cumulative Deviation]
@@ -32402,7 +32535,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Budjet Qty Aggregation B
 
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale'  ;                                                                                         
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                          
 
                                                                            
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Budjet Qty Aggregation By Year Cumulative Deviation By Year 4]
@@ -32415,7 +32548,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Budjet Qty Aggregation B
 
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale'  ;                                                                                                                                                                        
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Budget Value Aggregation]
  AS (
 AGGREGATE(
@@ -32427,7 +32560,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
                                                                                                                                          
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Speicial Discount Value Aggregation]
  AS (
@@ -32440,7 +32573,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                     
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                      
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Speicial Discount Value Aggregation By Year 4]
  AS (
 AGGREGATE(
@@ -32452,7 +32585,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                               
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Budget Qty Aggregation]
  AS (
 AGGREGATE(
@@ -32464,7 +32597,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale Budget';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale Budget';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Budget Qty Aggregation By Year 4]
  AS (
 AGGREGATE(
@@ -32476,7 +32609,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                               
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[sale net qty]
  AS (
 (
@@ -32499,26 +32632,26 @@ PeriodsToDate(
 )
 )
 ), 
-VISIBLE = 1;                                                                                                                                                                               
+VISIBLE = 1;                                                                                                                                                                                
                                                                                                                                              
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale By Year To Now Sale Net Value with Sale Return By Year 4]
  AS [Measures].[PUB SLE Fact Sale By Year To Now Sale Net Value By Year 4] - [Measures].[Return Sale Value - PUB SLE Fact Return Sale By Year To Now By Year 4], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                               
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                
                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale By Year To Now Sale Net Qty with Sale Return By Year 4]
  AS [Measures].[PUB SLE Fact Sale By Year To Now Sale Second Qty By Year 4]-[Measures].[Return Sale Second Qty - PUB SLE Fact Return Sale By Year To Now By Year 4], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                    
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                     
                                                                                                                                   
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Value with Sale Return]
  AS [Measures].[PUB SLE Fact Sale Net Value] - [Measures].[Return Sale Value]-[Measures].[PUB SLE Fact Special Discount Special Discount Value], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                               
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Qty with Sale Return]
  AS [Measures].[PUB SLE Fact Sale Second Qty] - [Measures].[Return Sale Second Qty], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                         
                                                                                                                                               
                                                                                                                                                   
                                                                                                                                               
@@ -32532,7 +32665,7 @@ ParallelPeriod([GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Da
              1,
           [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember)), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                               
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty By Year perv1]
  AS (
 [Measures].[PUB SLE Fact Sale Net Qty with Sale Return]
@@ -32541,7 +32674,7 @@ ParallelPeriod([GRL GNR Dim Full Date weekly].[Year-Half Year-Quarter-Month-Date
              1,
           [GRL GNR Dim Full Date weekly].[Year-Half Year-Quarter-Month-Date].currentmember)), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty By Year perv1 By Year 4]
  AS (
 [Measures].[PUB SLE Fact Sale Net Qty with Sale Return By Year 4]
@@ -32550,7 +32683,7 @@ ParallelPeriod([GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Da
              1,
          [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember)), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                    
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                     
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Special Discount Value Aggregation By Year perv2]
  AS (
 [Measures].[PUB SLE Fact Speicial Discount Value Aggregation]
@@ -32561,7 +32694,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                    
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                     
                                                                                                                             
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Aggregation By Year perv2]
  AS (
@@ -32573,7 +32706,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
                                                                                                                                               
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Aggregation By Year perv2]
  AS (
@@ -32585,7 +32718,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Aggregation By Year perv2 By Year 4]
  AS (
 [Measures].[PUB SLE Fact Sale Qty Aggregation By Year By Year 4]
@@ -32596,7 +32729,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                    
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                     
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Special Discount Value Aggregation By Year perv1]
  AS (
 [Measures].[PUB SLE Fact Speicial Discount Value Aggregation]
@@ -32607,7 +32740,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                    
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                     
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Special Discount Value Aggregation By Year perv1 By Year 4]
  AS (
 [Measures].[PUB SLE Fact Speicial Discount Value Aggregation By Year 4]
@@ -32618,7 +32751,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Aggregation By Year perv1 By Year 4]
  AS (
 [Measures].[PUB SLE Fact Sale Value Aggregation By Year By Year 4]
@@ -32629,7 +32762,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Aggregation By Year perv1]
  AS (
 [Measures].[PUB SLE Fact Sale Value Aggregation By Year]
@@ -32640,7 +32773,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                               
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Aggregation By Year perv1]
  AS (
 [Measures].[PUB SLE Fact Sale Qty Aggregation By Year]
@@ -32651,7 +32784,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Aggregation By Year perv1 By Year 4]
  AS (
 [Measures].[PUB SLE Fact Sale Qty Aggregation By Year By Year 4]
@@ -32662,7 +32795,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Aggregation By Year]
  AS (
 AGGREGATE(
@@ -32674,7 +32807,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Aggregation By Year By Year 4]
  AS (
 AGGREGATE(
@@ -32686,7 +32819,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                               
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Aggregation By Year]
  AS (
 AGGREGATE(
@@ -32698,7 +32831,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Aggregation By Year By Year 4]
  AS (
 AGGREGATE(
@@ -32710,7 +32843,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                    
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                     
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Special Discount Value Aggregation By Year with null]
  AS iif(
 [Measures].[PUB SLE Fact Special Discount Special Discount Value]=0,
@@ -32727,7 +32860,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                    
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                     
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Special Discount Value Aggregation By Year with null By Year 4]
  AS iif(
 [Measures].[PUB SLE Fact Special Discount Special Discount Value]=0,
@@ -32744,7 +32877,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                           
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                            
 
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory Aggregation Kneaded Dough Qty]
  AS (
@@ -32757,7 +32890,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                        
+VISIBLE = 1;                         
        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB INV Fact Product Inventory Aggregation Kneaded Dough Qty Perv1]
  AS (
@@ -32767,32 +32900,32 @@ ParallelPeriod([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].Year ,
              1,
         [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember)), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                         
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                          
   
 CREATE MEMBER CURRENTCUBE.[Measures].[Vw PUB SLE Fact Product Life Sale Net Qty Sal1]
  AS ([Measures].[Vw PUB SLE Fact Product Life Sale Qty Sal1]-[Measures].[Vw PUB SLE Fact Product Life Return Sale Qty Sal1]), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                         
+VISIBLE = 1;                          
 
 CREATE MEMBER CURRENTCUBE.[Measures].[Vw PUB SLE Fact Product Life Sale Net Qty Sal2]
  AS ([Measures].[Vw PUB SLE Fact Product Life Sale Qty Sal2]-[Measures].[Vw PUB SLE Fact Product Life Return Sale Qty Sal2]), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                          
+VISIBLE = 1;                           
 
 CREATE MEMBER CURRENTCUBE.[Measures].[Vw PUB SLE Fact Product Life Sale Net Qty Sal3]
  AS ([Measures].[Vw PUB SLE Fact Product Life Sale Qty Sal3]-[Measures].[Vw PUB SLE Fact Product Life Return Sale Qty Sal3]), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                         
+VISIBLE = 1;                          
 
 CREATE MEMBER CURRENTCUBE.[Measures].[Vw PUB SLE Fact Product Life Sale Net Qty Sal4]
  AS ([Measures].[Vw PUB SLE Fact Product Life Sale Qty Sal4]-[Measures].[Vw PUB SLE Fact Product Life Return Sale Qty Sal4]), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                        
+VISIBLE = 1;                         
 
 CREATE MEMBER CURRENTCUBE.[Measures].[Vw PUB SLE Fact Product Life Sale Net Qty Sal5]
  AS ([Measures].[Vw PUB SLE Fact Product Life Sale Qty Sal5]-[Measures].[Vw PUB SLE Fact Product Life Return Sale Qty Sal5]), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                        
+VISIBLE = 1;                         
 
 
                                                                                                                                     
@@ -32812,7 +32945,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Aggregation By Year with null By Year 4]
  AS iif(
 [Measures].[PUB SLE Fact Sale Net Value]=0,
@@ -32829,7 +32962,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                               
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Aggregation By Year with null]
  AS iif(
 [Measures].[PUB SLE Fact Sale Second Qty]=0,
@@ -32846,11 +32979,11 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                         
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                          
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Value Aggregation By Year Perv2 By Year 4]
  AS [Measures].[PUB SLE Fact Sale Value Aggregation By Year perv2 By Year 4]-[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year perv2 By Year 4]-[Measures].[PUB SLE Fact Special Discount Value Aggregation By Year perv2 By Year 4], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                        
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                         
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Aggregation By Year Cumulative Deviation Perv2 By Year 4]
  AS iif(
 [Measures].[PUB SLE Fact Sale Net Value Aggregation By Year Perv2 By Year 4]=null,null,
@@ -32866,7 +32999,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Aggregation By Yea
 *100
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                        
 
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year perv2 By Year 4]
  AS (
@@ -32878,7 +33011,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                        
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                         
 
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Aggregation By Year perv2 By Year 4]
  AS (
@@ -32890,7 +33023,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                         
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                          
 
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Special Discount Value Aggregation By Year perv2 By Year 4]
  AS (
@@ -32902,7 +33035,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                   
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                    
                                                                                                                                                    
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Aggregation By Year with null By Year 4]
  AS iif(
@@ -32920,7 +33053,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year with null]
  AS iif(
 [Measures].[Return Sale Value]=0,
@@ -32937,7 +33070,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year with null By Year 4]
  AS iif(
 [Measures].[Return Sale Value]=0,
@@ -32954,7 +33087,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                               
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year with null]
  AS iif(
 [Measures].[Return Sale Second Qty]=0 and [Measures].[PUB SLE Fact Sale Second Qty]=0,
@@ -32971,7 +33104,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year with null By Year 4]
  AS iif(
 [Measures].[Return Sale Second Qty]=0,
@@ -32988,76 +33121,76 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';                                                                                                                                                                    
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';                                                                                                                                                                     
                                                                                                            
                                                                                                          
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Value with Sale Return and null]
  AS [Measures].[PUB SLE Fact Sale Value Aggregation By Year with null]-[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year with null]-[Measures].[PUB SLE Fact Special Discount Value Aggregation By Year with null], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
                                                                                                                                                       
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Qty with Sale Return and null]
  AS [Measures].[PUB SLE Fact Sale Qty Aggregation By Year with null]-[Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year with null], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Qty with Sale Return and null By Year 4]
  AS [Measures].[PUB SLE Fact Sale Qty Aggregation By Year with null By Year 4]-[Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year with null By Year 4], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                     
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                      
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Value Aggregation By Year Without Special Discount]
  AS [Measures].[PUB SLE Fact Sale Value Aggregation By Year]-[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                     
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                      
                                                                                                           
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Value Aggregation By Year]
  AS [Measures].[PUB SLE Fact Sale Value Aggregation By Year]-[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year]-[Measures].[PUB SLE Fact Speicial Discount Value Aggregation], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Value Aggregation By Year By Year 4]
  AS [Measures].[PUB SLE Fact Sale Value Aggregation By Year By Year 4]-[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year By Year 4]-[Measures].[PUB SLE Fact Speicial Discount Value Aggregation By Year 4], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                               
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Qty Aggregation By Year]
  AS [Measures].[PUB SLE Fact Sale Qty Aggregation By Year]-[Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Qty Aggregation By Year By Year 4]
  AS [Measures].[PUB SLE Fact Sale Qty Aggregation By Year By Year 4]-[Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year By Year 4], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                    
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                     
                                                                                                                                           
                                                                                                                                               
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Value Aggregation By Year Perv1]
  AS [Measures].[PUB SLE Fact Sale Value Aggregation By Year perv1]-[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year perv1]-[Measures].[PUB SLE Fact Special Discount Value Aggregation By Year perv1], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Value Aggregation By Year Perv1 By Year 4]
  AS [Measures].[PUB SLE Fact Sale Value Aggregation By Year perv1 By Year 4]-[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year perv1 By Year 4]-[Measures].[PUB SLE Fact Special Discount Value Aggregation By Year perv1 By Year 4], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                               
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Qty Aggregation By Year Perv1]
  AS [Measures].[PUB SLE Fact Sale Qty Aggregation By Year perv1]-[Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year perv1], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Qty Aggregation By Year Perv1 By Year 4]
  AS [Measures].[PUB SLE Fact Sale Qty Aggregation By Year perv1 By Year 4]-[Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year perv1 By Year 4], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                    
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                     
                                                                                                                 
                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Value Aggregation By Year Perv2]
  AS [Measures].[PUB SLE Fact Sale Value Aggregation By Year perv2]-[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year perv2]-[Measures].[PUB SLE Fact Special Discount Value Aggregation By Year perv2], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
                                                                                                                                      
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Qty Aggregation By Year Perv2]
  AS [Measures].[PUB SLE Fact Sale Qty Aggregation By Year perv2]-[Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year perv2], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Qty Aggregation By Year Perv2 By Year 4]
  AS [Measures].[PUB SLE Fact Sale Qty Aggregation By Year perv2 By Year 4]-[Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year perv2 By Year 4], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year]
  AS (
 AGGREGATE(
@@ -33069,7 +33202,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year By Year 4]
  AS (
 AGGREGATE(
@@ -33081,7 +33214,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                               
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year]
  AS (
 AGGREGATE(
@@ -33093,7 +33226,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year By Year 4]
  AS (
 AGGREGATE(
@@ -33105,7 +33238,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year perv1]
  AS (
 [Measures].[PUB SLE Fact Return Sale Value Aggregation By Year]
@@ -33116,7 +33249,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year perv1 By Year 4]
  AS (
 [Measures].[PUB SLE Fact Return Sale Value Aggregation By Year By Year 4]
@@ -33127,7 +33260,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                               
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year perv1]
  AS (
 [Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year]
@@ -33138,7 +33271,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year perv1 By Year 4]
  AS (
 [Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year By Year 4]
@@ -33149,7 +33282,7 @@ ParallelPeriod(
         [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';                                                                                                                                                                        
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';                                                                                                                                                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year perv2]
  AS (
 [Measures].[PUB SLE Fact Return Sale Value Aggregation By Year]
@@ -33160,7 +33293,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
                                                                                                                                            
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year perv2]
  AS (
@@ -33172,7 +33305,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year perv2 By Year 4]
  AS (
 [Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year By Year 4]
@@ -33183,7 +33316,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember
 )), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';                                                                                                                                                                               
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';                                                                                                                                                                                
                                                                                                                                             
                                                                                                                                                   
                                                                                                                                                
@@ -33193,7 +33326,7 @@ VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Return Sale';
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Value Aggregation By Year ut]
  AS [Measures].[PUB SLE Fact Sale Value Aggregation By Year]-[PUB SLE Fact Return Sale Value Aggregation By Year], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                               
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                                
                                                                                                                           
                                                                                                                           
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Aggregation By Year Cumulative Deviation]
@@ -33210,7 +33343,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Aggregation By Year 
 *100
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Aggregation By Year Cumulative Deviation By Year 4]
  AS iif
 ([Measures].[PUB SLE Fact Sale Net Qty Aggregation By Year Perv1 By Year 4]=null,null,
@@ -33225,7 +33358,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Aggregation By Year 
 *100
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Cumulative Deviation]
  AS iif
 (
@@ -33241,7 +33374,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Cumulative Deviation
 *100
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
                                                                                                                                            
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Aggregation By Year Cumulative Deviation Perv2]
  AS iif(
@@ -33258,7 +33391,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Aggregation By Year 
 *100
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Aggregation By Year Cumulative Deviation Perv2 By Year 4]
  AS iif(
 [Measures].[PUB SLE Fact Sale Net Qty Aggregation By Year Perv2 By Year 4]=null,null,
@@ -33274,7 +33407,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Aggregation By Year 
 *100
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Cumulative Deviation Perv2]
  AS iif
 (
@@ -33290,7 +33423,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Cumulative Deviation
 *100
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                       
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB SLE Fact Sale';                                                                                                                                                                        
                                                                                                                                
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Aggregation By Year Cumulative Deviation Perv2]
  AS iif(
@@ -33307,7 +33440,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Aggregation By Yea
 *100
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                       
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
                                                                                                          
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Aggregation By Year Cumulative Deviation By Year 4]
  AS iif
@@ -33323,7 +33456,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Aggregation By Yea
 *100
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                        
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                         
                                                                                                                                        
                                                                                                                                  
                                                                                                                       
@@ -33344,7 +33477,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Aggregation By Yea
 *100
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                        
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                         
                                                                                                                                                                        
                                                                                                                                                      
                                                                                                                                                                  
@@ -33365,7 +33498,7 @@ PeriodsToDate(
 )
 ), 
 FORMAT_STRING = "#,##0.00;-#,##0.00", 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                                                
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'PUB INV Fact Product Inventory';                                                                                                                                                                                                 
                                                                                                                                                               
                                                                                                                      
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value To All Percent]
@@ -33373,24 +33506,24 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value To All Percent]
 /
 ([Measures].[PUB SLE Fact Sale Net Value],([PUB GNR Dim Product].[Organization - ProductParent].[All])), 
 FORMAT_STRING = "Percent", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                              
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                               
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SEL Fact Sale QTY To All Percent]
  AS ([Measures].[PUB SLE Fact Sale Second Qty],([PUB GNR Dim Product].[Organization - ProductParent].currentmember))
 /
 ([Measures].[PUB SLE Fact Sale Second Qty],([PUB GNR Dim Product].[Organization - ProductParent].[All])), 
 FORMAT_STRING = "Percent", 
-VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                             
+VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                              
                                                                                                                                                                         
 
 CREATE DYNAMIC SET CURRENTCUBE.[PUB GNR Dim Product Members]
- AS [PUB SLE Dim Sales Organization].[Sales Organization Id].members;                                                                                                                                                                                  
+ AS [PUB SLE Dim Sales Organization].[Sales Organization Id].members;                                                                                                                                                                                   
                                                                                                      
                                  
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Net Sale Tax]
  AS [Measures].[Vw PUB SLE Fact Sale For Discount - Value Tax]-
 abs([Measures].[Vw PUB SLE Fact Return Sale Tax - Tax Value]), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                        
+VISIBLE = 1;                                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Net Sale For Discount]
  AS ([Measures].[Vw PUB SLE Fact Sale For Discount - Price]
 + abs([Measures].[Vw PUB SLE Fact Sale For Discount - Sale Handy Value Tashim]))
@@ -33399,7 +33532,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Net Sale For Discount]
 -abs([Measures].[Vw PUB SLE Fact Sale For Discount - Special Discount Value Tashim])
 -abs([Measures].[PUB SLE Fact Net Sale Sub Value For Discount]), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                      
+VISIBLE = 1;                                                                                                                                       
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Rate]
  AS Divide
         (
@@ -33412,7 +33545,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Rate]
         0
  ), 
 FORMAT_STRING = "#,##0.00%;-#,##0.00%", 
-VISIBLE = 1;                                                                                                                                   
+VISIBLE = 1;                                                                                                                                    
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Rate PrevYear-1]
  AS (
 [Measures].[PUB SLE FACT Discount Rate]
@@ -33423,7 +33556,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##0.00%;-#,##0.00%", 
-VISIBLE = 1;                                                                                                                              
+VISIBLE = 1;                                                                                                                               
                              
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Rate  Aggregation]
  AS Divide
@@ -33459,7 +33592,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Rate  Aggregation]
         0
  ), 
 FORMAT_STRING = "#,##0.00%;-#,##0.00%", 
-VISIBLE = 1;                                                      
+VISIBLE = 1;                                                       
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Rate PrevYear-1 Aggregation]
  AS (
 [Measures].[PUB SLE FACT Discount Rate  Aggregation]
@@ -33470,7 +33603,7 @@ ParallelPeriod(
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember
 )), 
 FORMAT_STRING = "#,##0.00%;-#,##0.00%", 
-VISIBLE = 1;                                                      
+VISIBLE = 1;                                                       
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Rate Fiscal Year 4 Aggregation]
  AS Divide
         (
@@ -33504,7 +33637,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Rate Fiscal Year 4 A
         0
  ), 
 FORMAT_STRING = "#,##0.00%;-#,##0.00%", 
-VISIBLE = 1;                                                      
+VISIBLE = 1;                                                       
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Rate PrevYear-1 Fiscal Year 4 Aggregation]
  AS (
 [Measures].[PUB SLE FACT Discount Rate Fiscal Year 4 Aggregation]
@@ -33515,37 +33648,45 @@ ParallelPeriod(
          [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember
 )), 
 FORMAT_STRING = "#,##0.00%;-#,##0.00%", 
-VISIBLE = 1;                             
+VISIBLE = 1;                              
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Net Sale Sub Value For Discount]
- AS [Measures].[Vw PUB SLE Fact Sale For Discount - Sub Value]
+ AS iif([PUB SLE Dim Sales Organization].[Sales Organization Id].currentmember is [PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[4]
+,
+([Measures].[Vw PUB SLE Fact Sale For Discount - Sub Value]
 -abs([Measures].[PUB SLE Fact Return Sale Reduction Amount])
-+[Measures].[Vw PUB SLE Fact Sale For Discount - Discount Normal Handy Value Tashim], 
++[Measures].[Vw PUB SLE Fact Sale For Discount - Discount Normal Handy Value Tashim]
+-([Measures].[Vw PUB SLE Fact Sale For Discount - Sub Value],[Dim Sale Office].[Sales Office ID].&amp;[343])
+)
+,
+([Measures].[Vw PUB SLE Fact Sale For Discount - Sub Value]
+-abs([Measures].[PUB SLE Fact Return Sale Reduction Amount])
++[Measures].[Vw PUB SLE Fact Sale For Discount - Discount Normal Handy Value Tashim])), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                             
+VISIBLE = 1  ;                              
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Net Sale Sub Gift Only For Discount]
  AS [Measures].[Vw PUB SLE Fact Sale For Discount - Sub Gift Only]-[Measures].[PUB SLE Fact Return Sale Sub Gift Only], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                             
+VISIBLE = 1;                              
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Net Sale Value Gift Only For Discount]
  AS [Measures].[Vw PUB SLE Fact Sale For Discount - Value Gift Only]-[Measures].[PUB SLE Fact Return Sale Value Gift Only], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                             
+VISIBLE = 1;                              
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Net Sale Sub Watage For Discount]
  AS [Measures].[Vw PUB SLE Fact Sale For Discount - Sub Watage]-[Measures].[PUB SLE Fact Return Sale Sub Watage], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                             
+VISIBLE = 1;                              
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Net Sale Value Watage For Discount]
  AS [Measures].[Vw PUB SLE Fact Sale For Discount - Value Watage]-[Measures].[PUB SLE Fact Return Sale Value Watage], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                             
+VISIBLE = 1;                              
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Net Sale Sub Raw Material For Discount]
  AS [Measures].[Vw PUB SLE Fact Sale For Discount - Sub Raw Material]-[Measures].[PUB SLE Fact Return Sale Sub Raw Material], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                             
+VISIBLE = 1;                              
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Net Sale Value Raw Material For Discount]
  AS [Measures].[Vw PUB SLE Fact Sale For Discount - Value Raw Material]-[Measures].[PUB SLE Fact Return Sale Value Raw Material], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                          
+VISIBLE = 1;                                                                                                                           
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Value]
  AS [Measures].[Vw PUB SLE Fact Sale For Discount - Special Discount Value Tashim]        
             +[Measures].[PUB SLE Fact Net Sale Sub Value For Discount]
@@ -33554,7 +33695,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Value]
 - [Measures].[PUB SLE Fact Net Sale Sub Raw Material For Discount]
 -[Measures].[PUB SLE Fact Net Sale Tax], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                          
+VISIBLE = 1;                                                                                                                           
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Net Sales Value]
  AS [Measures].[PUB SLE Fact Net Sale For Discount]
             +[Measures].[Vw PUB SLE Fact Sale For Discount - Special Discount Value Tashim]  
@@ -33564,24 +33705,24 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Net Sales Value]
 - [Measures].[PUB SLE Fact Net Sale Sub Raw Material For Discount]
 -[Measures].[PUB SLE Fact Net Sale Tax], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                          
+VISIBLE = 1;                                                                                                                           
                              
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Return and discount]
  AS [Measures].[Return Sale Value]+[Measures].[PUB SLE Fact Sale Special Discount Value Tashim], 
 FORMAT_STRING = "#,##0;-#,##0", 
-VISIBLE = 1;                                                                        
+VISIBLE = 1;                                                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Target Total Amount]
  AS iif ([Sales Amount Type Name].item(0) is [PUB DIM Sales Amount Type].[Sales Amount Type Name].[Gross] , [Measures].[PUB SLE Fact Sale Target Total Gross Amount],[Measures].[PUB SLE Fact Sale Target Total Net Amount]), 
 FORMAT_STRING = "#,##0;-#,##0", 
-VISIBLE = 1;                                                                      
+VISIBLE = 1;                                                                       
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Value]
  AS iif ( [Sales Amount Type Name].item(0) is [PUB DIM Sales Amount Type].[Sales Amount Type Name].[Gross] , [Measures].[PUB SLE Fact Sale Value],[Measures].[PUB SLE Fact Sale Net Value]-[Measures].[PUB SLE Fact Sale Total Amount Return and discount]), 
 FORMAT_STRING = "#,##0;-#,##0", 
-VISIBLE = 1;                                                             
+VISIBLE = 1;                                                              
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Value With Out Return And Discount]
  AS [Measures].[PUB SLE Fact Sale Net Value]-[Measures].[PUB SLE Fact Sale Total Amount Return and discount], 
 FORMAT_STRING = "#,##0;-#,##0", 
-VISIBLE = 1;                                                              
+VISIBLE = 1;                                                               
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Value 1st Previous Year Trend]
  AS ([Measures].[PUB SLE Fact Sale Total Amount Value],
 ParallelPeriod(
@@ -33589,7 +33730,7 @@ ParallelPeriod(
 1,
 [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].CURRENTMEMBER)), 
 FORMAT_STRING = "#,##0;-#,##0", 
-VISIBLE = 1;                                                              
+VISIBLE = 1;                                                               
                                      
                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Value 1st Previous Year]
@@ -33600,7 +33741,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Value 1st P
                     [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].CurrentMember))
 ,[Measures].[PUB SLE Fact Sale Total Amount Value]), 
 FORMAT_STRING = "#,##0;-#,##0", 
-VISIBLE = 1;                                                                 
+VISIBLE = 1;                                                                  
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Value 2st Previous Year]
  AS Sum(PeriodstoDate([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year],
                         ParallelPeriod(
@@ -33609,7 +33750,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Value 2st P
                     [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].CurrentMember))
 ,[Measures].[PUB SLE Fact Sale Total Amount Value]), 
 FORMAT_STRING = "#,##0;-#,##0", 
-VISIBLE = 1;                                                                 
+VISIBLE = 1;                                                                  
                              
                                       
 
@@ -33617,18 +33758,18 @@ VISIBLE = 1;
                  
 CREATE MEMBER CURRENTCUBE.[Measures].[NA]
  AS "NA", 
-VISIBLE = 1;                                                                                                   
+VISIBLE = 1;                                                                                                    
 CREATE MEMBER CURRENTCUBE.[GRL GNR Dim Full Date weekly].[Calendar Type].[Shamsi Year]
  AS "NA", 
-VISIBLE = 1;                                                                                                             
+VISIBLE = 1;                                                                                                              
 
 CREATE MEMBER CURRENTCUBE.[GRL GNR Dim Full Date weekly].[Calendar Type].[Fiscal Year]
  AS "NA", 
-VISIBLE = 1;                                                                                                                        
+VISIBLE = 1;                                                                                                                         
 
 CREATE MEMBER CURRENTCUBE.[GRL GNR Dim Full Date weekly].[Calendar Type].[12 Months]
  AS "NA", 
-VISIBLE = 1;                                                                                             
+VISIBLE = 1;                                                                                              
 /*Fiscal Year*/  
   (
     [GRL GNR Dim Full Date weekly].[Calendar Type].[Fiscal Year],
@@ -33650,7 +33791,7 @@ VISIBLE = 1;
                             [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].[Fiscal Year 4],
                             [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].CurrentMember
              )
-);                                                                                                           
+);                                                                                                            
    
  
 
@@ -33674,7 +33815,7 @@ VISIBLE = 1;
                                11,
                                [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].CurrentMember
                ) : [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].CurrentMember
-             });                                                                                            
+             });                                                                                             
    
 
 /*Shamsi Year*/  
@@ -33697,7 +33838,7 @@ VISIBLE = 1;
                             [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year],
                             [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].CurrentMember
              )
-);                                                                     
+);                                                                      
   
                      
 CREATE MEMBER CURRENTCUBE.[Measures].[ReturnSaleSecondQtyPercentage]
@@ -33711,16 +33852,16 @@ else
 ([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember.parent,[Measures].[Return Sale Second Qty]),0)
 End, 
 FORMAT_STRING = "Percent", 
-VISIBLE = 1;                                                                                     
+VISIBLE = 1;                                                                                      
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Target]
  AS [Measures].[Target Discount], 
 FORMAT_STRING = "Percent", 
-VISIBLE = 1;                                                                                    
+VISIBLE = 1;                                                                                     
 CREATE MEMBER CURRENTCUBE.[Measures].[ReturnSaleSecondQtyPerGrowthSales%]
  AS ([Measures].[Return Sale Second Qty]/[Measures].[PUB SLE Fact Sale Second Qty]), 
 FORMAT_STRING = "Percent", 
 NON_EMPTY_BEHAVIOR = { [PUB SLE Fact Sale Second Qty] }, 
-VISIBLE = 1;                                                  
+VISIBLE = 1;                                                   
                          
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Gift Net Sale Aggregation Qty Year4]
  AS AGGREGATE(
@@ -33739,7 +33880,7 @@ PeriodsToDate(
 ([Measures].[PUB SLE Fact Gifts Return Sale First Qty])
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                              
+VISIBLE = 1;                                               
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Gift Net Sale Aggregation Qty To Sale Rate Year 4]
  AS Divide
         (
@@ -33752,7 +33893,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Gift Net Sale Aggregation Qty
         0
  ), 
 FORMAT_STRING = "Percent", 
-VISIBLE = 1;                                             
+VISIBLE = 1;                                              
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Value Aggregate]
  AS Case 
     When [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].currentmember is [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].&amp;[Farvardin]
@@ -33765,7 +33906,7 @@ Sum(PeriodstoDate([GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week -
 ,[Measures].[PUB SLE Fact Sale Total Amount Value]) 
 end, 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                         
+VISIBLE = 1;                                          
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Value Aggregate and null]
  AS Case 
     When [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].currentmember is [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].&amp;[Farvardin]
@@ -33783,7 +33924,7 @@ iif([Measures].[PUB SLE Fact Sale Total Amount Value]=0,null,
 ))
 end, 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                          
+VISIBLE = 1;                                           
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Target Total Amount Aggregate]
  AS Case 
     When [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].currentmember is [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].&amp;[Farvardin]
@@ -33797,7 +33938,7 @@ Sum(PeriodstoDate([GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week -
 ,[Measures].[PUB SLE Fact Sale Target Total Amount])
 end, 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                          
+VISIBLE = 1;                                           
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Return and discount Aggregation]
  AS Case 
     When [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].currentmember is [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].&amp;[Farvardin]
@@ -33811,7 +33952,7 @@ Sum(PeriodstoDate([GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week -
 ,[Measures].[PUB SLE Fact Sale Total Amount Return and discount])
 end, 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                            
+VISIBLE = 1;                                             
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Aggregation By Year Cumulative Deviation Prev1]
  AS iif
 ([Measures].[PUB SLE Fact Sale Total Amount Value Aggregate Prev1Year]=null,null,
@@ -33826,7 +33967,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Aggregation
 *100
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                           
+VISIBLE = 1;                                            
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Aggregation By Year Cumulative Deviation Prev2]
  AS iif
 ([Measures].[PUB SLE Fact Sale Total Amount Value Aggregate Prev2Year]=null,null,
@@ -33841,7 +33982,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Aggregation
 *100
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                           
+VISIBLE = 1;                                            
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Value Aggregate Prev1Year]
  AS Case 
     When [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].currentmember is [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].&amp;[Farvardin]
@@ -33865,7 +34006,7 @@ ParallelPeriod(
 )) 
 end, 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                           
+VISIBLE = 1;                                            
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Value Aggregate Prev2Year]
  AS Case 
     When [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].currentmember is [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].&amp;[Farvardin]
@@ -33889,15 +34030,15 @@ ParallelPeriod(
 )) 
 end, 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                          
+VISIBLE = 1;                                           
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Target Total Amount Target Achievement Percent]
  AS divide([Measures].[PUB SLE Fact Sale Total Amount Value Aggregate],[Measures].[PUB SLE Fact Sale Target Total Amount Aggregate],0)*100, 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                         
+VISIBLE = 1;                                          
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Aggregate Growth 1st Prev Year % ]
  AS divide([Measures].[PUB SLE Fact Sale Total Amount Value Aggregate],[Measures].[PUB SLE Fact Sale Total Amount Value Aggregate Prev1Year],0), 
 FORMAT_STRING = "Percent", 
-VISIBLE = 1;                                        
+VISIBLE = 1;                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Value 1st Previous Year With Fiscal Year]
  AS Case 
     When [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].currentmember is [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].&amp;[Farvardin]
@@ -33917,12 +34058,12 @@ Sum(PeriodstoDate([GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week -
 ,[Measures].[PUB SLE Fact Sale Total Amount Value])
 end, 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                        
+VISIBLE = 1;                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Value Year Over Year Growth 1st Previous Year % With FiscalYear]
  AS divide([Measures].[PUB SLE Fact Sale Total Amount Value]
 ,[Measures].[PUB SLE Fact Sale Total Amount Value 1st Previous Year With Fiscal Year],0), 
 FORMAT_STRING = "Percent", 
-VISIBLE = 1;                                       
+VISIBLE = 1;                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value Aggregation Gross sales amount With Fiscal Year]
  AS Case 
     When [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].currentmember is [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].&amp;[Farvardin]
@@ -33944,7 +34085,7 @@ PeriodsToDate(
 )
 end, 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                     
+VISIBLE = 1;                                      
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Speicial Discount Value Aggregation With Fiscal Year]
  AS Case 
     When [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].currentmember is [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].&amp;[Farvardin]
@@ -33966,7 +34107,7 @@ PeriodsToDate(
 )
 end, 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                    
+VISIBLE = 1;                                     
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Sub Aggregation Normal Discount Amount With Fiscal Year]
  AS Case 
     When [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].currentmember is [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].&amp;[Farvardin]
@@ -33974,7 +34115,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Sub Aggregation Normal D
 	else [Measures].[PUB SLE Fact Sale Sub Aggregation Normal Discount Amount By Year 4]
 	end, 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                   
+VISIBLE = 1;                                    
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Gross Sub Aggregation Normal Discount Amount With Fiscal Year]
  AS Case 
     When [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].currentmember is [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].&amp;[Farvardin]
@@ -33982,7 +34123,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Gross Sub Aggregation No
 	else [Measures].[PUB SLE Fact Sale Gross Sub Aggregation Normal Discount Amount By Year 4]
 	end, 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                  
+VISIBLE = 1;                                   
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Sub Aggregation Normal Discount Amount With Fiscal Year]
  AS Case 
     When [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].currentmember is [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].&amp;[Farvardin]
@@ -33990,7 +34131,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Sub Aggregation N
 	else [Measures].[PUB SLE Fact Return Sale Sub Aggregation Normal Discount Amount By Year 4]
 	end, 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                 
+VISIBLE = 1;                                  
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year With Fiscal Year]
  AS Case 
     When [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].currentmember is [PUB DIM Fiscal Year Type].[Fiscal Year Type Name].&amp;[Farvardin]
@@ -34012,7 +34153,7 @@ PeriodsToDate(
 )
 end, 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                
+VISIBLE = 1;                                 
        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Value With Out Return And Discount Aggregate By Year]
  AS Case 
@@ -34055,22 +34196,22 @@ PeriodsToDate(
 )
 end, 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                    
+VISIBLE = 1;                     
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Value For Product Group Filter]
  AS iif(([Measures].[PUB SLE Fact Sale Target Total Amount Aggregate]&lt;&gt;0 or [Measures].[PUB SLE Fact Sale Total Amount Value Aggregate]&lt;&gt;0
 ),1,0), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                
+VISIBLE = 1;                 
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale QTY For Product Group Filter]
  AS iif(( [Measures].[PUB SLE Fact Sale Net Qty Aggregation By Year]&lt;&gt;0 or [Measures].[PUB SLE Fact Sale Target Total QTY]&lt;&gt;0 
 ),1,0), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                
+VISIBLE = 1;                 
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale QTY For Product Group Filter By Year 4]
  AS iif(( [Measures].[PUB SLE Fact Sale Target Total QTY]&lt;&gt;0 or
 [Measures].[PUB SLE Fact Sale Net Qty Aggregation By Year By Year 4]&lt;&gt;0 ),1,0), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                     
+VISIBLE = 1;                      
 
       
        
