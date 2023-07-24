@@ -7253,6 +7253,12 @@
     <Dimension dwd:design-time-name="3b04a92d-cf0a-47b6-a1dd-a06a8b8ea89a">
       <ID>Vw PUB SLE Dim Product First Net Sale</ID>
       <Name>Vw PUB SLE Dim Product First Net Sale</Name>
+      <Translations>
+        <Translation dwd:design-time-name="c30edc15-4d76-4580-a23b-73a264cfe796">
+          <Language>1065</Language>
+          <Caption>اطلاعات اولین فروش</Caption>
+        </Translation>
+      </Translations>
       <DimensionID>Vw PUB SLE Dim Product First Net Sale</DimensionID>
       <Attributes>
         <Attribute dwd:design-time-name="adf0c18f-2e80-46d5-b2fa-fc2f7ffb5a11">
@@ -7857,6 +7863,26 @@
           <Attributes>
             <Attribute dwd:design-time-name="54fab531-866c-457f-8f0b-51e09679f41d">
               <AttributeID>Sales Amount Type Name</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="d2644388-77a3-4761-bd5d-0e47e21f3a6e">
+          <CubeDimensionID>Vw PUB SLE Dim Product First Net Sale</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="68e6ebc2-7b00-4d0e-8960-28a038675a79">
+              <AttributeID>Date Id</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="244af12a-9ede-4bc2-bcf1-53f114b7f21d">
+              <AttributeID>Product Id</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="c699780b-505a-4254-bd70-9e938eac9954">
+              <AttributeID>Month</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="aa2e3e1d-f7ba-4e1f-94fe-af2d7c984538">
+              <AttributeID>s Date</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="1a9ec2e5-b3c4-4ad2-a51d-53c6a10fdbc4">
+              <AttributeID>Year</AttributeID>
             </Attribute>
           </Attributes>
         </Dimension>
