@@ -31606,25 +31606,6 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="3e0abcc3-f3fe-4d8b-894a-4d64f038aebb">
-          <CubeDimensionID>Vw PUB SLE Dim Product First Net Sale</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="ed5f386f-afc7-460e-b7ba-16a3825f3258">
-              <AttributeID>Product Id</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="9bb3ec65-ce2f-4bed-a76e-9e4255aa816c">
-                  <DataType>BigInt</DataType>
-                  <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0d225362-de2f-4a94-93bc-1463d5de08e9">
-                    <TableID>dbo_Vw_PUB_SLE_Dim_ProductFirstNetSale</TableID>
-                    <ColumnID>Product_Id</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
         <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e27d863c-bea2-49ad-964d-cef36f490d8f">
           <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
           <Attributes>
@@ -31644,63 +31625,6 @@
               <Type>Granularity</Type>
             </Attribute>
           </Attributes>
-        </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ac81a96a-3974-435d-8f71-4f4a9a42a161">
-          <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="c5175d83-1414-4e7d-a02f-c1716aa69002">
-              <AttributeID>Date Id</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="eb0df98f-ffb7-4b76-8366-65a673baeecb">
-                  <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d2d864a3-6941-465e-a1f6-aea6c3170569">
-                    <TableID>dbo_Vw_PUB_SLE_Dim_ProductFirstNetSale</TableID>
-                    <ColumnID>MinDate_Id</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="7127252a-4f00-41fb-afa7-182f78ff0a47">
-          <CubeDimensionID>Vwe PUB GNR Dim Parent Product</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="ef9e883c-f0e3-434b-a246-c2b932d3b772">
-              <AttributeID>Lesson Id</AttributeID>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-          <IntermediateCubeDimensionID>PUB GNR Dim Product</IntermediateCubeDimensionID>
-          <IntermediateGranularityAttributeID>Lesson Id</IntermediateGranularityAttributeID>
-          <Materialization>Regular</Materialization>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-        </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="8a96a9a4-6c8c-48c6-b4c7-da8e5f775294">
-          <CubeDimensionID>PUB GNR Dim Product - Lesson</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="c4412b62-abcf-4f99-879c-8cbfaaf249b5">
-              <AttributeID>Lesson Id</AttributeID>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-          <IntermediateCubeDimensionID>PUB GNR Dim Product</IntermediateCubeDimensionID>
-          <IntermediateGranularityAttributeID>Lesson Id</IntermediateGranularityAttributeID>
-          <Materialization>Regular</Materialization>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-        </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="a9154a92-a4d5-4446-bd1a-9358935119f4">
-          <CubeDimensionID>PUB GNR Dim Product - Product Grade Group</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="789c6d77-3114-4013-8f62-ab67fa127d8a">
-              <AttributeID>Product Grade Group ID</AttributeID>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-          <IntermediateCubeDimensionID>PUB GNR Dim Product</IntermediateCubeDimensionID>
-          <IntermediateGranularityAttributeID>Product Grade Group ID</IntermediateGranularityAttributeID>
-          <Materialization>Regular</Materialization>
-          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
         <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1c501120-4c67-448c-b2f1-56d38c1bb108">
           <CubeDimensionID>GRL GNR Dim Full Date weekly</CubeDimensionID>
