@@ -749,5 +749,25 @@
         </Partition>
       </Partitions>
     </MeasureGroup>
+    <MeasureGroup>
+      <ID>Vw PUB SLE Fact Sale New Customer</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="b6352549-9ab0-4f67-be2d-e17cc6ef38bc">
+          <ID>Vw PUB SLE Fact Sale New Customer</ID>
+          <Name>Vw PUB SLE Fact Sale New Customer</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="eac28cde-9c61-480e-a495-0fa33a372614">
+            <DataSourceViewID>SABZDW</DataSourceViewID>
+            <TableID>Vw_PUB_SLE_Fact_SaleNewCustomer</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
   </MeasureGroups>
 </Cube>

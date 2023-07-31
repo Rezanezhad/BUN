@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="589" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10107" scrolltop="-6151" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="18441" y="16140" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="591" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10107" scrolltop="-6151" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="18441" y="16140" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -5150,6 +5150,37 @@
               <point x="3811" y="2705" />
             </connector>
           </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Vw_PUB_SLE_Fact_SaleNewCustomer" left="0" top="0" logicalid="589" controlid="297" masterid="0" hint1="0" hint2="0" width="3633" height="4904" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000310e000028130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Vw_PUB_SLE_Fact_SaleNewCustomer" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3333" top="4352" logicalid="590" controlid="298" masterid="0" hint1="0" hint2="0" width="11780" height="10160" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Vw_PUB_SLE_Fact_SaleNewCustomer-GRL_GNR_Dim_FullDateWeekly]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="59" destid="297" sourceattachpoint="14" destattachpoint="31" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="14813" y="14112" />
+              <point x="9223" y="14112" />
+              <point x="9223" y="4652" />
+              <point x="3633" y="4652" />
+            </connector>
+          </ddscontrol>
         </dds>
       </Value>
     </Annotation>
@@ -8046,6 +8077,17 @@
           <Measures>
             <Measure dwd:design-time-name="8abe55a7-5040-442f-a3bf-1757e0a06c7d">
               <MeasureID>Vw PUB SLE Calc New Product Count</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+        <MeasureGroup dwd:design-time-name="2db5ffaf-fe08-47ea-8f61-f826f78a8585">
+          <MeasureGroupID>Vw PUB SLE Fact Sale New Customer</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="76253fb9-cbe5-47b0-9739-38fa4768d0c7">
+              <MeasureID>Sum QTY 1</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="a0ae1231-75d6-4cbf-ad23-7cdd2ba8f18e">
+              <MeasureID>Sale First Qty 2</MeasureID>
             </Measure>
           </Measures>
         </MeasureGroup>
@@ -31747,6 +31789,97 @@
           <IntermediateGranularityAttributeID>Product Grade Group ID</IntermediateGranularityAttributeID>
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="8f851089-b594-4be3-ba05-7aef877b0260">
+      <ID>Vw PUB SLE Fact Sale New Customer</ID>
+      <Name>Vw PUB SLE Fact Sale New Customer</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Translations>
+        <Translation dwd:design-time-name="66889d42-df29-4470-aa61-5ff785a97e0f">
+          <Language>1065</Language>
+          <Caption>اطلاعات مشتری جدید</Caption>
+        </Translation>
+      </Translations>
+      <Measures>
+        <Measure dwd:design-time-name="3a9f0f70-5e3c-4d60-9e2c-ed2a0c625ff6">
+          <ID>Sum QTY 1</ID>
+          <Name>Sum QTY</Name>
+          <Source dwd:design-time-name="ebbd4363-9d45-48d1-bf70-ba57ffc8ea61">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a7e3611b-820a-4800-b0fc-a6a676682a21">
+              <TableID>Vw_PUB_SLE_Fact_SaleNewCustomer</TableID>
+              <ColumnID>SumQTY</ColumnID>
+            </Source>
+          </Source>
+          <Translations>
+            <Translation dwd:design-time-name="b4630d43-ec7a-4f0b-afd5-bea66162d633">
+              <Language>1065</Language>
+              <Caption>تعداد کل خرید</Caption>
+            </Translation>
+          </Translations>
+        </Measure>
+        <Measure dwd:design-time-name="d4c7747e-5f70-44ae-be06-b9727f70b07e">
+          <ID>Sale First Qty 2</ID>
+          <Name>Sale First Qty</Name>
+          <Source dwd:design-time-name="a111d0fd-4cc4-4932-9a4f-f9b59243b88c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5a32fbb5-5f8c-4b1f-b544-0fe2d9a320db">
+              <TableID>Vw_PUB_SLE_Fact_SaleNewCustomer</TableID>
+              <ColumnID>Sale_FirstQty</ColumnID>
+            </Source>
+          </Source>
+          <Translations>
+            <Translation dwd:design-time-name="6ad7a702-a9ef-451d-bae5-cd42ec05c7a5">
+              <Language>1065</Language>
+              <Caption>تعداد اولین خرید</Caption>
+            </Translation>
+          </Translations>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6a539027-448e-4fc9-ad6f-609d83b821ad">
+          <CubeDimensionID>PUB SLE Dim Customer</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="bbe1fa18-ae23-4857-a8d5-796a055a9b1e">
+              <AttributeID>Customer Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="87add68d-89b5-4c7e-a9f7-b9c985e80e4f">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5af2a5bf-e8d1-4879-bab6-5ae9cce79757">
+                    <TableID>Vw_PUB_SLE_Fact_SaleNewCustomer</TableID>
+                    <ColumnID>Customer_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3155e0c7-1c57-4246-9d3c-9c5b297e15bc">
+          <CubeDimensionID>GRL GNR Dim Full Date weekly</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="94dd4b5d-c153-4c1e-b23d-1849043db8e5">
+              <AttributeID>Date Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="dd93a53e-7fe3-4099-90c3-58300bce4cc9">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="51609383-6762-4eec-b329-88b1c82291a9">
+                    <TableID>Vw_PUB_SLE_Fact_SaleNewCustomer</TableID>
+                    <ColumnID>Date_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
         </Dimension>
       </Dimensions>
       <Partitions />
