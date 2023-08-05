@@ -27,7 +27,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="1574" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="124277" scrolltop="891933" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="29369" y="21908" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="1574" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="139637" scrolltop="742726" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="29369" y="21908" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                   </font>
@@ -1974,7 +1974,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" left="3212" top="594428" logicalid="963" controlid="177" masterid="0" hint1="0" hint2="0" width="4842" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="GRL_FIN_Fact_CostForeCastLoan" left="3212" top="594428" logicalid="963" controlid="177" masterid="0" hint1="0" hint2="0" width="4842" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000ea12000088130000" />
                   </control>
@@ -13662,8 +13662,8 @@
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>124277</DiagramViewPortLeft>
-            <DiagramViewPortTop>891933</DiagramViewPortTop>
+            <DiagramViewPortLeft>139637</DiagramViewPortLeft>
+            <DiagramViewPortTop>742726</DiagramViewPortTop>
             <DiagramBoundingLeft>-8546</DiagramBoundingLeft>
             <DiagramBoundingTop>-5344</DiagramBoundingTop>
             <DiagramZoom>100</DiagramZoom>
@@ -34093,7 +34093,7 @@
             <xs:element name="dbo_GRL_FIN_Fact_VoucherItem" msprop:design-time-name="b35709c6-c86b-4e06-8dea-f7d25b97fdc4" msprop:IsLogical="True" msprop:FriendlyName="GRL_FIN_Fact_VoucherItem" msprop:DbTableName="GRL_FIN_Fact_VoucherItem" msprop:TableType="View" msprop:QueryDefinition="/*and COA_DetailAccount_Id=504100000019&#xD;&#xA;and [CostCenterCode] is not null --and c.CostCenter_Code=410000001*/&#xD;&#xA;SELECT        7 AS DimFact_Id, v.VoucherItem_Id, v.VoucherState_Id, v.COA_LedgerAccount_Id, v.COA_DetailAccount_Id, v.VoucherItem_CreditValue, v.VoucherItem_DebitValue, ISNULL(v.VoucherItem_DebitValue, 0) &#xD;&#xA;                         - ISNULL(v.VoucherItem_CreditValue, 0) AS VoucherItem_Value, v.Date_Id, v.Company_Id, v.VoucherItem_CreditQty, v.VoucherItem_DebitQty, v.VoucherItem_CreditValue_Cur, v.VoucherItem_DebitValue_Cur, &#xD;&#xA;                         v.VoucherItem_CurRateVal, v.VoucherItem_CurrencyRef, v.Branch_Id, v.CostCenterCode, c.CostCenter_Id&#xD;&#xA;FROM            GRL_FIN_Fact_VoucherItem AS v LEFT OUTER JOIN&#xD;&#xA;                         GRL_GNR_Dim_CostCenter AS c ON v.CostCenterCode = c.CostCenter_Code&#xD;&#xA;WHERE        (v.Date_Id &gt;= 42082)" msprop:QueryBuilder="SpecificQueryBuilder">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="VoucherItem_Id" msprop:design-time-name="6755fa3d-5bcf-4d8b-9b6b-9c304acee99b" msprop:DbColumnName="VoucherItem_Id" msprop:FriendlyName="VoucherItem_Id" type="xs:decimal" />
+                  <xs:element name="VoucherItem_Id" msprop:design-time-name="6755fa3d-5bcf-4d8b-9b6b-9c304acee99b" msprop:DbColumnName="VoucherItem_Id" msprop:FriendlyName="VoucherItem_Id" type="xs:decimal" minOccurs="0" />
                   <xs:element name="VoucherState_Id" msprop:design-time-name="e2a65446-edf5-430e-9134-f327d05c2946" msprop:DbColumnName="VoucherState_Id" msprop:FriendlyName="VoucherState_Id" type="xs:int" minOccurs="0" />
                   <xs:element name="COA_LedgerAccount_Id" msprop:design-time-name="93e3212f-a89b-4912-a918-56c864c3296a" msprop:DbColumnName="COA_LedgerAccount_Id" msprop:FriendlyName="COA_LedgerAccount_Id" type="xs:long" minOccurs="0" />
                   <xs:element name="COA_DetailAccount_Id" msprop:design-time-name="ba55891f-c333-40d9-ab41-9a1c64506b44" msprop:DbColumnName="COA_DetailAccount_Id" msprop:FriendlyName="COA_DetailAccount_Id" type="xs:long" minOccurs="0" />
@@ -34156,7 +34156,7 @@
             <xs:element name="dbo_GRL_FIN_Dim_COA_LedgerAccount" msprop:design-time-name="a801a923-ccc2-478c-998e-640c815a9855" msprop:IsLogical="True" msprop:FriendlyName="GRL_FIN_Dim_COA_LedgerAccount" msprop:DbTableName="GRL_FIN_Dim_COA_LedgerAccount" msprop:TableType="View" msprop:QueryDefinition="SELECT        COA_LedgerAccount_Id, COA_LedgerAccount_Code, COA_LedgerAccount_Title, Company_Id, COA_GeneralAccount_Id, COA_LedgerAccount_Id_Parent, COA_LedgerAccount_StartDate, &#xD;&#xA;                         COA_LedgerAccount_EndDate&#xD;&#xA;FROM            GRL_FIN_Dim_COA_LedgerAccount" msprop:QueryBuilder="SpecificQueryBuilder">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="COA_LedgerAccount_Id" msprop:design-time-name="e7ab7607-823d-4e67-9706-1169fe070e6a" msprop:DbColumnName="COA_LedgerAccount_Id" msprop:FriendlyName="COA_LedgerAccount_Id" type="xs:long" />
+                  <xs:element name="COA_LedgerAccount_Id" msprop:design-time-name="e7ab7607-823d-4e67-9706-1169fe070e6a" msprop:DbColumnName="COA_LedgerAccount_Id" msprop:FriendlyName="COA_LedgerAccount_Id" type="xs:long" minOccurs="0" />
                   <xs:element name="COA_LedgerAccount_Code" msprop:design-time-name="966b19a1-d729-454b-ad75-b504264a2021" msprop:DbColumnName="COA_LedgerAccount_Code" msprop:FriendlyName="COA_LedgerAccount_Code" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -38045,7 +38045,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="GRL_FIN_Fact_BlockLoan_Overall" msprop:design-time-name="79c8a265-f984-4cb6-8c3e-ed3ca9bfe89f" msprop:IsLogical="True" msprop:FriendlyName="GRL_FIN_Fact_BlockLoan_Overall" msprop:DbTableName="GRL_FIN_Fact_BlockLoan_Overall" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT        NULL AS DimFact_Id, BankOrPerson_Id, Date_Id, COA_GeneralAccount_Code, COA_LedgerAccount_Code, COA_DetailAccount_Code, COA_DetailAccount_Code5, COA_DetailAccount_Code6, &#xD;&#xA;                         VoucherItem_CreditValue, VoucherItem_DebitValue, [Values], COA_GeneralAccount_Id, COA_LedgerAccount_Id, COA_DetailAccount_IdLvl5, COA_DetailAccount_IdLvl6, COA_DetailAccount_Id, Company_Id, &#xD;&#xA;                         LoanCode_Id, VoucherType_Id, TypeValueLoan_Id&#xD;&#xA;FROM            Vw_GRL_FIN_Fact_Loan&#xD;&#xA;WHERE        (COA_LedgerAccount_Code = 109011)" msprop:QueryBuilder="SpecificQueryBuilder">
+            <xs:element name="GRL_FIN_Fact_BlockLoan_Overall" msprop:design-time-name="79c8a265-f984-4cb6-8c3e-ed3ca9bfe89f" msprop:IsLogical="True" msprop:FriendlyName="GRL_FIN_Fact_BlockLoan_Overall" msprop:DbTableName="GRL_FIN_Fact_BlockLoan_Overall" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT        NULL AS DimFact_Id, BankOrPerson_Id, Date_Id, COA_GeneralAccount_Code, COA_LedgerAccount_Code, COA_DetailAccount_Code, COA_DetailAccount_Code5, COA_DetailAccount_Code6, VoucherItem_CreditValue, &#xD;&#xA;                         VoucherItem_DebitValue, [Values], COA_GeneralAccount_Id, COA_LedgerAccount_Id, COA_DetailAccount_IdLvl5, COA_DetailAccount_IdLvl6, COA_DetailAccount_Id, Company_Id, LoanCode_Id, VoucherType_Id, &#xD;&#xA;                         TypeValueLoan_Id&#xD;&#xA;FROM            Vw_GRL_FIN_Fact_Loan&#xD;&#xA;WHERE        (COA_LedgerAccount_Code = 109011)" msprop:QueryBuilder="SpecificQueryBuilder">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="DimFact_Id" msdata:ReadOnly="true" msprop:design-time-name="a924b7de-09a6-49b0-a72b-40dfc66cfcbe" msprop:DbColumnName="DimFact_Id" msprop:FriendlyName="DimFact_Id" type="xs:int" minOccurs="0" />
