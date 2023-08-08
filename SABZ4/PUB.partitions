@@ -1,29 +1,29 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8fe966f1-f78f-4f80-a56a-e215d8b6fbd5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="aff89aa0-fc33-418e-bffa-06e6fa2fa5dd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>PUB</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>PUB SLE Fact Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="be78a163-90c4-43b6-aaf3-036b091e20c5">
+        <Partition dwd:design-time-name="299c9da4-e407-4686-9e26-c3b1bae005ee">
           <ID>PUB SLE Fact Sale</ID>
           <Name>PUB SLE Fact Sale</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.646667Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.646667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:59.623333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5482d96d-bbff-4e99-973d-17eaf46f6044">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a7361cd8-192c-45c9-986a-e15df3df86ac">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="4b6d89e5-d001-4e24-9481-0913c11d822b">
+          <ProactiveCaching dwd:design-time-name="c51e5d62-0e41-4499-ba52-c65833347b45">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="00aa59d7-0144-4a9b-856e-8f18eafbf9cc" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="04d5683c-eb33-4832-8b42-0782d8a6ad30" />
           </ProactiveCaching>
           <EstimatedSize>118150126</EstimatedSize>
         </Partition>
@@ -32,26 +32,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Gifts Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="46597984-892f-4f3e-a3ce-02e0af119390">
+        <Partition dwd:design-time-name="6a7ecf51-48a2-416d-9d3c-b7d60be97930">
           <ID>PUB SLE Fact Gifts Sale</ID>
           <Name>PUB SLE Fact Gifts Sale</Name>
           <CreatedTimestamp>2020-06-01T03:22:46.443333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.776667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:44.64Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9aed971a-9635-453c-b1be-b0510fb65d36">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="41c34549-bb11-457a-9038-d51cce96822c">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE_PUB_SLE_Fact_GiftsSale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="72a78f3c-955d-4c1c-b88d-c854dd3c72c4">
+          <ProactiveCaching dwd:design-time-name="d9e65fcd-f0e6-44eb-8914-5aa1b320bc5e">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="6d206d34-a0c5-41e9-b778-619d68037448" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="9035d34b-7935-4b65-881b-3d4561b90a77" />
           </ProactiveCaching>
           <EstimatedSize>969472</EstimatedSize>
         </Partition>
@@ -60,26 +60,26 @@
     <MeasureGroup>
       <ID>PUB INV Fact Product Inventory</ID>
       <Partitions>
-        <Partition dwd:design-time-name="edfeedd4-00ca-4f40-8d4d-4154c86da3da">
+        <Partition dwd:design-time-name="66129020-f14f-4025-8bd7-2e0608a35049">
           <ID>PUB INV Fact Product Inventory</ID>
           <Name>PUB INV Fact Product Inventory</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.67Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.833333Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:52.45Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d760411a-ea73-4a40-bd73-f1dcedf82e08">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1a4e9ed0-c2b3-41a5-ac80-e5eef138e664">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_pub_inv_fact_ProductInventory</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="3f6c620a-8430-49d6-a997-18374859e9ce">
+          <ProactiveCaching dwd:design-time-name="19a1f7e8-ff3a-42c1-a9bd-2c3f4c1cd074">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="859dea51-7792-4a7f-a6ec-101e86bcc214" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="a008f004-5db8-4cf7-9785-dd7a92f8420f" />
           </ProactiveCaching>
           <EstimatedSize>52843258</EstimatedSize>
         </Partition>
@@ -88,26 +88,26 @@
     <MeasureGroup>
       <ID>PUB PRD Fact Production</ID>
       <Partitions>
-        <Partition dwd:design-time-name="d18289d2-9479-4de7-a03f-4711d50a1a61">
+        <Partition dwd:design-time-name="49f0dc67-2744-4efd-999b-b7898e8b509a">
           <ID>PUB PRD Fact Production</ID>
           <Name>PUB PRD Fact Production</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.69Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.886667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:36.55Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1b754a5f-40ca-4499-a7a9-7d92cd14c795">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6c8d56e3-ae00-48f4-85c4-979a35198266">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_PUB_PRD_Fact_Production</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="0ea337be-001d-40a0-bad8-8c12b8a22b83">
+          <ProactiveCaching dwd:design-time-name="1eaee9d4-89cd-4200-8f75-afce414ba09d">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="d710ba6c-72c9-4a47-842a-3196941d0e0c" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="c85d845a-ad21-41d2-97cb-74586ec9439d" />
           </ProactiveCaching>
           <EstimatedSize>953453</EstimatedSize>
         </Partition>
@@ -116,26 +116,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale Budget</ID>
       <Partitions>
-        <Partition dwd:design-time-name="1fd263d3-1dca-4342-a791-df4b767b373e">
+        <Partition dwd:design-time-name="04b8e82d-a4b6-4e20-ba59-4c40769183be">
           <ID>PUB SLE Fact Sale Budget</ID>
           <Name>PUB SLE Fact Sale Budget</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.743333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.09Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:37.583333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="df08fe37-286b-4aad-9727-ccae627a61d9">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b79f0c9d-555e-4a2d-b379-ec7c1db1b37a">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE.PUB_SLE_Fact_Sale_Budget</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="3abaa523-5c1b-47d5-b777-6ec8eadf3f5b">
+          <ProactiveCaching dwd:design-time-name="0bb234ce-90ed-489e-86b6-d642c47068cd">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="8b4b6230-2be2-4fc5-96ec-6cc7f512d694" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="c303270b-ea78-473f-9721-bc26ef5958ad" />
           </ProactiveCaching>
           <EstimatedSize>158979</EstimatedSize>
         </Partition>
@@ -144,26 +144,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Return Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="fdbb8d1e-3348-43d9-9be3-cdf163f9ddab">
+        <Partition dwd:design-time-name="3224cea3-e3f1-4124-b655-ccff5361c516">
           <ID>PUB SLE Fact Return Sale</ID>
           <Name>PUB SLE Fact Return Sale</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.85Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.366667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:09.37Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e1ce3f9f-aa97-4b4f-805e-d84fda253c2a">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b4373471-e5b0-430e-94e1-1072c85f3cd7">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE_PUB_SLE_Fact_ReturnSale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="e9164dce-918b-4a4d-9aa5-d0469205526c">
+          <ProactiveCaching dwd:design-time-name="1add393c-a7cf-46e6-95c5-a3ae314358e0">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="120fbea9-1113-4217-ad5c-e74cef87d196" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="cce7090f-d875-4c6e-a1bb-43699cf9ce61" />
           </ProactiveCaching>
           <EstimatedSize>9706850</EstimatedSize>
         </Partition>
@@ -172,26 +172,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Special Discount</ID>
       <Partitions>
-        <Partition dwd:design-time-name="04028373-025c-4a65-ad92-4c2df0bfe428">
+        <Partition dwd:design-time-name="2055f836-c747-4b4e-8032-5eb031f11efa">
           <ID>PUB SLE Fact Special Discount</ID>
           <Name>PUB SLE Fact Special Discount</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.903333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.513333Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:44.566667Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="88da91fe-52e5-4512-96bb-56794a3030c7">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3892983b-e4dd-475a-a3db-137d1be668a7">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_PUB_SLE_Fact_SpecialDiscount</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="0af9c650-4a2f-4a65-ab18-b69f21be8e3b">
+          <ProactiveCaching dwd:design-time-name="efcbfd5b-1577-4048-ba49-58a8241336b0">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="41665a9d-ab51-4773-a4c2-f52f06f07fa0" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="e5257bc9-bce3-41ee-841f-6b6f78b27db7" />
           </ProactiveCaching>
           <EstimatedSize>1911</EstimatedSize>
         </Partition>
@@ -200,26 +200,26 @@
     <MeasureGroup>
       <ID>PUB CRM Fact Print Order</ID>
       <Partitions>
-        <Partition dwd:design-time-name="6f08ada7-9552-4f88-8cca-e14148d663f0">
+        <Partition dwd:design-time-name="6f27c319-8737-40ec-b1ff-2ac49124dc90">
           <ID>PUB CRM Fact Print Order</ID>
           <Name>PUB CRM Fact Print Order</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.923333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.56Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:45.89Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="19cf9d40-d83c-4baa-9702-8817e48076dd">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9c3e148a-c2e6-42d2-a5fd-13e7433e90d3">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_PUB_CRM_Fact_PrintOrder</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="ca08d776-1a83-468d-9e12-278ce365921c">
+          <ProactiveCaching dwd:design-time-name="b2b3cd5b-f5ab-45c6-9d9d-4da26b4022d4">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="a019c79a-c998-4d5b-8888-84924585bca4" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="e9bdfbc8-efc0-4b2f-9791-a857c859be38" />
           </ProactiveCaching>
           <EstimatedSize>1642309</EstimatedSize>
         </Partition>
@@ -228,26 +228,26 @@
     <MeasureGroup>
       <ID>PUB CRM Fact First In Forecast</ID>
       <Partitions>
-        <Partition dwd:design-time-name="818cd853-ee04-4b65-9216-ca572e33b0e1">
+        <Partition dwd:design-time-name="306581d1-3c4d-4300-91c7-8bbae580fd7f">
           <ID>PUB CRM Fact First In Forecast</ID>
           <Name>PUB CRM Fact First In Forecast</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.94Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.606667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:26.52Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7ca8c562-8791-4cac-9a22-051c541583fc">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="2bcb882a-b726-455a-a61f-1d6577d2d4c0">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>PUB_CRM_Fact_FirstInForecast</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="75843f67-d39e-4356-a235-ee2828d297f2">
+          <ProactiveCaching dwd:design-time-name="0d458d31-cc4c-41ad-a767-1d2b386cbb6e">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="cce46e5e-f1d8-4504-a33e-5757080a0349" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="375febb7-6935-4387-b200-8273dce6ce60" />
           </ProactiveCaching>
           <EstimatedSize>21590</EstimatedSize>
         </Partition>
@@ -256,26 +256,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale Request</ID>
       <Partitions>
-        <Partition dwd:design-time-name="42383af4-1bc2-4986-b585-27cd3782f7bd">
+        <Partition dwd:design-time-name="6f763133-af83-460f-af19-a6a5589ce39c">
           <ID>PUB SLE Fact Sale Request</ID>
           <Name>PUB SLE Fact Sale Request</Name>
           <CreatedTimestamp>2020-06-01T03:22:53.043333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.653333Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:33.746667Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="67278a2c-c072-4526-b567-c50ef9237c33">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d5df44f9-8dec-4b23-b1ac-172f1acc4ed9">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE_PUB_SLE_Fact_SaleRequest</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="feda9c28-4d56-4a34-b1a1-27ae400d63ec">
+          <ProactiveCaching dwd:design-time-name="bdfe7726-8a49-4f88-a724-68c6ca1e56f4">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="44540dca-314b-4ad7-92ca-5eea13094f99" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="c4db1b67-c3a8-4bf3-a07d-49a62e43aa06" />
           </ProactiveCaching>
           <EstimatedSize>7463</EstimatedSize>
         </Partition>
@@ -284,26 +284,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale Order</ID>
       <Partitions>
-        <Partition dwd:design-time-name="1f5f3ab4-2837-44cf-919a-1625d9a70d38">
+        <Partition dwd:design-time-name="f658c046-906a-4b36-b5ee-a1ebac1c0ca3">
           <ID>PUB SLE Fact Sale Order</ID>
           <Name>PUB SLE Fact Sale Order</Name>
           <CreatedTimestamp>2020-06-02T07:36:41.036667Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.696667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:28.723333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="dc182156-84c2-4d5d-8a14-6a45683d4a71">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6449cb0b-7271-4890-8bf7-a28b869d19c4">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE_PUB_SLE_Fact_SaleOrder</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="36acd0ea-315e-45f2-b399-22ed7a27a4b4">
+          <ProactiveCaching dwd:design-time-name="917b6917-7814-4105-bfac-43b106c9c8b5">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="894508f7-e72a-46f2-a825-01da8848d045" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="5205302b-8bff-4ddc-bff8-3682ca2e2e60" />
           </ProactiveCaching>
           <EstimatedSize>156</EstimatedSize>
         </Partition>
@@ -312,26 +312,26 @@
     <MeasureGroup>
       <ID>Vw PUB SLE Fact Product Life Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="26a3b572-5b0b-4e1f-bf7f-be6c47a9d575">
+        <Partition dwd:design-time-name="431937eb-1f96-4cd0-9b82-e5e435423664">
           <ID>Vw PUB SLE Fact Product Life Sale</ID>
           <Name>Vw PUB SLE Fact Product Life Sale</Name>
           <CreatedTimestamp>2020-06-10T09:17:27.403333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.743333Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:16.176667Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="50d27cd2-ed0f-4984-8a9c-fdc36ae31795">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c117d52d-9678-4447-932d-0590d53976af">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_Vw_PUB_SLE_Fact_ProductLife_Sale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="e648b861-fb71-415a-b0ba-3b4b5f5bf925">
+          <ProactiveCaching dwd:design-time-name="4530132e-2afa-4fba-9640-dc3adc998ada">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="d2767e51-786b-4124-9d6c-f53d5bbeb8d1" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="00fc759e-641b-4eba-bb47-6b2f5462ce2e" />
           </ProactiveCaching>
           <EstimatedSize>64820</EstimatedSize>
         </Partition>
@@ -340,26 +340,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale 1</ID>
       <Partitions>
-        <Partition dwd:design-time-name="28990efa-b219-4406-9059-4517ad28c69e">
+        <Partition dwd:design-time-name="d5b530fd-be14-4310-9f05-439fc2655353">
           <ID>PUB SLE Fact Sale</ID>
           <Name>PUB SLE Fact Sale</Name>
           <CreatedTimestamp>2020-10-24T12:43:18.283333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.99Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:27.546667Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5740d6d9-7158-4698-b13c-b02b252d3baa">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d3014ec7-61a0-44ee-8083-83bade18f531">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="466b585c-ba72-4af4-847f-958b43de702a">
+          <ProactiveCaching dwd:design-time-name="15ae7375-c8bd-4838-a782-256a3c4e0a76">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="6490af42-801b-4015-aa62-63854c964ab7" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="7d7bd86e-a353-4bf2-a7fc-c05c5a76d94c" />
           </ProactiveCaching>
           <EstimatedSize>33552534</EstimatedSize>
         </Partition>
@@ -368,26 +368,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale Target Total</ID>
       <Partitions>
-        <Partition dwd:design-time-name="d29aa09c-940a-4583-81ed-6caef1f2596c">
+        <Partition dwd:design-time-name="5a5a7862-b948-4126-b1bd-f55537cd6d8e">
           <ID>PUB SLE Fact Sale Target Total</ID>
           <Name>PUB SLE Fact Sale Target Total</Name>
           <CreatedTimestamp>2020-11-17T07:03:54.803333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:47.043333Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:14:49.766667Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="05bd40f0-f91c-4017-99ac-08c577b564bc">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4b08d433-52f2-4b02-8eb5-482e9206d68b">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_PUB_SLE_Fact_SaleTargetTotal</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="0e7e2a45-7b8a-44b5-9fe1-60bdbec7aebc">
+          <ProactiveCaching dwd:design-time-name="735761e9-af5d-4a3a-ac6c-1a8ed9ce82a9">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="ce0fc60c-3483-436d-9800-be5bdc0169f0" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="f6c18ed8-0d0a-489c-9e5a-ebdbfee1bcb8" />
           </ProactiveCaching>
           <EstimatedSize>15501468</EstimatedSize>
         </Partition>
@@ -396,26 +396,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale Target Month Now</ID>
       <Partitions>
-        <Partition dwd:design-time-name="8cefc164-9e89-4a32-a6e7-57a8c942b1ab">
+        <Partition dwd:design-time-name="9d41d8c7-f8b6-4633-8fae-beb26d7d3536">
           <ID>PUB SLE Fact Sale Target Month Now</ID>
           <Name>PUB SLE Fact Sale Target Month Now</Name>
           <CreatedTimestamp>2020-11-17T07:03:54.816667Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:47.1Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:08.823333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="52a26ccc-e5a1-47c3-be5c-bc83a61ca4ae">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a9f16a9d-22e0-4af3-b2ea-b7f2e7129eda">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_PUB_SLE_Fact_SaleTarget_MonthNow</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="b8811cc4-c653-47eb-9a5a-5d8c2b9dda62">
+          <ProactiveCaching dwd:design-time-name="208f82b9-3ff1-4569-8209-014808c01299">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="1e8a0f37-28b2-4760-92c6-6620060a8734" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="7faab937-caf7-4d16-828b-a46e29cbe111" />
           </ProactiveCaching>
           <EstimatedSize>4155096</EstimatedSize>
         </Partition>
@@ -424,26 +424,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale Target Total Til Begin Of Current Mont</ID>
       <Partitions>
-        <Partition dwd:design-time-name="ad3e98ce-754c-4428-8508-36c93bae83f1">
+        <Partition dwd:design-time-name="0e59bed1-6a0b-413b-b877-a44f4697e9ea">
           <ID>PUB SLE Fact Sale Target Total Til Begin Of Current Mont</ID>
           <Name>PUB SLE Fact Sale Target Total Til Begin Of Current Mont</Name>
           <CreatedTimestamp>2020-11-17T07:03:54.83Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:47.146667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:14:54.343333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8855ed67-b769-4aa1-b7a6-22bfae627ef0">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="949e1659-c146-40bc-8996-9657632edb39">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>PUB_SLE_Fact_SaleTargetTotal_TilBeginOfCurrentMont</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="14fae4a1-a5db-41d9-ba0a-a292c86e1403">
+          <ProactiveCaching dwd:design-time-name="97a06aaf-abb4-45a3-b118-11c1666fb183">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="9163dc14-6621-4f5e-b7cc-4079ebe9dace" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="4289c792-2644-4218-a7cc-79d4bd5aff20" />
           </ProactiveCaching>
           <EstimatedSize>17240199</EstimatedSize>
         </Partition>
@@ -452,26 +452,26 @@
     <MeasureGroup>
       <ID>Vw PUB SLE Fact Product First Month And AVG Net Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="0e246f8d-9726-4ab1-bb98-0f11745a9e42">
+        <Partition dwd:design-time-name="aab97735-2d35-4d45-a5e9-db1df19aaafd">
           <ID>Vw PUB SLE Fact Product First Month And AVG Net Sale</ID>
           <Name>Vw PUB SLE Fact Product First Month And AVG Net Sale</Name>
           <CreatedTimestamp>2021-11-07T12:07:47.19Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:47.233333Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:43.736667Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="2d7c35bd-d8d2-43e5-ae4c-cac6624cebdb">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d64ab1fc-a0d6-4c4e-a742-b8453d736a18">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_Vw_PUB_SLE_Fact_ProductFirstMonthAndAVGNetSale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="105ea0b2-151d-45a5-9eca-ddf90d41669a">
+          <ProactiveCaching dwd:design-time-name="765c1d1a-683b-4da2-a5e2-58e4cc7950f5">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="ec1f6b0a-51e9-4c3d-87ce-a490b86e66d0" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="86a4c896-aba4-4922-ba5b-dd8ba7e7dcc0" />
           </ProactiveCaching>
           <EstimatedSize>813124</EstimatedSize>
         </Partition>
@@ -480,14 +480,14 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Daily Target Discount</ID>
       <Partitions>
-        <Partition dwd:design-time-name="1c54a011-354c-4172-95a0-37b948f76ea7">
+        <Partition dwd:design-time-name="8ed53613-a875-45a1-be0a-b634d1a5d8a3">
           <ID>PUB SLE Fact Daily Target Discount</ID>
           <Name>PUB SLE Fact Daily Target Discount</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0499d7c7-e534-4071-b3f6-4d9872a77b24">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5e64d352-2316-46ad-910c-ed32e313ff3f">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>PUB_SLE_Fact_Daily_Target_Discount</TableID>
           </Source>
@@ -500,14 +500,14 @@
     <MeasureGroup>
       <ID>Vw PUB SLE Fact Return Sale Tax</ID>
       <Partitions>
-        <Partition dwd:design-time-name="5b51c9da-b75e-4752-98d6-6e5368e72e3b">
+        <Partition dwd:design-time-name="d8377244-462d-4b49-a96d-b4d639306ed5">
           <ID>Vw PUB SLE Fact Return Sale Tax</ID>
           <Name>Vw PUB SLE Fact Return Sale Tax</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7603440c-9294-40ef-a50e-1112cc4f6ab7">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3bc1cde0-1883-4ab1-ba71-e8276eb2e813">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_Vw_PUB_SLE_Fact_ReturnSaleTax</TableID>
           </Source>
@@ -520,14 +520,14 @@
     <MeasureGroup>
       <ID>Vw PUB SLE Fact Sale For Discount</ID>
       <Partitions>
-        <Partition dwd:design-time-name="c6a8b2ba-f6fd-4127-b88c-7271c43f5018">
+        <Partition dwd:design-time-name="f9df2ca4-3b87-4d50-b560-e0470480718a">
           <ID>Vw PUB SLE Fact Sale For Discount</ID>
           <Name>Vw PUB SLE Fact Sale For Discount</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5a1bf970-f21c-4ac5-a087-080967616643">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7822d653-6bfc-4dce-98f0-7deb5717d441">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_Vw_PUB_SLE_Fact_Sale_ForDiscount</TableID>
           </Source>
@@ -540,14 +540,14 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Gifts Sale For Discount</ID>
       <Partitions>
-        <Partition dwd:design-time-name="3d568fd8-3aa8-4c8a-a74e-2f98ddfbe420">
+        <Partition dwd:design-time-name="eb3bee92-eece-4f19-806d-2be6d27707d3">
           <ID>PUB SLE Fact Gifts Sale For Discount</ID>
           <Name>PUB SLE Fact Gifts Sale For Discount</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ccb6053e-8b12-4c1e-8f78-b49536f0f6ce">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9afe54ac-dda0-4d64-bd48-287c32a7eff7">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>PUB_SLE_Fact_GiftsSaleForDiscount</TableID>
           </Source>
@@ -560,14 +560,14 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Gifts Return Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="65b4ae5f-4a73-42c6-8f48-698e638dd14b">
+        <Partition dwd:design-time-name="a444b21d-f2e9-4da0-884e-471fe9cb96b4">
           <ID>PUB SLE Fact Gifts Return Sale</ID>
           <Name>PUB SLE Fact Gifts Return Sale</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="43e10ff5-b27c-4a37-8233-53f9a9467ae5">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d0a0af14-8a7e-42da-9015-06c45d121115">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>PUB_SLE_Fact_GiftsReturnSale</TableID>
           </Source>
@@ -580,14 +580,14 @@
     <MeasureGroup>
       <ID>Vw PUB SLE Fact Sale For Discount Gift</ID>
       <Partitions>
-        <Partition dwd:design-time-name="b7e8fbe9-fd2a-4c32-ba76-af867d23b01e">
+        <Partition dwd:design-time-name="2f7fe30d-fb46-4838-9690-703f0f833445">
           <ID>Vw PUB SLE Fact Sale For Discount Gift</ID>
           <Name>Vw PUB SLE Fact Sale For Discount Gift</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a644572c-c850-49fa-988b-fc3e63f28018">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7eae124f-c947-4685-a28d-72ed905fe6f1">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>Vw_PUB_SLE_Fact_Sale_ForDiscountGift</TableID>
           </Source>
@@ -600,14 +600,14 @@
     <MeasureGroup>
       <ID>Vw PUB SLE Fact Product Life Return Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="44bf3239-82c7-490e-a897-ba6d9f1ec0c7">
+        <Partition dwd:design-time-name="502daaac-734e-498a-b1a5-b158ffe3eb49">
           <ID>Vw PUB SLE Fact Product Life Return Sale</ID>
           <Name>Vw PUB SLE Fact Product Life Return Sale</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0eecd1e6-c5d1-4501-8cc5-90922ca360a4">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="cb861b32-5a33-419e-bdd6-56b7568ffdbd">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_Vw_PUB_SLE_Fact_ProductLife_ReturnSale</TableID>
           </Source>
@@ -620,26 +620,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale 4</ID>
       <Partitions>
-        <Partition dwd:design-time-name="ad7f7743-d1a7-4f55-952d-91b8cfae56aa">
+        <Partition dwd:design-time-name="a17ee521-c936-4a05-9325-48b3bf0007c0">
           <ID>PUB SLE Fact Sale</ID>
           <Name>PUB SLE Fact Sale</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.646667Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.646667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:59.623333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="016b8977-93aa-41c4-9f9a-d3faf3cbf654">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="50b92a55-c27c-440f-9e5d-327bc1af9a0c">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="985bc3c7-2559-443f-b333-245285aed1d6">
+          <ProactiveCaching dwd:design-time-name="b7ce9e4b-73e5-45e5-af28-962ae40478df">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="7c2fead5-3d20-48c2-a071-89d1c87fc95d" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="e463e492-1d1d-42a0-a984-9f3645d7bb21" />
           </ProactiveCaching>
           <EstimatedSize>118150126</EstimatedSize>
         </Partition>
@@ -648,26 +648,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale 2</ID>
       <Partitions>
-        <Partition dwd:design-time-name="60829d32-0596-4189-b243-a437b3912274">
+        <Partition dwd:design-time-name="6ee5f2a3-f4c3-4a68-9edc-d7047b1a76ab">
           <ID>PUB SLE Fact Sale</ID>
           <Name>PUB SLE Fact Sale</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.646667Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.646667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:59.623333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="11478200-eacc-42b6-b76f-50c6a4dfd36b">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9d752564-8fcd-4312-9294-5d4e2b56e2fc">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="c0fa2485-b19a-4d03-b296-77fe4bfcfa7e">
+          <ProactiveCaching dwd:design-time-name="7dcf45f1-e6d9-4eca-92f4-20611600a20f">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="10d319d3-00f9-4810-a816-f6539c5f7752" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="8b341ebd-9bf4-4fc3-9a85-3b1fe9cc868a" />
           </ProactiveCaching>
           <EstimatedSize>118150126</EstimatedSize>
         </Partition>
@@ -676,26 +676,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale 3</ID>
       <Partitions>
-        <Partition dwd:design-time-name="a1533e54-f366-44b0-b535-f88212715ad4">
+        <Partition dwd:design-time-name="1833eb22-9cd3-48f1-88c4-1d056cc84daa">
           <ID>PUB SLE Fact Sale</ID>
           <Name>PUB SLE Fact Sale</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.646667Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.646667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:59.623333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3c446df7-c35e-4288-b79e-d83170ce74a7">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f85d090a-9832-460b-ad35-3063fa6e374a">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="5c3a7026-eb7c-458e-865f-4a6914cac4a2">
+          <ProactiveCaching dwd:design-time-name="000642a5-c7f4-40d5-9e42-8f5618a2b4f4">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="002981a9-a37a-48e0-a350-8f3f99c58ee7" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="c8ca1441-5fb7-4b8d-9dd4-72809fcbe61f" />
           </ProactiveCaching>
           <EstimatedSize>118150126</EstimatedSize>
         </Partition>
@@ -704,26 +704,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale 5</ID>
       <Partitions>
-        <Partition dwd:design-time-name="02143091-26d3-48c4-a9fa-4bc7849be14c">
+        <Partition dwd:design-time-name="58c1e8ef-58e8-4aa8-8625-fd76218c6032">
           <ID>PUB SLE Fact Sale</ID>
           <Name>PUB SLE Fact Sale</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.646667Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.646667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:59.623333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c1feeff6-38b1-4c50-a899-cafeb223938f">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="742905c4-4495-444e-ba9f-9c055fc3b473">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="cf21c752-f20c-42b3-ab60-8ae215bff301">
+          <ProactiveCaching dwd:design-time-name="c7421325-c6ba-4e9d-b9d3-7e70d0e5a283">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="af9ff5a8-12e3-4ced-ab1b-60c1ced34e0f" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="fab0ff6d-c5ea-4650-affa-956751bc2853" />
           </ProactiveCaching>
           <EstimatedSize>118150126</EstimatedSize>
         </Partition>
@@ -732,14 +732,14 @@
     <MeasureGroup>
       <ID>Vw PUB SLE Calc New Product</ID>
       <Partitions>
-        <Partition dwd:design-time-name="fa318021-b112-40c0-8e83-5a531b108074">
+        <Partition dwd:design-time-name="2ab5ef08-13be-495b-bc0c-8758724f9884">
           <ID>Vw PUB SLE Calc New Product</ID>
           <Name>Vw PUB SLE Calc New Product</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="2cc7cad1-d986-4edc-b4a0-929430a07e71">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6f793e0e-7158-4b7b-9221-a6b697a7d637">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>Vw_PUB_SLE_Calc_NewProduct</TableID>
           </Source>
@@ -752,20 +752,76 @@
     <MeasureGroup>
       <ID>Vw PUB SLE Fact Sale New Customer</ID>
       <Partitions>
-        <Partition dwd:design-time-name="763a9ea9-b791-4247-9050-0faafb229a53">
+        <Partition dwd:design-time-name="0c9f7bb5-d314-4bb3-8fe6-dc6c1880b70b">
           <ID>Vw PUB SLE Fact Sale New Customer</ID>
           <Name>Vw PUB SLE Fact Sale New Customer</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4d89fb64-88ed-46a0-95c6-e453330c3472">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0b50ecd8-0297-4e70-842e-04f1f799be64">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>Vw_PUB_SLE_Fact_SaleNewCustomer</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>PUB SLE Fact Sale 6</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="801f9b71-ced3-43d8-a588-d495628ff067">
+          <ID>PUB SLE Fact Sale</ID>
+          <Name>PUB SLE Fact Sale</Name>
+          <CreatedTimestamp>2020-02-29T07:25:11.646667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2022-02-21T14:57:45.646667Z</LastSchemaUpdate>
+          <LastProcessed>2022-02-22T03:15:59.623333Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b4fdb907-1193-43fa-9a35-23dfe0b0f45a">
+            <DataSourceViewID>SABZDW</DataSourceViewID>
+            <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="1f3c5ba2-3fb7-4157-aa20-bce768b40be3">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="4a8fd687-ec01-4f30-a37a-6ddb947b4d48" />
+          </ProactiveCaching>
+          <EstimatedSize>118150126</EstimatedSize>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>PUB SLE Fact Sale 7</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="f9cec5d4-4f4e-440e-9d55-63ff9dd642dc">
+          <ID>PUB SLE Fact Sale</ID>
+          <Name>PUB SLE Fact Sale</Name>
+          <CreatedTimestamp>2020-02-29T07:25:11.646667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2022-02-21T14:57:45.646667Z</LastSchemaUpdate>
+          <LastProcessed>2022-02-22T03:15:59.623333Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0076368a-42aa-45a6-8b39-438618d3bf57">
+            <DataSourceViewID>SABZDW</DataSourceViewID>
+            <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="664177c1-2062-4562-9bd7-fb3977484e8f">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="d41a829f-8d4e-4488-82f8-209e3f0f33a1" />
+          </ProactiveCaching>
+          <EstimatedSize>118150126</EstimatedSize>
         </Partition>
       </Partitions>
     </MeasureGroup>
