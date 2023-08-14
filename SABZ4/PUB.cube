@@ -38198,13 +38198,20 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Rate  Aggregation]
            [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year]
             ,
           [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember)
-            ,[Measures].[Vw PUB SLE Fact Sale For Discount - Special Discount Value Tashim]        
-            +[Measures].[Vw PUB SLE Fact Sale For Discount - Sub Value]
-            -[Measures].[Vw PUB SLE Fact Sale For Discount - Sub Gift Only]
-			             
--[Measures].[Vw PUB SLE Fact Sale For Discount - Sub Watage]
-- [Measures].[Vw PUB SLE Fact Sale For Discount - Sub Raw Material]
--[Measures].[PUB SLE Fact Net Sale Tax] 
+            ,iif([PUB SLE Dim Sales Organization].[Sales Organization Id].currentmember is [PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[4] or [PUB SLE Dim Sales Organization].[Sales Organization Id].currentmember is [PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[8]
+,(([Measures].[PUB SLE Fact Sale Special Discount Value Tashim With Organization Filter]        
+            +[Measures].[PUB SLE Fact Net Sale Sub Value For Discount]
+            +[Measures].[PUB SLE Fact Net Sale Sub Gift Only For Discount]
++[Measures].[PUB SLE Fact Net Sale Sub Watage For Discount]
++ [Measures].[PUB SLE Fact Net Sale Sub Raw Material For Discount]
++[Measures].[PUB SLE Fact Discount Sale Policy])*-1)
+,([Measures].[PUB SLE Fact Sale Special Discount Value Tashim With Organization Filter]        
+            +[Measures].[PUB SLE Fact Net Sale Sub Value For Discount]
+            +[Measures].[PUB SLE Fact Net Sale Sub Gift Only For Discount]
++[Measures].[PUB SLE Fact Net Sale Sub Watage For Discount]
++ [Measures].[PUB SLE Fact Net Sale Sub Raw Material For Discount]
++[Measures].[PUB SLE Fact Discount Sale Policy])
+)
         )
     ,    
             sum(
@@ -38212,19 +38219,28 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Rate  Aggregation]
             [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year]
             ,
             [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember)
-            ,[Measures].[PUB SLE Fact Net Sale For Discount]
-            +[Measures].[Vw PUB SLE Fact Sale For Discount - Special Discount Value Tashim]  
-            +[Measures].[Vw PUB SLE Fact Sale For Discount - Sub Value]
-			-[Measures].[Vw PUB SLE Fact Sale For Discount - Value Gift Only]
--[Measures].[Vw PUB SLE Fact Sale For Discount - Value Watage]
-- [Measures].[Vw PUB SLE Fact Sale For Discount - Value Raw Material]
--[Measures].[PUB SLE Fact Net Sale Tax]
+            ,
+iif([PUB SLE Dim Sales Organization].[Sales Organization Id].currentmember is [PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[4] or [PUB SLE Dim Sales Organization].[Sales Organization Id].currentmember is [PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[8]
+,((([Measures].[PUB SLE Fact Sale Special Discount Value Tashim With Organization Filter]     
+            +[Measures].[PUB SLE Fact Net Sale Sub Value For Discount]
+            +[Measures].[PUB SLE Fact Net Sale Sub Gift Only For Discount SubFraction]
++[Measures].[PUB SLE Fact Net Sale Sub Watage For Discount SubFraction]
++ [Measures].[PUB SLE Fact Net Sale Sub Raw Material For Discount SubFraction])*-1)
++[Measures].[PUB SLE Fact Net Sale For Discount])
+,([Measures].[PUB SLE Fact Sale Special Discount Value Tashim With Organization Filter]     
+            +[Measures].[PUB SLE Fact Net Sale Sub Value For Discount]
+            +[Measures].[PUB SLE Fact Net Sale Sub Gift Only For Discount SubFraction]
++[Measures].[PUB SLE Fact Net Sale Sub Watage For Discount SubFraction]
++ [Measures].[PUB SLE Fact Net Sale Sub Raw Material For Discount SubFraction]
++[Measures].[PUB SLE Fact Net Sale For Discount]
+)
+)
      )
     ,
         0
  ), 
 FORMAT_STRING = "#,##0.00%;-#,##0.00%", 
-VISIBLE = 1;                                                                                      
+VISIBLE = 1  ;                                                                                      
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Rate PrevYear-1 Aggregation]
  AS (
 [Measures].[PUB SLE FACT Discount Rate  Aggregation]
@@ -38244,12 +38260,21 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Rate Fiscal Year 4 A
            [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].[Fiscal Year 4]
             ,
          [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember)
-            ,[Measures].[Vw PUB SLE Fact Sale For Discount - Special Discount Value Tashim]        
-            +[Measures].[Vw PUB SLE Fact Sale For Discount - Sub Value]
-            -[Measures].[Vw PUB SLE Fact Sale For Discount - Sub Gift Only]
--[Measures].[Vw PUB SLE Fact Sale For Discount - Sub Watage]
-- [Measures].[Vw PUB SLE Fact Sale For Discount - Sub Raw Material]
--[Measures].[PUB SLE Fact Net Sale Tax] 
+            ,
+iif([PUB SLE Dim Sales Organization].[Sales Organization Id].currentmember is [PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[4] or [PUB SLE Dim Sales Organization].[Sales Organization Id].currentmember is [PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[8]
+,(([Measures].[PUB SLE Fact Sale Special Discount Value Tashim With Organization Filter]        
+            +[Measures].[PUB SLE Fact Net Sale Sub Value For Discount]
+            +[Measures].[PUB SLE Fact Net Sale Sub Gift Only For Discount]
++[Measures].[PUB SLE Fact Net Sale Sub Watage For Discount]
++ [Measures].[PUB SLE Fact Net Sale Sub Raw Material For Discount]
++[Measures].[PUB SLE Fact Discount Sale Policy])*-1)
+,([Measures].[PUB SLE Fact Sale Special Discount Value Tashim With Organization Filter]        
+            +[Measures].[PUB SLE Fact Net Sale Sub Value For Discount]
+            +[Measures].[PUB SLE Fact Net Sale Sub Gift Only For Discount]
++[Measures].[PUB SLE Fact Net Sale Sub Watage For Discount]
++ [Measures].[PUB SLE Fact Net Sale Sub Raw Material For Discount]
++[Measures].[PUB SLE Fact Discount Sale Policy])
+)
         )
     ,    
             sum(
@@ -38257,19 +38282,28 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Rate Fiscal Year 4 A
             [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].[Fiscal Year 4]
             ,
             [GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week - Date].currentmember)
-            ,[Measures].[PUB SLE Fact Net Sale For Discount]
-            +[Measures].[Vw PUB SLE Fact Sale For Discount - Special Discount Value Tashim]  
-            +[Measures].[Vw PUB SLE Fact Sale For Discount - Sub Value]
-			-[Measures].[Vw PUB SLE Fact Sale For Discount - Value Gift Only]
--[Measures].[Vw PUB SLE Fact Sale For Discount - Value Watage]
-- [Measures].[Vw PUB SLE Fact Sale For Discount - Value Raw Material]
--[Measures].[PUB SLE Fact Net Sale Tax]
+            ,
+iif([PUB SLE Dim Sales Organization].[Sales Organization Id].currentmember is [PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[4] or [PUB SLE Dim Sales Organization].[Sales Organization Id].currentmember is [PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[8]
+,((([Measures].[PUB SLE Fact Sale Special Discount Value Tashim With Organization Filter]     
+            +[Measures].[PUB SLE Fact Net Sale Sub Value For Discount]
+            +[Measures].[PUB SLE Fact Net Sale Sub Gift Only For Discount SubFraction]
++[Measures].[PUB SLE Fact Net Sale Sub Watage For Discount SubFraction]
++ [Measures].[PUB SLE Fact Net Sale Sub Raw Material For Discount SubFraction])*-1)
++[Measures].[PUB SLE Fact Net Sale For Discount])
+,([Measures].[PUB SLE Fact Sale Special Discount Value Tashim With Organization Filter]     
+            +[Measures].[PUB SLE Fact Net Sale Sub Value For Discount]
+            +[Measures].[PUB SLE Fact Net Sale Sub Gift Only For Discount SubFraction]
++[Measures].[PUB SLE Fact Net Sale Sub Watage For Discount SubFraction]
++ [Measures].[PUB SLE Fact Net Sale Sub Raw Material For Discount SubFraction]
++[Measures].[PUB SLE Fact Net Sale For Discount]
+)
+)
      )
     ,
         0
  ), 
 FORMAT_STRING = "#,##0.00%;-#,##0.00%", 
-VISIBLE = 1;                                                                                      
+VISIBLE = 1  ;                                                                                      
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Rate PrevYear-1 Fiscal Year 4 Aggregation]
  AS (
 [Measures].[PUB SLE FACT Discount Rate Fiscal Year 4 Aggregation]
