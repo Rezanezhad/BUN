@@ -10466,7 +10466,7 @@
     <MeasureGroup dwd:design-time-name="820d3393-79a4-4237-8ce9-0df7407f6815">
       <ID>PUB SLE Fact Gifts Sale</ID>
       <Name>PUB SLE Fact Gifts Sale</Name>
-      <CreatedTimestamp>2020-06-01T04:22:45.633333Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-06-01T03:22:45.633333Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:45.76Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:44.653333Z</LastProcessed>
       <State>Processed</State>
@@ -19664,7 +19664,7 @@
     <MeasureGroup dwd:design-time-name="900c7ba3-d6b2-4ca2-b32b-afde66e11609">
       <ID>PUB SLE Fact Sale Request</ID>
       <Name>PUB SLE Fact Sale Request</Name>
-      <CreatedTimestamp>2020-06-01T04:22:53.036667Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-06-01T03:22:53.036667Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:46.636667Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:44.51Z</LastProcessed>
       <State>Processed</State>
@@ -20407,7 +20407,7 @@
     <MeasureGroup dwd:design-time-name="c2928360-e827-44ad-b861-3c1c55712391">
       <ID>PUB SLE Fact Sale Order</ID>
       <Name>PUB SLE Fact Sale Order</Name>
-      <CreatedTimestamp>2020-06-02T08:36:41.03Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-06-02T07:36:41.03Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:46.68Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:44.503333Z</LastProcessed>
       <State>Processed</State>
@@ -21352,7 +21352,7 @@
     <MeasureGroup dwd:design-time-name="1d047349-d1c6-43c3-9aa9-ab06a8999c41">
       <ID>Vw PUB SLE Fact Product Life Sale</ID>
       <Name>Vw PUB SLE Fact Product Life Sale</Name>
-      <CreatedTimestamp>2020-06-10T10:17:27.4Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-06-10T09:17:27.4Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:46.723333Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:15:16.186667Z</LastProcessed>
       <State>Processed</State>
@@ -38111,14 +38111,23 @@ abs([Measures].[Vw PUB SLE Fact Return Sale Tax - Tax Value]),
 FORMAT_STRING = "#,##;-#,##", 
 VISIBLE = 1;                                                                                                                                                          
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Net Sales Value]
- AS [Measures].[PUB SLE Fact Sale Special Discount Value Tashim With Organization Filter]     
+ AS iif([PUB SLE Dim Sales Organization].[Sales Organization Id].currentmember is [PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[4] or [PUB SLE Dim Sales Organization].[Sales Organization Id].currentmember is [PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[8]
+,((([Measures].[PUB SLE Fact Sale Special Discount Value Tashim With Organization Filter]     
+            +[Measures].[PUB SLE Fact Net Sale Sub Value For Discount]
+            +[Measures].[PUB SLE Fact Net Sale Sub Gift Only For Discount SubFraction]
++[Measures].[PUB SLE Fact Net Sale Sub Watage For Discount SubFraction]
++ [Measures].[PUB SLE Fact Net Sale Sub Raw Material For Discount SubFraction])*-1)
++[Measures].[PUB SLE Fact Net Sale For Discount])
+,([Measures].[PUB SLE Fact Sale Special Discount Value Tashim With Organization Filter]     
             +[Measures].[PUB SLE Fact Net Sale Sub Value For Discount]
             +[Measures].[PUB SLE Fact Net Sale Sub Gift Only For Discount SubFraction]
 +[Measures].[PUB SLE Fact Net Sale Sub Watage For Discount SubFraction]
 + [Measures].[PUB SLE Fact Net Sale Sub Raw Material For Discount SubFraction]
-+[Measures].[PUB SLE Fact Net Sale For Discount], 
++[Measures].[PUB SLE Fact Net Sale For Discount]
+)
+), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                        
+VISIBLE = 1  ;                                                                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Net Sale For Discount]
  AS iif([PUB SLE Dim Sales Organization].[Sales Organization Id].currentmember is [PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[2]
 ,
@@ -38140,14 +38149,22 @@ CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Net Sale For Discount]
 FORMAT_STRING = "#,##;-#,##", 
 VISIBLE = 1;                                                                                                                                                          
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Value]
- AS [Measures].[PUB SLE Fact Sale Special Discount Value Tashim With Organization Filter]        
+ AS iif([PUB SLE Dim Sales Organization].[Sales Organization Id].currentmember is [PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[4] or [PUB SLE Dim Sales Organization].[Sales Organization Id].currentmember is [PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[8]
+,(([Measures].[PUB SLE Fact Sale Special Discount Value Tashim With Organization Filter]        
             +[Measures].[PUB SLE Fact Net Sale Sub Value For Discount]
             +[Measures].[PUB SLE Fact Net Sale Sub Gift Only For Discount]
 +[Measures].[PUB SLE Fact Net Sale Sub Watage For Discount]
 + [Measures].[PUB SLE Fact Net Sale Sub Raw Material For Discount]
-+[Measures].[PUB SLE Fact Discount Sale Policy], 
++[Measures].[PUB SLE Fact Discount Sale Policy])*-1)
+,([Measures].[PUB SLE Fact Sale Special Discount Value Tashim With Organization Filter]        
+            +[Measures].[PUB SLE Fact Net Sale Sub Value For Discount]
+            +[Measures].[PUB SLE Fact Net Sale Sub Gift Only For Discount]
++[Measures].[PUB SLE Fact Net Sale Sub Watage For Discount]
++ [Measures].[PUB SLE Fact Net Sale Sub Raw Material For Discount]
++[Measures].[PUB SLE Fact Discount Sale Policy])
+), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                                                      
+VISIBLE = 1  ;                                                                                                                                                                      
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE FACT Discount Rate]
  AS Divide
         (
