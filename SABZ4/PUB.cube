@@ -10451,7 +10451,7 @@
     <MeasureGroup dwd:design-time-name="0a041cc2-2f53-45f3-a41f-1f4f9279dbac">
       <ID>PUB SLE Fact Gifts Sale</ID>
       <Name>PUB SLE Fact Gifts Sale</Name>
-      <CreatedTimestamp>2020-06-01T03:22:45.633333Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-06-01T04:22:45.633333Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:45.76Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:44.653333Z</LastProcessed>
       <State>Processed</State>
@@ -19649,7 +19649,7 @@
     <MeasureGroup dwd:design-time-name="39ef1fa8-837f-4728-afc8-73b62fcef0ae">
       <ID>PUB SLE Fact Sale Request</ID>
       <Name>PUB SLE Fact Sale Request</Name>
-      <CreatedTimestamp>2020-06-01T03:22:53.036667Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-06-01T04:22:53.036667Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:46.636667Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:44.51Z</LastProcessed>
       <State>Processed</State>
@@ -20392,7 +20392,7 @@
     <MeasureGroup dwd:design-time-name="c804510c-8f0a-460e-8e83-30a091719237">
       <ID>PUB SLE Fact Sale Order</ID>
       <Name>PUB SLE Fact Sale Order</Name>
-      <CreatedTimestamp>2020-06-02T07:36:41.03Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-06-02T08:36:41.03Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:46.68Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:44.503333Z</LastProcessed>
       <State>Processed</State>
@@ -21337,7 +21337,7 @@
     <MeasureGroup dwd:design-time-name="cd7d617b-092f-4a97-8203-1dc8f4770a16">
       <ID>Vw PUB SLE Fact Product Life Sale</ID>
       <Name>Vw PUB SLE Fact Product Life Sale</Name>
-      <CreatedTimestamp>2020-06-10T09:17:27.4Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-06-10T10:17:27.4Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:46.723333Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:15:16.186667Z</LastProcessed>
       <State>Processed</State>
@@ -37784,9 +37784,7 @@ FORMAT_STRING = "#,##;-#,##",
 VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی';                                                                                                                                                                                                      
                                                                                                           
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Value Aggregation By Year]
- AS Sum(PeriodstoDate([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year],
-                    [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].CurrentMember)
-,[Measures].[PUB SLE Fact Net Sale For Discount]), 
+ AS [Measures].[PUB SLE Fact Sale Value Aggregation By Year]-[Measures].[PUB SLE Fact Return Sale Value Aggregation By Year]-[Measures].[PUB SLE Fact Speicial Discount Value Aggregation], 
 FORMAT_STRING = "#,##;-#,##", 
 VISIBLE = 1 ,  DISPLAY_FOLDER = 'فروش ریالی'  ;                                                                                                                                                                                                                
                                                                                                                                                                                           
