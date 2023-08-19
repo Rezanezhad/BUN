@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="61212b56-2b2e-4c70-8642-6020d3e2b6b7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dae6a499-34e6-4c79-a5c5-bd9470fb5849" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>View PUB GNR Dim Product Price</ID>
   <Name>View PUB GNR Dim Product Price</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -68,56 +68,56 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="2c24deb0-2452-4f61-9cd7-c7cceec43d92">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c43f7408-e892-4d61-b19f-493c53dac22a">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="14d839ff-2887-44c1-96ba-b800311a6934">
+  <ErrorConfiguration dwd:design-time-name="ca689b3c-a931-4120-a18f-af5792daaac0">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="398bbb73-d47e-4ad5-9d07-97faef996b2a">
+    <Attribute dwd:design-time-name="e617cbd7-e7dc-49b2-b6a8-16c827ef413c">
       <ID>Product Id</ID>
       <Name>Product Id</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="251d9f25-9360-425f-badf-1e020f2feabb">
+        <KeyColumn dwd:design-time-name="25ecea6a-0e8b-48f1-9721-512af4384e6c">
           <DataType>BigInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9c11f7c7-c3dd-4adf-a377-2ed60e3f73c3">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="690ea121-b8cc-4f2d-b6be-b502ef236ab5">
             <TableID>View_PUB_GNR_Dim_ProductPrice</TableID>
             <ColumnID>Product_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="ea08fd18-0c15-4764-94ab-515596e129de">
+      <NameColumn dwd:design-time-name="7f14a4fa-fa04-4c43-867c-c00beebf143f">
         <DataType>WChar</DataType>
         <DataSize>200</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="9c2a452a-e07e-4096-b6e8-3abddb61eb73">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="04a6e39d-26f5-4e66-9a33-7ce78080b20a">
           <TableID>View_PUB_GNR_Dim_ProductPrice</TableID>
           <ColumnID>Product_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="cabc5d55-3ea9-4e28-a867-a10a44bdb2b2">
+        <Translation dwd:design-time-name="b01e366b-7988-463c-8c7c-8a6bb1c1fcbb">
           <Language>1065</Language>
           <Caption>عنوان محصول</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="bf76d1c9-9bfb-44bd-b140-5b9524d06d4c">
+        <AttributeRelationship dwd:design-time-name="252b857b-7f9e-49b3-9360-81ac75c88d95">
           <AttributeID>Unit Title</AttributeID>
           <Name>Unit Title</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="5b02fd29-887c-4bea-80e8-76f388695c0c">
+        <AttributeRelationship dwd:design-time-name="cfb67427-1a01-4672-be08-2d60c0b8ab61">
           <AttributeID>Status</AttributeID>
           <Name>Status</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="db86d38c-98c0-4990-bfb1-b5bf77adaec6">
+        <AttributeRelationship dwd:design-time-name="4e19a959-8567-4e3e-a27e-e4a53b4236ef">
           <AttributeID>Product Group Title</AttributeID>
           <Name>Product Group Title</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="aff591b1-14a2-427c-be3d-ad2650c8ac93">
+        <AttributeRelationship dwd:design-time-name="ff86da6a-a32d-4bbd-bc3c-8443be3d7979">
           <AttributeID>Date Id</AttributeID>
           <Name>Date Id</Name>
         </AttributeRelationship>
@@ -125,21 +125,21 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="464ea85a-b704-48a5-81a7-d38ff32014b1">
+    <Attribute dwd:design-time-name="27060804-249f-4ce3-abba-0e0d3a82b6a9">
       <ID>Unit Title</ID>
       <Name>Unit Title</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0e9f1347-dde5-4aac-a253-fe304d7c2818">
+        <KeyColumn dwd:design-time-name="e53be7b6-1f24-49b3-91fe-ba8a1acef67f">
           <DataType>WChar</DataType>
           <DataSize>256</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="89236375-d322-41c5-96b6-951606616092">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bf2a61ee-ff8d-42c5-9232-aca1e0ce640c">
             <TableID>View_PUB_GNR_Dim_ProductPrice</TableID>
             <ColumnID>UnitTitle</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <Translations>
-        <Translation dwd:design-time-name="a0dd2e1e-e08d-4cab-926a-9131b938ccc7">
+        <Translation dwd:design-time-name="709b4cdc-00f5-4801-ae98-b7b6d60ce913">
           <Language>1065</Language>
           <Caption>واحد</Caption>
         </Translation>
@@ -148,21 +148,21 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="f20bab86-c940-4520-a9db-4d05a09fe749">
+    <Attribute dwd:design-time-name="2d6fa213-849d-48e1-9a31-927ca5951a19">
       <ID>Status</ID>
       <Name>Status</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="5dcb6222-7f9f-4170-925a-43ee05d96265">
+        <KeyColumn dwd:design-time-name="e0e9c6df-9ed1-45fb-8b64-648241f4373d">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="dbfb9de7-3487-4ea0-97d7-c5433c9dac28">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="02e76b4e-625e-4a98-b96b-220fb4d2ad80">
             <TableID>View_PUB_GNR_Dim_ProductPrice</TableID>
             <ColumnID>Status</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <Translations>
-        <Translation dwd:design-time-name="661afaf4-dda4-4368-8035-f0708fbfda8c">
+        <Translation dwd:design-time-name="6a3652d9-c940-40a7-99bf-c09bdfa79ae9">
           <Language>1065</Language>
           <Caption>وضعیت</Caption>
         </Translation>
@@ -171,21 +171,21 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="98c34019-85a0-43a5-8f6f-d0a384ed2e89">
+    <Attribute dwd:design-time-name="a6da4d7d-6a91-44fe-95f4-1d3a85a8ccdc">
       <ID>Product Group Title</ID>
       <Name>Product Group Title</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c3d593d8-dbfe-40fb-b454-49abad1ee938">
+        <KeyColumn dwd:design-time-name="e4ed1a0a-ed7b-4e94-ad39-a234cd223f57">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="aa5d40e2-5921-4aed-a51e-c27ecc19c007">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="15d1a671-d186-4daf-a211-9fd2138db55e">
             <TableID>View_PUB_GNR_Dim_ProductPrice</TableID>
             <ColumnID>ProductGroup_Title</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <Translations>
-        <Translation dwd:design-time-name="639d2f6c-50be-4487-a46c-a2007d20a070">
+        <Translation dwd:design-time-name="54b5cce6-4b3c-4610-86c1-df04acf9f2e7">
           <Language>1065</Language>
           <Caption>گروه محصول</Caption>
         </Translation>
@@ -194,28 +194,28 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1ab56d67-497b-4768-accc-9ca6cfcad558">
+    <Attribute dwd:design-time-name="da143d29-2b76-46ff-90ea-bb00351c4cdb">
       <ID>Date Id</ID>
       <Name>Date Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="86762b90-4e76-4194-9f3f-e37f6b676147">
+        <KeyColumn dwd:design-time-name="911019b6-9c8f-4d7c-bf87-b962b703d79a">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8637f9c3-5b9a-4fec-9f5b-6f090f0ca1e6">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bb1a05d8-0500-4965-b064-c16adaa8c8ce">
             <TableID>View_PUB_GNR_Dim_ProductPrice</TableID>
             <ColumnID>Date_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="01fa0744-23f8-4198-8a6c-7d37fcf06862">
+      <NameColumn dwd:design-time-name="bcad5401-f1c1-4f64-80c6-2c6de3686d95">
         <DataType>WChar</DataType>
         <DataSize>10</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="2e309241-d454-4fda-9c05-c813aef7afc7">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="cc833ffe-1c93-4b7c-bdca-9d999ae4f4c6">
           <TableID>View_PUB_GNR_Dim_ProductPrice</TableID>
           <ColumnID>sDate</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="f7664882-a0c2-4267-86fa-ec0c87185705">
+        <Translation dwd:design-time-name="07a93b1d-4ee5-4efc-9c8e-d0a9e867b7c8">
           <Language>1065</Language>
           <Caption>تاریخ قیمت گذاری</Caption>
         </Translation>
