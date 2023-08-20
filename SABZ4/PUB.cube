@@ -35369,13 +35369,13 @@ CREATE MEMBER CURRENTCUBE.[Measures].[SLP_PUB GNR Dim AVG Product Fee_Percentage
 ,
 null
 ,
-(
+((
 [Measures].[SLP_PUB GNR Dim AVG Product Fee]
 /
 [Measures].[SLP_PUB GNR Dim Product Fee_Y]
-)*1000
+)-1)*100
 ), 
-FORMAT_STRING = "Percent", 
+FORMAT_STRING = "#", 
 VISIBLE = 1  ;  
 CREATE MEMBER CURRENTCUBE.[Measures].[SLP_PUB GNR Dim AVG Product Fee]
  AS (
@@ -42362,7 +42362,7 @@ CREATE DYNAMIC SET CURRENTCUBE.[Sales Amount Type Name]
           <Translations>
             <Translation dwd:design-time-name="e3037a23-77fd-4689-877b-b9c225df21a3">
               <Language>1065</Language>
-              <Caption>قیمت محصولات سال قبل</Caption>
+              <Caption>میانگین قیمت محصولات سال قبل</Caption>
             </Translation>
           </Translations>
         </CalculationProperty>
