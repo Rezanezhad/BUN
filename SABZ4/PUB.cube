@@ -8088,6 +8088,9 @@
             <Measure dwd:design-time-name="d08762ab-be1e-4279-a7ec-aab9ee9b17b4">
               <MeasureID>Sale Net Value</MeasureID>
             </Measure>
+            <Measure dwd:design-time-name="b82b4027-fb99-414e-8ea6-df32a4f63778">
+              <MeasureID>Sale Value</MeasureID>
+            </Measure>
           </Measures>
         </MeasureGroup>
         <MeasureGroup dwd:design-time-name="b84b5438-1436-4510-b0fa-68a48e416b19">
@@ -8475,6 +8478,14 @@
         </Calculation>
         <Calculation dwd:design-time-name="d4e5bca7-40bb-412e-b392-d4925f355c6e">
           <Name>[Measures].[SLP_PUB GNR Dim AVG Product Fee_Percentage]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="f5e3c99d-255e-4e1e-a815-af86b5abc117">
+          <Name>[Measures].[PUB SLE FACT Discount Rate]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="eadca035-c936-48c2-9c18-db21ed9d50a3">
+          <Name>[Measures].[PUB SLE Fact Net Sale For Discount]</Name>
           <Type>Member</Type>
         </Calculation>
       </Calculations>
