@@ -7879,10 +7879,10 @@
             <Attribute dwd:design-time-name="681d0421-5b7e-44a1-823e-ca8363fcbfd4">
               <AttributeID>Product Id</AttributeID>
             </Attribute>
-            <Attribute dwd:design-time-name="c5e651cd-f55b-479f-98ff-aee3dfc2b1b6">
+            <Attribute dwd:design-time-name="57cda1b3-ec86-49dc-ae5a-c64c27d3074e">
               <AttributeID>Sales Organization Id</AttributeID>
             </Attribute>
-            <Attribute dwd:design-time-name="345986e1-93dc-4f61-a139-26413ffedf3d">
+            <Attribute dwd:design-time-name="76486df4-4e79-4034-8515-4ed6c1ea68be">
               <AttributeID>Product Grade Id</AttributeID>
             </Attribute>
             <Attribute dwd:design-time-name="51fb6b1f-527f-42da-8301-a48fa226446c">
@@ -8087,6 +8087,9 @@
             </Measure>
             <Measure dwd:design-time-name="83dd1e87-8b73-451b-a3ee-238ec6cff714">
               <MeasureID>Sale Net Value</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="b82b4027-fb99-414e-8ea6-df32a4f63778">
+              <MeasureID>Sale Value</MeasureID>
             </Measure>
           </Measures>
         </MeasureGroup>
@@ -8475,6 +8478,14 @@
         </Calculation>
         <Calculation dwd:design-time-name="a21d418c-2a39-427f-8825-12b928449fbc">
           <Name>[Measures].[SLP_PUB GNR Dim AVG Product Fee_Percentage]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="f5e3c99d-255e-4e1e-a815-af86b5abc117">
+          <Name>[Measures].[PUB SLE FACT Discount Rate]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="eadca035-c936-48c2-9c18-db21ed9d50a3">
+          <Name>[Measures].[PUB SLE Fact Net Sale For Discount]</Name>
           <Type>Member</Type>
         </Calculation>
       </Calculations>
