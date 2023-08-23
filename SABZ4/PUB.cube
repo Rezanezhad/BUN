@@ -8506,6 +8506,10 @@
           <Name>[Measures].[PUB SLE Fact Net Sale For Discount]</Name>
           <Type>Member</Type>
         </Calculation>
+        <Calculation dwd:design-time-name="938b71e5-10d5-433b-b8e8-e3c1e8b6db32">
+          <Name>[Measures].[SLP_PUB GNR Dim  Last AVG Fee  Product Fee_Y]</Name>
+          <Type>Member</Type>
+        </Calculation>
       </Calculations>
     </Perspective>
   </Perspectives>
@@ -35403,7 +35407,15 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE;   
+CALCULATE; 
+CREATE MEMBER CURRENTCUBE.[Measures].[SLP_PUB GNR Dim  Last AVG Fee  Product Fee_Y]
+ AS ([PUB GNR Dim  Last AVG Fee  Product Fee]
+,
+ParallelPeriod([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year] ,
+             1,
+          [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember)), 
+FORMAT_STRING = "#", 
+VISIBLE = 1  ;   
 CREATE MEMBER CURRENTCUBE.[Measures].[SLP_PUB GNR Dim AVG Product Fee_Percentage]
  AS iif (
 ([Measures].[SLP_PUB GNR Dim AVG Product Fee]=null or [Measures].[SLP_PUB GNR Dim Product Fee_Y]=null )
@@ -42438,6 +42450,16 @@ CREATE DYNAMIC SET CURRENTCUBE.[Sales Amount Type Name]
             <Translation dwd:design-time-name="9f2acffa-8a14-4d7a-b22d-c25f365c3d4a">
               <Language>1065</Language>
               <Caption>نرخ رشد غیر تجمیعی</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="f0125bfa-e7e4-4107-afc9-8b7d2662d2b4">
+          <CalculationReference>[Measures].[SLP_PUB GNR Dim  Last AVG Fee  Product Fee_Y]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="60bbdb8d-5d16-4157-a301-afd27da296f0">
+              <Language>1065</Language>
+              <Caption>اخرین قیمت محصول در سال قبل</Caption>
             </Translation>
           </Translations>
         </CalculationProperty>
