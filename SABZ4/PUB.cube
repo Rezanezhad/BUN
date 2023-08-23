@@ -35403,14 +35403,7 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE; 
-CREATE MEMBER CURRENTCUBE.[Measures].[SLP_PUB GNR Dim  Last AVG Fee  Product Fee]
- AS ([PUB GNR Dim  Last AVG Fee  Product Fee]
-,
-ParallelPeriod([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year] ,
-             1,
-          [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember), 
-VISIBLE = 1  ;   
+CALCULATE;   
 CREATE MEMBER CURRENTCUBE.[Measures].[SLP_PUB GNR Dim AVG Product Fee_Percentage]
  AS iif (
 ([Measures].[SLP_PUB GNR Dim AVG Product Fee]=null or [Measures].[SLP_PUB GNR Dim Product Fee_Y]=null )
