@@ -8232,6 +8232,14 @@
             </Measure>
           </Measures>
         </MeasureGroup>
+        <MeasureGroup dwd:design-time-name="c79ed5d5-2818-4ab5-b2f3-86d0d4758b86">
+          <MeasureGroupID>View PUB GNR Dim Product Price</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="8702431b-8f0b-41a1-a7c5-9e44afca36c9">
+              <MeasureID>Last AVG Fee</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
       </MeasureGroups>
       <Calculations>
         <Calculation dwd:design-time-name="de249d5d-688e-469f-81ce-3323ce4bdf62">
@@ -34937,16 +34945,22 @@
               <TableID>View_PUB_GNR_Dim_ProductPrice</TableID>
             </Source>
           </Source>
+          <Translations>
+            <Translation dwd:design-time-name="5fbdd0b2-e759-46aa-920f-109c3be456ee">
+              <Language>1065</Language>
+              <Caption>اخرین قیمت محصول</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="4f15b200-7fb9-45f5-b489-59221cfa6601">
           <ID>Last AVG Fee</ID>
           <Name>PUB GNR Dim  Last AVG Fee  Product Fee</Name>
-          <AggregateFunction>LastChild</AggregateFunction>
-          <Source dwd:design-time-name="5239fb98-dc3d-40d1-9804-3ec2d90851fc">
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="bd0e87e2-fe92-4cc7-b99d-1eea4ba08acf">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="044ba841-46af-4199-b99e-d88c8aacc218">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f6277a85-89c3-410b-b890-c2efb1e951b1">
               <TableID>View_PUB_GNR_Dim_ProductPrice</TableID>
-              <ColumnID>AVGFee</ColumnID>
+              <ColumnID>ProductFee</ColumnID>
             </Source>
           </Source>
         </Measure>
