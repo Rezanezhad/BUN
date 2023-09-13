@@ -36899,7 +36899,38 @@ Sum(PeriodstoDate([GRL GNR Dim Full Date weekly].[Fiscal Year 4 - Month - Week -
 ,([Measures].[Vw PUB SLE Fact Sale For Discount - Price],[Dim Sale Office].[Sales Office ID].&amp;[128]))
 ,0), 
 FORMAT_STRING = "#,##0;-#,##0", 
-VISIBLE = 0  ;                          
+VISIBLE = 0  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Value AggregateBy year]
+ AS ( ((Sum(PeriodstoDate([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year],
+                    [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].CurrentMember)
+,[Measures].[Vw PUB SLE Fact Sale For Discount - Price])
++ abs(Sum(PeriodstoDate([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year],
+                    [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].CurrentMember)
+,[Measures].[Vw PUB SLE Fact Sale For Discount - Sale Handy Value Tashim])))
+-abs((Sum(PeriodstoDate([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year],
+                    [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].CurrentMember)
+,[Measures].[PUB SLE Fact Return Sale Price]))
++ Sum(PeriodstoDate([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year],
+                    [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].CurrentMember)
+,[Measures].[PUB SLE Fact Return Sale Return Sale Handy Tashim]))
+-abs(Sum(PeriodstoDate([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year],
+                    [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].CurrentMember)
+,[Measures].[Vw PUB SLE Fact Sale For Discount - Special Discount Value Tashim]))
+-abs(Sum(PeriodstoDate([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year],
+                    [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].CurrentMember)
+,[Measures].[PUB SLE Fact Net Sale Sub Value For Discount]))
+)
+-[Measures].[test]
+), 
+VISIBLE = 1  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[test]
+ AS iif( [PUB SLE Dim Sales Organization].[Sales Organization Id].currentmember is [PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[2]
+, 
+Sum(PeriodstoDate([GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].[Year],
+                    [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].CurrentMember)
+,([Measures].[Vw PUB SLE Fact Sale For Discount - Price],[Dim Sale Office].[Sales Office ID].&amp;[128]))
+,0), 
+VISIBLE = 1  ;                          
 
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Total Amount Value]
  AS iif ( [Sales Amount Type Name].item(0) is [PUB DIM Sales Amount Type].[Sales Amount Type Name].[Gross] ,
