@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fe57c9f2-ad45-42a6-940d-72bcf84bab7e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>PUB SLE Dim Sales Organization</ID>
   <Name>PUB SLE Dim Sales Organization</Name>
   <CreatedTimestamp>2020-02-29T07:25:10.34Z</CreatedTimestamp>
@@ -83,11 +83,11 @@
   </Annotations>
   <LastProcessed>2022-02-22T03:10:50.886667Z</LastProcessed>
   <State>Processed</State>
-  <Source xsi:type="DataSourceViewBinding">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="16afccca-f45d-47de-86fd-812d4cd9e647">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration>
+  <ErrorConfiguration dwd:design-time-name="9e6991ff-34bf-4912-9fe3-69ed08a42ee8">
     <KeyNotFound>IgnoreError</KeyNotFound>
     <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
   </ErrorConfiguration>
@@ -95,36 +95,37 @@
   <Language>1065</Language>
   <UnknownMemberName>Unknown</UnknownMemberName>
   <Translations>
-    <Translation>
+    <Translation dwd:design-time-name="fb55c21f-fb13-461d-a7bc-c1776c8773af">
       <Language>1065</Language>
       <Caption>سازمان های فروش</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute>
+    <Attribute dwd:design-time-name="731efb92-feec-4e28-b06d-8a471c434274">
       <ID>Sales Organization Id</ID>
       <Name>Sales Organization Id</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>11</EstimatedCount>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="60943638-fa06-4851-b195-90a37f10b10e">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d47f8fdc-197a-4168-aa9d-8032ef5eb894">
             <TableID>SLE_PUB_SLE_Dim_SalesOrganization</TableID>
             <ColumnID>SalesOrganization_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="809d38b0-c749-4232-8eab-b348f3348a1f">
         <DataType>WChar</DataType>
         <DataSize>500</DataSize>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="2ce01411-0c01-4206-9a6b-689e6eed529b">
           <TableID>SLE_PUB_SLE_Dim_SalesOrganization</TableID>
           <ColumnID>SalesOrganization_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="90eaabfe-b351-47a7-904a-64e4f3712db7">
           <Language>1065</Language>
           <Caption>سازمان فروش</Caption>
         </Translation>
@@ -134,12 +135,12 @@
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
   </Attributes>
-  <ProactiveCaching>
+  <ProactiveCaching dwd:design-time-name="313dd555-4c70-467b-a0dc-6d4650f7da6d">
     <SilenceInterval>-PT1S</SilenceInterval>
     <Latency>-PT1S</Latency>
     <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
     <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-    <Source xsi:type="ProactiveCachingInheritedBinding" />
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="d7dfa5db-4280-4d83-9794-42fb51609a53" />
   </ProactiveCaching>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>

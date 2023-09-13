@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="30f31018-57e3-4895-b04b-cae280ef334d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>GRL GNR Dim Dim Fact</ID>
   <Name>GRL GNR Dim Dim Fact</Name>
   <CreatedTimestamp>2020-08-11T06:12:07.623333Z</CreatedTimestamp>
@@ -97,11 +97,11 @@
   </Annotations>
   <LastProcessed>2022-02-22T03:10:50.806667Z</LastProcessed>
   <State>Processed</State>
-  <Source xsi:type="DataSourceViewBinding">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="00e4bd0d-701e-4db6-bb78-b5682d7ac430">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration>
+  <ErrorConfiguration dwd:design-time-name="1e045680-4d85-42e7-838a-e169f27e48fd">
     <KeyNotFound>IgnoreError</KeyNotFound>
     <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
   </ErrorConfiguration>
@@ -110,45 +110,46 @@
   <Collation>Latin1_General_CI_AS</Collation>
   <UnknownMemberName>Unknown</UnknownMemberName>
   <Translations>
-    <Translation>
+    <Translation dwd:design-time-name="18f03c0b-7130-437a-b93e-8c6f40a001ce">
       <Language>1065</Language>
       <Caption>اطلاعات فکت ها</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute>
+    <Attribute dwd:design-time-name="890fa667-6759-4366-bc7c-17c5e0f64592">
       <ID>Dim Fact Id</ID>
       <Name>Dim Fact Id</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>87</EstimatedCount>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="2bd08850-35fe-472b-a5ed-62b2623d1690">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="118e5d52-8500-48a6-b742-84868a8fea4d">
             <TableID>dbo_GRL_GNR_Dim_DimFact</TableID>
             <ColumnID>DimFact_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="61c04729-f71c-44fd-9447-9642d9ae2855">
         <DataType>WChar</DataType>
         <DataSize>500</DataSize>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="3c1535ac-7fc6-4ed8-b30c-e3a19b2c0537">
           <TableID>dbo_GRL_GNR_Dim_DimFact</TableID>
           <ColumnID>DimFact_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="5c5556f0-6663-475a-9285-770dd57f35d7">
           <Language>1065</Language>
           <Caption>عنوان فکت</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9249bf3d-7d64-4dfe-a1f4-66805d35450f">
           <AttributeID>Parent Dim Fact Id</AttributeID>
           <Name>Parent Dim Fact Id</Name>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="13b7663a-3dc6-495e-98e7-2c1b2190192a">
               <Language>1065</Language>
               <Caption>عنوان نوع فکت</Caption>
             </Translation>
@@ -159,29 +160,30 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute>
+    <Attribute dwd:design-time-name="c00a5057-0712-495f-9770-a3a7504cdf3d">
       <ID>Parent Dim Fact Id</ID>
       <Name>Parent Dim Fact Id</Name>
+      <EstimatedCount>9</EstimatedCount>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="f97b56d0-c7f3-4c79-bfb6-36df4c5424d5">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="00299086-c57d-4b54-9b7e-0a50592fb935">
             <TableID>dbo_GRL_GNR_Dim_ParentDimFact</TableID>
             <ColumnID>ParentDimFact_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="3ae882b3-4553-4881-969b-4c4c8ad2f476">
         <DataType>WChar</DataType>
         <DataSize>300</DataSize>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="bb3e6e36-f8da-4f24-8efe-0b1e2ad66308">
           <TableID>dbo_GRL_GNR_Dim_ParentDimFact</TableID>
           <ColumnID>ParentDimFact_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="66e5d1da-e37c-4e61-9a7a-a9d4fea7e817">
           <Language>1065</Language>
           <Caption>عنوان نوع فکت</Caption>
         </Translation>
@@ -192,33 +194,33 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy>
+    <Hierarchy dwd:design-time-name="565c6fe9-f537-4e09-96f2-586b6878e5c0">
       <ID>Hierarchy</ID>
       <Name>Parent - Dim</Name>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="416881e7-4891-47e7-83da-c84b98ee4b32">
           <Language>1065</Language>
           <Caption>ساختار درختی نوع - فکت</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level>
+        <Level dwd:design-time-name="9cfa8815-abaa-47c3-be0d-7ff5c8ca24ba">
           <ID>Parent Dim Fact Id</ID>
           <Name>Parent Dim Fact Id</Name>
           <SourceAttributeID>Parent Dim Fact Id</SourceAttributeID>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="6ad2ebc4-6338-461f-9585-f7fdc2dca25d">
               <Language>1065</Language>
               <Caption>عنوان نوع فکت</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level>
+        <Level dwd:design-time-name="6891bdcc-6d65-47c6-89b4-eb62d5837b7e">
           <ID>Dim Fact Id</ID>
           <Name>Dim Fact Id</Name>
           <SourceAttributeID>Dim Fact Id</SourceAttributeID>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="48d0ade9-4287-44bb-958b-eb900e69bf5d">
               <Language>1065</Language>
               <Caption>عنوان فکت</Caption>
             </Translation>
@@ -227,12 +229,12 @@
       </Levels>
     </Hierarchy>
   </Hierarchies>
-  <ProactiveCaching>
+  <ProactiveCaching dwd:design-time-name="b5d321c1-bb08-4f6f-9445-f1235ab00c98">
     <SilenceInterval>-PT1S</SilenceInterval>
     <Latency>-PT1S</Latency>
     <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
     <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-    <Source xsi:type="ProactiveCachingInheritedBinding" />
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="ab21e673-1848-447d-8457-2fe956a48a2f" />
   </ProactiveCaching>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>

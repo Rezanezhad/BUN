@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4df0eae9-ab94-4dcc-b297-0c78faaf805f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>PUB SLE Dim Sale Office</ID>
   <Name>PUB SLE Dim Sale Office</Name>
   <CreatedTimestamp>2020-10-19T05:53:43.633333Z</CreatedTimestamp>
@@ -99,11 +99,11 @@
   </Annotations>
   <LastProcessed>2022-02-22T03:10:52.846667Z</LastProcessed>
   <State>Processed</State>
-  <Source xsi:type="DataSourceViewBinding">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="0ecd95c9-f633-4700-83e2-d5df04acf921">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration>
+  <ErrorConfiguration dwd:design-time-name="1faa3255-c997-44ac-8393-f383cfb6f855">
     <KeyNotFound>IgnoreError</KeyNotFound>
     <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
   </ErrorConfiguration>
@@ -112,46 +112,47 @@
   <Collation>Latin1_General_CI_AS</Collation>
   <UnknownMemberName>Unknown</UnknownMemberName>
   <Translations>
-    <Translation>
+    <Translation dwd:design-time-name="4b1f9b9e-f6f6-4e24-aa46-7cd63b17479a">
       <Language>1065</Language>
       <Caption>مراکز فروش</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute>
+    <Attribute dwd:design-time-name="fb03b106-2902-4fe3-af54-4c5442453f50">
       <ID>Sale Office Id</ID>
       <Name>Sale Office Id</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>21</EstimatedCount>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="ce506065-049a-4bcf-9547-7b841455a1fd">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c7bbc35b-4772-4b52-9b95-7d65a40ccdb5">
             <TableID>dbo_PUB_SLE_Dim_SaleOffice</TableID>
             <ColumnID>SaleOffice_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="dc7cbce9-cf3f-4c88-a614-2dcd5f19bb33">
         <DataType>WChar</DataType>
         <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="77b4ca41-2182-4ea4-80b9-805f716976b5">
           <TableID>dbo_PUB_SLE_Dim_SaleOffice</TableID>
           <ColumnID>SaleOffice_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="83f88839-8fe3-4d1a-a507-87034d5497a6">
           <Language>1065</Language>
           <Caption>عنوان مرکز فروش</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bcd509df-172e-4911-a9f1-254d1aeb8a8f">
           <AttributeID>Sale Office Parent Id</AttributeID>
           <Name>Sale Office Parent Id</Name>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="014bf1af-f6cc-498b-a906-719c134a8fdb">
               <Language>1065</Language>
               <Caption>عنوان والد مرکز فروش</Caption>
             </Translation>
@@ -162,29 +163,30 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute>
+    <Attribute dwd:design-time-name="7a09193d-d060-46f2-a70a-ea5188ddcfb8">
       <ID>Sale Office Parent Id</ID>
       <Name>Sale Office Parent Id</Name>
+      <EstimatedCount>10</EstimatedCount>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="de68ebdc-1161-4c6c-b4ef-22a94a70918b">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c15536b8-8d3b-46f7-b30e-de2a5aa5b588">
             <TableID>dbo_PUB_SLE_Dim_SaleOfficeParent</TableID>
             <ColumnID>SaleOfficeParent_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="f8e8fcfd-7b89-46d7-b3f3-7a20ecedb3be">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="b4fc987e-4621-429d-85a3-b46ee20cb081">
           <TableID>dbo_PUB_SLE_Dim_SaleOfficeParent</TableID>
           <ColumnID>SaleOfficeParent_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="2a3844ea-c28f-4994-886b-2659d3f81251">
           <Language>1065</Language>
           <Caption>عنوان والد مرکز فروش</Caption>
         </Translation>
@@ -195,33 +197,33 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy>
+    <Hierarchy dwd:design-time-name="c7fb4f45-2773-489c-9499-69281540e078">
       <ID>Hierarchy</ID>
       <Name>parent - office</Name>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="21794b01-d276-4ba7-9762-7763c35eecc6">
           <Language>1065</Language>
           <Caption>ساختار درختی والد - مرکز فروش</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level>
+        <Level dwd:design-time-name="f460c5d0-0793-417c-ad91-83284b2c36fd">
           <ID>Sale Office Parent Id</ID>
           <Name>Sale Office Parent Id</Name>
           <SourceAttributeID>Sale Office Parent Id</SourceAttributeID>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="404c92a8-4172-419f-8009-f318f9b02f54">
               <Language>1065</Language>
               <Caption>عنوان والد مرکز فروش</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level>
+        <Level dwd:design-time-name="d839c2ac-af16-4578-accd-2c2c90300991">
           <ID>Sale Office Id</ID>
           <Name>Sale Office Id</Name>
           <SourceAttributeID>Sale Office Id</SourceAttributeID>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="ccdfcb21-2076-441a-bdff-9c108e0ff1ec">
               <Language>1065</Language>
               <Caption>عنوان مرکز فروش</Caption>
             </Translation>
@@ -230,12 +232,12 @@
       </Levels>
     </Hierarchy>
   </Hierarchies>
-  <ProactiveCaching>
+  <ProactiveCaching dwd:design-time-name="fdb51c89-b3ea-4a9b-8a53-3f6cee72374e">
     <SilenceInterval>-PT1S</SilenceInterval>
     <Latency>-PT1S</Latency>
     <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
     <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-    <Source xsi:type="ProactiveCachingInheritedBinding" />
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="9680cd0f-9198-4ba0-8adc-26a64b1f48c7" />
   </ProactiveCaching>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>

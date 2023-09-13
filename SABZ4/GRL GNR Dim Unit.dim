@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8bf7b42c-6ff0-43d0-8627-f353c76e5593" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>GRL GNR Dim Unit</ID>
   <Name>GRL GNR Dim Unit</Name>
   <CreatedTimestamp>2020-02-29T07:25:10.076667Z</CreatedTimestamp>
@@ -83,11 +83,11 @@
   </Annotations>
   <LastProcessed>2022-02-22T03:10:54.163333Z</LastProcessed>
   <State>Processed</State>
-  <Source xsi:type="DataSourceViewBinding">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="39fe7bd2-d502-4673-a095-b6464f0a0c65">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration>
+  <ErrorConfiguration dwd:design-time-name="ee903cb0-df15-42fd-9fd5-3168a8ef074b">
     <KeyNotFound>IgnoreError</KeyNotFound>
     <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
   </ErrorConfiguration>
@@ -95,42 +95,43 @@
   <Language>1065</Language>
   <UnknownMemberName>UnknownUnit</UnknownMemberName>
   <UnknownMemberTranslations>
-    <UnknownMemberTranslation>
+    <UnknownMemberTranslation dwd:design-time-name="c348ffe8-718b-45ba-bdee-bfdd3bb93fee">
       <Language>1065</Language>
       <Caption>واحد نامشخص</Caption>
     </UnknownMemberTranslation>
   </UnknownMemberTranslations>
   <Translations>
-    <Translation>
+    <Translation dwd:design-time-name="69af917a-aa47-48bc-b28f-83f3e27e8b90">
       <Language>1065</Language>
       <Caption>واحد سنجش</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute>
+    <Attribute dwd:design-time-name="109e9465-2e5b-40a6-9530-0374e4377137">
       <ID>Unit Id</ID>
       <Name>Unit Id</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>24</EstimatedCount>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="04f8de0c-32df-4767-8293-d937eb1a620f">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dd2ded05-1b50-4945-b480-9d0cd6ffac31">
             <TableID>dbo_GRL_GNR_Dim_Unit</TableID>
             <ColumnID>Unit_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="5dce9c1e-0c3b-457c-b190-8fe9e81ca09b">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="8fc10641-9d2c-4130-933c-08a4659e492c">
           <TableID>dbo_GRL_GNR_Dim_Unit</TableID>
           <ColumnID>Unit_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="7b769c9f-3517-40f3-8c4e-b127d38b83e2">
           <Language>1065</Language>
           <Caption>عنوان واحد سنجش</Caption>
         </Translation>
@@ -142,17 +143,17 @@
   </Attributes>
   <AttributeAllMemberName>AllUnit</AttributeAllMemberName>
   <AttributeAllMemberTranslations>
-    <AttributeAllMemberTranslation>
+    <AttributeAllMemberTranslation dwd:design-time-name="dd0e3f13-2766-4e70-9ab0-9d54943e31bd">
       <Language>1065</Language>
       <Caption>همه واحدها</Caption>
     </AttributeAllMemberTranslation>
   </AttributeAllMemberTranslations>
-  <ProactiveCaching>
+  <ProactiveCaching dwd:design-time-name="e8c64def-3570-4326-9954-d2c2cf08b358">
     <SilenceInterval>-PT1S</SilenceInterval>
     <Latency>-PT1S</Latency>
     <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
     <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-    <Source xsi:type="ProactiveCachingInheritedBinding" />
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="99792852-6365-4ddf-a314-987c94a4d252" />
   </ProactiveCaching>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>

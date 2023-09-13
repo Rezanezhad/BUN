@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="12f12e0d-928f-4f4c-875f-b7017b8695ee" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>GRL GNR Dim Province</ID>
   <Name>GRL GNR Dim Province</Name>
   <CreatedTimestamp>2020-02-29T07:25:10.06Z</CreatedTimestamp>
@@ -120,11 +120,11 @@
   </Annotations>
   <LastProcessed>2022-02-22T03:10:52.463333Z</LastProcessed>
   <State>Processed</State>
-  <Source xsi:type="DataSourceViewBinding">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c70812f2-1d89-4e1a-8149-de8f00887cfd">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration>
+  <ErrorConfiguration dwd:design-time-name="27b9247a-cab8-43e5-ad7c-60bcd33ae545">
     <KeyNotFound>IgnoreError</KeyNotFound>
     <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
   </ErrorConfiguration>
@@ -132,62 +132,63 @@
   <Language>1065</Language>
   <UnknownMemberName>UnknownProvince</UnknownMemberName>
   <UnknownMemberTranslations>
-    <UnknownMemberTranslation>
+    <UnknownMemberTranslation dwd:design-time-name="ae49478a-ab15-4473-b248-0084be9f5dd4">
       <Language>1065</Language>
       <Caption>محل فروش نامشخص</Caption>
     </UnknownMemberTranslation>
   </UnknownMemberTranslations>
   <Translations>
-    <Translation>
+    <Translation dwd:design-time-name="9774fa2c-e1b4-438f-8586-72371059c78b">
       <Language>1065</Language>
       <Caption>محل فروش / صادرات</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute>
+    <Attribute dwd:design-time-name="d40ab88e-833f-47fd-bfca-6813fd3ca104">
       <ID>Province Id</ID>
       <Name>Province Id</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>352</EstimatedCount>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="a9cb5032-8cbf-4057-a711-fb8726ba64b0">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6c1cab67-e9a6-4ca3-be09-3339376aab43">
             <TableID>dbo_GRL_GNR_Dim_Province</TableID>
             <ColumnID>Province_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="8fc265c2-e0d5-47dc-91d5-88d9e462e510">
         <DataType>WChar</DataType>
         <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="12d32a35-3cae-42d4-ab40-5adcb2677f4e">
           <TableID>dbo_GRL_GNR_Dim_Province</TableID>
           <ColumnID>Province_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="aefcaa4e-eac5-4a56-8b92-7c7809d2253c">
           <Language>1065</Language>
           <Caption>عنوان استان</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dbd288e9-bf03-47c5-969c-602d0ffa1d5e">
           <AttributeID>Country Id</AttributeID>
           <Name>Country Id</Name>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="9c6eeff4-3ef4-4702-b215-d721c83c2464">
               <Language>1065</Language>
               <Caption>نام کشور</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0cb5d986-cde0-4a15-8a25-ad14d2b8e59d">
           <AttributeID>Geo Id</AttributeID>
           <Name>Geo Id</Name>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="4a967f5b-d4b2-4695-b11d-64c5f9505444">
               <Language>1065</Language>
               <Caption>شناسه جغرافیایی</Caption>
             </Translation>
@@ -198,28 +199,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute>
+    <Attribute dwd:design-time-name="d272e5db-f997-4621-94d7-83b3997ede4f">
       <ID>Country Id</ID>
       <Name>Country Id</Name>
+      <EstimatedCount>222</EstimatedCount>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="c1d8be7f-b9f5-4d91-8604-fa300e724c4c">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1d80a292-9544-4d60-9fe5-a609459d6304">
             <TableID>dbo_GRL_GNR_Dim_Country</TableID>
             <ColumnID>Country_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="2b217119-9dc4-4f11-9aac-ec05b7d79565">
         <DataType>WChar</DataType>
         <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="1c25b849-e860-44a5-865b-4c5f99befa59">
           <TableID>dbo_GRL_GNR_Dim_Country</TableID>
           <ColumnID>Country_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="d278e568-44a7-42eb-95b5-ec368e5b0805">
           <Language>1065</Language>
           <Caption>نام کشور</Caption>
         </Translation>
@@ -227,29 +229,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute>
+    <Attribute dwd:design-time-name="12b9267a-586c-4377-939b-af912ced9f96">
       <ID>Geo Id</ID>
       <Name>Geo Id</Name>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="91b6a7f6-bfbc-4218-9107-9e9456d55add">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="afeca1db-37c0-402a-97ec-de0b8120d354">
             <TableID>dbo_GRL_GNR_Dim_Country</TableID>
             <ColumnID>Geo_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="93f09bee-d52e-4272-ac5b-849f4db04315">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="5057681f-f2ac-4aae-803d-0a7d12cd4b17">
           <TableID>dbo_GRL_GNR_Dim_Country</TableID>
           <ColumnID>Geo_Id</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="c09c27d4-bb7d-4e87-a5da-210fa32184ca">
           <Language>1065</Language>
           <Caption>شناسه جغرافیایی</Caption>
         </Translation>
@@ -260,40 +262,40 @@
   </Attributes>
   <AttributeAllMemberName>AllProvince</AttributeAllMemberName>
   <AttributeAllMemberTranslations>
-    <AttributeAllMemberTranslation>
+    <AttributeAllMemberTranslation dwd:design-time-name="f7585d28-5890-4b11-983c-8b83f152c6d6">
       <Language>1065</Language>
       <Caption>همه محل های فروش</Caption>
     </AttributeAllMemberTranslation>
   </AttributeAllMemberTranslations>
   <Hierarchies>
-    <Hierarchy>
+    <Hierarchy dwd:design-time-name="211c7c9b-98a6-4b37-91cb-97a39d0d3d33">
       <ID>Hierarchy</ID>
       <Name>Country - Province</Name>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="f05314bf-2298-4061-8897-3166ce51ad78">
           <Language>1065</Language>
           <Caption>ساختار درختی</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level>
+        <Level dwd:design-time-name="a9fb002f-1d2f-4573-805c-a58c4e17a453">
           <ID>Country Id</ID>
           <Name>Country Id</Name>
           <SourceAttributeID>Country Id</SourceAttributeID>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="81e7ff85-cfd4-446c-9f63-225615da42dd">
               <Language>1065</Language>
               <Caption>کشور</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level>
+        <Level dwd:design-time-name="d0ec9835-8169-4953-8702-8425c8a55d16">
           <ID>Province Id</ID>
           <Name>Province Id</Name>
           <SourceAttributeID>Province Id</SourceAttributeID>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="e72902e8-0bf1-4cfb-9f74-7c9040de2249">
               <Language>1065</Language>
               <Caption>استان</Caption>
             </Translation>
@@ -302,12 +304,12 @@
       </Levels>
     </Hierarchy>
   </Hierarchies>
-  <ProactiveCaching>
+  <ProactiveCaching dwd:design-time-name="53e6bec8-3209-4bb2-ad6e-bd8617a5d0c2">
     <SilenceInterval>-PT1S</SilenceInterval>
     <Latency>-PT1S</Latency>
     <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
     <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-    <Source xsi:type="ProactiveCachingInheritedBinding" />
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="b74f8f9f-eae5-4796-a8c8-8fe54bf72d76" />
   </ProactiveCaching>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>
