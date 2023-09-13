@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4f330c98-b365-484f-adc6-92cc70df8024" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>PUB SLE Dim Sales Channel</ID>
   <Name>PUB SLE Dim Sales Channel</Name>
   <CreatedTimestamp>2020-02-29T07:25:10.363333Z</CreatedTimestamp>
@@ -99,11 +99,11 @@
   </Annotations>
   <LastProcessed>2022-02-22T03:10:55.216667Z</LastProcessed>
   <State>Processed</State>
-  <Source xsi:type="DataSourceViewBinding">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1ada188a-8cb9-41f4-85fe-e6f6140e1602">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration>
+  <ErrorConfiguration dwd:design-time-name="66090954-5865-44ca-9afc-bde6e2c34a3f">
     <KeyNotFound>IgnoreError</KeyNotFound>
     <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
   </ErrorConfiguration>
@@ -111,46 +111,47 @@
   <Language>1065</Language>
   <UnknownMemberName>Unknown</UnknownMemberName>
   <Translations>
-    <Translation>
+    <Translation dwd:design-time-name="0fe192e2-e4d9-45da-b4e4-45af10d8fdad">
       <Language>1065</Language>
       <Caption>کانال های فروش</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute>
+    <Attribute dwd:design-time-name="d99ed127-5fcc-4daa-9674-56434f7b52cc">
       <ID>Sales Channel Id</ID>
       <Name>Sales Channel Id</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>21</EstimatedCount>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="c7d3819f-bc7e-44b4-a014-db5e504b1336">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2f021e75-2940-4071-b147-700affe643a3">
             <TableID>SLE_PUB_SLE_Dim_SalesChannel</TableID>
             <ColumnID>SalesChannel_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="25fa443f-257f-4f23-9136-9a1eee6e91f1">
         <DataType>WChar</DataType>
         <DataSize>500</DataSize>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="6c843939-5a55-402d-a787-022032d06eac">
           <TableID>SLE_PUB_SLE_Dim_SalesChannel</TableID>
           <ColumnID>SalesChannel_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="99f893f5-9b02-41fc-aeab-0d1ae36eb97b">
           <Language>1065</Language>
           <Caption>کانال فروش</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bb60e565-6933-4ee0-a061-50a5274fc5c0">
           <AttributeID>Parent Sales Channel Id</AttributeID>
           <Name>Parent Sales Channel Id</Name>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="da81e16a-9a8a-41d0-abc2-e58f1ddd2550">
               <Language>1065</Language>
               <Caption>کانال فروش والد</Caption>
             </Translation>
@@ -161,28 +162,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute>
+    <Attribute dwd:design-time-name="6dac61c1-e1ef-4fd0-b07a-cdc3a6bd773c">
       <ID>Parent Sales Channel Id</ID>
       <Name>Parent Sales Channel Id</Name>
+      <EstimatedCount>2</EstimatedCount>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="bc997bf7-b55b-454e-9e89-581af635a04d">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fa0ee615-0394-4ca2-900f-3020ade50706">
             <TableID>SLE_PUB_SLE_Dim_ParentSalesChannel</TableID>
             <ColumnID>ParentSalesChannel_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="3f0acc26-f28e-435f-8f68-c682d626306f">
         <DataType>WChar</DataType>
         <DataSize>500</DataSize>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="717ee516-28a2-4986-a897-2ae04927cfaa">
           <TableID>SLE_PUB_SLE_Dim_ParentSalesChannel</TableID>
           <ColumnID>ParentSalesChannel_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="85195856-a71b-4bce-a667-e65713e97c00">
           <Language>1065</Language>
           <Caption>کانال فروش والد</Caption>
         </Translation>
@@ -192,33 +194,33 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy>
+    <Hierarchy dwd:design-time-name="91168b19-0ebd-4dd7-b5cc-273a93ecc430">
       <ID>Hierarchy</ID>
       <Name>Parent Chanal-Chanal</Name>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="2fbe4ea5-8635-42fb-a4f9-13e0a60b5daa">
           <Language>1065</Language>
           <Caption>کانال فروش والد - کانال فروش</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level>
+        <Level dwd:design-time-name="a338facd-1adc-4cbf-9a95-3ff38a09a5ef">
           <ID>Parent Sales Channel Id</ID>
           <Name>Parent Sales Channel Id</Name>
           <SourceAttributeID>Parent Sales Channel Id</SourceAttributeID>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="b283ca04-c016-46ff-a3b8-110e0917f2dc">
               <Language>1065</Language>
               <Caption>کانال فروش والد</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level>
+        <Level dwd:design-time-name="ba89bba6-747d-4d81-8b6a-cb983c90580b">
           <ID>Sales Channel Id</ID>
           <Name>Sales Channel Id</Name>
           <SourceAttributeID>Sales Channel Id</SourceAttributeID>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="861d2003-f852-4f79-9643-ff8230269365">
               <Language>1065</Language>
               <Caption>کانال فروش</Caption>
             </Translation>
@@ -227,12 +229,12 @@
       </Levels>
     </Hierarchy>
   </Hierarchies>
-  <ProactiveCaching>
+  <ProactiveCaching dwd:design-time-name="178a8ea3-0391-4a1f-b6ed-74e78016f449">
     <SilenceInterval>-PT1S</SilenceInterval>
     <Latency>-PT1S</Latency>
     <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
     <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-    <Source xsi:type="ProactiveCachingInheritedBinding" />
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="a6b1e027-3263-46b4-9a6b-4a57658963db" />
   </ProactiveCaching>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>

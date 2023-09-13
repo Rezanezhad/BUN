@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="edea9eaf-78a5-416d-88c7-24d25098d5e8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8407dfb0-8bec-4758-82cd-c8115a130a79" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>GRL GNR Dim Full Date</ID>
   <Name>GRL GNR Dim Full Date</Name>
   <CreatedTimestamp>2020-02-29T07:25:10.04Z</CreatedTimestamp>
@@ -232,12 +232,12 @@
   </Annotations>
   <LastProcessed>2022-02-22T03:10:58.086667Z</LastProcessed>
   <State>Processed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="ccb149eb-705c-4650-be2b-e6201551e5c4">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e12289b1-40ca-42f4-ab3b-059b5e443358">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
   <Type>Time</Type>
   <UnknownMember>Hidden</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="9521a83d-c183-43ee-8b6c-55a4bc5816da">
+  <ErrorConfiguration dwd:design-time-name="90400007-dbaf-470f-826e-94c81f90aa88">
     <KeyNotFound>IgnoreError</KeyNotFound>
     <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
   </ErrorConfiguration>
@@ -245,169 +245,170 @@
   <Language>1065</Language>
   <UnknownMemberName>UnknownFullDate</UnknownMemberName>
   <UnknownMemberTranslations>
-    <UnknownMemberTranslation dwd:design-time-name="75e907d4-6657-4f41-a399-80c40d5d89b1">
+    <UnknownMemberTranslation dwd:design-time-name="69583b0b-da4f-4c53-9628-487b5e33124f">
       <Language>1065</Language>
       <Caption>زمان نامشخص</Caption>
     </UnknownMemberTranslation>
   </UnknownMemberTranslations>
   <Translations>
-    <Translation dwd:design-time-name="81bcedb5-65b1-4e3a-bed6-aa2e4fc230d5">
+    <Translation dwd:design-time-name="4217f714-0c25-4b40-bd0d-1c1610059c81">
       <Language>1065</Language>
       <Caption>زمان</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute dwd:design-time-name="1905fc7f-2a13-4659-a7c7-c0dd0a3294dd">
+    <Attribute dwd:design-time-name="dcd5b03a-b847-42fb-b248-4181753cf7c4">
       <ID>Date Id</ID>
       <Name>Date</Name>
       <Type>Date</Type>
       <Usage>Key</Usage>
+      <EstimatedCount>4383</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3f630fde-3a86-4249-96c8-0d833b0197c2">
+        <KeyColumn dwd:design-time-name="a77d5b36-cca8-4fea-a8c3-88aaa89a3b3a">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9e9d8c84-086d-4afc-82dc-426ff994b52c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a96074d2-f9c0-45f1-ac5f-c752a9e4f3d8">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>Date_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="4c8fcd03-515c-43e8-a4f0-e0b313a52b9d">
+      <NameColumn dwd:design-time-name="ce674fab-3738-4cf9-9862-ce2bb64f53bf">
         <DataType>WChar</DataType>
         <DataSize>10</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="21b8ee35-bfdd-483c-bb92-d456896aa274">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a1f9e85d-1ebd-4b04-9564-52c5f0f07b51">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>sDate</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="21e08745-e055-44d0-8dc6-bc8e63865864">
+        <Translation dwd:design-time-name="6c7df376-ce77-45e0-a1b2-db7ef9b01397">
           <Language>1065</Language>
           <Caption>روز</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="ebd7d079-1a21-4739-a84c-784044391486">
+        <AttributeRelationship dwd:design-time-name="c7986523-f672-4f21-aa0a-348b9481caf9">
           <AttributeID>Month Order</AttributeID>
           <Name>Day Of Month</Name>
           <Translations>
-            <Translation dwd:design-time-name="45bce2cc-78db-4a58-9f75-ed60a334d511">
+            <Translation dwd:design-time-name="729c5543-c2a3-4d23-bcf8-d2d49fc4dedf">
               <Language>1065</Language>
               <Caption>روز ماه</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="7c178370-e389-4f03-8c13-5cbfcd591980">
+        <AttributeRelationship dwd:design-time-name="a6be794c-edd5-4a88-9c20-6cf8e24e0480">
           <AttributeID>Week Day Id</AttributeID>
           <Name>Day Of Week</Name>
           <Translations>
-            <Translation dwd:design-time-name="908b1e78-5d15-4706-b6e1-3bce27254ff5">
+            <Translation dwd:design-time-name="8b96730e-3d08-431b-81b2-2ffa0d1279b7">
               <Language>1065</Language>
               <Caption>روز هفته</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="4c07619d-aae5-4130-9784-eeb7f7079bd6">
+        <AttributeRelationship dwd:design-time-name="9e1e3b5b-8a41-4457-906b-c78c2f58bff7">
           <AttributeID>Day</AttributeID>
           <Name>Day Of Year</Name>
           <Translations>
-            <Translation dwd:design-time-name="b722b32a-76f5-43f3-8f79-e824aef61029">
+            <Translation dwd:design-time-name="e59eeedd-c286-44db-b29b-b8b841c2e153">
               <Language>1065</Language>
               <Caption>روز سال</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="b8f093c9-68d1-4e9e-9798-201fc82910a3">
+        <AttributeRelationship dwd:design-time-name="8c82a242-d010-40ac-aed0-2bf1796129f1">
           <AttributeID>Semi Year Id</AttributeID>
           <Name>Half Year Of Year</Name>
           <Translations>
-            <Translation dwd:design-time-name="c6ae708e-9832-421f-9a14-8d40da75abb1">
+            <Translation dwd:design-time-name="e5d043fc-cd0b-4c4a-ac55-43fe2906b90e">
               <Language>1065</Language>
               <Caption>نیمسال سال</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="97ef877b-77d2-4354-9978-b5c98038dbdb">
+        <AttributeRelationship dwd:design-time-name="51c18c5d-c93e-44dc-8378-2351733ef755">
           <AttributeID>Month Id</AttributeID>
           <Name>Month Of Year</Name>
           <Translations>
-            <Translation dwd:design-time-name="69fa2d7a-a89d-43ab-aea7-60bcb1422503">
+            <Translation dwd:design-time-name="cecc8c7e-0f35-4b5a-ae34-81b845eb4fb3">
               <Language>1065</Language>
               <Caption>ماه سال</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="2bf73b66-b097-4beb-8ae7-ffd40204f430">
+        <AttributeRelationship dwd:design-time-name="f932bd79-8c4f-4d68-8af0-56499e4cc176">
           <AttributeID>Season Id</AttributeID>
           <Name>Quarter Of Year</Name>
           <Translations>
-            <Translation dwd:design-time-name="7c33507b-b164-451d-9bc9-2e6ba3840b51">
+            <Translation dwd:design-time-name="8764c738-9131-4864-8b7b-6edf4b417911">
               <Language>1065</Language>
               <Caption>فصل سال</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="94e3f42f-4c21-47c9-80a7-9fcd507c1311">
+        <AttributeRelationship dwd:design-time-name="41a96b4e-86e7-4f04-9190-59f92a05ebe0">
           <AttributeID>m Month</AttributeID>
           <Name>M  Month</Name>
           <Translations>
-            <Translation dwd:design-time-name="55aa7ea4-5195-45d2-a4d5-51824fa22f67">
+            <Translation dwd:design-time-name="32fa9817-b48b-47a6-9f52-970339517353">
               <Language>1065</Language>
               <Caption>ماه میلادی</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="26034049-c8d6-46ea-8138-b639622c448b">
+        <AttributeRelationship dwd:design-time-name="70f7bce9-8525-43fa-b361-83ae55d0e030">
           <AttributeID>Week Order 1</AttributeID>
           <Name>Week Order</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="cc4e9502-8483-46ba-a949-e21b59b42e96">
+        <AttributeRelationship dwd:design-time-name="f34c54d4-9ee6-473b-a67f-22cde573deea">
           <AttributeID>m Date 1</AttributeID>
           <Name>m Date</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="9a7518c0-9370-4d47-914d-157627ccf60e">
+        <AttributeRelationship dwd:design-time-name="bd5c0062-a834-4148-afd6-4a7df4bef5ef">
           <AttributeID>Week Order</AttributeID>
           <Name>Week</Name>
           <Translations>
-            <Translation dwd:design-time-name="ce143ac5-e436-4490-95ea-b2482e90f7d7">
+            <Translation dwd:design-time-name="2e45634d-cb10-411c-8b64-d0d8a3d11d3c">
               <Language>1065</Language>
               <Caption>هفته</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="ee858755-b874-4601-b6a4-cb686c7331ad">
+        <AttributeRelationship dwd:design-time-name="e922d3dc-0c82-407c-82f0-c3396c1bd280">
           <AttributeID>Date Id 1</AttributeID>
           <Name>Date Id-int</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="4ca5d035-da1d-4768-a77e-6613f5a4dc12">
+        <AttributeRelationship dwd:design-time-name="8fe074c8-468b-4400-b5d1-23ea214ae9de">
           <AttributeID>Year New</AttributeID>
           <Name>Year New</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="63ec1d09-3bd6-467d-b218-2060be8bcd9e">
+        <AttributeRelationship dwd:design-time-name="4dadee8e-2dd8-4c2a-983f-991068a01d4c">
           <AttributeID>Year 1</AttributeID>
           <Name>Year Int</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="bd9ad55c-41b8-413f-8ce3-a1e1b8080cf1">
+        <AttributeRelationship dwd:design-time-name="ee50bff1-49bc-43f6-98ec-66301b435560">
           <AttributeID>M Date Date Type</AttributeID>
           <Name>M Date Date Type</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="4436abe9-2d5e-49db-93c3-b04577eba666">
+        <AttributeRelationship dwd:design-time-name="b21480d9-ff84-43d3-b0f7-847ef56543f0">
           <AttributeID>Date Now Status</AttributeID>
           <Name>Date Now Status</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="91273e23-0912-41e3-b1fe-300625514c81">
+        <AttributeRelationship dwd:design-time-name="b4bf0e67-a140-401e-a30f-06b60e3ce2a3">
           <AttributeID>Date After Now Status</AttributeID>
           <Name>Date After Now Status</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="92f43fc2-7d46-4a03-8297-563499138266">
+        <AttributeRelationship dwd:design-time-name="ddff200d-19d5-4241-bf37-166c2d960d74">
           <AttributeID>Current Month And After Status</AttributeID>
           <Name>Current Month And After Status</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
-      <ValueColumn dwd:design-time-name="3a29f7c3-13b9-446c-825c-6fa23979f46b">
+      <ValueColumn dwd:design-time-name="9af62eed-4234-4d81-853b-9cb281934500">
         <DataType>Integer</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="3c813075-edb4-4533-ae06-96d92d0ef686">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="0303e460-9f09-4544-9cdc-5bb819a93e3d">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>Day</ColumnID>
         </Source>
@@ -415,28 +416,28 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="b3c6cc25-d51c-4ae5-a798-294c9d01b54b">
+    <Attribute dwd:design-time-name="d0559295-1f92-4efc-8a78-4e8af44c5386">
       <ID>Month Order</ID>
       <Name>Day Of Month</Name>
       <Type>FiscalDayOfMonth</Type>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9e0c2db1-b984-485f-8b4b-cb00a5ef8744">
+        <KeyColumn dwd:design-time-name="381af56b-344f-474a-a115-ac60aad2efbb">
           <DataType>UnsignedTinyInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c8e90d50-5fc4-4dc0-9910-2399ea792505">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="55ad5e88-1145-4300-8f9a-1206250ec6bf">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>DayOfMonth</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="ea98f7c8-1528-4573-ae3d-4aa72f4c3213">
+      <NameColumn dwd:design-time-name="26587fd4-fd7d-40f2-b930-32c22c6a3249">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="1c60ab42-e3b2-4934-890f-7cc4197be5c6">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="87dd3141-cd94-4094-aafe-83408698b189">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>DayOfMonth</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="64b98bbc-cbf3-4d60-a6d0-dec6a47f723e">
+        <Translation dwd:design-time-name="af548558-10c2-4e13-bec6-e1dda1be89ad">
           <Language>1065</Language>
           <Caption>روز ماه</Caption>
         </Translation>
@@ -445,29 +446,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="64b2e2ac-d624-4857-b6eb-aa75bc6a2ddc">
+    <Attribute dwd:design-time-name="73ddaac6-a0a3-49b6-b1a8-232709ee348d">
       <ID>Week Day Id</ID>
       <Name>Day Of Week</Name>
       <Type>FiscalDayOfWeek</Type>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0cde273f-e764-4db7-8024-5ad2de932d62">
+        <KeyColumn dwd:design-time-name="a0528657-8954-4157-9a1d-47f9c382c6b8">
           <DataType>UnsignedTinyInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="dcfdf4e9-6e7c-4b69-91e9-57df2c853293">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e936c497-0bf5-45b1-b951-2e03bc992446">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>WeekDayId</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="d0c39422-d48a-4259-a002-c18cd1c6db3b">
+      <NameColumn dwd:design-time-name="e4673430-0692-4f4f-ba96-a82ee8c94872">
         <DataType>WChar</DataType>
         <DataSize>20</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="14961418-8fc0-47d9-ae01-1bc019dca9f7">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="867a6f60-788a-4a87-9413-572fcb0fcd1e">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>WeekDayTitle</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="50051151-001b-4347-8c45-58eed1532b34">
+        <Translation dwd:design-time-name="156f6533-d48b-45e1-b168-387004bc168a">
           <Language>1065</Language>
           <Caption>روز هفته</Caption>
         </Translation>
@@ -476,28 +477,28 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="b68de5f7-d449-4602-960b-bec55b37de16">
+    <Attribute dwd:design-time-name="addca619-8bb3-4ec0-bec7-2560b03e6b28">
       <ID>Day</ID>
       <Name>Day Of Year</Name>
       <Type>FiscalDayOfYear</Type>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e15e36b4-8a1d-410a-b406-1baccfc8f80a">
+        <KeyColumn dwd:design-time-name="be61d67a-25b6-4edf-9232-fa50e3e9420d">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ee835956-2d85-445f-b28d-7a2c8cafe8bb">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c86138c8-f975-4ba6-964b-77bb49a34d49">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>Day</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="612210dc-ad3e-46b6-9a8c-95dd37c7abdd">
+      <NameColumn dwd:design-time-name="8989161a-8258-4b12-9fea-e88b8769ff60">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="70e92d96-1c27-4e6f-8349-e714f94b54b5">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9a282d87-063f-424b-a43e-c4d9292b4259">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>Day</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="54ef1ce7-2b02-463f-846c-bd2e33839faf">
+        <Translation dwd:design-time-name="9f5a7b88-2a2f-4cb9-bba4-8c632bc38e72">
           <Language>1065</Language>
           <Caption>روز سال</Caption>
         </Translation>
@@ -506,40 +507,41 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="f202564d-84a7-4b84-863e-99e28a6398bb">
+    <Attribute dwd:design-time-name="95fc0186-4407-4a2d-a9cc-bf7b304c2c5a">
       <ID>Semi Year Order</ID>
       <Name>Half Year</Name>
+      <EstimatedCount>24</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="5071d632-c085-4864-a185-d039688aa956">
+        <KeyColumn dwd:design-time-name="029b104b-8062-4b65-8738-157ea47cf350">
           <DataType>WChar</DataType>
           <DataSize>5</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="897b7714-6625-4c04-ad5c-4fbd0485a264">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c1b00621-89e4-4639-a813-d0475db6b3fa">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>SemiYearOrder</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="11759f29-fa45-44ef-afc7-27b9409ce8b5">
+      <NameColumn dwd:design-time-name="d78f2b99-1a9d-412b-b28e-08c04b4e3d00">
         <DataType>WChar</DataType>
         <DataSize>25</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="5ecdbc71-1124-458b-b6e2-c5a407935d47">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="da1c4ff7-db01-40a8-b221-2bc2234e3578">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>SemiYear</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="596f9ceb-6a8c-44d0-9192-8a7e5b5a917a">
+        <Translation dwd:design-time-name="32b1cd27-4c49-4332-a5fc-e0f810eb5bb4">
           <Language>1065</Language>
           <Caption>نیمسال</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="34cb447b-122c-4425-a4d8-46e893b94165">
+        <AttributeRelationship dwd:design-time-name="de51ee73-b859-4b18-912d-5a124f126c6c">
           <AttributeID>Year</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
           <Name>Year</Name>
           <Translations>
-            <Translation dwd:design-time-name="4f461671-b6cf-4a6f-ba5d-c574ad851a2c">
+            <Translation dwd:design-time-name="a8d6546b-5648-4221-86cc-2da5fa5aebe1">
               <Language>1065</Language>
               <Caption>سال</Caption>
             </Translation>
@@ -550,29 +552,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e6aff4ae-cdaf-4132-95fa-7b5f3ecfebf2">
+    <Attribute dwd:design-time-name="879bae01-af98-4500-9568-93bcc170d80b">
       <ID>Semi Year Id</ID>
       <Name>Half Year Of Year</Name>
       <Type>FiscalHalfYearOfYear</Type>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4faab5fb-f07e-48e3-a3a0-8e01331d8339">
+        <KeyColumn dwd:design-time-name="ed9e133b-58cb-400b-ae52-9b3bf6a9b495">
           <DataType>UnsignedTinyInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a9566f77-707c-404d-b598-57e42c73ffb2">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="78f9c05e-ad56-4e83-bca9-be5779d8b923">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>SemiYearId</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="3d9510f8-ac4c-4a9b-ac1d-2acd9178d9c1">
+      <NameColumn dwd:design-time-name="d80df7ff-8263-416b-94d5-9b05560f77c0">
         <DataType>WChar</DataType>
         <DataSize>20</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="e9c8899a-2fcb-41c9-90db-e35b063e535e">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="c8c2dc61-54de-4df1-937e-3f3098e18fd5">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>SemiYearTitle</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="f35083ee-e7b7-4c32-b924-fc6cc1f5ca41">
+        <Translation dwd:design-time-name="c79d7aa1-cf66-450e-a346-891664fa838c">
           <Language>1065</Language>
           <Caption>نیمسال سال</Caption>
         </Translation>
@@ -581,81 +583,82 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="06410fe3-e6cf-49a4-b9cd-5198b72268dc">
+    <Attribute dwd:design-time-name="7feb8870-6569-433b-83ba-fe6a487b666e">
       <ID>m Date</ID>
       <Name>Month</Name>
       <Type>FiscalMonths</Type>
+      <EstimatedCount>144</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="411b8b76-232e-4949-bec4-6dcb38e3c6bb">
+        <KeyColumn dwd:design-time-name="04c892c2-f776-40d7-a4e0-2b01d1cb68ff">
           <DataType>WChar</DataType>
           <DataSize>6</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="59663895-e0d6-46c2-91db-703110b922ab">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="caa474ee-a4cd-4d84-9db4-24a2f99ceaed">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>MonthOrder</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="fefa7ffc-95e2-42aa-92fd-35fc418009c8">
+      <NameColumn dwd:design-time-name="8a7fcdc2-268c-424d-b587-2f84898a88e0">
         <DataType>WChar</DataType>
         <DataSize>25</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="2ec9fdb9-3d52-43ce-8255-a9807b37b0ef">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="04306847-a4b6-4abf-b633-c868827da1a8">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>Month</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="e5e92ad2-440d-4c07-884b-96d3b8e09e9d">
+        <Translation dwd:design-time-name="aee654eb-9635-4504-b06a-d05fefe0fb8d">
           <Language>1065</Language>
           <Caption>ماه</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="e62594d7-532f-4bf8-bb46-00d3eb5ad698">
+        <AttributeRelationship dwd:design-time-name="03bfe01d-bf87-45fe-94e4-7135e9039590">
           <AttributeID>Season Order</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
           <Name>Quarter</Name>
           <Translations>
-            <Translation dwd:design-time-name="2fb4c5e5-8d5d-4dc8-8aea-34c60c0b6983">
+            <Translation dwd:design-time-name="ff1ff45e-6bdb-471d-b06a-8a292c984561">
               <Language>1065</Language>
               <Caption>فصل</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="63f603a8-2bdf-4c55-ac5d-f80f9bdc9668">
+        <AttributeRelationship dwd:design-time-name="6dff4324-6015-42c5-8d20-9c042cc3430f">
           <AttributeID>Fiscal Season 4</AttributeID>
           <Name>Fiscal Quarter 4</Name>
           <Translations>
-            <Translation dwd:design-time-name="ceff067d-4d8a-472c-9962-de13905aa766">
+            <Translation dwd:design-time-name="f0fc17f0-e8d3-4fca-8e4b-45a2cb2e482e">
               <Language>1065</Language>
               <Caption>سه ماهه از ابتدای تیر</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="87a61958-8aa1-4673-a9b0-bde19dfdfe2a">
+        <AttributeRelationship dwd:design-time-name="aa0187eb-b05f-4ecd-bb6c-255b14092bfb">
           <AttributeID>Fiscal Season 3</AttributeID>
           <Name>Fiscal Quarter 3</Name>
           <Translations>
-            <Translation dwd:design-time-name="3b0eca99-8cfd-41b3-be47-83b20e2b4131">
+            <Translation dwd:design-time-name="a3cfba3b-4c38-4b47-a920-0d3fc98bd2ad">
               <Language>1065</Language>
               <Caption>سه ماهه از ابتدای خرداد</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="6eb6682b-d3f4-43c2-9028-9d5dc56f9f61">
+        <AttributeRelationship dwd:design-time-name="9d0111b6-64f8-4571-97ee-5574dc27c60c">
           <AttributeID>Fiscal Season 10</AttributeID>
           <Name>Fiscal Quarter 10</Name>
           <Translations>
-            <Translation dwd:design-time-name="9e279f76-91e5-4301-8252-506aa339bfbd">
+            <Translation dwd:design-time-name="e50c5543-7ac0-4435-8c10-3c8a438269ee">
               <Language>1065</Language>
               <Caption>سه ماهه از ابتدای دی</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="7b470012-9d0f-474c-b278-ccf3591d0920">
+        <AttributeRelationship dwd:design-time-name="69a99873-7339-4cec-93cb-8db66caaaa59">
           <AttributeID>Fiscal Season 7</AttributeID>
           <Name>Fiscal Quarter 7</Name>
           <Translations>
-            <Translation dwd:design-time-name="3e258428-0eef-4c69-adcb-1ff46949fc37">
+            <Translation dwd:design-time-name="4459c39b-648a-4757-8ea5-6b4570f47600">
               <Language>1065</Language>
               <Caption>سه ماهه از ابتدای مهر</Caption>
             </Translation>
@@ -666,28 +669,28 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="f53437b8-24ff-467f-a256-330e2b3fd1bb">
+    <Attribute dwd:design-time-name="b0a35237-1fa9-4ec2-a79c-0fcbd783c484">
       <ID>Month Id</ID>
       <Name>Month Of Year</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="759d2c5a-8588-4d45-9899-0ed8ad82770b">
+        <KeyColumn dwd:design-time-name="cdbcaa6a-f255-4f47-ac00-959a01370430">
           <DataType>UnsignedTinyInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="793a46b5-899f-4c29-99ee-a31756db4941">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6c279b26-df29-4e7a-bb02-b2be5c77f7a1">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>MonthId</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="0f9be616-7e56-4740-b3cf-a91420c42cb6">
+      <NameColumn dwd:design-time-name="f16aea7c-2382-4ba9-a5b7-fb100be945a7">
         <DataType>WChar</DataType>
         <DataSize>20</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="bc45591a-aa88-45b0-9f51-4dccbff33a7d">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="2d8db2f8-d172-45a2-92d7-963ceb9eefbe">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>MonthTitle</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="682a0ac4-acbc-40c4-93e3-4db16877d4e0">
+        <Translation dwd:design-time-name="c2d13062-6c03-41db-b6fc-2a0aeee0e604">
           <Language>1065</Language>
           <Caption>ماه سال</Caption>
         </Translation>
@@ -696,41 +699,42 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="03c1fee6-207d-4843-89e7-bf77415ab88e">
+    <Attribute dwd:design-time-name="1abdaf2e-a890-40b1-bc18-34c4b7a823ac">
       <ID>Season Order</ID>
       <Name>Quarter</Name>
       <Type>FiscalQuarters</Type>
+      <EstimatedCount>48</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0e6d1c93-c61e-4dad-80fe-babc33e4fa2b">
+        <KeyColumn dwd:design-time-name="976259e1-03d0-4e97-a469-ee796c82f424">
           <DataType>WChar</DataType>
           <DataSize>5</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="015c8f8f-8f10-487b-9aa5-3542db3735d7">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="984436bb-3474-41e8-a65f-58a7f4927efb">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>SeasonOrder</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="6780824d-a74c-49ae-b3e3-ce37643e3f52">
+      <NameColumn dwd:design-time-name="5a69edf0-48b9-422f-bb5b-ca92ad3edd69">
         <DataType>WChar</DataType>
         <DataSize>25</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="8b267425-1d3d-4b04-afca-3b29f8972b66">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="c798484f-0afc-44d5-a2ba-f6593bfb2b5a">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>Season</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="9de29a86-f26e-410d-a674-a4ba1566b85f">
+        <Translation dwd:design-time-name="2449be53-f186-404d-9a9f-d3611588f5d0">
           <Language>1065</Language>
           <Caption>فصل</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="b8c73934-eff4-4745-84a8-ce293dfa9114">
+        <AttributeRelationship dwd:design-time-name="578c477d-868b-438c-a17b-18b4bb49ae3c">
           <AttributeID>Semi Year Order</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
           <Name>Half Year</Name>
           <Translations>
-            <Translation dwd:design-time-name="b73bd8f0-cab1-4a39-b234-ad7918d29230">
+            <Translation dwd:design-time-name="2ef7a224-99bf-49f0-a0d0-4a48718f4c52">
               <Language>1065</Language>
               <Caption>نیمسال</Caption>
             </Translation>
@@ -741,29 +745,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="97d62a06-2948-405f-a467-e527040ceba1">
+    <Attribute dwd:design-time-name="c3995d29-83ff-4267-b770-242dde4795ea">
       <ID>Season Id</ID>
       <Name>Quarter Of Year</Name>
       <Type>FiscalQuarterOfYear</Type>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="6312796f-baf9-4220-8619-5cbb67967d93">
+        <KeyColumn dwd:design-time-name="aaecb327-14ae-4132-ba70-116255258042">
           <DataType>UnsignedTinyInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="641be4ec-8909-43d7-be09-dd4b1d323688">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="554423a4-8ed5-48e9-993e-4fea28a9db1a">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>SeasonId</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="34626d8a-803c-473f-8221-a9e455cb3bd8">
+      <NameColumn dwd:design-time-name="5eeefc1c-c42b-4930-bbb9-386934acf1a6">
         <DataType>WChar</DataType>
         <DataSize>20</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="641cbfc2-3525-4171-a3fc-1715846ae28e">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="8fbd8ab8-8d7f-4263-93fb-31d2739fb1aa">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>SeasonTitle</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="76142d3c-bde6-4947-b24e-fee5fa6f897a">
+        <Translation dwd:design-time-name="6d059371-27e1-476b-b026-8cac67b43053">
           <Language>1065</Language>
           <Caption>فصل سال</Caption>
         </Translation>
@@ -772,40 +776,41 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="992f265b-36c0-4166-8ffd-b043cde98db2">
+    <Attribute dwd:design-time-name="aa9c23d1-02ed-4c9f-bc26-29469d342ebd">
       <ID>Week Order</ID>
       <Name>Week</Name>
       <Type>FiscalWeeks</Type>
+      <EstimatedCount>637</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="bd402938-f1ad-4861-9a85-68c52aee8d9b">
+        <KeyColumn dwd:design-time-name="1a020af9-f153-47cc-9807-7d30e7fffcbc">
           <DataType>WChar</DataType>
           <DataSize>6</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="68342753-8fa1-42f9-9c0f-be02af723b5c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7994c04e-bdd8-4550-a7d9-a1dc10d739d8">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>WeekOrder</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="addf2ce9-4bdd-414e-9a34-f360c6cc5774">
+      <NameColumn dwd:design-time-name="652a6bfa-fdf2-4159-95a5-82adf8ae8f4c">
         <DataType>WChar</DataType>
         <DataSize>270</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="fc15c58d-244f-4264-9e60-a086676e36c5">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="16747ad8-dd49-41a8-9283-1b32e93bb663">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>Week</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="043f33de-5274-41e5-937f-8e4e8ae35dd3">
+        <Translation dwd:design-time-name="9cd5cd24-fd08-4975-a9a5-a09a0dabcf32">
           <Language>1065</Language>
           <Caption>هفته</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="79b8edc0-487e-4809-96c7-a9334d988619">
+        <AttributeRelationship dwd:design-time-name="e10bdbf4-c415-4e8e-97b0-3f19a7abacb7">
           <AttributeID>Year</AttributeID>
           <Name>Year</Name>
           <Translations>
-            <Translation dwd:design-time-name="93ed6119-d0e5-46a7-a3bf-62c1c0ccefb3">
+            <Translation dwd:design-time-name="737430e8-6aab-42a3-91f0-396d3f354436">
               <Language>1065</Language>
               <Caption>سال</Caption>
             </Translation>
@@ -816,28 +821,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="47bd2666-129e-427a-86f1-923734640ffa">
+    <Attribute dwd:design-time-name="514f400e-4977-491f-a140-335c9fe8cc46">
       <ID>Year</ID>
       <Name>Year</Name>
       <Type>FiscalYears</Type>
+      <EstimatedCount>12</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0964e1cc-8383-476e-836c-4fc54e84f7f9">
+        <KeyColumn dwd:design-time-name="cd782440-6d3a-4ae5-be6a-1a59f531fbc9">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="221393f8-a38c-496a-b378-0eb03a600f18">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c0accb8e-1c8e-480a-b435-353a6d8a28c3">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>Year</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="b1aa003d-1f64-43c7-a174-68743a101b78">
+      <NameColumn dwd:design-time-name="d3ec9b76-8ca5-4c1a-828e-b59464d8aeb6">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="2b4959d3-d574-4a99-b2df-6c9138f47413">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="cbc8dcb5-9b62-47c4-b66d-27634a623bc1">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>Year</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="c96e03bc-c58d-46f6-af32-b2e8b21b9863">
+        <Translation dwd:design-time-name="f00939ce-6de3-4107-9f6b-70d7d9bc08c1">
           <Language>1065</Language>
           <Caption>سال</Caption>
         </Translation>
@@ -846,28 +852,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="96fab09d-0c87-45f6-a7e4-7a9360807383">
+    <Attribute dwd:design-time-name="495e3eac-6331-4bcc-9856-6ff5011d2995">
       <ID>m Year</ID>
       <Name>M Year</Name>
       <Type>Years</Type>
+      <EstimatedCount>13</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4cf74e13-6397-4dab-a1e3-93cb470724a1">
+        <KeyColumn dwd:design-time-name="e91ba4b2-3727-4f6f-84c0-3cf0be59664c">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2a4f3466-9911-4d28-b935-30830dc6690b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="09e74557-cf6a-4562-8751-6ef7241def77">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>mYear</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="a2b81c2a-4699-4f92-bbb0-30463d8898c2">
+      <NameColumn dwd:design-time-name="394edba6-b2a8-4ac1-96da-791ae76a78f3">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="4a9ea985-74dd-49b6-a563-f6dee723ba84">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9207ade3-b52c-4498-ba13-2e8363fb4476">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>mYear</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="81524935-6edb-401c-9a9d-1b57e600b9e3">
+        <Translation dwd:design-time-name="fad9baac-36bf-49cb-b847-c0ec573bb43e">
           <Language>1065</Language>
           <Caption>سال میلادی</Caption>
         </Translation>
@@ -875,40 +882,41 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="752ec0bf-ed98-4f28-b670-b18d854c314e">
+    <Attribute dwd:design-time-name="c2273c29-ea66-43fb-84eb-8f0644679926">
       <ID>m Month</ID>
       <Name>M  Month</Name>
       <Type>Months</Type>
+      <EstimatedCount>145</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2331e6ed-70d6-4521-971a-3c880cf0b9c0">
+        <KeyColumn dwd:design-time-name="28e9db6a-d2c3-4f8e-8a80-6ab8c305980f">
           <DataType>WChar</DataType>
           <DataSize>8</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b05cff9a-e114-4bb8-a1d7-52dd22599bef">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="65fec53b-b7bb-48aa-aa19-7e3df3153960">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>mMonth</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="8041b40d-d6a2-4014-ac0e-571df00c0a2b">
+      <NameColumn dwd:design-time-name="f5a4345d-c994-411e-a888-f02deab5f8a0">
         <DataType>WChar</DataType>
         <DataSize>8</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="c2dd05d7-d95b-4884-a3fc-338ba9fd30d5">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="5f6a4028-fbd4-49b7-ae78-a3519e04ab69">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>mMonth</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="f274dafd-fd9c-4803-808a-0b767aebc7e5">
+        <Translation dwd:design-time-name="2995e64d-8383-4949-99d2-5b1d50a9acb8">
           <Language>1065</Language>
           <Caption>ماه میلادی</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="508602c2-bebd-4a99-bdf9-7db752931ba5">
+        <AttributeRelationship dwd:design-time-name="5caef59c-bffe-4f7c-be0b-c55c3b18f7f7">
           <AttributeID>m Year</AttributeID>
           <Name>M Year</Name>
           <Translations>
-            <Translation dwd:design-time-name="52080ac9-5da3-4eb9-b70e-34ae3904cf59">
+            <Translation dwd:design-time-name="f22dbdab-67c5-4a54-adbc-aca95336fb42">
               <Language>1065</Language>
               <Caption>سال میلادی</Caption>
             </Translation>
@@ -919,28 +927,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="f2c6bb9d-7ced-45b5-859e-3b1ae60313f2">
+    <Attribute dwd:design-time-name="862905fb-3d55-4b52-ab0c-03c1695b1c4f">
       <ID>Fiscal Year 3</ID>
       <Name>Fiscal Year 3</Name>
       <Type>FiscalYears</Type>
+      <EstimatedCount>13</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f28be765-fe87-4a97-b794-3c1f26010287">
+        <KeyColumn dwd:design-time-name="333fc4ed-d491-4c16-ad1e-f8bb52f84bc1">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2e1757de-cb80-4ea8-a21f-0049bc731600">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6f6018e8-8f16-4913-a4ce-ad515c44f74b">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>FiscalYear_3</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="5e265d3a-d5db-4456-b330-97551e808f98">
+      <NameColumn dwd:design-time-name="bfa07790-d11e-4f58-8396-a55b63ac3242">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="35d7ba15-d882-4f8c-b5e0-f6ac5f82fd2c">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="52be6005-dd7b-48f7-97d6-18cef2c62371">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>FiscalYear_3</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="bc1ebe56-d89a-4d59-b6ce-92c03c3c796e">
+        <Translation dwd:design-time-name="492d4d15-6046-4d89-9a19-ecec8c7cbecd">
           <Language>1065</Language>
           <Caption>سال از ابتدای خرداد</Caption>
         </Translation>
@@ -948,28 +957,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="623f6df2-af24-426d-b7b2-9b46c46da4cb">
+    <Attribute dwd:design-time-name="29f1a729-2b79-4375-8079-7703ee9866c2">
       <ID>Fiscal Year 4</ID>
       <Name>Fiscal Year 4</Name>
       <Type>FiscalYears</Type>
+      <EstimatedCount>13</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="7fe17330-074c-4ac7-a3cf-a53bff3a6d8c">
+        <KeyColumn dwd:design-time-name="13487ed5-d14e-45c8-92c3-b63fcee22bda">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2615d593-6691-44a6-8b1a-36dfb4c64f9e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c818e744-8b91-442d-b11c-42a2c06645a9">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>FiscalYear_4</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="a512b16a-1b35-4ad2-adf3-c3108c9ae579">
+      <NameColumn dwd:design-time-name="3374fccc-27f6-4c56-b877-dca67062e6b7">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="8368da34-a751-4301-9e35-6227801a273b">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="55bd5e8f-991d-4788-bbd4-b3b617290e60">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>FiscalYear_4</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="3dbb611a-669e-4cd0-ba62-9feea070e25e">
+        <Translation dwd:design-time-name="999fd138-5699-4e70-8ef6-4a1d52d66a91">
           <Language>1065</Language>
           <Caption>سال از ابتدای تیر</Caption>
         </Translation>
@@ -977,39 +987,40 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d6150deb-d0dc-4184-a706-8bb1a2152da6">
+    <Attribute dwd:design-time-name="3f0ecc51-1da8-482e-ad27-05be96a5b909">
       <ID>Fiscal Season 4</ID>
       <Name>Fiscal Quarter 4</Name>
       <Type>FiscalQuarters</Type>
+      <EstimatedCount>48</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d1cd3317-b215-4cf4-b891-c749517c573b">
+        <KeyColumn dwd:design-time-name="a52cdbb7-0d22-4d69-ac42-e4da938e88ff">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4e20649c-2ccf-4c7e-9420-73708b69f17f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="86bc95cf-7845-41c7-b0a3-8f23e2deba26">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>FiscalSeason_4</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="7279ef63-4374-4021-9e30-f9f824a0ec3d">
+      <NameColumn dwd:design-time-name="ef04440e-8502-4b59-9da1-9bf44d800587">
         <DataType>WChar</DataType>
         <DataSize>24</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="36219d53-584d-42b3-aa82-45957bc4405d">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="25d49af1-b040-42ac-b1e2-c8b770f13c81">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>FiscalSeason4_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="6fde5b99-ba99-429f-94ce-c2b4767707ce">
+        <Translation dwd:design-time-name="3c64f400-9e66-4e81-9e93-e658ff72bcd0">
           <Language>1065</Language>
           <Caption>سه ماهه از ابتدای تیر</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="c3cb7916-31f0-43be-ae4a-d458bca8ca0f">
+        <AttributeRelationship dwd:design-time-name="12e32996-c938-4e5e-b319-ac256beb8ba7">
           <AttributeID>Fiscal Year 4</AttributeID>
           <Name>Fiscal Year 4</Name>
           <Translations>
-            <Translation dwd:design-time-name="2572fa5a-4822-4bca-903d-e3515e295244">
+            <Translation dwd:design-time-name="a326a7d3-79b6-48e5-ae1f-fd0fd4ef1005">
               <Language>1065</Language>
               <Caption>سال از ابتدای تیر</Caption>
             </Translation>
@@ -1019,39 +1030,40 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="fe1acb0d-79e3-45ec-a4a5-db9873421e20">
+    <Attribute dwd:design-time-name="5799059a-e1fa-45c9-8751-8bd3e32bfa9b">
       <ID>Fiscal Season 3</ID>
       <Name>Fiscal Quarter 3</Name>
       <Type>FiscalQuarters</Type>
+      <EstimatedCount>49</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="98259aac-ace9-4885-919a-89fee1a64e89">
+        <KeyColumn dwd:design-time-name="f11abb5c-332d-4425-81f4-eea1967b817b">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="1cbb5960-d76a-444d-ac48-2c26b45852ac">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2370fef7-f6c2-42c6-a18c-94472cc83e85">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>FiscalSeason_3</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="cc4facd5-86a4-4201-9f34-540fc351b6c2">
+      <NameColumn dwd:design-time-name="9c0735f2-da7a-4a3a-bffc-da3d7803a067">
         <DataType>WChar</DataType>
         <DataSize>24</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="096a076e-152a-4363-b1bf-14bfa566610f">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="949372e4-630f-491a-8cfb-fd92a6813090">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>FiscalSeason3_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="66d3c0a7-61a7-420c-b40c-35f9e37fb6fd">
+        <Translation dwd:design-time-name="4bed7eeb-23e9-4ffe-b62d-ef9da2486939">
           <Language>1065</Language>
           <Caption>سه ماهه از ابتدای خرداد</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="2011fa61-fc72-46fa-84f3-81766e17556d">
+        <AttributeRelationship dwd:design-time-name="720974fb-17f8-4ff7-af42-df08a8793867">
           <AttributeID>Fiscal Year 3</AttributeID>
           <Name>Fiscal Year 3</Name>
           <Translations>
-            <Translation dwd:design-time-name="583d34a0-b4d8-4a18-add1-40aaf8d1a61c">
+            <Translation dwd:design-time-name="1ed3cb13-7302-4a7f-80c3-6e8fbdf36194">
               <Language>1065</Language>
               <Caption>سال از ابتدای خرداد</Caption>
             </Translation>
@@ -1061,28 +1073,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="105f067a-4418-4e7c-ada4-429f4fad765f">
+    <Attribute dwd:design-time-name="7b573073-cd5a-4600-97ab-3ca238f134e5">
       <ID>Fiscal Year 10</ID>
       <Name>Fiscal Year 10</Name>
       <Type>FiscalYears</Type>
+      <EstimatedCount>13</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="59a557ed-ed21-43d2-85c4-10c0868f2d24">
+        <KeyColumn dwd:design-time-name="2ae38057-cb64-457d-8b2e-f06c1b91f1c4">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ad9f5373-4cc1-4487-b37e-586a77754013">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dd208128-9bff-43cc-affe-f8c48e901885">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>FiscalYear_10</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="58f9176b-67ba-4e10-ae4b-b360ab37bb82">
+      <NameColumn dwd:design-time-name="691d9ea8-2dc2-44ae-a64c-a568c1f5b815">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="4e25f5f4-4bbd-448f-bf44-3d6a19473869">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="012797f9-cc42-40cd-9df6-9bda5f56beab">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>FiscalYear_10</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="69883b27-a5c8-40e3-b48b-93d4161a5100">
+        <Translation dwd:design-time-name="f57d345e-131b-4b74-a43e-b8213b357c10">
           <Language>1065</Language>
           <Caption>سال از ابتدای دی</Caption>
         </Translation>
@@ -1090,39 +1103,40 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="4c9db368-0b4c-4695-8647-5129a71d4d3e">
+    <Attribute dwd:design-time-name="56765699-2ca5-4e1b-8a9c-fb87d1626084">
       <ID>Fiscal Season 10</ID>
       <Name>Fiscal Quarter 10</Name>
       <Type>FiscalQuarters</Type>
+      <EstimatedCount>48</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="18dc19d0-d4a5-49a3-a9fc-08e57fad3afa">
+        <KeyColumn dwd:design-time-name="c67cdf0a-82f2-45d4-a9f2-dd1606d9f7cf">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0a152d73-c6e5-4bbc-b79f-0623863eca72">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bb137274-d0aa-4def-9582-1f31e98f8769">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>FiscalSeason_10</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="278b5528-b2c8-4c51-8ea6-5ebdcb32fed2">
+      <NameColumn dwd:design-time-name="d2a2508a-3cf2-4a85-bd7d-cf221b010b54">
         <DataType>WChar</DataType>
         <DataSize>24</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="0473197f-5cdc-4b4d-a8ba-9fb7f545b6ce">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="94e1e79f-a4a7-49c3-93da-34d6be9ee0b4">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>FiscalSeason10_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="987168c2-3b6b-48ab-b407-f5caeedf19d3">
+        <Translation dwd:design-time-name="8dd1837f-cc70-4733-9f77-2305432073c5">
           <Language>1065</Language>
           <Caption>سه ماهه از ابتدای دی</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="98bb2357-f3b2-4789-ade4-45e171e737f4">
+        <AttributeRelationship dwd:design-time-name="f6f81505-df3e-4148-836b-defb7865b53b">
           <AttributeID>Fiscal Year 10</AttributeID>
           <Name>Fiscal Year 10</Name>
           <Translations>
-            <Translation dwd:design-time-name="1f1e7e79-3105-4d99-9ad8-b9c799d17f4a">
+            <Translation dwd:design-time-name="e252f771-ec5c-4c88-94c3-73a945cb0fc4">
               <Language>1065</Language>
               <Caption>سال از ابتدای دی</Caption>
             </Translation>
@@ -1132,24 +1146,24 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="6190a1cf-9168-4fc7-bbf7-52662a6ec61e">
+    <Attribute dwd:design-time-name="937f3114-ef69-41da-abb7-1d47d0216be7">
       <ID>Week Order 1</ID>
       <Name>Week Order</Name>
       <Type>Account</Type>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="365d17a0-fff5-4c9f-b0fb-e4791b94409f">
+        <KeyColumn dwd:design-time-name="bd61f1b5-57cf-4ed8-a9c9-0146a6c6d414">
           <DataType>WChar</DataType>
           <DataSize>8</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f2fcd569-e588-4d9e-9425-c156c9d06f9c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c5e01de6-1ac3-4242-bb54-4275e9b0d411">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>WeekOrder</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="d8ba7625-902e-4a98-a499-2140261b6fbc">
+      <NameColumn dwd:design-time-name="3800d4e5-2fe9-46f3-a3bc-f1e3e7e69b17">
         <DataType>WChar</DataType>
         <DataSize>270</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="e15fd6bf-a5f9-4263-b73b-e92e6d0c6703">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="434f2c91-c0dc-4e56-b7b6-fd8f55db97e9">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>Week</ColumnID>
         </Source>
@@ -1158,28 +1172,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e3def6cd-d736-40c8-947a-ccc002b9a631">
+    <Attribute dwd:design-time-name="074c7082-9d52-4d16-99b7-729cee158385">
       <ID>Fiscal Year 7</ID>
       <Name>Fiscal Year 7</Name>
       <Type>FiscalYears</Type>
+      <EstimatedCount>13</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="59b72feb-6f2f-4cc2-8e22-0e9107cee278">
+        <KeyColumn dwd:design-time-name="edbaf17e-308a-495b-9a8f-316467175bbe">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b65e044b-2188-40b1-803c-32ff529cf37e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="140d4e86-f7ac-4f8c-be27-a9eec8ecaf72">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>FiscalYear_7</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="f7ae5573-9e81-4032-a1e6-8794dd2011e5">
+      <NameColumn dwd:design-time-name="e43fc688-0a7d-413a-9388-3b3ee27c55ba">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="03ee8c77-808b-4544-8c58-e7b15f31e336">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="691745e1-0425-49b5-8093-3716cecb930d">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>FiscalYear_7</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="2301b69b-1e67-43b3-87f2-4c1cd4fa619a">
+        <Translation dwd:design-time-name="79cd3a86-1783-4998-8cc8-c21e7d19e1d5">
           <Language>1065</Language>
           <Caption>سال از ابتدای مهر</Caption>
         </Translation>
@@ -1187,39 +1202,40 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="686ab227-4f92-4fc6-9e03-4bc7daf69cc9">
+    <Attribute dwd:design-time-name="a59c1b82-3917-4bfe-a860-fcd76fd059f9">
       <ID>Fiscal Season 7</ID>
       <Name>Fiscal Quarter 7</Name>
       <Type>FiscalQuarters</Type>
+      <EstimatedCount>48</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2bb0a2b5-0c71-44e6-8671-1e442b08edd6">
+        <KeyColumn dwd:design-time-name="6ad5e5e6-6e4e-4203-84a0-114af30c64ac">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="beb33587-c0ed-4206-b42e-febe516820eb">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6edfe194-ce92-4ed6-85b4-b6c6192590eb">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>FiscalSeason_7</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="4ac06e98-9dcb-4b66-87af-8285815d611e">
+      <NameColumn dwd:design-time-name="3990224f-e07c-4b17-825d-a0c5c7eeb38e">
         <DataType>WChar</DataType>
         <DataSize>24</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="a46d2cbf-340e-4be2-81ec-12dd9c380c2f">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="ceb9184a-e665-4224-bed7-40b052e91ede">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>FiscalSeason7_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="d2b70e4a-2b03-4ad2-8c40-96fe826e0d1b">
+        <Translation dwd:design-time-name="69f319ee-c7cd-42b3-b4ef-e45d96f9f0c0">
           <Language>1065</Language>
           <Caption>سه ماهه از ابتدای مهر</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="8b185671-34a5-413c-8be2-71724a702f90">
+        <AttributeRelationship dwd:design-time-name="0696c431-ab6d-41c0-af9b-0676d985c9f4">
           <AttributeID>Fiscal Year 7</AttributeID>
           <Name>Fiscal Year 7</Name>
           <Translations>
-            <Translation dwd:design-time-name="de25605c-e6cb-45b5-bca1-5fa66f217563">
+            <Translation dwd:design-time-name="6bf9a400-ba2d-4f60-9a95-51b22bbac37d">
               <Language>1065</Language>
               <Caption>سال از ابتدای مهر</Caption>
             </Translation>
@@ -1229,33 +1245,34 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="95c20ba6-32ed-48f4-b7a0-0355a3807c9b">
+    <Attribute dwd:design-time-name="ec8444c7-cfc3-4aef-8fa0-b83c4959b7ee">
       <ID>Sdatenoslash</ID>
       <Name>Sdatenoslash</Name>
       <Type>Date</Type>
+      <EstimatedCount>4383</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c4e5de05-2e05-4925-81a7-751b607fc22a">
+        <KeyColumn dwd:design-time-name="9ad98807-056a-4d13-a135-5ddc2fc1c0e5">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="579666a9-b543-4e7d-8b21-c2ba09f8292d">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3e9821f9-c44e-4aa0-97f3-e45d0697085f">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>sdatenoslash</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="2b6007a2-af00-4f4a-ad4c-e1d60ff61208">
+      <NameColumn dwd:design-time-name="fb585ef0-f4ce-409a-a6a7-863e44bb297a">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="a70e0bb5-70ba-4e58-8817-0115cb147dbc">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f1020858-2636-42fc-81c3-0f8fab80433c">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>sdatenoslash</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="3d1c47df-786b-48a8-a0f9-0ff01c59bd0a">
+        <AttributeRelationship dwd:design-time-name="87047315-9664-4027-b6b1-edb7fe9abd89">
           <AttributeID>m Date</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
           <Name>Month</Name>
           <Translations>
-            <Translation dwd:design-time-name="84c150d6-9f28-4863-8c1c-23d516f0fc5a">
+            <Translation dwd:design-time-name="2d406c33-5569-4c6b-8e6b-0f90899e2882">
               <Language>1065</Language>
               <Caption>ماه</Caption>
             </Translation>
@@ -1264,9 +1281,9 @@
       </AttributeRelationships>
       <OrderBy>AttributeKey</OrderBy>
       <OrderByAttributeID>m Date</OrderByAttributeID>
-      <ValueColumn dwd:design-time-name="9e998d12-d4d0-491d-b868-9f8e43094f78">
+      <ValueColumn dwd:design-time-name="e9efe20b-9d69-4ba3-ad30-84e556df2f69">
         <DataType>Integer</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="4106b49b-275e-4c6c-a54c-b145361002f4">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="75684c09-f68c-4d85-a671-e64db61a508f">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>Day</ColumnID>
         </Source>
@@ -1274,21 +1291,21 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="0f2d5cbf-503c-4c7c-9d6a-3b50c515fac2">
+    <Attribute dwd:design-time-name="c9eadd74-5365-4225-82f1-b0280c3d52ec">
       <ID>m Date 1</ID>
       <Name>m Date</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="1d15b823-797c-49e6-83e3-e0ceb9fe418d">
+        <KeyColumn dwd:design-time-name="1dd9b413-5a95-4389-abc5-40e1aa53022d">
           <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="af826f5b-125e-49c7-a6e0-3500ef83e457">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f465c79a-c847-4717-985d-40b941fb72d5">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>mDate</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="fb482863-2d84-4e77-863d-4be4b4cfe554">
+      <NameColumn dwd:design-time-name="36edbad4-596f-4740-b96b-b9274de3cb09">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="ea160221-67f4-43d6-8b5a-6d5d60e21cc7">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="4057ad22-36fe-45bd-8005-2a2167873d74">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>mDate</ColumnID>
         </Source>
@@ -1296,21 +1313,21 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="81ec8ebc-79fe-4faf-b988-d2e9e5dea2af">
+    <Attribute dwd:design-time-name="340da855-a7b3-4f82-a105-5c1a5fc44d0a">
       <ID>Date Id 1</ID>
       <Name>Date Id-int</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="1ae53076-ba2e-452f-bae1-76b17729186a">
+        <KeyColumn dwd:design-time-name="e664dac3-094c-4753-ad94-bc66a279b397">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e9477c10-208b-4abb-89f1-5709ea66f0f0">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9706744a-51b8-43fb-b3a9-1828ce219437">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>Date_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="f7278e41-ddb6-4336-b330-e695e461ee13">
+      <NameColumn dwd:design-time-name="bfd9e0f3-294f-42f5-8281-80bcdd3a15e1">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="9db99cf5-c9ab-4fff-b891-4bfa0037b13b">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d9decb62-b72d-4e19-b09c-24cb105e8145">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>Date_Id</ColumnID>
         </Source>
@@ -1318,21 +1335,22 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d77ad9cc-0c8e-40a0-ac4c-0da85b94b166">
+    <Attribute dwd:design-time-name="375a3280-7e02-453f-908e-e86f8a88c201">
       <ID>Year New</ID>
       <Name>Year New</Name>
+      <EstimatedCount>12</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="bc472492-d654-48d6-a929-0dd02a5a4e49">
+        <KeyColumn dwd:design-time-name="c39552bc-d1f8-489a-b900-28be1413ab9f">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9a7cc5d4-52d4-4914-9fcb-3c016fb6e635">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d353edeb-9505-4ea2-b744-f767077e2c6e">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>YearNew</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="7acd4e0c-b2ba-4fcf-ba28-081580720115">
+      <NameColumn dwd:design-time-name="0cd19807-bf3c-42e6-8bbc-16ff88f6ea0b">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="e4e71ba8-f241-4895-aa5a-ee93936a54b9">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="ee254c96-c041-4293-bb2b-f46031131e3d">
           <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           <ColumnID>YearNew</ColumnID>
         </Source>
@@ -1340,13 +1358,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="33b1f02c-ec44-4b85-a10b-556a33bf08f3">
+    <Attribute dwd:design-time-name="313d910e-b8a9-4538-ac7e-595d749c95b7">
       <ID>Year 1</ID>
       <Name>Year Int</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="95a6062c-461f-413f-9280-38dee114cf57">
+        <KeyColumn dwd:design-time-name="f1c3dcd1-d9af-450a-af06-ea6deddabf25">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="5732c473-7468-4aec-84cc-f80a17de47d8">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="747b394b-bc15-44c3-a5e5-fedd9a6222ab">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>Year</ColumnID>
           </Source>
@@ -1355,21 +1373,21 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="62b84ddc-490d-4e5e-8c82-64ee7ff87039">
+    <Attribute dwd:design-time-name="318255c0-2725-4506-8e9f-3f8e02df51ab">
       <ID>M Date Date Type</ID>
       <Name>M Date Date Type</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="62b9b739-a5a9-47c5-a6f0-ee457605ec1e">
+        <KeyColumn dwd:design-time-name="6347666f-3a6e-4273-bc8e-1ffa6fb004c0">
           <DataType>Date</DataType>
           <DataSize>10</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a1bdc8f8-ba75-4216-855c-e3a120a996f9">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fdea0a0c-5742-43b2-a294-8a0ace49002c">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>MDate_DateType</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="9b3c6a1c-1806-4e8f-8444-ae6e08b5f25e">
+        <AttributeRelationship dwd:design-time-name="e987c159-2864-42de-a8bd-59124d0540f1">
           <AttributeID>Sdatenoslash</AttributeID>
           <Name>Sdatenoslash</Name>
         </AttributeRelationship>
@@ -1377,13 +1395,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d395f9be-a57b-4b6e-bf38-2fce25823534">
+    <Attribute dwd:design-time-name="cb0890ad-8658-414a-9968-41c744c21df4">
       <ID>Date Now Status</ID>
       <Name>Date Now Status</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="25c5337b-b7b9-40b0-b01e-224df280748e">
+        <KeyColumn dwd:design-time-name="939ec386-e593-4413-a63a-331ea170fdde">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="24f4832e-7122-4e16-9624-a4de2c87c6b0">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8c6bfd69-e2d9-4aba-88e5-9a676d6e2687">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>Date_NowStatus</ColumnID>
           </Source>
@@ -1392,13 +1410,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d02f045d-4a67-4e0b-91ce-e1e392e036fc">
+    <Attribute dwd:design-time-name="55eeeac1-63cc-488e-862a-b64658d83774">
       <ID>Date After Now Status</ID>
       <Name>Date After Now Status</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9ddfb37c-c200-462e-83a0-b9cd13152830">
+        <KeyColumn dwd:design-time-name="1778b7be-6f28-4918-a6d0-5073e4fdb259">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d58c5642-229e-4870-81ee-bf3df67e0e9c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2e41fdda-3112-4bf3-abc3-d1f70c748fab">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>Date_AfterNowStatus</ColumnID>
           </Source>
@@ -1407,13 +1425,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="5b1b8793-70e1-4d94-81f4-c39fe6de3966">
+    <Attribute dwd:design-time-name="7380e889-35d9-434a-b378-3b60057da05e">
       <ID>Current Month And After Status</ID>
       <Name>Current Month And After Status</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="fdcd8c8d-0419-46d2-b6b8-311540755f8e">
+        <KeyColumn dwd:design-time-name="2de99b8e-f779-46ee-9784-ed8789433554">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2d33ac82-fe65-4df6-82fb-c6ff4d1ce1c7">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="987e0d91-74b9-4423-8406-c69f3333d488">
             <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
             <ColumnID>CurrentMonthAndAfterStatus</ColumnID>
           </Source>
@@ -1425,124 +1443,124 @@
   </Attributes>
   <AttributeAllMemberName>AllFullDate</AttributeAllMemberName>
   <AttributeAllMemberTranslations>
-    <AttributeAllMemberTranslation dwd:design-time-name="864384eb-cc0c-4a52-8a42-221e41b45976">
+    <AttributeAllMemberTranslation dwd:design-time-name="b1bc8e6e-00d5-4bfd-85ac-7aad42c0b91a">
       <Language>1065</Language>
       <Caption>همه زمان ها</Caption>
     </AttributeAllMemberTranslation>
   </AttributeAllMemberTranslations>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="338a132c-0e7b-460f-80ff-f4156cbbc1dd">
+    <Hierarchy dwd:design-time-name="f504b7ce-71e5-4f30-b4bc-775e864a7197">
       <ID>Hierarchy</ID>
       <Name>Year-Half Year-Quarter-Month-Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="fa46893f-d7db-4e32-b82d-82ac0d37c537">
+        <Translation dwd:design-time-name="9292ac03-c366-47e7-a4dd-f0bd32733396">
           <Language>1065</Language>
           <Caption>ساختار سال - نیمسال - فصل - ماه - روز</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level dwd:design-time-name="bde055f9-032b-46f3-bb1f-5d55a9987b9a">
+        <Level dwd:design-time-name="944fbba1-4ce4-4d82-a1c6-e590505d636c">
           <ID>Year</ID>
           <Name>Year</Name>
           <SourceAttributeID>Year</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="c46dd7ab-ead1-41a7-966a-98766662887d">
+            <Translation dwd:design-time-name="53e18dd2-e173-4545-9f09-fd1c7008ff5d">
               <Language>1065</Language>
               <Caption>سال</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="fa3ff19b-cdbd-45b4-8ad7-e719e07214eb">
+        <Level dwd:design-time-name="26bd85b6-7cf5-4692-b408-f909062dda69">
           <ID>Half Year</ID>
           <Name>Half Year</Name>
           <SourceAttributeID>Semi Year Order</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="8dfdb651-6b72-4419-be08-a00991416938">
+            <Translation dwd:design-time-name="953cd2f6-932c-4588-836b-9e2e983225cd">
               <Language>1065</Language>
               <Caption>نیمسال</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="3e6254ad-eb41-44fe-8031-645c00df204e">
+        <Level dwd:design-time-name="6a04a6ec-4ba7-474e-9f22-b88bf6a4af1d">
           <ID>Quarter</ID>
           <Name>Quarter</Name>
           <SourceAttributeID>Season Order</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="3e6ba09d-1cea-4490-9027-6ffd4dd5bf70">
+            <Translation dwd:design-time-name="1ebfac4a-d08c-478b-8900-c063ce4a0d4f">
               <Language>1065</Language>
               <Caption>فصل</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="c7c31438-c6da-477a-948e-1b5ef87faa9b">
+        <Level dwd:design-time-name="3fd00084-2d75-4b14-8cd2-67e89d232ec0">
           <ID>Month</ID>
           <Name>Month</Name>
           <SourceAttributeID>m Date</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="ebf12fc2-af60-4ac2-a196-f9aa7af985a6">
+            <Translation dwd:design-time-name="ba50eae3-f41a-4616-93ec-14fa1cba0327">
               <Language>1065</Language>
               <Caption>ماه</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="2a36d19b-33d7-4adb-9aed-bd96cf80f8e1">
+        <Level dwd:design-time-name="1053dc41-a195-47e1-a957-4ae4469d8934">
           <ID>Date</ID>
           <Name>Date</Name>
           <SourceAttributeID>Date Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="41c4632b-7ccd-4f2f-80fc-dbe5505c1499">
+            <Translation dwd:design-time-name="3240d45e-2ff5-4d9a-9403-28085f45370c">
               <Language>1065</Language>
               <Caption>روز</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="c08f1c71-264b-4d32-8472-9579e9a27683">
+        <Level dwd:design-time-name="6bf21c27-a077-41e9-8b8f-fd3c5a1e0abd">
           <ID>M Date Date Type</ID>
           <Name>M Date Date Type</Name>
           <SourceAttributeID>M Date Date Type</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="3b7bce89-de6d-4e8e-9238-a61ecbe7e88a">
+    <Hierarchy dwd:design-time-name="b795af49-6ce7-48fe-bc20-71fc312e4e45">
       <ID>Hierarchy 1</ID>
       <Name>Year - Month - Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="a28d43d9-be3c-4b4c-9405-c3a424eaa8a9">
+        <Translation dwd:design-time-name="c7e318df-1a5b-46f4-a8cb-2fc2844ab291">
           <Language>1065</Language>
           <Caption>ساختار درختی سال - ماه - روز</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level dwd:design-time-name="9cee2025-d2b1-4a26-9529-35b7bc187e9e">
+        <Level dwd:design-time-name="a7c56224-c192-4d58-860e-3a5777aa5ffc">
           <ID>Year</ID>
           <Name>Year</Name>
           <SourceAttributeID>Year</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="7fcc3481-496f-4528-883b-88d411ac6b74">
+            <Translation dwd:design-time-name="2a330c69-637d-4b3a-81ed-3a0a181bd513">
               <Language>1065</Language>
               <Caption>سال</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="42603653-eb1e-43a1-bae6-031eac47f79f">
+        <Level dwd:design-time-name="dff8d305-2678-446d-97cb-bab79dff5247">
           <ID>Month</ID>
           <Name>Month</Name>
           <SourceAttributeID>m Date</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="065a8b58-b4db-4708-94a8-37ade94c9447">
+            <Translation dwd:design-time-name="48a3b7af-913a-465b-828b-827821b24269">
               <Language>1065</Language>
               <Caption>ماه</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="7848beaa-bb6a-4951-8575-e54b21951d2a">
+        <Level dwd:design-time-name="a4e95522-5ca2-40b0-8484-d15445a92016">
           <ID>Date</ID>
           <Name>Date</Name>
           <SourceAttributeID>Date Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="2adcb832-c900-48a2-bf15-b16cd91cc857">
+            <Translation dwd:design-time-name="50f15a22-e394-414a-bbab-c0ad480ab339">
               <Language>1065</Language>
               <Caption>روز</Caption>
             </Translation>
@@ -1550,34 +1568,34 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="8bf3b044-65a9-417a-bff2-dfdd7e8b8328">
+    <Hierarchy dwd:design-time-name="e3e6fae9-0304-4447-9eeb-3eafd013e886">
       <ID>Hierarchy 2</ID>
       <Name>M Year - M Month</Name>
       <Translations>
-        <Translation dwd:design-time-name="19495559-477e-49f4-9cc8-500073b7e16b">
+        <Translation dwd:design-time-name="931b0bf4-12ee-42d4-a541-8467962e5e3b">
           <Language>1065</Language>
           <Caption>ساختار درختی سال - ماه میلادی</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level dwd:design-time-name="51a3d7fb-ce85-4425-b2dc-16d06a7a084c">
+        <Level dwd:design-time-name="0155b8d3-f3f9-4d7c-96ae-4b338e0d9b35">
           <ID>M Year</ID>
           <Name>M Year</Name>
           <SourceAttributeID>m Year</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="dbbdd803-bbf7-437e-9ce5-7c28b53c1de8">
+            <Translation dwd:design-time-name="caa1c627-0e9e-4654-ab84-05113f46f266">
               <Language>1065</Language>
               <Caption>سال میلادی</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="d516ba6c-d11a-49d4-b9b1-6f5c45974d4b">
+        <Level dwd:design-time-name="6145e35f-b796-48e4-995e-129cad76df8e">
           <ID>M  Month</ID>
           <Name>M  Month</Name>
           <SourceAttributeID>m Month</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="d87c3d3a-4052-4522-94d9-3c377932a04e">
+            <Translation dwd:design-time-name="e503b77a-54da-4670-a568-98a9a7233fc4">
               <Language>1065</Language>
               <Caption>ماه میلادی</Caption>
             </Translation>
@@ -1585,45 +1603,45 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="9eccbc8e-539a-4b3f-abcc-066509c4c949">
+    <Hierarchy dwd:design-time-name="1242164c-30bc-4bb4-b5f5-135221114ebf">
       <ID>Hierarchy 3 1</ID>
       <Name>Year-Week-Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="5939ea02-4f86-478f-bb41-55734c630dea">
+        <Translation dwd:design-time-name="24d02790-bdb9-4bbe-92a0-b9f70b3b1ec3">
           <Language>1065</Language>
           <Caption>ساختار سال -  هفته - روز</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level dwd:design-time-name="ebd69820-601f-49ec-bb05-b73a921f4979">
+        <Level dwd:design-time-name="474b6af9-a076-4b09-ac6f-185348d723b4">
           <ID>Year</ID>
           <Name>Year</Name>
           <SourceAttributeID>Year</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="e84ac1ca-91c9-462d-a812-62a25c432a6d">
+            <Translation dwd:design-time-name="6e6fd284-57a0-486d-a171-962763a20252">
               <Language>1065</Language>
               <Caption>سال</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="b348b4e3-6768-4f46-ad8e-a688454d8419">
+        <Level dwd:design-time-name="a9ae9a8d-358a-4f6c-8a2e-85ab6cbbc025">
           <ID>Week</ID>
           <Name>Week</Name>
           <SourceAttributeID>Week Order</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="f0ce4edb-b7d7-4cb6-8c68-a23059f117e4">
+            <Translation dwd:design-time-name="db70716f-fb0d-4650-8119-6d17ec483ce2">
               <Language>1065</Language>
               <Caption>هفته</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="c0d2f98e-0d05-425e-9fb5-3d70cff8fbab">
+        <Level dwd:design-time-name="f4b58081-2f73-434f-895b-eb280bb2ca2b">
           <ID>Date</ID>
           <Name>Date</Name>
           <SourceAttributeID>Date Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="fe69ae6e-b49e-4f4a-8f92-729c9aa12cb7">
+            <Translation dwd:design-time-name="f89409f1-3582-4de8-8b93-06b7bbe8407c">
               <Language>1065</Language>
               <Caption>روز</Caption>
             </Translation>
@@ -1631,45 +1649,45 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="c3aa1c2e-7662-475a-bbb5-1e7518f94dee">
+    <Hierarchy dwd:design-time-name="9359868e-5230-4374-9845-874987a26ce6">
       <ID>Hierarchy 3</ID>
       <Name>Fiscal Year 4 - Month - Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="aa555340-e6a3-4844-ab9b-3afc898f2910">
+        <Translation dwd:design-time-name="c341f4d3-6855-43b4-a1a1-a1abd769dc3b">
           <Language>1065</Language>
           <Caption>ساختار درختی سال از ابتدای تیر</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level dwd:design-time-name="7e3cfbc9-c64c-4af8-b37f-281b0b3a3da3">
+        <Level dwd:design-time-name="26a6fe89-63df-410a-9044-11bd28927092">
           <ID>Fiscal Year 4</ID>
           <Name>Fiscal Year 4</Name>
           <SourceAttributeID>Fiscal Year 4</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="e1211e0a-9c89-4c4d-97cb-5b92b17a985c">
+            <Translation dwd:design-time-name="2c8ba4c8-c9aa-43d7-abb0-d8b28210bd83">
               <Language>1065</Language>
               <Caption>سال از ابتدای تیر</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="3e231746-de71-4f2d-b5a6-deacf3a83c4b">
+        <Level dwd:design-time-name="cf0b1a8e-8b00-4458-a4bd-fe2427bdb9bf">
           <ID>Month</ID>
           <Name>Month</Name>
           <SourceAttributeID>m Date</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="afa614dd-a82f-4e48-b470-174a180565e3">
+            <Translation dwd:design-time-name="448a7b03-1f80-44c4-bf27-bda912e872a4">
               <Language>1065</Language>
               <Caption>ماه</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="2fa4ebf3-fbc0-4de7-8cab-ad0bc7fa8459">
+        <Level dwd:design-time-name="d28f242e-8f8b-494a-8876-15534954dcb4">
           <ID>Date</ID>
           <Name>Date</Name>
           <SourceAttributeID>Date Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="1cfb5bde-fb59-44dd-986e-f515513bf75b">
+            <Translation dwd:design-time-name="578483b1-78fc-46d0-8568-d0e6c6dbec2d">
               <Language>1065</Language>
               <Caption>روز</Caption>
             </Translation>
@@ -1677,45 +1695,45 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="bf6f0a28-803f-4bfe-8927-c064054bbb28">
+    <Hierarchy dwd:design-time-name="6ea97aa6-9799-41cd-99b5-489c04133f18">
       <ID>Hierarchy 1 1</ID>
       <Name>Fiscal Year 3 - Month - Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="c5cf0413-f636-43a6-9112-7295ed04f063">
+        <Translation dwd:design-time-name="284811fc-a343-4562-982d-c10d5c953e82">
           <Language>1065</Language>
           <Caption>ساختار درختی سال از ابتدای خرداد</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level dwd:design-time-name="35747840-ce71-4621-9c83-a9ee899e73b7">
+        <Level dwd:design-time-name="2c7c7063-256c-434b-bec8-42bd13de53b6">
           <ID>Fiscal Year 3</ID>
           <Name>Fiscal Year 3</Name>
           <SourceAttributeID>Fiscal Year 3</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="fa7e4743-99c3-403d-b57b-6a386a10e02e">
+            <Translation dwd:design-time-name="446e21bb-e5db-4ae9-97a8-d0d782c75deb">
               <Language>1065</Language>
               <Caption>سال از ابتدای خرداد</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="6dddf5ca-c474-44ca-8ca5-e59c7ef58d70">
+        <Level dwd:design-time-name="9b87fd5f-5e3b-4cf6-9094-cb2cf1ad46ab">
           <ID>Month</ID>
           <Name>Month</Name>
           <SourceAttributeID>m Date</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="53e8f716-47f2-4701-925a-8e74c0595933">
+            <Translation dwd:design-time-name="a7d756cc-36ce-4318-ae18-848112f55681">
               <Language>1065</Language>
               <Caption>ماه</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="eb55eed7-8d86-4fe5-bdf5-cc1498e1edae">
+        <Level dwd:design-time-name="3ccd7aed-08e1-4c28-aa10-fc0062f25a9c">
           <ID>Date</ID>
           <Name>Date</Name>
           <SourceAttributeID>Date Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="f5e1aa0b-c663-412a-8ab3-8ed2d5699518">
+            <Translation dwd:design-time-name="f9caf579-8729-464d-9a86-37363135feff">
               <Language>1065</Language>
               <Caption>روز</Caption>
             </Translation>
@@ -1723,45 +1741,45 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="b2f1254a-9c6d-4729-aa8f-1880f58257b4">
+    <Hierarchy dwd:design-time-name="f9e6e50c-23f3-4471-a5f7-854af2a85474">
       <ID>Hierarchy 10</ID>
       <Name>Fiscal Year 7 - Month - Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="250f68ab-9761-4362-83f8-72262d9883a4">
+        <Translation dwd:design-time-name="e8b2c30d-98ab-4105-96e8-a305520086f9">
           <Language>1065</Language>
           <Caption>ساختار درختی سال از ابتدای مهر</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level dwd:design-time-name="bd3fc56d-49db-4137-bc33-519f0be85e25">
+        <Level dwd:design-time-name="2fe4402c-46a7-40ed-a4b6-5317f09b5494">
           <ID>Fiscal Year 7</ID>
           <Name>Fiscal Year 7</Name>
           <SourceAttributeID>Fiscal Year 7</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="225200d7-2eec-421a-b843-b3612b17d201">
+            <Translation dwd:design-time-name="61992da7-ec8a-435b-8b20-e44e5946f921">
               <Language>1065</Language>
               <Caption>سال از ابتدای مهر</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="a659b0bd-5dfd-4ace-9189-1bfba0b14490">
+        <Level dwd:design-time-name="c72b6ad6-1840-4b0e-a100-bcb897872e2a">
           <ID>Month</ID>
           <Name>Month</Name>
           <SourceAttributeID>m Date</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="16961078-752d-4490-ad2f-a6f85af41e8a">
+            <Translation dwd:design-time-name="7b48f1b2-7e0b-4f28-8112-48ad3c7974a1">
               <Language>1065</Language>
               <Caption>ماه</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="42b66021-35d5-43e4-a70a-0d1fe55bb292">
+        <Level dwd:design-time-name="21286d77-b2cd-49b3-b0e9-4d771077f47f">
           <ID>Date</ID>
           <Name>Date</Name>
           <SourceAttributeID>Date Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="a89f921f-ffb6-4baa-a915-2eab1a4dce36">
+            <Translation dwd:design-time-name="d69a8914-0000-40b2-86d5-75057027c788">
               <Language>1065</Language>
               <Caption>روز</Caption>
             </Translation>
@@ -1769,56 +1787,56 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="2dbba79c-c791-4afc-adb5-b841be53676a">
+    <Hierarchy dwd:design-time-name="bd4180f8-1a43-4638-925c-21aca16b3d0e">
       <ID>Hierarchy 4</ID>
       <Name>Fiscal Year 4 - Fiscal Quarter 4 - Month - Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="beefc3db-7383-4708-b255-3a3d634ec4b5">
+        <Translation dwd:design-time-name="f0021c53-60f6-48db-9659-11d81ce99baa">
           <Language>1065</Language>
           <Caption>ساختار درختی سال - سه ماهه از ابتدای تیر</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level dwd:design-time-name="b71a9da8-e38e-41e2-ad9f-dde2adfd8d7b">
+        <Level dwd:design-time-name="a5bc9b8f-b46d-4404-8942-23c12206e1cf">
           <ID>Fiscal Year 4</ID>
           <Name>Fiscal Year 4</Name>
           <SourceAttributeID>Fiscal Year 4</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="cc748181-6c85-4380-9f98-7ecd6f8412c8">
+            <Translation dwd:design-time-name="32e008f4-f4c8-4e9a-b40e-769e63e08976">
               <Language>1065</Language>
               <Caption>سال از ابتدای تیر</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="1f0d9d60-8868-4d57-a09e-17cb6480703d">
+        <Level dwd:design-time-name="054f2f5e-175d-4ff6-bb21-27f6255050fc">
           <ID>Fiscal Quarter 4</ID>
           <Name>Fiscal Quarter 4</Name>
           <SourceAttributeID>Fiscal Season 4</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="ea280917-74f4-4cba-aec9-474047cd0ba1">
+            <Translation dwd:design-time-name="10b9567c-7da8-4b15-8a8e-b6b861f7bd6a">
               <Language>1065</Language>
               <Caption>سه ماهه از ابتدای تیر</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="28c2f7ff-68a6-4052-9c26-655cfc76b168">
+        <Level dwd:design-time-name="4bbc6d40-3c9d-48b8-aecf-d3f1e4491d94">
           <ID>Month</ID>
           <Name>Month</Name>
           <SourceAttributeID>m Date</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="e930c5b6-0430-4961-a880-286611287627">
+            <Translation dwd:design-time-name="c8f035d7-df57-48c0-97d1-8e59355b41af">
               <Language>1065</Language>
               <Caption>ماه</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="6cfe46d5-a460-4d41-bf7e-ff367129cae1">
+        <Level dwd:design-time-name="1e417aa4-a8de-4ba2-81b5-e04c289f355a">
           <ID>Date</ID>
           <Name>Date</Name>
           <SourceAttributeID>Date Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="ef41fef6-c148-48cd-98f8-2edbebfc63f2">
+            <Translation dwd:design-time-name="d9ae00db-38e9-413c-876f-eae55f82324c">
               <Language>1065</Language>
               <Caption>روز</Caption>
             </Translation>
@@ -1826,56 +1844,56 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="fabb52b3-80f3-457d-ac4b-7d19fa2b8a04">
+    <Hierarchy dwd:design-time-name="4ccb5348-eacf-44f5-9bc1-baeb2c28419a">
       <ID>Hierarchy 1 2</ID>
       <Name>Fiscal Year 3 - Fiscal Quarter 3 - Month - Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="2386f83a-2dea-48bc-a20b-fb5881ae72ec">
+        <Translation dwd:design-time-name="60f69dd4-7b78-4887-9346-abf506010135">
           <Language>1065</Language>
           <Caption>ساختار درختی سال - سه ماهه از ابتدای خرداد</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level dwd:design-time-name="1238d510-59a2-483a-a08a-76a7ab9c325c">
+        <Level dwd:design-time-name="4a2b6b51-c1e5-487d-9cfd-8e96e8e37916">
           <ID>Fiscal Year 3</ID>
           <Name>Fiscal Year 3</Name>
           <SourceAttributeID>Fiscal Year 3</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="f25a7e2d-b7b5-4e2b-914a-7f1dfb327551">
+            <Translation dwd:design-time-name="9621120e-b7f3-4985-a0c1-6e7ebe6b85b5">
               <Language>1065</Language>
               <Caption>سال از ابتدای خرداد</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="b8df06b7-5f77-4c70-a41d-3e3d59007034">
+        <Level dwd:design-time-name="b05f6db7-2b26-4c58-b6ba-479d048e0472">
           <ID>Fiscal Quarter 3</ID>
           <Name>Fiscal Quarter 3</Name>
           <SourceAttributeID>Fiscal Season 3</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="663ec071-133b-4b76-aeef-7c8f913e5162">
+            <Translation dwd:design-time-name="b232356b-ef9d-4e84-9b1e-3cafae7bd033">
               <Language>1065</Language>
               <Caption>سه ماهه از ابتدای خرداد</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="d7edb647-cc83-4754-baf3-d9c9f03ce8cd">
+        <Level dwd:design-time-name="37c66163-1121-46b8-a4c8-f8ba4681137c">
           <ID>Month</ID>
           <Name>Month</Name>
           <SourceAttributeID>m Date</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="044ba593-4669-4a0e-8d6b-c87dcaff7bd1">
+            <Translation dwd:design-time-name="cbdf0300-5c00-45b6-bb52-7a4469c4241f">
               <Language>1065</Language>
               <Caption>ماه</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="b3df82ae-bc7f-4d2c-843e-296ba7ea8168">
+        <Level dwd:design-time-name="6e80b82d-c86d-4dbe-bb2e-18e63a8f3cb1">
           <ID>Date</ID>
           <Name>Date</Name>
           <SourceAttributeID>Date Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="03e8929a-be25-48f8-a8db-96a654ca7c4a">
+            <Translation dwd:design-time-name="2c2edcc0-ef29-4d70-a277-ef6b21bfcfe7">
               <Language>1065</Language>
               <Caption>روز</Caption>
             </Translation>
@@ -1883,56 +1901,56 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="84afc499-bb61-4b26-b1a4-0485cfb2aec8">
+    <Hierarchy dwd:design-time-name="27269539-a007-47cc-847b-e4fe0cd31a6e">
       <ID>Hierarchy 5</ID>
       <Name>Fiscal Year 10 - Fiscal Quarter 10 - Month - Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="1d1ae0e4-500d-4ba8-9dad-dbb2bca0d851">
+        <Translation dwd:design-time-name="696bad80-0b97-4199-a6be-58e0043f3925">
           <Language>1065</Language>
           <Caption>ساختار درختی سال - سه ماهه از ابتدای دی</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level dwd:design-time-name="5e5961fa-a2ce-45bb-97ff-5c697e214fcb">
+        <Level dwd:design-time-name="00f2af72-7cf0-463c-a08a-cd38fe7d6b0e">
           <ID>Fiscal Year 10</ID>
           <Name>Fiscal Year 10</Name>
           <SourceAttributeID>Fiscal Year 10</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="f09caff9-85a5-409c-b143-498c45c89f14">
+            <Translation dwd:design-time-name="3390c825-65d3-41f3-9eab-3ed00d1f20a2">
               <Language>1065</Language>
               <Caption>سال از ابتدای دی</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="b07cae71-0849-4f74-a48a-a55da422bf77">
+        <Level dwd:design-time-name="75399af1-a9e7-4880-b977-52056a8c0163">
           <ID>Fiscal Quarter 10</ID>
           <Name>Fiscal Quarter 10</Name>
           <SourceAttributeID>Fiscal Season 10</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="709c7716-502c-4056-9ef7-87d08e4e3479">
+            <Translation dwd:design-time-name="ce4f323b-c35c-4a30-9213-4208000b0030">
               <Language>1065</Language>
               <Caption>سه ماهه از ابتدای دی</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="0a7a6821-6ea6-463f-af7e-5a3626780c8e">
+        <Level dwd:design-time-name="5fdc5393-9881-4a13-b742-6aa5196b352f">
           <ID>Month</ID>
           <Name>Month</Name>
           <SourceAttributeID>m Date</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="bbf13e1b-9317-45e3-90d0-e19ea11360df">
+            <Translation dwd:design-time-name="7d09886a-fe62-46a1-9839-e5d719c6effc">
               <Language>1065</Language>
               <Caption>ماه</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="116c15c4-13ab-4fa8-abfc-088a47540b7b">
+        <Level dwd:design-time-name="44cbd4eb-c00d-49a1-9e13-65f4c6c2092e">
           <ID>Date</ID>
           <Name>Date</Name>
           <SourceAttributeID>Date Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="fdbd1b08-437a-4bd2-9a4f-28fc440650b5">
+            <Translation dwd:design-time-name="ef98cdf1-f097-4f6c-8b55-776e2f2a551a">
               <Language>1065</Language>
               <Caption>روز</Caption>
             </Translation>
@@ -1940,56 +1958,56 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="a8af9828-597a-4dbe-953a-7e30ff3e3366">
+    <Hierarchy dwd:design-time-name="13208fb5-6e2f-4e1c-8cd7-7064b28d3793">
       <ID>Hierarchy 9</ID>
       <Name>Fiscal Year 7 - Fiscal Quarter 7 - Month - Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="b250ffbe-b35b-4807-b26d-a2fbc3129d03">
+        <Translation dwd:design-time-name="13f9390d-2673-4b4d-b564-e12be2d76603">
           <Language>1065</Language>
           <Caption>ساختار درختی سال - سه ماهه از ابتدای مهر</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level dwd:design-time-name="c538f795-b851-4c0c-a93b-09407cd8c3a6">
+        <Level dwd:design-time-name="d02660b7-1455-490d-b5f5-3da0361981a1">
           <ID>Fiscal Year 7</ID>
           <Name>Fiscal Year 7</Name>
           <SourceAttributeID>Fiscal Year 7</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="14b0aeb0-a9d9-4ab3-b623-22eb2da593db">
+            <Translation dwd:design-time-name="48697cc5-4ad7-46aa-903a-c7007fd2b320">
               <Language>1065</Language>
               <Caption>سال از ابتدای مهر</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="6f9a58b5-4cab-4c22-92ac-c1318b2da85f">
+        <Level dwd:design-time-name="1179e299-efde-41cb-a978-551102ff94d8">
           <ID>Fiscal Quarter 7</ID>
           <Name>Fiscal Quarter 7</Name>
           <SourceAttributeID>Fiscal Season 7</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="2e572056-a5fe-4db1-9184-e3dcef1012fe">
+            <Translation dwd:design-time-name="67eb0204-fd9c-444c-b6cf-5a28c6842f2d">
               <Language>1065</Language>
               <Caption>سه ماهه از ابتدای مهر</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="f2ecf433-e2a3-47f6-8311-2b01ef05340c">
+        <Level dwd:design-time-name="21fffb9c-c3f1-49af-bec3-9f5ec989531d">
           <ID>Month</ID>
           <Name>Month</Name>
           <SourceAttributeID>m Date</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="16bced78-eebd-4cbe-9578-3a3e642c71b8">
+            <Translation dwd:design-time-name="d6fa6eb7-299a-4053-8d71-8ca288f77104">
               <Language>1065</Language>
               <Caption>ماه</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="15f500ce-b1aa-45dd-a823-5d7f27646f4a">
+        <Level dwd:design-time-name="fe097837-8fb5-498c-9a9d-9cde36fdac79">
           <ID>Date</ID>
           <Name>Date</Name>
           <SourceAttributeID>Date Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="0e553f0c-fcba-4237-b237-c05b35d0cf86">
+            <Translation dwd:design-time-name="cc7c70e3-8e41-45fe-a41a-d8c9634ae639">
               <Language>1065</Language>
               <Caption>روز</Caption>
             </Translation>
@@ -1997,44 +2015,44 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="b857800c-3007-4927-bf4d-abf78a9b9769">
+    <Hierarchy dwd:design-time-name="eaa8a163-9524-444b-a51b-c0bac4d0fc25">
       <ID>Hierarchy 6</ID>
       <Name>Year-Half Year-Quarter</Name>
       <Translations>
-        <Translation dwd:design-time-name="38db9022-7070-4ebf-86d9-ed7384e8f30f">
+        <Translation dwd:design-time-name="3f8375fd-e172-4bea-90b5-e754e2269e78">
           <Language>1065</Language>
           <Caption>ساختار درختی سال - نیمسال - فصل</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level dwd:design-time-name="91b95ad8-1279-40a8-87ac-9ee38e82e609">
+        <Level dwd:design-time-name="26a9bfda-b817-4399-b888-e127e3fef837">
           <ID>Year</ID>
           <Name>Year</Name>
           <SourceAttributeID>Year</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="60180a1b-538a-471d-b1f2-33c4fa6c3cc5">
+            <Translation dwd:design-time-name="4d6f1d57-8d43-47e0-9bad-2bdc3227c807">
               <Language>1065</Language>
               <Caption>سال</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="05db40b9-2203-4c0e-8811-fabd95cf8c70">
+        <Level dwd:design-time-name="3f115b15-1516-44db-8696-b9f910706fc1">
           <ID>Half Year</ID>
           <Name>Half Year</Name>
           <SourceAttributeID>Semi Year Order</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="963cdcc2-f5a0-483b-a60b-854501df2ced">
+            <Translation dwd:design-time-name="00f33ab6-f282-4522-873a-c80e885a9ccc">
               <Language>1065</Language>
               <Caption>نیمسال</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="1e573fef-47d6-40d7-903e-b1e04f327f7e">
+        <Level dwd:design-time-name="082eed94-abda-4f3e-a421-f9fb4fc198a0">
           <ID>Quarter</ID>
           <Name>Quarter</Name>
           <SourceAttributeID>Season Order</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="0f111c1c-6c1f-4191-b67f-38972e45af12">
+            <Translation dwd:design-time-name="01f4775f-5e1e-4dfc-81a7-67bb23bb337c">
               <Language>1065</Language>
               <Caption>فصل</Caption>
             </Translation>
@@ -2042,55 +2060,55 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="a319b3cf-41d4-4fe6-88bd-ba1bc9431a8b">
+    <Hierarchy dwd:design-time-name="4b1646e9-e027-45ff-b26f-2d0cb55d7d3b">
       <ID>Hierarchy 7</ID>
       <Name>Year-Half Year-Quarter-Month</Name>
       <Translations>
-        <Translation dwd:design-time-name="b71e3fad-2a47-4c5c-a4e9-c74fff5ee726">
+        <Translation dwd:design-time-name="177256c0-6882-4649-a0a5-4a4fedaf8b1f">
           <Language>1065</Language>
           <Caption>ساختار درختی سال - نیمسال - فصل - ماه</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level dwd:design-time-name="ab6c7c37-d991-4e53-b3ca-1c148536fdcc">
+        <Level dwd:design-time-name="215caef6-3269-4906-b2f3-ac9b7818bb0f">
           <ID>Year</ID>
           <Name>Year</Name>
           <SourceAttributeID>Year</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="a2a22671-7b8f-4998-a456-df967d3bbd32">
+            <Translation dwd:design-time-name="05a022f0-2dd9-404c-b2e3-c83b6508539e">
               <Language>1065</Language>
               <Caption>سال</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="ccff62d5-afa8-49e7-a15e-5c93e842078f">
+        <Level dwd:design-time-name="a040faaa-66d5-402f-9b4a-54c1ff1a8b3b">
           <ID>Half Year</ID>
           <Name>Half Year</Name>
           <SourceAttributeID>Semi Year Order</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="03824593-9c49-4d71-8d5c-fd1d4f3d0310">
+            <Translation dwd:design-time-name="cd7d9728-1ff8-4c09-95c3-1df87e159e2d">
               <Language>1065</Language>
               <Caption>نیمسال</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="5b9d736d-064d-4b0a-860c-c45ff2894c84">
+        <Level dwd:design-time-name="561cc1ae-4528-432f-b905-bd1272cde6bf">
           <ID>Quarter</ID>
           <Name>Quarter</Name>
           <SourceAttributeID>Season Order</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="b89015f3-afd1-44d7-af4e-faa67c6244c7">
+            <Translation dwd:design-time-name="8144b1a1-aa53-4321-8436-4ec73673faeb">
               <Language>1065</Language>
               <Caption>فصل</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="d969c8e8-ad76-4ccd-af77-85b6acba899b">
+        <Level dwd:design-time-name="d93b5157-69c2-4097-a2ac-dfaea2cc5869">
           <ID>Month</ID>
           <Name>Month</Name>
           <SourceAttributeID>m Date</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="4c17d205-5684-41c6-8f96-fe4eb1c4977e">
+            <Translation dwd:design-time-name="2eb8e3f6-ae03-4a13-b26e-12cf69fe626b">
               <Language>1065</Language>
               <Caption>ماه</Caption>
             </Translation>
@@ -2098,33 +2116,33 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="a41fde1e-5350-4334-a57c-c94840ad5fd2">
+    <Hierarchy dwd:design-time-name="e3a45600-20c0-4419-9703-5969de8cd720">
       <ID>Hierarchy 8</ID>
       <Name>Year-Half Year</Name>
       <Translations>
-        <Translation dwd:design-time-name="4d407866-917c-40f9-b79b-65eab6f31827">
+        <Translation dwd:design-time-name="161fc3f5-2a61-4762-8d6d-71d11a156f0c">
           <Language>1065</Language>
           <Caption>ساختار درختی سال- نیمسال</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level dwd:design-time-name="c7652286-9ecc-4d28-b8c9-eebb8bd20a7d">
+        <Level dwd:design-time-name="f7c0eafe-13a2-449a-93c0-891643a724c5">
           <ID>Year</ID>
           <Name>Year</Name>
           <SourceAttributeID>Year</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="3df5b100-bfbb-4715-adc8-5b8394085a20">
+            <Translation dwd:design-time-name="130b4d73-10b9-4483-b762-a6c754c644b6">
               <Language>1065</Language>
               <Caption>سال</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="69011259-b2c9-4b98-a4ab-cae3790c07f5">
+        <Level dwd:design-time-name="1744a320-9e90-4796-a9b6-26e55ff535ca">
           <ID>Half Year</ID>
           <Name>Half Year</Name>
           <SourceAttributeID>Semi Year Order</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="823d343f-2beb-450c-89c5-0cbfa4058dee">
+            <Translation dwd:design-time-name="1d4c2850-12fa-417f-8d33-c5f3d4309743">
               <Language>1065</Language>
               <Caption>نیمسال</Caption>
             </Translation>
@@ -2132,22 +2150,22 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="167e9694-55ee-4c68-99a7-d69d1ca0538f">
+    <Hierarchy dwd:design-time-name="ad248ea8-af52-48bc-a815-f560e827423d">
       <ID>Hierarchy 1 3</ID>
       <Name>Year-Quater For Financial Statement</Name>
       <Translations>
-        <Translation dwd:design-time-name="7ec92158-9db0-479d-9fa7-7431279f83da">
+        <Translation dwd:design-time-name="30a3c765-9612-4fec-9816-55c7c2bd3636">
           <Language>1065</Language>
           <Caption>ساختار درختی سال -فصل برای صورت مالی</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level dwd:design-time-name="2ca71116-7084-4a4d-99d4-4c0602b816a2">
+        <Level dwd:design-time-name="9647434a-5ae1-4ecf-8581-8ba3c3c48345">
           <ID>Year</ID>
           <Name>Year</Name>
           <SourceAttributeID>Year</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="35ad837a-9b37-45f7-a4ba-eeb625211d45">
+            <Translation dwd:design-time-name="33336c9f-6cd4-4342-96ae-9da55f733884">
               <Language>1065</Language>
               <Caption>سال</Caption>
             </Translation>
@@ -2155,44 +2173,44 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="adf381e5-f418-4497-981c-168167223f94">
+    <Hierarchy dwd:design-time-name="b36cb936-50cf-459a-bff5-6b933803bc06">
       <ID>Hierarchy 11</ID>
       <Name>Fiscal Year 10 - Month - Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="0e48cefc-f7b7-44b4-bb1b-178ae340943b">
+        <Translation dwd:design-time-name="66c41219-567e-4c7e-8923-054d7bf25080">
           <Language>1065</Language>
           <Caption>ساختار درختی سال از ابتدای دی</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level dwd:design-time-name="b13af89f-01d4-4d43-98e2-f4f78c5177a3">
+        <Level dwd:design-time-name="c23711a8-3c06-45d9-afe6-ba2180d69907">
           <ID>Fiscal Year 10</ID>
           <Name>Fiscal Year 10</Name>
           <SourceAttributeID>Fiscal Year 10</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="91bc5220-1a7c-4b25-8d83-390f25afb7c9">
+            <Translation dwd:design-time-name="c989d667-8b9b-47d2-abef-b7212ee06a07">
               <Language>1065</Language>
               <Caption>سال از ابتدای دی</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="1f038ccb-6511-4267-b02c-ac41a7584f77">
+        <Level dwd:design-time-name="760acd43-d01c-4e35-8f3e-4e55aae2e137">
           <ID>Month</ID>
           <Name>Month</Name>
           <SourceAttributeID>m Date</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="05f9ebe7-9ab3-4ac6-b4f7-f11352457ed5">
+            <Translation dwd:design-time-name="3689effa-3ac8-4874-9702-218233caa546">
               <Language>1065</Language>
               <Caption>ماه</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="12f5a80c-cece-4be7-8115-972d7a09c8f5">
+        <Level dwd:design-time-name="ad369e0f-ec70-4d4e-8f6e-4f5a5769e616">
           <ID>Date</ID>
           <Name>Date</Name>
           <SourceAttributeID>Date Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="0f22df06-fe11-4b34-af97-dbd7931322b8">
+            <Translation dwd:design-time-name="cfd951f2-5c80-4634-a705-26b5f0518792">
               <Language>1065</Language>
               <Caption>روز</Caption>
             </Translation>
@@ -2200,67 +2218,67 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="68cf103f-c0bc-4f39-92f2-da6332e3a0ff">
+    <Hierarchy dwd:design-time-name="29e27128-98d0-4812-8fa9-2cc55064effa">
       <ID>Hierarchy 12</ID>
       <Name>Year-Half Year-Quarter-Month-Date No Slash</Name>
       <Translations>
-        <Translation dwd:design-time-name="70be9f70-0d45-4e63-b570-dbabe452bbbb">
+        <Translation dwd:design-time-name="ac353aa4-f852-45b5-9e51-3219a093b6e6">
           <Language>1065</Language>
           <Caption>ساختار سال - نیمسال - فصل - ماه - روز بدون اسلش</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level dwd:design-time-name="24cc75b4-c120-4cb5-aa1f-3c46a1317898">
+        <Level dwd:design-time-name="37a126a8-a146-4614-975d-b5e02c37b315">
           <ID>Year</ID>
           <Name>Year</Name>
           <SourceAttributeID>Year</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="701c0f56-d724-4026-bc92-c7271bb57434">
+            <Translation dwd:design-time-name="7fe564d2-8660-4d34-b654-ccc0af73fb78">
               <Language>1065</Language>
               <Caption>سال</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="9bb06c11-d438-414c-8028-208e92aa59d2">
+        <Level dwd:design-time-name="5509e164-102f-4870-a4d7-9157175b7ce4">
           <ID>Half Year</ID>
           <Name>Half Year</Name>
           <SourceAttributeID>Semi Year Order</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="a4a3271f-63f5-4a45-bd0c-209bab1c2b0c">
+            <Translation dwd:design-time-name="905702ed-f226-4a63-bedc-1df194d4aa96">
               <Language>1065</Language>
               <Caption>نیمسال</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="70af73e5-95c8-45cc-b588-5688d293fb86">
+        <Level dwd:design-time-name="c5b2905e-ca8f-4339-8dc7-ae0662a15f55">
           <ID>Quarter</ID>
           <Name>Quarter</Name>
           <SourceAttributeID>Season Order</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="69605fdd-d563-494e-87fa-1c0b2cf3027f">
+            <Translation dwd:design-time-name="679a32ca-8f51-4cdb-8472-3aaf7d481436">
               <Language>1065</Language>
               <Caption>فصل</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="f280993b-9cfe-44ce-88c3-eb2ee06437a5">
+        <Level dwd:design-time-name="af5daaa5-c6f8-4795-91e7-0bed9ef4647a">
           <ID>Month</ID>
           <Name>Month</Name>
           <SourceAttributeID>m Date</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="7c948065-675e-4c84-810b-75106031c886">
+            <Translation dwd:design-time-name="599dae2e-aa59-407f-a7c9-826e165f2a52">
               <Language>1065</Language>
               <Caption>ماه</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="84f66b08-f16c-4a6e-8137-c035b1af22a3">
+        <Level dwd:design-time-name="3477a98b-5812-4e80-9455-ddfc534e96a8">
           <ID>Sdatenoslash</ID>
           <Name>Sdatenoslash</Name>
           <SourceAttributeID>Sdatenoslash</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="6bcfafad-d64d-4860-9344-8bcc8f616a1f">
+            <Translation dwd:design-time-name="548f9e8c-58dd-4090-a815-a737caa9003a">
               <Language>1065</Language>
               <Caption>روز بدن اسلش</Caption>
             </Translation>
@@ -2268,55 +2286,55 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="becfffb4-94d2-4028-9a28-41e22f7d060a">
+    <Hierarchy dwd:design-time-name="6b9be5ad-961e-4d8a-a9d7-4204049ce249">
       <ID>Hierarchy 13</ID>
       <Name>Year-Month-Week-Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="4181dc18-eade-4f0f-8447-636b11473bc0">
+        <Translation dwd:design-time-name="58e12211-6836-4f1d-9528-0444aac01808">
           <Language>1065</Language>
           <Caption>ساختار درختی سال - ماه - هفته - روز</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level dwd:design-time-name="db3d71c6-4f3d-4e11-b53b-255c88effd18">
+        <Level dwd:design-time-name="5a12c244-c362-45de-b287-738638de7ae8">
           <ID>Year</ID>
           <Name>Year</Name>
           <SourceAttributeID>Year</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="17c7f37e-c821-46a6-8247-8220c18cf21f">
+            <Translation dwd:design-time-name="8477e9e7-0ce2-464e-92d8-4ef27c78a17a">
               <Language>1065</Language>
               <Caption>سال</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="808d7399-9960-4f51-adb1-46f904f51357">
+        <Level dwd:design-time-name="d645a3df-8482-4fae-bf14-87e021e317ec">
           <ID>Month</ID>
           <Name>Month</Name>
           <SourceAttributeID>m Date</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="447c5843-68ef-4696-8dc3-74d4dd1da20f">
+            <Translation dwd:design-time-name="1b377605-aa7b-4aa2-afb2-0fd8c26173d3">
               <Language>1065</Language>
               <Caption>ماه</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="02bdf25d-ddcc-42c6-896d-a2b48e6e2568">
+        <Level dwd:design-time-name="dedc5d46-8b68-44d8-a844-d7a2dde9e4b2">
           <ID>Week</ID>
           <Name>Week</Name>
           <SourceAttributeID>Week Order</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="bd0269e9-b242-4f64-b8a8-96ad7540e9e2">
+            <Translation dwd:design-time-name="6f2ddb20-c74e-40da-a6de-32d5d7177a14">
               <Language>1065</Language>
               <Caption>هفته</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="f79fc305-92d7-403e-83e3-db4a0fb32fb6">
+        <Level dwd:design-time-name="18808d06-0d5e-4094-ba9d-8b907dad53d1">
           <ID>Date</ID>
           <Name>Date</Name>
           <SourceAttributeID>Date Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="9d502632-d626-428b-a0c2-63b349e6929a">
+            <Translation dwd:design-time-name="d28e5203-be13-4e78-b302-eb8ee5352a10">
               <Language>1065</Language>
               <Caption>روز</Caption>
             </Translation>
@@ -2324,44 +2342,44 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="e8b04fbb-bf63-4a15-95eb-5bbfec45b7ed">
+    <Hierarchy dwd:design-time-name="bccdfcd0-ae93-4b29-8a06-26cb7b7bc87c">
       <ID>Hierarchy 14</ID>
       <Name>Year New - Month - Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="edc9510f-b81e-4764-b26b-08592e29ea4e">
+        <Translation dwd:design-time-name="e0e40fa6-9a6a-426b-a18d-87d4767be3fc">
           <Language>1065</Language>
           <Caption>ساختار درختی سال جدید - ماه - روز</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level dwd:design-time-name="30d7d5cb-725d-4758-9664-1f4e8787acb3">
+        <Level dwd:design-time-name="12948f7b-d0e7-41d8-bed0-b1c410d7bc3e">
           <ID>Year New</ID>
           <Name>Year New</Name>
           <SourceAttributeID>Year New</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="0e5831cc-0252-43ce-b692-5a5adc250d74">
+            <Translation dwd:design-time-name="4c64a2c0-7daa-4cdb-ab9d-21b4c9248c32">
               <Language>1065</Language>
               <Caption>سال</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="6fbdb91c-116b-434c-967c-a5da7beffc97">
+        <Level dwd:design-time-name="ea25d68d-57bc-418e-90f8-c98141d1cd90">
           <ID>Month</ID>
           <Name>Month</Name>
           <SourceAttributeID>m Date</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="fb19a7cd-4f56-4e8e-a45f-1129a3147ec0">
+            <Translation dwd:design-time-name="29999cdd-9305-4f45-bb52-a155bddaab2d">
               <Language>1065</Language>
               <Caption>ماه</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="648d7d85-6ba2-46ed-b17c-af4a856b39a7">
+        <Level dwd:design-time-name="204ce899-3079-4da2-b67a-a263ef972168">
           <ID>Date</ID>
           <Name>Date</Name>
           <SourceAttributeID>Date Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="4608795b-45c8-46c3-8687-9dab4e0cfc6f">
+            <Translation dwd:design-time-name="f26221cd-fc4b-4981-8fd8-215403edbefe">
               <Language>1065</Language>
               <Caption>روز</Caption>
             </Translation>
@@ -2369,46 +2387,46 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="c5913c28-8966-488b-a404-ff382d6f2283">
+    <Hierarchy dwd:design-time-name="49087788-1514-4efd-b62a-791ea5ce89fd">
       <ID>Hierarchy 15</ID>
       <Name>Hierarchy</Name>
       <Levels>
-        <Level dwd:design-time-name="fb01cc86-19aa-4617-9686-971249c0ba59">
+        <Level dwd:design-time-name="79d3f12c-802b-4443-b6a3-abec61ef7a86">
           <ID>Year</ID>
           <Name>Year</Name>
           <SourceAttributeID>Year</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="e3bbc07c-0d67-4faf-8018-00f322038d19">
+        <Level dwd:design-time-name="46277ab2-cbe4-4f87-8c43-d4e8e4b35abe">
           <ID>Half Year</ID>
           <Name>Half Year</Name>
           <SourceAttributeID>Semi Year Order</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="9b1dab1e-d860-477d-b82b-f720760668bc">
+        <Level dwd:design-time-name="bf7757a2-6949-43e7-96f8-971b552ddd8c">
           <ID>Quarter</ID>
           <Name>Quarter</Name>
           <SourceAttributeID>Season Order</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="46ef0f1c-4359-4292-a978-1477edd1ef7f">
+        <Level dwd:design-time-name="58861693-a1f7-419d-95bf-1a0bae444c5d">
           <ID>Month</ID>
           <Name>Month</Name>
           <SourceAttributeID>m Date</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="204910bf-5b8a-4190-9670-a89f723a8295">
+        <Level dwd:design-time-name="3c90da88-37a3-496f-89dc-3880cffc310f">
           <ID>Date</ID>
           <Name>Date</Name>
           <SourceAttributeID>Date Id</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="b2a290f9-0a25-471e-a107-2c2e00271e6c">
+        <Level dwd:design-time-name="ad5e7e65-2308-447f-92cb-d00b0ae751d7">
           <ID>Date Now Status</ID>
           <Name>Date Now Status</Name>
           <SourceAttributeID>Date Now Status</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="57b8500f-799c-48e0-bcd7-f815e23baaae">
+        <Level dwd:design-time-name="ef21eb39-f9a1-4445-baad-5543ccef5379">
           <ID>Date After Now Status</ID>
           <Name>Date After Now Status</Name>
           <SourceAttributeID>Date After Now Status</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="641f4f9f-5aba-485d-8f59-29910e068417">
+        <Level dwd:design-time-name="c667c358-646d-40fc-8c7a-b689a5755998">
           <ID>Current Month And After Status</ID>
           <Name>Current Month And After Status</Name>
           <SourceAttributeID>Current Month And After Status</SourceAttributeID>
@@ -2416,12 +2434,12 @@
       </Levels>
     </Hierarchy>
   </Hierarchies>
-  <ProactiveCaching dwd:design-time-name="6777b899-1824-4dbd-ba0d-39685032c69c">
+  <ProactiveCaching dwd:design-time-name="8d8c3376-b7f3-472f-961d-89a44a1c8d69">
     <SilenceInterval>-PT1S</SilenceInterval>
     <Latency>-PT1S</Latency>
     <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
     <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="2d343f9a-c277-4a72-b18f-af7d147773c3" />
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="14b2a9d9-11dd-4fb9-9e24-1f9b8e3954c2" />
   </ProactiveCaching>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>
