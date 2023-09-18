@@ -33,8 +33,8 @@
         <AggregationDesign>
           <ID>AggregationDesign</ID>
           <Name>AggregationDesign</Name>
-          <CreatedTimestamp>2023-09-13T06:13:28.63Z</CreatedTimestamp>
-          <LastSchemaUpdate>2023-09-13T06:13:28.63Z</LastSchemaUpdate>
+          <CreatedTimestamp>2023-09-13T07:13:28.63Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-09-13T07:13:28.63Z</LastSchemaUpdate>
           <EstimatedRows>4934007</EstimatedRows>
           <Dimensions>
             <Dimension>
@@ -31624,7 +31624,7 @@
         <Partition dwd:design-time-name="b5623d80-28f0-4ae5-98d1-790a98e6771d">
           <ID>PUB SLE Fact Gifts Sale</ID>
           <Name>PUB SLE Fact Gifts Sale</Name>
-          <CreatedTimestamp>2020-06-01T03:22:46.443333Z</CreatedTimestamp>
+          <CreatedTimestamp>2020-06-01T04:22:46.443333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.776667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:44.64Z</LastProcessed>
           <State>Processed</State>
@@ -31848,7 +31848,7 @@
         <Partition dwd:design-time-name="210231a8-4b1e-4274-8e71-e504a4bc1f33">
           <ID>PUB SLE Fact Sale Request</ID>
           <Name>PUB SLE Fact Sale Request</Name>
-          <CreatedTimestamp>2020-06-01T03:22:53.043333Z</CreatedTimestamp>
+          <CreatedTimestamp>2020-06-01T04:22:53.043333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.653333Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:33.746667Z</LastProcessed>
           <State>Processed</State>
@@ -31876,7 +31876,7 @@
         <Partition dwd:design-time-name="869517ef-8c69-47c7-8ee6-7c62cdea4257">
           <ID>PUB SLE Fact Sale Order</ID>
           <Name>PUB SLE Fact Sale Order</Name>
-          <CreatedTimestamp>2020-06-02T07:36:41.036667Z</CreatedTimestamp>
+          <CreatedTimestamp>2020-06-02T08:36:41.036667Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.696667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:28.723333Z</LastProcessed>
           <State>Processed</State>
@@ -31904,7 +31904,7 @@
         <Partition dwd:design-time-name="a6d85577-b594-489c-ae34-fe41b4afcfe3">
           <ID>Vw PUB SLE Fact Product Life Sale</ID>
           <Name>Vw PUB SLE Fact Product Life Sale</Name>
-          <CreatedTimestamp>2020-06-10T09:17:27.403333Z</CreatedTimestamp>
+          <CreatedTimestamp>2020-06-10T10:17:27.403333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.743333Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:16.176667Z</LastProcessed>
           <State>Processed</State>
@@ -31986,8 +31986,8 @@
         <AggregationDesign>
           <ID>AggregationDesign</ID>
           <Name>AggregationDesign</Name>
-          <CreatedTimestamp>2023-09-13T05:37:15.536667Z</CreatedTimestamp>
-          <LastSchemaUpdate>2023-09-13T05:37:15.536667Z</LastSchemaUpdate>
+          <CreatedTimestamp>2023-09-13T06:37:15.536667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2023-09-13T06:37:15.536667Z</LastSchemaUpdate>
           <EstimatedRows>3949899</EstimatedRows>
           <Dimensions>
             <Dimension>
@@ -38172,6 +38172,26 @@
             <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="ee285c3c-5dd0-42b8-8847-61658937fc8e" />
           </ProactiveCaching>
           <EstimatedSize>15501468</EstimatedSize>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>PUB SLE Fact Sale Target Until Today IRR</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="4ef1ac88-c2dc-488e-bb3e-508a0c98fb34">
+          <ID>PUB SLE Fact Sale Target Until Today IRR</ID>
+          <Name>PUB SLE Fact Sale Target Until Today IRR</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a893ab45-add8-4931-9b35-952656255ef5">
+            <DataSourceViewID>SABZDW</DataSourceViewID>
+            <TableID>PUB_SLE_Fact_SaleTarget_UntilToday_IRR</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
         </Partition>
       </Partitions>
     </MeasureGroup>
