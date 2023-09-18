@@ -27,7 +27,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="1546" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="306432" scrolltop="211961" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="90" x="31538" y="21908" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="1546" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="105299" scrolltop="734513" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="90" x="14182" y="14446" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                   </font>
@@ -1413,7 +1413,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" left="117736" top="735509" logicalid="898" controlid="126" masterid="0" hint1="0" hint2="0" width="3175" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Vw_GRL_FIN_Dim_LoanType" left="117736" top="735509" logicalid="898" controlid="126" masterid="0" hint1="0" hint2="0" width="3175" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000670c000057070000" />
                   </control>
@@ -1688,7 +1688,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" left="110521" top="739788" logicalid="923" controlid="151" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="GRL_FIN_Fact_Loan_ForAllLoanAndBank" left="110521" top="739788" logicalid="923" controlid="151" masterid="0" hint1="0" hint2="0" width="4815" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000cf12000088130000" />
                   </control>
@@ -13379,8 +13379,8 @@
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>306432</DiagramViewPortLeft>
-            <DiagramViewPortTop>211961</DiagramViewPortTop>
+            <DiagramViewPortLeft>105299</DiagramViewPortLeft>
+            <DiagramViewPortTop>734513</DiagramViewPortTop>
             <DiagramBoundingLeft>-8546</DiagramBoundingLeft>
             <DiagramBoundingTop>-5344</DiagramBoundingTop>
             <DiagramZoom>90</DiagramZoom>
@@ -37407,7 +37407,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="GRL_FIN_Fact_Loan_ForAllLoanAndBank" msprop:design-time-name="6d316428-3ef5-45cb-b7f1-fdf46e570e14" msprop:IsLogical="True" msprop:FriendlyName="GRL_FIN_Fact_Loan_ForAllLoanAndBank" msprop:DbTableName="GRL_FIN_Fact_Loan_ForAllLoanAndBank" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT        54 AS DimFact_Id, BankOrPerson_Id, Date_Id, COA_GeneralAccount_Code, COA_LedgerAccount_Code, COA_DetailAccount_Code, COA_DetailAccount_Code5, COA_DetailAccount_Code6, VoucherItem_CreditValue, &#xD;&#xA;                         VoucherItem_DebitValue, [Values], COA_GeneralAccount_Id, COA_LedgerAccount_Id, COA_DetailAccount_IdLvl5, COA_DetailAccount_IdLvl6, COA_DetailAccount_Id, Company_Id, LoanCode_Id, VoucherType_Id, &#xD;&#xA;                         TypeValueLoan_Id, OriginalCredit, OriginalDebit, SubsidiaryCredit, SubsidiaryDebit, OriginalResidue, SubsidiaryResidue&#xD;&#xA;FROM            Vw_GRL_FIN_Fact_Loan" msprop:QueryBuilder="SpecificQueryBuilder">
+            <xs:element name="GRL_FIN_Fact_Loan_ForAllLoanAndBank" msprop:design-time-name="6d316428-3ef5-45cb-b7f1-fdf46e570e14" msprop:IsLogical="True" msprop:FriendlyName="GRL_FIN_Fact_Loan_ForAllLoanAndBank" msprop:DbTableName="GRL_FIN_Fact_Loan_ForAllLoanAndBank" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT        54 AS DimFact_Id, BankOrPerson_Id, Date_Id, COA_GeneralAccount_Code, COA_LedgerAccount_Code, COA_DetailAccount_Code, COA_DetailAccount_Code5, COA_DetailAccount_Code6, VoucherItem_CreditValue, &#xD;&#xA;                         VoucherItem_DebitValue, [Values], COA_GeneralAccount_Id, COA_LedgerAccount_Id, COA_DetailAccount_IdLvl5, COA_DetailAccount_IdLvl6, COA_DetailAccount_Id, Company_Id, LoanCode_Id, VoucherType_Id, &#xD;&#xA;                         TypeValueLoan_Id, OriginalCredit, OriginalDebit, SubsidiaryCredit, SubsidiaryDebit, OriginalResidue, SubsidiaryResidue, ValuesDain&#xD;&#xA;FROM            Vw_GRL_FIN_Fact_Loan" msprop:QueryBuilder="SpecificQueryBuilder">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="BankOrPerson_Id" msdata:ReadOnly="true" msprop:design-time-name="d822f52a-8659-4761-b85a-a881b7998bef" msprop:DbColumnName="BankOrPerson_Id" msprop:FriendlyName="BankOrPerson_Id" type="xs:long" minOccurs="0" />
@@ -37436,6 +37436,7 @@
                   <xs:element name="SubsidiaryDebit" msprop:design-time-name="90e1e4d7-aab3-48fd-a895-bcc61bd2bf24" msprop:DbColumnName="SubsidiaryDebit" type="xs:int" minOccurs="0" />
                   <xs:element name="OriginalResidue" msprop:design-time-name="17501a71-6d00-4d9c-a0b5-60b88aca8cd0" msprop:DbColumnName="OriginalResidue" type="xs:int" minOccurs="0" />
                   <xs:element name="SubsidiaryResidue" msprop:design-time-name="0d673306-2a84-40a1-bf40-002a28858310" msprop:DbColumnName="SubsidiaryResidue" type="xs:int" minOccurs="0" />
+                  <xs:element name="ValuesDain" msprop:DbColumnName="ValuesDain" msprop:design-time-name="aa6321d0-3a70-49e7-aec9-8ce83d845a26" type="xs:long" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -38650,7 +38651,7 @@
                   <xs:element name="SaleOffice_Id" msprop:design-time-name="38a390a0-34d0-40d6-a468-f90e0684c98c" msprop:DbColumnName="SaleOffice_Id" type="xs:int" minOccurs="0" />
                   <xs:element name="ZingoDiscountPolicyPrice" msprop:design-time-name="b39fa555-18a7-4ce6-991a-cd744bad03a8" msprop:DbColumnName="ZingoDiscountPolicyPrice" type="xs:decimal" minOccurs="0" />
                   <xs:element name="EliponDiscountPolicyPrice" msprop:design-time-name="a71a54c6-0fe4-4c94-add5-2645dd62250b" msprop:DbColumnName="EliponDiscountPolicyPrice" type="xs:decimal" minOccurs="0" />
-                  <xs:element name="PriceKheiliSabzRawMtl" msprop:DbColumnName="PriceKheiliSabzRawMtl" msprop:design-time-name="a3fc07ab-513f-491f-9593-ebfcd20b1ccc" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="PriceKheiliSabzRawMtl" msprop:design-time-name="a3fc07ab-513f-491f-9593-ebfcd20b1ccc" msprop:DbColumnName="PriceKheiliSabzRawMtl" type="xs:decimal" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
