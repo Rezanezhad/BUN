@@ -35114,7 +35114,20 @@ FORMAT_STRING = "#,##;-#,##",
 VISIBLE = 1  ;                                                                                                                                           
                                                                                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[GRL FIN Fact Loan interest balance For All]
- AS (
+ AS iif([Vw GRL FIN Dim Loan Type].[Loan Type ID].currentmember is [Vw GRL FIN Dim Loan Type].[Loan Type ID].&amp;[900000060],
+((
+[Measures].[GRL FIN Fact Loan For All Loan And Bank Values Dain ACM]
+,
+[GRL FIN Dim COA Ledger Account].[COA Ledger Account Code].&amp;[305003]
+)
++
+(
+[Measures].[GRL FIN Fact Loan For All Loan And Bank Values Dain ACM]
+,
+[GRL FIN Dim COA Ledger Account].[COA Ledger Account Code].&amp;[305009]
+))
+,
+((
 [Measures].[GRL FIN Fact Loan For All Loan And Bank Values ACM]
 ,
 [GRL FIN Dim COA Ledger Account].[COA Ledger Account Code].&amp;[305003]
@@ -35124,9 +35137,9 @@ CREATE MEMBER CURRENTCUBE.[Measures].[GRL FIN Fact Loan interest balance For All
 [Measures].[GRL FIN Fact Loan For All Loan And Bank Values ACM]
 ,
 [GRL FIN Dim COA Ledger Account].[COA Ledger Account Code].&amp;[305009]
-), 
+))), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                           
+VISIBLE = 1  ;                                                                                                                                           
                                                                                                        
                                                                                                            
                                                                                        
