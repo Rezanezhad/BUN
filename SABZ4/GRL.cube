@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="802" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-16104" scrolltop="-8197" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="14711" y="12885" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="807" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-16104" scrolltop="-8197" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="32068" y="20585" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -6910,6 +6910,97 @@
               <point x="6678" y="-1909" />
               <point x="6678" y="590" />
               <point x="4727" y="590" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="GRL_FIN_Fact_VoucherItemOpening" left="0" top="0" logicalid="802" controlid="402" masterid="0" hint1="0" hint2="0" width="5785" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00009916000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="GRL_FIN_Fact_VoucherItemOpening" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5485" top="-2308" logicalid="803" controlid="403" masterid="0" hint1="0" hint2="0" width="8408" height="2908" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[GRL_FIN_Fact_VoucherItemOpening-GRL_GNR_Dim_Branch]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="205" destid="402" sourceattachpoint="14" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13593" y="-1909" />
+              <point x="9689" y="-1909" />
+              <point x="9689" y="300" />
+              <point x="5785" y="300" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5485" top="4126" logicalid="804" controlid="404" masterid="0" hint1="0" hint2="0" width="21940" height="874" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[GRL_FIN_Fact_VoucherItemOpening-GRL_GNR_Dim_FullDate]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="150" destid="402" sourceattachpoint="14" destattachpoint="39" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="27125" y="4525" />
+              <point x="16455" y="4525" />
+              <point x="16455" y="4700" />
+              <point x="5785" y="4700" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4792" top="-3730" logicalid="805" controlid="405" masterid="0" hint1="0" hint2="0" width="882" height="4030" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[GRL_FIN_Fact_VoucherItemOpening-GRL_GNR_Dim_Company]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="402" sourceattachpoint="1" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5274" y="-3231" />
+              <point x="5274" y="-1616" />
+              <point x="5092" y="-1616" />
+              <point x="5092" y="0" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-5634" top="-5815" logicalid="806" controlid="406" masterid="0" hint1="0" hint2="0" width="6076" height="6115" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[GRL_FIN_Fact_VoucherItemOpening-GRL_GNR_Dim_CostCenter]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="69" destid="402" sourceattachpoint="13" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-5235" y="-5316" />
+              <point x="-5235" y="-2658" />
+              <point x="142" y="-2658" />
+              <point x="142" y="0" />
             </connector>
           </ddscontrol>
         </dds>
@@ -34800,6 +34891,106 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="b0e39b0b-d6af-48eb-b887-6fe1bbd88af5">
+      <ID>GRL FIN Fact Voucher Item Opening</ID>
+      <Name>GRL FIN Fact Voucher Item Opening</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="d3047bed-6261-4a4b-ae08-43c12b2b1190">
+          <ID>Voucher Item Value - GRL FIN Fact Voucher Item Opening</ID>
+          <Name>Voucher Item Value Opening</Name>
+          <Source dwd:design-time-name="74be10ea-e0ad-4c06-b095-322d28330972">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9ae7145f-aa72-4fd9-b4bc-f536a67b1599">
+              <TableID>GRL_FIN_Fact_VoucherItemOpening</TableID>
+              <ColumnID>VoucherItem_Value</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="24d4f3ea-18d1-45d1-b197-98156f033289">
+          <CubeDimensionID>GRL GNR Dim Branch</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0e54251c-6186-4d97-8120-2ce11086382f">
+              <AttributeID>Branch Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3c9026d8-9018-4377-af48-8ebb863a4ec0">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3534229e-046b-49d4-ac94-d1ce46459a48">
+                    <TableID>GRL_FIN_Fact_VoucherItemOpening</TableID>
+                    <ColumnID>Branch_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8c5e0d87-8d7d-4218-bcf7-136ed24a2178">
+          <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c0989795-03dc-490d-8055-d26070ec0b84">
+              <AttributeID>Date Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5061b86e-5828-47e9-b1b9-39ef49d76673">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1cd883b3-43c7-40da-8fa9-29a86343bc16">
+                    <TableID>GRL_FIN_Fact_VoucherItemOpening</TableID>
+                    <ColumnID>Date_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0bede5b6-0c04-4504-ab9a-10d90f7a1ae4">
+          <CubeDimensionID>GRL GNR Dim Company</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="769dc002-6c59-41d1-81ce-5d134e9c1269">
+              <AttributeID>Company Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6b25fb81-32a5-41ab-bb3e-ec9d8c0047c7">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b5453e8b-ebf8-4a58-ad71-b7781178320b">
+                    <TableID>GRL_FIN_Fact_VoucherItemOpening</TableID>
+                    <ColumnID>Company_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="72f5cf2f-2460-46f3-9de0-93989ab59a99">
+          <CubeDimensionID>GRL GNR Dim Cost Center</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d2f8d7ca-b32c-4117-af6f-a65f37709689">
+              <AttributeID>Cost Center Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1143320d-a517-477d-8790-c8865f44a1ca">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="298b8462-2d36-477c-b0e2-e9bba127ac3d">
+                    <TableID>GRL_FIN_Fact_VoucherItemOpening</TableID>
+                    <ColumnID>CostCenter_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
   </MeasureGroups>
   <Source dwd:design-time-name="d7a18808-cfba-4e2d-a174-20c21fb37010">
     <DataSourceViewID>SABZDW</DataSourceViewID>
@@ -35047,6 +35238,17 @@ CREATE MEMBER CURRENTCUBE.[Measures].[GRL FIN Fact Loan For All Loan And Bank Va
  AGGREGATE({Tail([SelectedDates],1).Item(0):[GRL GNR Dim Full Date].[Year-Half Year-Quarter-Month-Date].currentmember},
 [Measures].[GRL FIN Fact Loan For All Loan And Bank Values Dain])), 
 FORMAT_STRING = "#,##;-#,##", 
+VISIBLE = 1  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].[GRL FIN Fact Loan For All Loan And Bank Valuaes Dain ACM From First]
+ AS IIF
+ (AGGREGATE
+ ({null:[GRL GNR Dim Full Date].[Year-Half Year-Quarter-Month-Date].currentmember},
+[Measures].[GRL FIN Fact Loan For All Loan And Bank Values Dain])&lt;0,
+ AGGREGATE({null:[GRL GNR Dim Full Date].[Year-Half Year-Quarter-Month-Date].currentmember},
+[Measures].[GRL FIN Fact Loan For All Loan And Bank Values Dain])*-1,
+ AGGREGATE({null:[GRL GNR Dim Full Date].[Year-Half Year-Quarter-Month-Date].currentmember},
+[Measures].[GRL FIN Fact Loan For All Loan And Bank Values Dain])), 
+FORMAT_STRING = "#,##;-#,##", 
 VISIBLE = 1  ;                                                                                                                                            
                                                                                                       
                                                                                                        
@@ -35082,11 +35284,31 @@ CREATE MEMBER CURRENTCUBE.[Measures].[GRL FIN Fact Loan Value Bloack]
 [Measures].[Vw GRL FIN Fact Loan Values]
 ,
 [GRL FIN Dim COA Ledger Account].[COA Ledger Account Code].&amp;[109011]
+)
++
+(
+[Measures].[Voucher Item Value Opening]
+,
+[GRL FIN Dim COA Ledger Account].[COA Ledger Account Code].&amp;[109011]
 ), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                            
+VISIBLE = 1  ;                                                                                                                                            
 CREATE MEMBER CURRENTCUBE.[Measures].[GRL FIN Fact Loan The balance of the principal of the loan For All]
- AS ((
+ AS iif([Vw GRL FIN Dim Loan Type].[Loan Type ID].currentmember is [Vw GRL FIN Dim Loan Type].[Loan Type ID].&amp;[900000060]
+,
+((
+[Measures].[GRL FIN Fact Loan For All Loan And Bank Valuaes Dain ACM From First]
+,
+[GRL FIN Dim COA Ledger Account].[COA Ledger Account Code].&amp;[305001]
+)
++
+(
+[Measures].[GRL FIN Fact Loan For All Loan And Bank Valuaes Dain ACM From First]
+,
+[GRL FIN Dim COA Ledger Account].[COA Ledger Account Code].&amp;[305008]
+))
+,
+(((
 [Measures].[GRL FIN Fact Loan For All Loan And Bank Values Dain ACM]
 ,
 [GRL FIN Dim COA Ledger Account].[COA Ledger Account Code].&amp;[305001]
@@ -35096,12 +35318,40 @@ CREATE MEMBER CURRENTCUBE.[Measures].[GRL FIN Fact Loan The balance of the princ
 [Measures].[GRL FIN Fact Loan For All Loan And Bank Values Dain ACM]
 ,
 [GRL FIN Dim COA Ledger Account].[COA Ledger Account Code].&amp;[305008]
-)), 
+))
++
+((
+[Measures].[Voucher Item Value Opening]
+,
+[GRL FIN Dim COA Ledger Account].[COA Ledger Account Code].&amp;[305001]
+)
++
+(
+[Measures].[Voucher Item Value Opening]
+,
+[GRL FIN Dim COA Ledger Account].[COA Ledger Account Code].&amp;[305008]
+))
+)
+), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                               
+VISIBLE = 1  ;                                                                                                                                               
                                                                                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[GRL FIN Fact Loan interest balance For All]
- AS ((
+ AS iif([Vw GRL FIN Dim Loan Type].[Loan Type ID].currentmember is [Vw GRL FIN Dim Loan Type].[Loan Type ID].&amp;[900000060]
+,
+((
+[Measures].[GRL FIN Fact Loan For All Loan And Bank Valuaes Dain ACM From First]
+,
+[GRL FIN Dim COA Ledger Account].[COA Ledger Account Code].&amp;[305003]
+)
++
+(
+[Measures].[GRL FIN Fact Loan For All Loan And Bank Valuaes Dain ACM From First]
+,
+[GRL FIN Dim COA Ledger Account].[COA Ledger Account Code].&amp;[305009]
+))
+,
+((
 [Measures].[GRL FIN Fact Loan For All Loan And Bank Values Dain ACM]
 ,
 [GRL FIN Dim COA Ledger Account].[COA Ledger Account Code].&amp;[305003]
@@ -35111,9 +35361,21 @@ CREATE MEMBER CURRENTCUBE.[Measures].[GRL FIN Fact Loan interest balance For All
 [Measures].[GRL FIN Fact Loan For All Loan And Bank Values Dain ACM]
 ,
 [GRL FIN Dim COA Ledger Account].[COA Ledger Account Code].&amp;[305009]
-)), 
+))
++
+((
+[Measures].[Voucher Item Value Opening]
+,
+[GRL FIN Dim COA Ledger Account].[COA Ledger Account Code].&amp;[305003]
+)
++
+(
+[Measures].[Voucher Item Value Opening]
+,
+[GRL FIN Dim COA Ledger Account].[COA Ledger Account Code].&amp;[305009]
+))), 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;                                                                                                                                               
+VISIBLE = 1  ;                                                                                                                                               
                                                                                                        
                                                                                                            
                                                                                        
