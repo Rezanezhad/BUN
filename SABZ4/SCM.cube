@@ -1,0 +1,202 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="83ae7d91-c9e3-46c1-99a8-2d3bb137dccb" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>SCM</ID>
+  <Name>SCM</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-911" scrolltop="-821" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="18441" y="12594" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="StockInventory" left="5901" top="4854" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4366" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00000e11000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="STG_StockInventory" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-911</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-821</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>5901</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>4854</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="1e26f5e0-56b8-443f-be47-309d2e2b0154">
+      <ID>Stock Inventory</ID>
+      <Name>Stock Inventory</Name>
+      <DimensionID>Stock Inventory</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="853f91eb-16af-4a0b-8673-c0b460ab8050">
+          <AttributeID>Inventory Voucher ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6505a083-60fc-45ae-aa99-e16e433293cc">
+          <AttributeID>Voucher Create Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8b55c59e-6354-4be9-bffc-b98cb6e1d476">
+          <AttributeID>Voucher Create Date Solar</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="32875aac-08c0-468a-87a7-ccdbff1ac577">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5549c592-2ec5-465f-9af6-0a4fc0f2d374">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4ec80b73-657d-444d-a25c-ef1884144acc">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="353fc183-7726-4fe9-859b-25faa213823a">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="62ee5421-a84c-4178-aec2-12bc0846ac6c">
+          <AttributeID>Product Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9282b1d2-5c6c-4c06-a335-1140262c07d6">
+          <AttributeID>Voucher Desc</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3b39ff78-239f-4a15-a873-546d09c25de4">
+          <AttributeID>Quantity</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bf00e222-2226-4d65-a102-6fa109f2ef5b">
+          <AttributeID>Quantity Value</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c34ff049-6d20-4634-af54-96097b3dc182">
+          <AttributeID>QTY Multiplexed Ratio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e049a8f7-f7db-4bf2-acb9-7cd6d3f8e920">
+          <AttributeID>Quantity Desc</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a3742915-52c4-403b-a46c-84cbec87b5fe">
+          <AttributeID>Stock Inv Value Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="333589b5-4c9b-4590-9ff2-4dd2b3efa5c7">
+          <AttributeID>Stock Inv Value Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f0cb4b45-528a-42ff-a067-ac954cf5a800">
+          <AttributeID>Stock Inv Value Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="80a89ea8-59ad-4fc9-b60a-70e1dd795a7e">
+          <AttributeID>Voucher Desc ID</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="e90b6fc8-a486-4d2f-945e-10fa005e7a9d">
+      <ID>Stock Inventory</ID>
+      <Name>Stock Inventory</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="85e6062a-cd5e-468b-95ac-45379ec0a02e">
+          <ID>QTY Multiplexed Ratio</ID>
+          <Name>QTY Multiplexed Ratio</Name>
+          <Source dwd:design-time-name="45eb90ee-1a07-496d-9920-8a5e5cbf904e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0ffcc491-f6c5-4596-8e5b-739de2ef0559">
+              <TableID>STG_StockInventory</TableID>
+              <ColumnID>QTYMultiplexedRatio</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="798b9c4d-3f76-4406-8cdc-5a639d885860">
+          <CubeDimensionID>Stock Inventory</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="138b4a65-afec-4e46-9b78-4123286def8a">
+              <AttributeID>Inventory Voucher ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5d132007-c0e1-4012-8018-190904f982c1">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="caaa9086-dab6-4870-90b0-05fe4949d907">
+                    <TableID>STG_StockInventory</TableID>
+                    <ColumnID>InventoryVoucherID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="ec022806-4613-4bb9-bad9-d2aa5eef405c">
+    <DataSourceViewID>SABZDW</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="6c498258-6903-4d59-9698-99c1dff523ec">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE;  
+CREATE MEMBER CURRENTCUBE.[Measures].[SCM_Mojoodie_Entedaie_Doreh]
+ AS ([Measures].[QTY Multiplexed Ratio], [Stock Inventory].[Voucher Desc ID].&amp;[1]), 
+FORMAT_STRING = "Standard", 
+VISIBLE = 1  ; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>
