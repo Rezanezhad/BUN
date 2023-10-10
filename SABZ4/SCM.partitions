@@ -4,16 +4,16 @@
     <MeasureGroup>
       <ID>SCM FACT Stock Inventory</ID>
       <Partitions>
-        <Partition dwd:design-time-name="9e195522-5af7-42ae-a3b9-ff3a89a28716">
+        <Partition dwd:design-time-name="361cf382-d894-4f96-97a6-398893da6b40">
           <ID>SCM FACT Stock Inventory</ID>
           <Name>SCM FACT Stock Inventory</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8564b52e-e755-4d5d-a6dd-1bb2de9f6bae">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="540b0b13-1033-41b9-86fe-4b3a6b1055de">
             <DataSourceViewID>SABZDW</DataSourceViewID>
-            <TableID>SCM_DIM_StockInventory</TableID>
+            <TableID>Fact_SCM_StockInventory</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>

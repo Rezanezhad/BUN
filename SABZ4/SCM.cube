@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="15" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-911" scrolltop="-821" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="23760" y="15399" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-911" scrolltop="-821" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="23760" y="15399" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -41,7 +41,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="13897" top="4817" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="3611" height="6131" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="13897" top="4817" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="3611" height="5031" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -54,10 +54,10 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="13" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="13" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
               <point x="17108" y="5316" />
-              <point x="17108" y="10648" />
-              <point x="14197" y="10648" />
+              <point x="17108" y="9548" />
+              <point x="14197" y="9548" />
             </connector>
           </ddscontrol>
           <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="GRL_GNR_Dim_FullDateWeekly" left="-211" top="9483" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="4630" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
@@ -82,27 +82,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="3536" top="4400" logicalid="13" controlid="8" masterid="0" hint1="0" hint2="0" width="6595" height="6648" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[SCM_FACT_StockInventory-SCM_DIM_StockInventory]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="7" sourceattachpoint="26" destattachpoint="31" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="9831" y="10648" />
-              <point x="6834" y="10648" />
-              <point x="6834" y="4700" />
-              <point x="3836" y="4700" />
-            </connector>
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="3536" top="217" logicalid="14" controlid="9" masterid="0" hint1="0" hint2="0" width="10285" height="933" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3536" top="550" logicalid="14" controlid="9" masterid="0" hint1="0" hint2="0" width="10285" height="2666" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -115,9 +95,9 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="7" sourceattachpoint="18" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="13521" y="616" />
-              <point x="8679" y="616" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="7" sourceattachpoint="26" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13521" y="2816" />
+              <point x="8679" y="2816" />
               <point x="8679" y="850" />
               <point x="3836" y="850" />
             </connector>
@@ -264,168 +244,180 @@
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="58326f43-f43f-4caf-ac5b-5cc430dd4fed">
-      <ID>GRL GNR Dim Full Date weekly</ID>
-      <Name>GRL GNR Dim Full Date weekly</Name>
+    <Dimension dwd:design-time-name="08e656d8-cb46-4005-81a5-99a23bdc796b">
+      <ID>GRL GNR Dim Full Date</ID>
+      <Name>GRL GNR Dim Full Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="7d322964-3d35-4c81-982b-1440c68f2b69">
+        <Translation dwd:design-time-name="6fdbc05b-b78f-4d8c-a828-8d2c10386688">
           <Language>1065</Language>
-          <Caption>زمان بر اساس هفته</Caption>
+          <Caption>زمان</Caption>
         </Translation>
       </Translations>
-      <DimensionID>GRL GNR Dim Full Date weekly</DimensionID>
+      <DimensionID>GRL GNR Dim Full Date</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="8f2f9a6c-638c-480c-b46a-ab72c82402ab">
+        <Attribute dwd:design-time-name="32e169ff-9b2d-4004-adea-93c40430aabd">
           <AttributeID>Date Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="59d11389-a137-43bc-abb8-87bb165384ac">
+        <Attribute dwd:design-time-name="95392c3e-b537-466f-9949-c13b0ea278e6">
           <AttributeID>Month Order</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="47be78ed-d0f7-46e1-a03f-5deba5ceca56">
+        <Attribute dwd:design-time-name="c8f03295-7d9c-4b84-9731-8186e7e7b382">
           <AttributeID>Week Day Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="85b8ea2b-145d-4395-acce-b77d578c41ae">
+        <Attribute dwd:design-time-name="c9537049-fd34-4c59-a843-5574030921e7">
           <AttributeID>Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2e362cce-2ad9-403e-97ef-56ab0b3ea0e9">
+        <Attribute dwd:design-time-name="735b0b40-3372-4f53-8430-84744ed13020">
           <AttributeID>Semi Year Order</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4d382c7a-aae8-4f04-b813-403312dc4af4">
+        <Attribute dwd:design-time-name="1972e188-482e-4849-ae91-320a2bb95084">
           <AttributeID>Semi Year Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7f1d0f75-912e-436e-8241-4489f4cd39fc">
+        <Attribute dwd:design-time-name="f880dc47-ae20-4310-8563-df718904e205">
           <AttributeID>m Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2c04a5f4-a687-4ed6-b7dc-7b7d181a97ac">
+        <Attribute dwd:design-time-name="6eaeaf32-81ad-4507-ae9e-51d62dc49e04">
           <AttributeID>Month Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8d0b1c72-6d52-465b-99f6-e6419f508ae9">
+        <Attribute dwd:design-time-name="ff08fc5c-2862-4527-aa54-39fa23ae4218">
           <AttributeID>Season Order</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="44e1e0e7-8f19-4e44-8006-d5b1a06277bf">
+        <Attribute dwd:design-time-name="21a71756-659b-4e82-afa8-9b39199481c0">
           <AttributeID>Season Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="455141c0-7c5c-4af5-b05c-26d99a27b40e">
+        <Attribute dwd:design-time-name="8735ee10-8c65-4190-a0c8-8575b372ff36">
           <AttributeID>Week Order</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="691ad953-e7ef-4e5b-aa33-1b4f474570f2">
+        <Attribute dwd:design-time-name="48905bcd-2030-428c-8f18-bc0863a06598">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="37a550ec-6ec5-4620-ae22-f617273742aa">
+        <Attribute dwd:design-time-name="a498a55b-fe26-4ab0-a217-6c083ebe1787">
           <AttributeID>m Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e013b43a-0da4-46a5-a129-aeeffe66d8b5">
+        <Attribute dwd:design-time-name="f6dda66c-7186-4f2b-b6ae-1fa3aa8bb481">
           <AttributeID>m Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="616a3c44-92b4-4c01-aa2a-5378f08ff656">
-          <AttributeID>Week Order 1</AttributeID>
+        <Attribute dwd:design-time-name="77f13ad3-869c-426f-ab0c-86c2861f63e2">
+          <AttributeID>Fiscal Year 3</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c6fa395b-519e-4165-8d7c-362761828eab">
-          <AttributeID>Sdatenoslash</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="6e5619ef-9fb1-4129-a1be-fb637d2acca9">
-          <AttributeID>m Date 1</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="e28bd191-89cc-47fd-a5c9-e290b48ba8cb">
-          <AttributeID>Week Customize</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="c70272d8-3199-42d6-911b-110ad554a9a5">
-          <AttributeID>Date Id Perv1</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="38cd9d78-4fdc-4f40-9dcc-5e7a822ee2b2">
-          <AttributeID>Sdatenoslash 1</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="959b317c-ead4-4163-bc39-b55c277ce162">
-          <AttributeID>Fiscal Season 4</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="ae5cbf07-b935-4130-9af2-f12432edfa8a">
+        <Attribute dwd:design-time-name="956c9c8e-3606-44fa-b995-89dd5ef7720f">
           <AttributeID>Fiscal Year 4</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="fb20a910-bc2e-4c45-948e-db9677e35af5">
-          <AttributeID>Date Now</AttributeID>
+        <Attribute dwd:design-time-name="89e9f8c1-feac-4e4d-97a0-2889b6687773">
+          <AttributeID>Fiscal Season 4</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="29c3e577-06ff-4318-96d9-7b38be148f2d">
-          <AttributeID>Calendar Date Calculations</AttributeID>
+        <Attribute dwd:design-time-name="195a18eb-2b0f-4cf1-9fa1-038576a2c7af">
+          <AttributeID>Fiscal Season 3</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="590e2482-4411-4f54-a1fe-9c927eb982a1">
-          <AttributeID>Calendar Type</AttributeID>
+        <Attribute dwd:design-time-name="502a76f6-7344-4bce-9f21-a142fd101a90">
+          <AttributeID>Fiscal Year 10</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="96780b96-eb98-4e72-9d78-779e3be71d50">
-          <AttributeID>Month Title</AttributeID>
+        <Attribute dwd:design-time-name="b952f871-f7ca-452c-a07a-78b983cbf6c3">
+          <AttributeID>Fiscal Season 10</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a5868f4e-e1b9-45b6-9b4a-87b194528453">
-          <AttributeID>Month Id 1</AttributeID>
+        <Attribute dwd:design-time-name="40733f2b-3edf-4da5-b536-a6dc38e27bc1">
+          <AttributeID>Week Order 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ea8e833d-9023-4fd1-81d4-b3abb57bb079">
+          <AttributeID>Fiscal Year 7</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f5d3aee8-96c0-49fb-871a-0bf34b5dd632">
+          <AttributeID>Fiscal Season 7</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="af9a582a-be20-4287-beef-d8f8b80fd032">
+          <AttributeID>Sdatenoslash</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7ef5010f-48a3-4edd-97a6-c6d4caaffc7e">
+          <AttributeID>m Date 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5007cd5c-2622-4196-aaec-b1e024900385">
+          <AttributeID>Date Id 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="11e66d24-7784-44ba-848b-e9348773c726">
+          <AttributeID>Year New</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d5efc062-8889-455a-9e8f-140e84e9e703">
+          <AttributeID>Year 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="473243d3-3db4-44e0-a75f-56a68047e859">
+          <AttributeID>M Date Date Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1b4966e3-eb7f-4578-932f-fcbd2506831a">
+          <AttributeID>Date Now Status</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8f912bf5-9327-41ed-8eea-23559761b514">
+          <AttributeID>Date After Now Status</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ed7332f3-ba62-496d-9837-dd4671c9a4c5">
+          <AttributeID>Current Month And After Status</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="da0de355-4db3-4f4e-987e-373cfdbe2b1a">
+        <Hierarchy dwd:design-time-name="ee03444a-3941-4203-8057-03c47a12c973">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="b1f40dbd-f64d-4222-adb8-d697e1008b44">
+        <Hierarchy dwd:design-time-name="bb9801bc-38b9-4671-8528-bf1f66a3fb48">
           <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="e1f614ea-e4e9-4ce6-a4ca-96e9aa69f5af">
+        <Hierarchy dwd:design-time-name="02f2469b-d0ad-4627-841d-afecfa5da5d7">
           <HierarchyID>Hierarchy 2</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="85ae3330-ec22-4311-b8a1-ca47111f998e">
+        <Hierarchy dwd:design-time-name="e5b1c562-f50c-4d02-bb9b-864151d168b5">
           <HierarchyID>Hierarchy 3 1</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="23e81fc1-6516-42da-92e7-d2810c8c605a">
+        <Hierarchy dwd:design-time-name="802487fe-9639-45bd-ad5c-0ebd0a753a88">
           <HierarchyID>Hierarchy 3</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="3d780542-7dbf-430b-bedd-b8096b7e73bd">
+        <Hierarchy dwd:design-time-name="6d02acfa-02c4-4165-8daa-cd5a00724fac">
           <HierarchyID>Hierarchy 1 1</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="52ad1093-996e-493d-8214-4d47fbcbfc75">
+        <Hierarchy dwd:design-time-name="0c7cdd51-8e08-42d4-b735-c03325fd3946">
           <HierarchyID>Hierarchy 10</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="a29f8b04-9b23-4ecb-bc23-19df8c00c15c">
+        <Hierarchy dwd:design-time-name="ccbac9cd-5152-4f35-8764-8ee68e6ae1ab">
           <HierarchyID>Hierarchy 4</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="371ffd57-d5d3-43c3-bb76-02c6ed8a1175">
+        <Hierarchy dwd:design-time-name="acc8a904-a159-404a-bd9b-82c83c6ae0b0">
           <HierarchyID>Hierarchy 1 2</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="8871fa2e-4ad5-4971-a541-5318610ef985">
+        <Hierarchy dwd:design-time-name="d38de6a9-830c-4980-9c64-ea8089a2ec78">
           <HierarchyID>Hierarchy 5</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="ebbfdec2-2cf4-4c50-ab52-ef5a65cb7398">
+        <Hierarchy dwd:design-time-name="4c3ecf0d-fe14-4132-ad06-e8ceca6156ff">
           <HierarchyID>Hierarchy 9</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="79a8db8d-4ba7-4ec1-96ae-d0c080431834">
+        <Hierarchy dwd:design-time-name="e1bfc155-8a01-44f4-a192-34e01cbac515">
           <HierarchyID>Hierarchy 6</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="25f525e5-d28c-4ace-863b-97556d9805e2">
+        <Hierarchy dwd:design-time-name="fab48b4e-8c00-4c02-9f8c-0b695b4d04e2">
           <HierarchyID>Hierarchy 7</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="cfc5a535-1271-4a25-9135-e95da5bf86a2">
+        <Hierarchy dwd:design-time-name="058f1ce2-3118-4bf2-9962-50f878a15199">
           <HierarchyID>Hierarchy 8</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="92f32e96-8e6a-4c3c-a961-fad3d03375a9">
+        <Hierarchy dwd:design-time-name="9a721977-9b5d-420c-a6fe-ac9f7c9bd831">
           <HierarchyID>Hierarchy 1 3</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="f5213c4a-502f-4acc-96f4-20db68a54d08">
+        <Hierarchy dwd:design-time-name="0f47ba6f-8d96-4034-ade9-e59830efc163">
           <HierarchyID>Hierarchy 11</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="dfd5e56d-5025-40ba-a34e-02493ecb611b">
+        <Hierarchy dwd:design-time-name="eb3bf8c7-7f2d-4df6-91a3-885bfb056121">
           <HierarchyID>Hierarchy 12</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="97265aba-b50b-4fdc-a10e-f669c2fa9d06">
+        <Hierarchy dwd:design-time-name="31fe1407-10be-4a05-ac19-be997127199b">
           <HierarchyID>Hierarchy 13</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="9c1ea0ca-3961-43cd-bc1d-9122a27751b8">
+        <Hierarchy dwd:design-time-name="361576fd-f1ac-4dd7-9f87-58b07f218237">
           <HierarchyID>Hierarchy 14</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="c1ba260d-190f-48e0-8e59-ea5fe4b7f730">
+        <Hierarchy dwd:design-time-name="f7fd6981-b77d-47c7-8c51-3b7c633cb864">
           <HierarchyID>Hierarchy 15</HierarchyID>
-        </Hierarchy>
-        <Hierarchy dwd:design-time-name="7840a120-4e7e-427b-a103-16f5ef1989fe">
-          <HierarchyID>Hierarchy 16</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="8b0fe43c-a150-4a45-814b-364544d2f1ec">
+    <MeasureGroup dwd:design-time-name="8aaff45c-bad4-48e5-aa5c-08c4384d677c">
       <ID>SCM FACT Stock Inventory</ID>
       <Name>SCM FACT Stock Inventory</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -433,23 +425,23 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="73417c1c-6d18-46dd-9890-a75ab20b11eb">
+        <Measure dwd:design-time-name="037e437c-6bd3-4595-9244-7d5cf75f6c82">
           <ID>QTY Multiplexed Ratio</ID>
           <Name>QTY Multiplexed Ratio</Name>
-          <Source dwd:design-time-name="844f8cd5-c004-4cc6-a8ba-a57c6f022b7f">
+          <Source dwd:design-time-name="68c0db8c-9588-4aaa-9400-f7b214f9db16">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c9aab833-3a77-456b-8281-1ce25d3f06cf">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="27bdb7ac-2136-4ef7-9b4d-af5ced791f91">
               <TableID>Fact_SCM_StockInventory</TableID>
               <ColumnID>QTYMultiplexedRatio</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="2064746b-be98-4eee-a627-4c2ad3ad3018">
+        <Measure dwd:design-time-name="38bc181a-7619-48bd-a6b7-8c8d6a241d2f">
           <ID>Receive</ID>
           <Name>Receive</Name>
-          <Source dwd:design-time-name="0ee19893-1e8f-41de-bbdc-849a6288ed56">
+          <Source dwd:design-time-name="eeeed3da-8cf0-41b9-b932-49a7cbe2311f">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="8340aa44-4706-4121-85e2-629fedd400a9">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a8c6c397-2541-464c-8992-6a36a70431cc">
               <TableID>Fact_SCM_StockInventory</TableID>
               <ColumnID>_Receive</ColumnID>
             </Source>
@@ -459,18 +451,37 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="835b96de-c0f3-4822-ba3c-c9f1bef25a59">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1f6b40bc-4aa6-40a6-b700-2e58a8c9d2f0">
           <CubeDimensionID>SCM DIM Stock Inventory</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="414738e9-f65e-4777-9a44-3c13141e1ab5">
+            <Attribute dwd:design-time-name="f5df2197-e289-49f0-9c0d-0447638a610c">
               <AttributeID>SK Stock Inv</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="5707a4b7-ef48-4fe9-8374-39e36586af1a">
+                <KeyColumn dwd:design-time-name="5b22e8a2-0d88-4812-8ce1-43675b8aefd4">
                   <DataType>BigInt</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b8cbc68f-8595-4f7f-89f5-4f74ba2420e2">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fe558250-aa2b-4564-8c16-896136786633">
                     <TableID>Fact_SCM_StockInventory</TableID>
                     <ColumnID>SK_StockInv</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="42d88628-8051-4d2d-abcc-364a4e65b39c">
+          <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6f18c131-67b9-463e-8040-8b246c1a0966">
+              <AttributeID>Date Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fc50134f-d592-4abb-96ed-92655f54a6bc">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d33c9474-34fc-497b-98f7-4f28681837a7">
+                    <TableID>Fact_SCM_StockInventory</TableID>
+                    <ColumnID>Date_Id</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
@@ -499,8 +510,8 @@ If the CALCULATE command is deleted or modified, the data within the cube is aff
 You should edit this command only if you manually specify how the cube is aggregated.
 */
 CALCULATE; 
-CREATE MEMBER CURRENTCUBE.[Measures].[SCM_Mojoodie_Entedaie_Doreh]
- AS ([Measures].[QTY Multiplexed Ratio], [Stock Inventory].[Voucher Desc ID].&amp;[1]), 
+CREATE MEMBER CURRENTCUBE.[Measures].[SCM_Mojoodie_Ebtedaie_Doreh]
+ AS ([Measures].[QTY Multiplexed Ratio],[SCM DIM Stock Inventory].[Voucher Desc ID].&amp;[1]), 
 VISIBLE = 1  ; </Text>
         </Command>
       </Commands>
