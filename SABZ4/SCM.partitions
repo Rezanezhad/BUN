@@ -21,5 +21,25 @@
         </Partition>
       </Partitions>
     </MeasureGroup>
+    <MeasureGroup>
+      <ID>SCM DIM Print Order</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="05f3f503-a995-4e39-978f-924e57c96448">
+          <ID>SCM DIM Print Order</ID>
+          <Name>SCM DIM Print Order</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ad69a802-1427-4982-9ce5-b3441b163d10">
+            <DataSourceViewID>SABZDW</DataSourceViewID>
+            <TableID>SCM_DIM_PrintOrder</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
   </MeasureGroups>
 </Cube>
