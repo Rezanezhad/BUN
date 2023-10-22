@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5ea27973-6704-4338-be31-ad0073095112" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6f122c1b-5b14-4876-96d1-d7dacbf116a1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>SCM DIM Print Order</ID>
   <Name>SCM DIM Print Order</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,32 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2149" scrolltop="-5543" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8943" y="16087" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SCM_DIM_PrintOrder" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4604" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000fc11000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="SCM_DIM_PrintOrder" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-2149</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-5543</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -39,121 +65,152 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="185">
+            <Shape Id="Print Order Id" Expanded="true">
+              <Attributes>
+                <Attribute Id="Print Order Id" />
+                <Attribute Id="Color Number Id" />
+                <Attribute Id="Cover File Delivery Date" />
+                <Attribute Id="Date Avalin Pishbini Voroud" />
+                <Attribute Id="Date Fore Cast PDF" />
+                <Attribute Id="Date Id" />
+                <Attribute Id="Date Pishbini Voroud" />
+                <Attribute Id="Date Shenasnameh" />
+                <Attribute Id="Delete Print Order" />
+                <Attribute Id="Faz Code" />
+                <Attribute Id="Ghat Id" />
+                <Attribute Id="Last Faz Id" />
+                <Attribute Id="Page Number" />
+                <Attribute Id="Print Order Sum" />
+                <Attribute Id="Product Code" />
+                <Attribute Id="Qty Dar Rah" />
+                <Attribute Id="Tirazh" />
+                <Attribute Id="Type Print Order" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="17395ab9-0f56-44b1-80c7-c73ad573f8a9">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8c04d353-e27c-4404-a7d6-e7a8f2dc3724">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
-  <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="696d3962-926c-4266-b5db-ce071a78fa32">
+  <ErrorConfiguration dwd:design-time-name="f1d83be2-10ac-4cee-b4f3-f658492e9100">
     <KeyNotFound>ReportAndStop</KeyNotFound>
-    <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="d444466d-6c9a-47bb-9429-f404da4feb98">
-      <ID>Project Number</ID>
-      <Name>Project Number</Name>
+    <Attribute dwd:design-time-name="0cf9c1c5-2d72-4b4d-8787-cb2905b225f6">
+      <ID>Print Order Id</ID>
+      <Name>Print Order Id</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="60dd9914-2c7e-4457-86f6-ef73f119ca6c">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="00af035f-c416-41fc-9735-91aded2c048e">
+        <KeyColumn dwd:design-time-name="71fe8ccc-8cb1-49d1-9df0-146531d3778d">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4baa1947-0590-43a4-bb2c-451ea2564c80">
             <TableID>SCM_DIM_PrintOrder</TableID>
-            <ColumnID>Project_Number</ColumnID>
+            <ColumnID>PrintOrder_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="cdbe3d3e-b537-4665-b38c-1a2e2c83b4ad">
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="157cf422-db5e-4b8c-b51c-17fcdf9d7fbd">
+          <TableID>SCM_DIM_PrintOrder</TableID>
+          <ColumnID>Project_Number</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="b8196df2-9e68-42de-81b8-e69e4361bbed">
+        <AttributeRelationship dwd:design-time-name="5cc93861-f17d-4d27-8400-a4cc3b3a0bef">
           <AttributeID>Type Print Order</AttributeID>
           <Name>Type Print Order</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="90e3f81d-4eb1-4b27-8e23-1ae051f52905">
-          <AttributeID>Print Order Id</AttributeID>
-          <Name>Print Order Id</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d8c5efb7-8c01-46dd-9f32-b32f5646daf2">
+        <AttributeRelationship dwd:design-time-name="1a65fd54-3800-4d66-aa87-2898ad7a5a02">
           <AttributeID>Product Code</AttributeID>
           <Name>Product Code</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="709aaeab-4402-465d-9aa3-85e9cab38627">
+        <AttributeRelationship dwd:design-time-name="749265ec-6881-4f47-a719-286792054c03">
           <AttributeID>Faz Code</AttributeID>
           <Name>Faz Code</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="767b6603-6bb5-4e81-9315-0bbbb761fc6f">
+        <AttributeRelationship dwd:design-time-name="96bd0bba-55b4-486b-b7fb-031d9d484bfc">
           <AttributeID>Last Faz Id</AttributeID>
           <Name>Last Faz Id</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="1ea54ef4-3b02-4bd5-b77c-170b6cc6b0d5">
+        <AttributeRelationship dwd:design-time-name="065f9e05-aef0-43bf-a8e7-ddf161b75b91">
           <AttributeID>Page Number</AttributeID>
           <Name>Page Number</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="6c48339f-5eed-49a5-98b5-12e210063a06">
+        <AttributeRelationship dwd:design-time-name="470adf4e-b44d-4456-b564-e41528061c34">
           <AttributeID>Color Number Id</AttributeID>
           <Name>Color Number Id</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="7eed675c-7002-4c7d-8688-fe1e2158bb14">
+        <AttributeRelationship dwd:design-time-name="8ef0c9c5-632e-42f1-bb00-4651cf8df03c">
           <AttributeID>Tirazh</AttributeID>
           <Name>Tirazh</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="a2052378-5b36-489d-a3b0-fa53e9cb1ee8">
+        <AttributeRelationship dwd:design-time-name="6f85f77c-8d01-4d16-8234-7a445e183332">
           <AttributeID>Ghat Id</AttributeID>
           <Name>Ghat Id</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d45f4dab-b6e3-447b-a0c5-563305c789ec">
-          <AttributeID>Date Avalin Pishbini Voroud</AttributeID>
-          <Name>Date Avalin Pishbini Voroud</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="82ac9b06-663c-4b1a-aa67-7fcc711855ba">
-          <AttributeID>Qty Dar Rah</AttributeID>
-          <Name>Qty Dar Rah</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="c646a8bc-fac4-43c2-8daf-72c8711a1b4e">
-          <AttributeID>Date Fore Cast PDF</AttributeID>
-          <Name>Date Fore Cast PDF</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="13a9c704-0cd5-485f-b6c5-b3c7ac188f62">
-          <AttributeID>Date Shenasnameh</AttributeID>
-          <Name>Date Shenasnameh</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="f362c102-7f1f-48c3-9fff-92ae43e7cdb3">
-          <AttributeID>Date Pishbini Voroud</AttributeID>
-          <Name>Date Pishbini Voroud</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="63ec2baa-eb34-4312-a2d3-4871bc6465e1">
-          <AttributeID>Cover File Delivery Date</AttributeID>
-          <Name>Cover File Delivery Date</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="360d9c39-cd50-42eb-aa2b-f310327d090f">
-          <AttributeID>Delete Print Order</AttributeID>
-          <Name>Delete Print Order</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="6be8ea75-e50a-45ef-9aca-8d90310da56f">
-          <AttributeID>Print Order Sum</AttributeID>
-          <Name>Print Order Sum</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="24cf75f0-5015-4768-9bb0-4817227e5842">
+        <AttributeRelationship dwd:design-time-name="8bda17c6-3efd-4f79-833f-fa91cae89f26">
           <AttributeID>Date Id</AttributeID>
           <Name>Date Id</Name>
         </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b0cdaedb-e15e-42ac-b919-c9ddbbc43a1e">
+          <AttributeID>Date Avalin Pishbini Voroud</AttributeID>
+          <Name>Date Avalin Pishbini Voroud</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3ea491bc-6467-44d4-9eaa-9b8cf5806f2e">
+          <AttributeID>Qty Dar Rah</AttributeID>
+          <Name>Qty Dar Rah</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c1bbbc6a-af0c-4799-ad8d-c734aaf0524d">
+          <AttributeID>Date Fore Cast PDF</AttributeID>
+          <Name>Date Fore Cast PDF</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f683f9da-cbc5-4d55-b5cb-c1c2408adedf">
+          <AttributeID>Date Shenasnameh</AttributeID>
+          <Name>Date Shenasnameh</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ea9b3096-b761-4fc2-8cfe-9dfe3450249c">
+          <AttributeID>Date Pishbini Voroud</AttributeID>
+          <Name>Date Pishbini Voroud</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="22bb9a35-8c47-4d76-8370-aef5bb5452cd">
+          <AttributeID>Cover File Delivery Date</AttributeID>
+          <Name>Cover File Delivery Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="50b88452-268a-4395-a39a-f799b80a9ef9">
+          <AttributeID>Delete Print Order</AttributeID>
+          <Name>Delete Print Order</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f85c0173-1b62-4313-80eb-b88b58caf7ba">
+          <AttributeID>Print Order Sum</AttributeID>
+          <Name>Print Order Sum</Name>
+        </AttributeRelationship>
       </AttributeRelationships>
-      <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="2beb48d0-ac5d-48e5-a2a2-c55286320068">
+    <Attribute dwd:design-time-name="4b196739-4d02-4acc-bdb9-fd1f2a2777ae">
       <ID>Type Print Order</ID>
       <Name>Type Print Order</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e2e2ab01-8dc7-4a18-aa40-421471ba3894">
+        <KeyColumn dwd:design-time-name="cf39631f-1d6d-4769-aadd-9f9c797b0665">
           <DataType>WChar</DataType>
           <DataSize>8</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0f5d5f75-10ad-4470-9bab-83353a191f0e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b1725ef6-9183-40cb-be11-cfe1c5af6ddb">
             <TableID>SCM_DIM_PrintOrder</TableID>
             <ColumnID>TypePrintOrder</ColumnID>
           </Source>
@@ -163,30 +220,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="c9e9e0fe-85e9-415f-8a38-a7f3d22a3fe1">
-      <ID>Print Order Id</ID>
-      <Name>Print Order Id</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="23ddebd0-24d9-4340-b894-0bfc14491da9">
-          <DataType>BigInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="1e66a36a-f2dd-4996-b162-9727200b3648">
-            <TableID>SCM_DIM_PrintOrder</TableID>
-            <ColumnID>PrintOrder_Id</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="4dc47050-a897-4dfb-b4ac-098b2d8da4f8">
+    <Attribute dwd:design-time-name="b253c361-6b62-457e-bf0c-b17e086d2c2e">
       <ID>Product Code</ID>
       <Name>Product Code</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="fbbaa4ff-30d1-4db4-a357-461c59e6c4cf">
+        <KeyColumn dwd:design-time-name="c3857235-3f6b-4124-b3f1-066c5939303c">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9e2c7d61-86e8-4ce3-8dcd-4cd93c9e92ea">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f50b36a4-9fdc-4e96-a797-ea594863bf06">
             <TableID>SCM_DIM_PrintOrder</TableID>
             <ColumnID>Product_Code</ColumnID>
           </Source>
@@ -196,13 +237,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="c2036bc3-6bef-490e-81a0-3e7f618420b8">
+    <Attribute dwd:design-time-name="a4b2d712-bef8-43a4-a3c8-f224b92a994a">
       <ID>Faz Code</ID>
       <Name>Faz Code</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="26122de6-6809-4dfd-9c15-e2b9052676f0">
+        <KeyColumn dwd:design-time-name="bd15b56d-4c3b-485a-8e1c-43d28960c0ee">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c8fc6890-9907-4723-9ef5-4129f454b8ae">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e45564a5-df61-46c6-be0a-00ce8e024d0c">
             <TableID>SCM_DIM_PrintOrder</TableID>
             <ColumnID>FazCode</ColumnID>
           </Source>
@@ -212,13 +253,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e167ce45-5456-4428-a1ba-b52bea923c98">
+    <Attribute dwd:design-time-name="c160a064-a4b0-4480-86ab-c9e5e8baca32">
       <ID>Last Faz Id</ID>
       <Name>Last Faz Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="befeb0ac-52a1-41d9-ae59-213e519ed450">
+        <KeyColumn dwd:design-time-name="e0c6927f-16f3-4435-99a1-0e39525d59c4">
           <DataType>BigInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4aff48a6-c664-4efc-9014-5ee33ab75789">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4439d1c7-beb8-40b0-91fc-7f92c7e04944">
             <TableID>SCM_DIM_PrintOrder</TableID>
             <ColumnID>LastFaz_Id</ColumnID>
           </Source>
@@ -228,13 +269,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d475b6ab-799d-42f3-b729-cdd0393dd69b">
+    <Attribute dwd:design-time-name="acfe7cd7-e10f-41ff-86b3-e783c2324449">
       <ID>Page Number</ID>
       <Name>Page Number</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="77e082eb-fd17-4b9c-8e97-d0ad3928ba74">
+        <KeyColumn dwd:design-time-name="29d9b961-7e32-463c-b9f7-c236a8e5f1ee">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8bead6b4-edea-49fb-9d24-3008c042eadb">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9ebcaae9-2d4f-4fd4-83e0-6c3f53cdfb0b">
             <TableID>SCM_DIM_PrintOrder</TableID>
             <ColumnID>PageNumber</ColumnID>
           </Source>
@@ -244,13 +285,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="f0cc208c-042d-421f-a88e-3ca8d37645f9">
+    <Attribute dwd:design-time-name="f3694e86-b413-4fb2-a70c-e6b6f80b8fda">
       <ID>Color Number Id</ID>
       <Name>Color Number Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="77dca74a-b721-4c1d-9b22-8919fd933bb2">
+        <KeyColumn dwd:design-time-name="97f518a5-7b32-49df-867a-f11719efe59f">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c8fb766f-8394-4e6a-bad8-7b5823d012ba">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2e0194c0-9c5c-4473-b7aa-65ac7120903b">
             <TableID>SCM_DIM_PrintOrder</TableID>
             <ColumnID>ColorNumber_Id</ColumnID>
           </Source>
@@ -260,13 +301,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="ce214b38-e66d-448e-adb1-c9ae45f4d035">
+    <Attribute dwd:design-time-name="b91a12e7-6b39-4953-8cd6-b44a797f093e">
       <ID>Tirazh</ID>
       <Name>Tirazh</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ecaa9764-6324-494e-9e03-0bf5febf413d">
+        <KeyColumn dwd:design-time-name="24d09569-9350-4a08-971b-179d62b0282c">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ebb9e457-b91f-467a-805a-de6f651a9ce0">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4a11b361-483d-43ea-9e94-8e80e1b396e7">
             <TableID>SCM_DIM_PrintOrder</TableID>
             <ColumnID>Tirazh</ColumnID>
           </Source>
@@ -276,13 +317,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="0c9d6ec9-ce15-4419-8f02-538d5e8a265c">
+    <Attribute dwd:design-time-name="a39551de-1e84-4bbe-9a08-98a35da6da15">
       <ID>Ghat Id</ID>
       <Name>Ghat Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e578186b-502e-433d-8c47-06afa86c550e">
+        <KeyColumn dwd:design-time-name="cc5c5d13-1bbe-43e3-a2ac-f5b17ba1c767">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="40e18d54-1fb9-4251-aae8-42e0f0b72b26">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2c3e0e01-6154-4912-b6cc-bbaa3f17fa79">
             <TableID>SCM_DIM_PrintOrder</TableID>
             <ColumnID>Ghat_Id</ColumnID>
           </Source>
@@ -292,13 +333,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="de564d93-23ec-42df-ac75-c0e0c1543046">
+    <Attribute dwd:design-time-name="f8ea6562-f304-475d-8aac-fd40c009a9dc">
+      <ID>Date Id</ID>
+      <Name>Date Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="61d11432-860b-4afc-af79-921a214522be">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d86e5dd2-29a9-4610-bff6-1fff61912232">
+            <TableID>SCM_DIM_PrintOrder</TableID>
+            <ColumnID>Date_Id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="24018a25-3f31-4d5b-a1ab-b00b60a05adc">
       <ID>Date Avalin Pishbini Voroud</ID>
       <Name>Date Avalin Pishbini Voroud</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2d7c6414-c05f-4e2d-8425-b1001cfa7976">
+        <KeyColumn dwd:design-time-name="d237fe2f-33a0-4146-982f-a5865572e0aa">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3dfda91f-82c8-4ee6-aca7-efb005b2421b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f6aa3f37-e21e-4452-a7cf-79e71aaad88f">
             <TableID>SCM_DIM_PrintOrder</TableID>
             <ColumnID>Date_AvalinPishbiniVoroud</ColumnID>
           </Source>
@@ -308,13 +365,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="c716c3e3-12e6-4248-83a1-5741722b861d">
+    <Attribute dwd:design-time-name="5126f7ac-6421-4d54-b766-e3986a8a219e">
       <ID>Qty Dar Rah</ID>
       <Name>Qty Dar Rah</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c9ff7958-9e31-4196-b84d-df70c4051c37">
+        <KeyColumn dwd:design-time-name="c958362c-5f72-4e83-90b8-7ccbf3ab8972">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ac22c2c4-bb4c-4311-b0a5-9fd0b71c85ef">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bbaa1049-3bce-405a-ae21-b2549eab463a">
             <TableID>SCM_DIM_PrintOrder</TableID>
             <ColumnID>Qty_DarRah</ColumnID>
           </Source>
@@ -324,13 +381,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d2f2f8c0-84ff-4818-b658-d4ab4746db26">
+    <Attribute dwd:design-time-name="62cd307b-30fd-4450-85dd-d281b41b2c56">
       <ID>Date Fore Cast PDF</ID>
       <Name>Date Fore Cast PDF</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b6b4b9b3-d940-4d3d-92c5-8d0cbd321d58">
+        <KeyColumn dwd:design-time-name="620d7690-702f-40fd-a784-58b5148c8d76">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="706c7096-29d8-49e8-97de-dd4fc43f8d91">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="357a2750-d7c8-4ada-a950-6ba20610416e">
             <TableID>SCM_DIM_PrintOrder</TableID>
             <ColumnID>Date_ForeCastPDF</ColumnID>
           </Source>
@@ -340,14 +397,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="77455da8-6963-400c-9ec8-21b7cde71759">
+    <Attribute dwd:design-time-name="fd5a029d-b779-4c5c-9064-f1ced3870611">
       <ID>Date Shenasnameh</ID>
       <Name>Date Shenasnameh</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d921d3e8-35c2-40b1-8c5c-ee9d5b456f1d">
+        <KeyColumn dwd:design-time-name="9b41a4b2-a7dc-4d86-9f27-298e0961577b">
           <DataType>WChar</DataType>
           <DataSize>10</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f16f55db-22fc-4448-b965-f1f0146e3f44">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="420da8a1-1c6d-4bbb-9170-0c4c89904671">
             <TableID>SCM_DIM_PrintOrder</TableID>
             <ColumnID>Date_Shenasnameh</ColumnID>
           </Source>
@@ -357,13 +414,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="3e9c444e-5f6f-4bda-9644-f478f6363b69">
+    <Attribute dwd:design-time-name="a8558b97-a7f1-40ab-9b41-34d90072d7ae">
       <ID>Date Pishbini Voroud</ID>
       <Name>Date Pishbini Voroud</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b051a9f5-76f8-46ac-ba9b-decfc8f4d0ec">
+        <KeyColumn dwd:design-time-name="277c0776-daa7-4099-85a8-baf267fc2aff">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="467f72d2-bac9-4cd0-abf5-1dc3a9e43598">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3e49a34a-0bf9-4634-aca4-9033073bd795">
             <TableID>SCM_DIM_PrintOrder</TableID>
             <ColumnID>Date_PishbiniVoroud</ColumnID>
           </Source>
@@ -373,13 +430,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="5b403212-9f6b-4d26-baf2-c80b108adf74">
+    <Attribute dwd:design-time-name="18a9724b-1f55-43cd-be02-240c9d95a7dd">
       <ID>Cover File Delivery Date</ID>
       <Name>Cover File Delivery Date</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="51271f42-b816-4f8e-b99b-1aaef7d1fe8c">
+        <KeyColumn dwd:design-time-name="5139eb07-9672-4e1c-832f-9c60d6b62e17">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="333ee61b-a640-4637-a984-2800d4dafc3d">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1f4c4899-609d-40da-95b9-14d4483da730">
             <TableID>SCM_DIM_PrintOrder</TableID>
             <ColumnID>CoverFileDeliveryDate</ColumnID>
           </Source>
@@ -389,13 +446,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="ec4fc611-e7b1-44cd-8ecc-7cc1cb8acfb0">
+    <Attribute dwd:design-time-name="fdfe355a-34f9-47db-be55-ada947a6f7f6">
       <ID>Delete Print Order</ID>
       <Name>Delete Print Order</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2c40457e-4cb8-4e09-87a7-2f7adcf8c864">
+        <KeyColumn dwd:design-time-name="b02f4c66-050f-4aec-a91d-3b8d001ee72f">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2bf82fea-6d40-4fa0-abe0-2e30bb34b55d">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e3217bf3-5084-4b52-b3d0-aa4d92d1d6d1">
             <TableID>SCM_DIM_PrintOrder</TableID>
             <ColumnID>Delete_PrintOrder</ColumnID>
           </Source>
@@ -405,32 +462,15 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="3a9b693e-5a2b-4e79-988c-3871bb9b3e5b">
+    <Attribute dwd:design-time-name="6a5737f5-c1a4-4618-8a4f-e472f6493b56">
       <ID>Print Order Sum</ID>
       <Name>Print Order Sum</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a532d0de-dff7-4195-8045-f54f7f4e2921">
+        <KeyColumn dwd:design-time-name="afde0988-0b58-4150-bc0a-2ec01dfe871e">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="acc2af31-e616-4e61-958e-d40d6d5392e7">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2147630a-af23-4344-8ff6-d1ed11891751">
             <TableID>SCM_DIM_PrintOrder</TableID>
             <ColumnID>PrintOrder_Sum</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="0881b6c0-4d11-4bee-9016-228cca1b63a6">
-      <ID>Date Id</ID>
-      <Name>Date Id</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="09ae7918-d24d-4742-9a03-33036a06b8b8">
-          <DataType>Integer</DataType>
-          <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d6384fbe-96df-4684-b6cf-facba4cf8635">
-            <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
-            <ColumnID>Date_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
