@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="651" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-16104" scrolltop="-8674" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="14711" y="12885" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="653" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-16104" scrolltop="-8674" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="14711" y="12885" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -5278,6 +5278,37 @@
               <point x="0" y="300" />
             </connector>
           </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Vw_PUB_SLE_Dim_ReturnSale_FactorNum" left="-10113" top="-2858" logicalid="651" controlid="327" masterid="0" hint1="0" hint2="0" width="3995" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00009b0f0000af050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Vw_PUB_SLE_Dim_ReturnSale_FactorNum" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-6418" top="-3080" logicalid="652" controlid="328" masterid="0" hint1="0" hint2="0" width="8716" height="3680" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[PUB_SLE_Fact_ReturnSale-Vw_PUB_SLE_Dim_ReturnSale_FactorNum]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="327" destid="320" sourceattachpoint="15" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-6118" y="-2681" />
+              <point x="1998" y="-2681" />
+              <point x="1998" y="300" />
+              <point x="0" y="300" />
+            </connector>
+          </ddscontrol>
         </dds>
       </Value>
     </Annotation>
@@ -7070,22 +7101,6 @@
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="30f1581d-5d6c-481a-b3fc-a8fcefd112d4">
-      <ID>Vw PUB SLE Dim Return Sale Tax Number</ID>
-      <Name>Vw PUB SLE Dim Return Sale Tax Number</Name>
-      <Translations>
-        <Translation dwd:design-time-name="e45d992e-ed4a-4a76-897d-e90f4e688c70">
-          <Language>1065</Language>
-          <Caption>اطلاعات فاکتور برگشت از فروش برای تحفیف</Caption>
-        </Translation>
-      </Translations>
-      <DimensionID>Vw PUB SLE Dim Return Sale Tax Number</DimensionID>
-      <Attributes>
-        <Attribute dwd:design-time-name="45006ff3-0da4-4dc2-a462-5aaad8ff5032">
-          <AttributeID>Return Invoice Number</AttributeID>
-        </Attribute>
-      </Attributes>
-    </Dimension>
     <Dimension dwd:design-time-name="1b78b4e3-021d-40e2-89d4-bb4095c1d77f">
       <ID>PUB DIM Fiscal Year Type</ID>
       <Name>PUB DIM Fiscal Year Type</Name>
@@ -7600,6 +7615,16 @@
       <Attributes>
         <Attribute dwd:design-time-name="29163e97-c227-4223-ac82-2c9d6048de5f">
           <AttributeID>Factor Number</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="37a8258d-5200-41ef-bf98-ab2092f09bba">
+      <ID>Vw PUB SLE Dim Return Sale Factor Num</ID>
+      <Name>Vw PUB SLE Dim Return Sale Factor Num</Name>
+      <DimensionID>Vw PUB SLE Dim Return Sale Factor Num</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5a96b918-6dd3-4548-8689-699794707a8d">
+          <AttributeID>Return Invoice Number</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
@@ -9784,7 +9809,7 @@
     <MeasureGroup dwd:design-time-name="c63f472f-aeee-49ef-b0a8-646b3b70b093">
       <ID>PUB SLE Fact Gifts Sale</ID>
       <Name>PUB SLE Fact Gifts Sale</Name>
-      <CreatedTimestamp>2020-06-01T03:22:45.633333Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-06-01T02:22:45.633333Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:45.76Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:44.653333Z</LastProcessed>
       <State>Processed</State>
@@ -15864,6 +15889,26 @@
             </Attribute>
           </Attributes>
         </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cddb55eb-0cbd-4eeb-96c6-3cb618d7e7a7">
+          <CubeDimensionID>Vw PUB SLE Dim Return Sale Factor Num</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="087f9996-ddab-485f-b4f9-2e0ed1a38895">
+              <AttributeID>Return Invoice Number</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6475af2e-4b1e-481c-869a-54df1c0d37f5">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b8b22c47-f24a-436a-bba3-9022a896743a">
+                    <TableID>SLE_PUB_SLE_Fact_ReturnSale</TableID>
+                    <ColumnID>ReturnInvoiceNumber</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
       </Dimensions>
       <Partitions />
       <ProactiveCaching dwd:design-time-name="ad181710-2efc-450f-b60b-daa4a2f05465">
@@ -18750,7 +18795,7 @@
     <MeasureGroup dwd:design-time-name="ecc6e65a-0b7d-41a2-b1f0-eeb9ba668fa8">
       <ID>PUB SLE Fact Sale Request</ID>
       <Name>PUB SLE Fact Sale Request</Name>
-      <CreatedTimestamp>2020-06-01T03:22:53.036667Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-06-01T02:22:53.036667Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:46.636667Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:44.51Z</LastProcessed>
       <State>Processed</State>
@@ -19493,7 +19538,7 @@
     <MeasureGroup dwd:design-time-name="0eb7b48f-0247-44a2-9a85-8b277595fc8d">
       <ID>PUB SLE Fact Sale Order</ID>
       <Name>PUB SLE Fact Sale Order</Name>
-      <CreatedTimestamp>2020-06-02T07:36:41.03Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-06-02T06:36:41.03Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:46.68Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:44.503333Z</LastProcessed>
       <State>Processed</State>
@@ -20438,7 +20483,7 @@
     <MeasureGroup dwd:design-time-name="73b5a176-701d-4bdb-b86f-3f1e8df08282">
       <ID>Vw PUB SLE Fact Product Life Sale</ID>
       <Name>Vw PUB SLE Fact Product Life Sale</Name>
-      <CreatedTimestamp>2020-06-10T09:17:27.4Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-06-10T08:17:27.4Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:46.723333Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:15:16.186667Z</LastProcessed>
       <State>Processed</State>
@@ -24670,26 +24715,6 @@
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="2513d002-1804-493b-99a7-a1a53dc7560a">
                     <TableID>dbo_Vw_PUB_SLE_Fact_ReturnSaleTax</TableID>
                     <ColumnID>ReturnSalesOrganization_Id</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="69da25ed-670e-4632-8d3f-2cea1cf59e24">
-          <CubeDimensionID>Vw PUB SLE Dim Return Sale Tax Number</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="fbe3adc1-5a7e-48cc-a7e0-be28c4d9c18d">
-              <AttributeID>Return Invoice Number</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="20e7b08c-bc47-44b8-95a3-56e63780c17b">
-                  <DataType>WChar</DataType>
-                  <DataSize>50</DataSize>
-                  <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0ba5ae2a-bcfd-4d06-8e7c-fbee8ebeec95">
-                    <TableID>dbo_Vw_PUB_SLE_Fact_ReturnSaleTax</TableID>
-                    <ColumnID>ReturnInvoiceNumber</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
