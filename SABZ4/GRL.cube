@@ -6509,26 +6509,6 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="4075" top="1220" logicalid="778" controlid="379" masterid="0" hint1="0" hint2="0" width="23350" height="3705" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[GRl_FIN_Fact_Map_IncomeForeCast_NumberView-GRL_GNR_Dim_FullDate]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="150" destid="378" sourceattachpoint="14" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="27125" y="4525" />
-              <point x="15750" y="4525" />
-              <point x="15750" y="1520" />
-              <point x="4375" y="1520" />
-            </connector>
-          </ddscontrol>
           <ddscontrol controlprogid="MSDDS.Polyline" left="3537" top="-3730" logicalid="779" controlid="380" masterid="0" hint1="0" hint2="0" width="2137" height="4030" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
@@ -36300,7 +36280,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[GRLTotalAggregateInput]
 	end, 
 VISIBLE = 0;                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[GRLTotalAggregateInputCurrentMonth]
- AS case when [Measures].[Date Now Status]='1'
+ AS case when [Measures].[Date Now Status]='1' 
 	then (aggregate(  {Tail([setNowDay]).Item(0):Tail([setLastDayOfCurrentMonth]).Item(0)},
           [Measures].[GRL FIN Fact Income Forecast - Income Forecast Value]))
     else 
@@ -36311,7 +36291,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[GRLTotalAggregateInputCurrentMonth]
 		      (aggregate(  {Tail([setNowDay]).Item(0):Tail([setLastDayOfCurrentMonth]).Item(0)},
           [Measures].[GRL FIN Fact Income Forecast - Income Forecast Value]))
 	end, 
-VISIBLE = 0;                                         
+VISIBLE = 0  ;                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[GRLTotalAggregateInputAfterNowMonth]
  AS (aggregate(  {head([setAfterNow]).Item(0):[GRL GNR Dim Full Date].[Hierarchy].currentmember},
           [Measures].[GRL TSY Fact Receviables Value]))+
