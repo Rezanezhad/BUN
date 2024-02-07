@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="887" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-16104" scrolltop="-8197" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="16880" y="12885" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="889" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-16104" scrolltop="-8197" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="16880" y="12885" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -7761,6 +7761,37 @@
               <point x="5009" y="300" />
             </connector>
           </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" left="6985" top="-2287" logicalid="887" controlid="450" masterid="0" hint1="0" hint2="0" width="4199" height="2364" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000671000003c090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_GRL_FIN_Dim_VoucherType" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4709" top="-2054" logicalid="888" controlid="451" masterid="0" hint1="0" hint2="0" width="2576" height="3204" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[VW_GRL_FIN_Fact_FinanceDetails-GRL_FIN_Dim_VoucherType]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="450" destid="429" sourceattachpoint="14" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6985" y="-1655" />
+              <point x="5997" y="-1655" />
+              <point x="5997" y="850" />
+              <point x="5009" y="850" />
+            </connector>
+          </ddscontrol>
         </dds>
       </Value>
     </Annotation>
@@ -8096,6 +8127,9 @@
         </Attribute>
         <Attribute dwd:design-time-name="9374e52d-f6ef-4fdb-9786-ee497b2aaa2c">
           <AttributeID>COA Detail Account Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ccc08b88-8477-4b1e-b9ab-ede13e37b137">
+          <AttributeID>Cost Center</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
@@ -9175,6 +9209,9 @@
         <Attribute dwd:design-time-name="c48bf786-869e-4afb-91ba-a1f35375532c">
           <AttributeID>COA Detail Account Code</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="f08395aa-eb2f-47be-afb7-38d11af91af3">
+          <AttributeID>Cost Center</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="3a672d41-e210-47c0-957e-fbfd370cd00b">
@@ -9195,6 +9232,9 @@
         </Attribute>
         <Attribute dwd:design-time-name="ae0c5d6b-f09a-427f-b714-bf06bf8de98a">
           <AttributeID>COA Detail Account Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5559620c-5c12-4bd1-9011-e4eb70f76489">
+          <AttributeID>Cost Center</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
@@ -9560,6 +9600,9 @@
         <Attribute dwd:design-time-name="93f6d081-7618-4d8a-b2c9-96645a36fc3d">
           <AttributeID>COA Detail Account Code</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="fda2dd04-2431-414e-b198-83d21e92ae2c">
+          <AttributeID>Cost Center</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="d0f3a4ec-392a-4cc2-b784-d6dd4d2cf969">
@@ -9581,6 +9624,9 @@
         <Attribute dwd:design-time-name="9bffc2e0-b3bd-488a-94a1-be4b99ceeb4d">
           <AttributeID>COA Detail Account Code</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="c5b9f158-bb6f-4bda-ad98-23f37057c044">
+          <AttributeID>Cost Center</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="a6c6cb11-a429-448c-98ef-1f3026002c09">
@@ -9601,6 +9647,9 @@
         </Attribute>
         <Attribute dwd:design-time-name="412a0622-ff6c-4b83-b167-45c51c53a361">
           <AttributeID>COA Detail Account Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="70e8904c-2758-42f3-8a3b-2629e5dc0f55">
+          <AttributeID>Cost Center</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
@@ -9664,6 +9713,19 @@
       <Attributes>
         <Attribute dwd:design-time-name="e990c0fa-f9a2-4421-ba78-1d1b13449432">
           <AttributeID>Voucher ST Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="48d03525-c168-4997-88d8-69fbdc68e75a">
+      <ID>GRL FIN Dim Voucher Type</ID>
+      <Name>GRL FIN Dim Voucher Type</Name>
+      <DimensionID>GRL FIN Dim Voucher Type</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7322d278-d2c3-4a60-bb8a-c1575ae3c663">
+          <AttributeID>Voucher Type Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5e93afe9-e5e6-4a8b-bd22-f658bc0e26d0">
+          <AttributeID>Voucher Type Title</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
@@ -20281,7 +20343,7 @@
     <MeasureGroup dwd:design-time-name="e7f062ba-ea5b-408f-a897-e08d90689be2">
       <ID>GRL TSY Fact Receviables Ras Date</ID>
       <Name>GRL TSY Fact Receviables Ras Date</Name>
-      <CreatedTimestamp>2020-04-15T14:26:01.6Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-04-15T13:26:01.6Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:43.343333Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:24.563333Z</LastProcessed>
       <State>Processed</State>
@@ -20771,7 +20833,7 @@
     <MeasureGroup dwd:design-time-name="bf7f7f53-1036-4b6f-9547-1b44fd8aa5a0">
       <ID>GRL TSY Fact Receviables Ras Date With Side Transacti</ID>
       <Name>GRL TSY Fact Receviables Ras Date With Side Transacti</Name>
-      <CreatedTimestamp>2020-04-18T11:20:21.896667Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-04-18T10:20:21.896667Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:43.386667Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:24.486667Z</LastProcessed>
       <State>Processed</State>
@@ -21208,7 +21270,7 @@
     <MeasureGroup dwd:design-time-name="c7eefc07-b21e-48e3-8c63-1dafa4e6611e">
       <ID>RL TSY Fact Receviables Details All Chek</ID>
       <Name>RL TSY Fact Receviables Details All Chek</Name>
-      <CreatedTimestamp>2020-04-19T14:44:02.28Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-04-19T13:44:02.28Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:43.43Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:24.556667Z</LastProcessed>
       <State>Processed</State>
@@ -21756,7 +21818,7 @@
     <MeasureGroup dwd:design-time-name="b74546ff-606d-4cec-9900-f94b350eb631">
       <ID>GRL TSY Fact Payable With Transferred</ID>
       <Name>GRL TSY Fact Payable With Transferred</Name>
-      <CreatedTimestamp>2020-05-02T12:05:04.486667Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-05-02T11:05:04.486667Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:43.473333Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:24.483333Z</LastProcessed>
       <State>Processed</State>
@@ -22503,7 +22565,7 @@
     <MeasureGroup dwd:design-time-name="37543550-41c2-4574-9993-2edfb68c44c5">
       <ID>Vw GRL FIN Fact Loan</ID>
       <Name>Vw GRL FIN Fact Loan</Name>
-      <CreatedTimestamp>2020-05-23T12:03:15.95Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-05-23T11:03:15.95Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:43.563333Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:24.566667Z</LastProcessed>
       <State>Processed</State>
@@ -23257,7 +23319,7 @@
     <MeasureGroup dwd:design-time-name="3175cb0e-fdec-45a4-bb04-cc2b680b3cfa">
       <ID>GRL FIN Fact Loan For All Loan And Bank</ID>
       <Name>GRL FIN Fact Loan For All Loan And Bank</Name>
-      <CreatedTimestamp>2020-07-21T11:43:42.32Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-07-21T10:43:42.32Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:43.606667Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:24.486667Z</LastProcessed>
       <State>Processed</State>
@@ -24340,7 +24402,7 @@
     <MeasureGroup dwd:design-time-name="72a62bc2-e0ab-491d-b5ba-7ffe57fe737a">
       <ID>GRL FIN Fact Loan Start</ID>
       <Name>GRL FIN Fact Loan Start</Name>
-      <CreatedTimestamp>2020-05-23T15:02:44.253333Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-05-23T14:02:44.253333Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:43.656667Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:24.566667Z</LastProcessed>
       <State>Processed</State>
@@ -25527,7 +25589,7 @@
     <MeasureGroup dwd:design-time-name="dbacdc3f-53a7-4a18-93c4-e3664e7a9162">
       <ID>Vw GRL FIN Fact Profit Loan</ID>
       <Name>Vw GRL FIN Fact Profit Loan</Name>
-      <CreatedTimestamp>2020-06-09T09:10:58.4Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-06-09T08:10:58.4Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:43.87Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:24.483333Z</LastProcessed>
       <State>Processed</State>
@@ -26467,7 +26529,7 @@
     <MeasureGroup dwd:design-time-name="9dffe97b-cf2d-476e-b219-8665a9cb694c">
       <ID>GRL FIN Fact Loan Balance</ID>
       <Name>GRL FIN Fact Loan Balance</Name>
-      <CreatedTimestamp>2020-06-09T09:10:58.42Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-06-09T08:10:58.42Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:43.913333Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:44.506667Z</LastProcessed>
       <State>Processed</State>
@@ -27445,7 +27507,7 @@
     <MeasureGroup dwd:design-time-name="c329564f-0166-4ae9-bcb6-edcf06ee3394">
       <ID>GRL TSY Fact Uncollected Late Total Today</ID>
       <Name>GRL TSY Fact Uncollected Late Total Today</Name>
-      <CreatedTimestamp>2020-05-27T10:28:36.233333Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-05-27T09:28:36.233333Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:43.963333Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:24.563333Z</LastProcessed>
       <State>Processed</State>
@@ -27933,7 +27995,7 @@
     <MeasureGroup dwd:design-time-name="fb66868f-ad61-41b9-8078-133ea5ddbaeb">
       <ID>GRL TSY Fact Uncollected Late Total Today And Month</ID>
       <Name>GRL TSY Fact Uncollected Late Total Today And Month</Name>
-      <CreatedTimestamp>2020-07-28T14:43:03.43Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-07-28T13:43:03.43Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:44.006667Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:24.49Z</LastProcessed>
       <State>Processed</State>
@@ -28433,7 +28495,7 @@
     <MeasureGroup dwd:design-time-name="7da1f8b1-9b2c-4216-8a1f-118c6ef694de">
       <ID>Vw GRL FIN Fact Block Value</ID>
       <Name>Vw GRL FIN Fact Block Value</Name>
-      <CreatedTimestamp>2020-07-14T14:28:28.456667Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-07-14T13:28:28.456667Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:44.046667Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:24.483333Z</LastProcessed>
       <State>Processed</State>
@@ -28986,7 +29048,7 @@
     <MeasureGroup dwd:design-time-name="1124cb1e-cac8-439c-bd4a-c10df23daf16">
       <ID>GRL FIN Fact Bail</ID>
       <Name>GRL FIN Fact Bail</Name>
-      <CreatedTimestamp>2020-07-19T10:49:04.773333Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-07-19T09:49:04.773333Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:44.09Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:24.48Z</LastProcessed>
       <State>Processed</State>
@@ -29179,7 +29241,7 @@
     <MeasureGroup dwd:design-time-name="9069c67b-bd5b-40fc-99b0-ac197036a508">
       <ID>GRL FIN Fact Sale Target For Cahs Flow</ID>
       <Name>GRL FIN Fact Sale Target For Cahs Flow</Name>
-      <CreatedTimestamp>2020-09-01T12:14:50.833333Z</CreatedTimestamp>
+      <CreatedTimestamp>2020-09-01T11:14:50.833333Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:44.13Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:24.486667Z</LastProcessed>
       <State>Processed</State>
@@ -30068,7 +30130,7 @@
     <MeasureGroup dwd:design-time-name="93d23258-7890-4b19-9d5b-b901d6b6899e">
       <ID>GRL FIN Fact Cost Fore Cast Loan</ID>
       <Name>GRL FIN Fact Cost Fore Cast Loan</Name>
-      <CreatedTimestamp>2021-06-21T10:57:05.913333Z</CreatedTimestamp>
+      <CreatedTimestamp>2021-06-21T09:57:05.913333Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:44.44Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:24.456667Z</LastProcessed>
       <State>Processed</State>
@@ -30685,7 +30747,7 @@
     <MeasureGroup dwd:design-time-name="a49d72ff-5c53-4e9b-b12b-c055d19214b4">
       <ID>GRL FIN Fact Fore Cast Loan Limit</ID>
       <Name>GRL FIN Fact Fore Cast Loan Limit</Name>
-      <CreatedTimestamp>2021-06-22T10:29:40.09Z</CreatedTimestamp>
+      <CreatedTimestamp>2021-06-22T09:29:40.09Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:44.48Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:24.486667Z</LastProcessed>
       <State>Processed</State>
@@ -31233,7 +31295,7 @@
     <MeasureGroup dwd:design-time-name="44c34be9-a99a-4793-ab51-46a9cc41f62c">
       <ID>GRL FIN Fact Remainig Fore Cast Loan</ID>
       <Name>GRL FIN Fact Remainig Fore Cast Loan</Name>
-      <CreatedTimestamp>2021-06-22T15:05:16.246667Z</CreatedTimestamp>
+      <CreatedTimestamp>2021-06-22T14:05:16.246667Z</CreatedTimestamp>
       <LastSchemaUpdate>2022-02-21T14:57:44.523333Z</LastSchemaUpdate>
       <LastProcessed>2022-02-22T03:13:24.566667Z</LastProcessed>
       <State>Processed</State>
@@ -36674,6 +36736,25 @@
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="2188239d-3683-4029-808a-a24d929db522">
                     <TableID>dbo_VW_GRL_FIN_Fact_FinanceDetails</TableID>
                     <ColumnID>Voucher_ST_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0ee7cbcd-bb1d-4e13-b5bc-dc0ce27b7806">
+          <CubeDimensionID>GRL FIN Dim Voucher Type</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2c5f846c-3844-4aaf-b9bb-ea510a8c3552">
+              <AttributeID>Voucher Type Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5f9cedda-5644-423e-8e50-22d66ca47de0">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="afb6311f-d885-4d36-8177-c8645904b9e5">
+                    <TableID>dbo_VW_GRL_FIN_Fact_FinanceDetails</TableID>
+                    <ColumnID>VoucherTypeRef</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>

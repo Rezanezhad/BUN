@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b2a02511-caf1-4136-bc06-8682f7c8f5cb" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>GRL FIN Dim COA Detail Account</ID>
   <Name>GRL FIN Dim COA Detail Account</Name>
   <CreatedTimestamp>2020-02-29T07:25:09.926667Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3630" scrolltop="-7081" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="9869" y="16272" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="3138" scrolltop="-7081" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="7488" y="13123" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -181,7 +181,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-3630</Value>
+      <Value>3138</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
@@ -224,11 +224,11 @@
   </Annotations>
   <LastProcessed>2022-02-22T03:10:56.783333Z</LastProcessed>
   <State>Processed</State>
-  <Source xsi:type="DataSourceViewBinding">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="ce82bb1c-cb1b-405a-9689-791f3c7e851f">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration>
+  <ErrorConfiguration dwd:design-time-name="bc1fdba2-8abc-45f1-b1c5-b8c629ee5f55">
     <KeyNotFound>IgnoreError</KeyNotFound>
     <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
   </ErrorConfiguration>
@@ -236,94 +236,98 @@
   <Language>1065</Language>
   <UnknownMemberName>UnknownDetailAccount</UnknownMemberName>
   <UnknownMemberTranslations>
-    <UnknownMemberTranslation>
+    <UnknownMemberTranslation dwd:design-time-name="40df33d5-84c1-40d4-9681-9c0a06d431b7">
       <Language>1065</Language>
       <Caption>حساب تفضیلی نامشخص</Caption>
     </UnknownMemberTranslation>
   </UnknownMemberTranslations>
   <Translations>
-    <Translation>
+    <Translation dwd:design-time-name="b7bee27b-0b20-4a45-a878-3b559e99186b">
       <Language>1065</Language>
       <Caption>حساب تفصیلی</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute>
+    <Attribute dwd:design-time-name="7ce082b0-ba26-46e8-838d-8958a142061f">
       <ID>COA Detail Account Id</ID>
       <Name>COA Detail Account Id</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="625d0e4b-d866-46e2-8391-c31eecc83676">
           <DataType>BigInt</DataType>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="85e29d72-480c-4bb4-9ca7-0cb853d07959">
             <TableID>dbo_GRL_FIN_Dim_COA_DetailAccount</TableID>
             <ColumnID>COA_DetailAccount_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="5f006a34-a6d2-41f9-a323-6a9069407bbc">
         <DataType>WChar</DataType>
         <DataSize>255</DataSize>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f795db59-804e-4bb2-b7af-6709efd01e85">
           <TableID>dbo_GRL_FIN_Dim_COA_DetailAccount</TableID>
           <ColumnID>COA_DetailAccount_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="360fbf58-1276-40be-b734-16395ee50e2e">
           <Language>1065</Language>
           <Caption>حساب تفصیلی</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="030c69f1-0d35-4a2d-8176-405568bf2932">
           <AttributeID>Company Id</AttributeID>
           <Name>Company Id</Name>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="cf0a88c1-5531-4b4f-b426-fe64cc2fdea3">
               <Language>1065</Language>
               <Caption>شرکت</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4b38d284-01c1-40f6-bd46-bfe079cee5e5">
           <AttributeID>COA Detail Account Code</AttributeID>
           <Name>COA Detail Account Code</Name>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="0151ccc1-175f-4242-9513-eb305b82a1d6">
               <Language>1065</Language>
               <Caption>کد عددی تفضیلی</Caption>
             </Translation>
           </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="73ddeedd-6897-4c99-a3da-65716c1ba51d">
+          <AttributeID>Cost Center</AttributeID>
+          <Name>Cost Center</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute>
+    <Attribute dwd:design-time-name="0eb692ba-dc5b-49dc-b5b9-f43f746e0be2">
       <ID>Company Id</ID>
       <Name>Company Id</Name>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="241fd632-8b81-413a-a715-1af8956ce454">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="21af4179-bb05-4551-9de1-2b1b9f071c2f">
             <TableID>dbo_GRL_GNR_Dim_Company</TableID>
             <ColumnID>Company_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="415294e4-ec75-46f8-a44a-cd91084c8477">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="0f9af0a1-f1d4-422c-8907-1a72137403f8">
           <TableID>dbo_GRL_GNR_Dim_Company</TableID>
           <ColumnID>Company_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="c7fb679f-3ada-4816-9411-14df6accdbef">
           <Language>1065</Language>
           <Caption>شرکت</Caption>
         </Translation>
@@ -332,29 +336,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute>
+    <Attribute dwd:design-time-name="1ebf7c73-c269-4f12-9048-50b5926cbb51">
       <ID>COA Detail Account Code</ID>
       <Name>COA Detail Account Code</Name>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="5f85df1c-f761-4e01-aab1-f862bef64b87">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d4cc2c81-c39c-47b3-b59a-b6657c20f188">
             <TableID>dbo_GRL_FIN_Dim_COA_DetailAccount</TableID>
             <ColumnID>COA_DetailAccount_Code</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="1c740f1a-7b24-4dfd-a763-ade094782900">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="0fb69211-58d3-4193-8976-71774129c4ca">
           <TableID>dbo_GRL_FIN_Dim_COA_DetailAccount</TableID>
           <ColumnID>COA_DetailAccount_Code</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="54a41d67-7e97-451f-ae56-d23b484af159">
           <Language>1065</Language>
           <Caption>کد عددی تفضیلی</Caption>
         </Translation>
@@ -362,43 +366,67 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
+    <Attribute dwd:design-time-name="03beeec5-b370-41c7-928c-bc5eb1b457e5">
+      <ID>Cost Center</ID>
+      <Name>Cost Center</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bac6dd97-ab06-40e3-a6cf-4943de95315d">
+          <DataType>WChar</DataType>
+          <DataSize>306</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="92377356-fe09-40f0-ac79-def6aad729b4">
+            <TableID>dbo_GRL_FIN_Dim_COA_DetailAccount</TableID>
+            <ColumnID>CostCenter</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="3bc3f7bb-f13b-4750-82a4-b4fa826f3bf4">
+        <DataType>WChar</DataType>
+        <DataSize>306</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="7f39e31b-1873-40c6-9234-59c9a0081aa7">
+          <TableID>dbo_GRL_FIN_Dim_COA_DetailAccount</TableID>
+          <ColumnID>CostCenter</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
   </Attributes>
   <AttributeAllMemberName>AllCOADetailAccount</AttributeAllMemberName>
   <AttributeAllMemberTranslations>
-    <AttributeAllMemberTranslation>
+    <AttributeAllMemberTranslation dwd:design-time-name="60ce2fa5-376b-4c90-9351-a50a2c6a2a07">
       <Language>1065</Language>
       <Caption>همه حسابهای تفصیلی</Caption>
     </AttributeAllMemberTranslation>
   </AttributeAllMemberTranslations>
   <Hierarchies>
-    <Hierarchy>
+    <Hierarchy dwd:design-time-name="601f41a5-d3b1-422c-98fc-5f17c6113eb2">
       <ID>Hierarchy</ID>
       <Name>Company - DetailAccount</Name>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="5c87b0ac-d01d-4da6-a439-afb9eea83072">
           <Language>1065</Language>
           <Caption>ساختار درختی حساب تفصیلی</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level>
+        <Level dwd:design-time-name="7e8516c6-6336-4f0c-ad17-300f7e4db797">
           <ID>Company Id</ID>
           <Name>Company Id</Name>
           <SourceAttributeID>Company Id</SourceAttributeID>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="9573da57-973d-42fc-8c3b-2b2f38322b24">
               <Language>1065</Language>
               <Caption>شرکت</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level>
+        <Level dwd:design-time-name="57dce8a6-28cf-413c-8dac-1250711de943">
           <ID>COA Detail Account Id</ID>
           <Name>COA Detail Account Id</Name>
           <SourceAttributeID>COA Detail Account Id</SourceAttributeID>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="feb09d51-8ba3-4065-8e56-f08dc8874a16">
               <Language>1065</Language>
               <Caption>حساب تفصیلی</Caption>
             </Translation>
@@ -407,12 +435,12 @@
       </Levels>
     </Hierarchy>
   </Hierarchies>
-  <ProactiveCaching>
+  <ProactiveCaching dwd:design-time-name="25e717f4-87d5-4f80-92ff-71fc14afcb99">
     <SilenceInterval>-PT1S</SilenceInterval>
     <Latency>-PT1S</Latency>
     <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
     <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-    <Source xsi:type="ProactiveCachingInheritedBinding" />
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="638c473d-72da-4dbc-b75a-2f99eec25937" />
   </ProactiveCaching>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>
