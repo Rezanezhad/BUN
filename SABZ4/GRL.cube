@@ -9729,6 +9729,19 @@
         </Attribute>
       </Attributes>
     </Dimension>
+    <Dimension dwd:design-time-name="841df2d9-774b-472e-ab68-64681e73fb95">
+      <ID>GRL FIN Dim COA Group Account</ID>
+      <Name>GRL FIN Dim COA Group Account</Name>
+      <DimensionID>GRL FIN Dim COA Group Account</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1ed208fc-b034-45aa-89cf-4cb9713f5cda">
+          <AttributeID>COA Group Account Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1fa4420c-85b1-42fa-8a43-b40119e93040">
+          <AttributeID>COA Group Account Code</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
   </Dimensions>
   <MeasureGroups>
     <MeasureGroup dwd:design-time-name="4dc7415e-f297-471f-8c6f-8de2e0d32708">
@@ -35552,69 +35565,6 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="0e69e013-ebfd-4c61-b22f-a77e9e9b276a">
-      <ID>GRL FIN Dim COA Group Account</ID>
-      <Name>GRL FIN Dim COA Group Account</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-      <State>Unprocessed</State>
-      <Measures>
-        <Measure dwd:design-time-name="886be514-ee2f-4890-835b-482cb682d544">
-          <ID>Company Id</ID>
-          <Name>Company Id</Name>
-          <Source dwd:design-time-name="4aac8fd7-e08b-4a26-90a4-3a928acd75be">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="f85a479c-51c7-49f7-a55d-29d2998da7a9">
-              <TableID>dbo_GRL_FIN_Dim_COA_GroupAccount</TableID>
-              <ColumnID>Company_Id</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-      </Measures>
-      <StorageMode>Molap</StorageMode>
-      <ProcessingMode>Regular</ProcessingMode>
-      <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="767841d7-92fa-48fb-8a30-56815a80706c">
-          <CubeDimensionID>GRL GNR Dim Company</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="eecbf428-c422-4fbd-bed8-3d23cf58801e">
-              <AttributeID>Company Id</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="07431670-ef36-493a-b9da-ea86df2c1112">
-                  <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="18bb81db-ff8e-47e3-9bf4-eaa4c6f4d3e2">
-                    <TableID>dbo_GRL_FIN_Dim_COA_GroupAccount</TableID>
-                    <ColumnID>Company_Id</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="04ebccfa-6138-4a1c-a158-be58b70be8b5">
-          <CubeDimensionID>GRL FIN Dim COA Ledger Account</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="d8194766-b59f-4c7a-8ae2-013cc5fce6e6">
-              <AttributeID>COA Sheet Account Id</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="1de9c530-6f45-4e13-8ed1-580916150f5e">
-                  <DataType>Integer</DataType>
-                  <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c37c8c6e-df9c-4c95-8c02-dbaa38dd4ee7">
-                    <TableID>dbo_GRL_FIN_Dim_COA_GroupAccount</TableID>
-                    <ColumnID>COA_SheetAccount_Id</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-      </Dimensions>
-      <Partitions />
-    </MeasureGroup>
     <MeasureGroup dwd:design-time-name="0d268316-91b6-42bb-8370-5ae47e2241ec">
       <ID>GRL FIN Fact Receipt Babat View</ID>
       <Name>GRL FIN Fact Receipt Babat View</Name>
@@ -36755,6 +36705,25 @@
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="afb6311f-d885-4d36-8177-c8645904b9e5">
                     <TableID>dbo_VW_GRL_FIN_Fact_FinanceDetails</TableID>
                     <ColumnID>VoucherTypeRef</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ba321403-5ac4-49a2-822c-62cb47230826">
+          <CubeDimensionID>GRL FIN Dim COA Group Account</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3681f2c1-80fe-4a69-ba79-4bc0aafde6dc">
+              <AttributeID>COA Group Account Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="24ef5879-dc2f-4bdb-bdf5-7d48e4622c91">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9ae79165-d586-472b-a677-9ae80218f895">
+                    <TableID>dbo_VW_GRL_FIN_Fact_FinanceDetails</TableID>
+                    <ColumnID>AccountGroup_Id</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>

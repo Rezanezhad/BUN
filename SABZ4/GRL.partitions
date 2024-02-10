@@ -1286,26 +1286,6 @@
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
-      <ID>GRL FIN Dim COA Group Account</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="aca54762-07b3-4702-948d-6c0e6263c097">
-          <ID>GRL FIN Dim COA Group Account</ID>
-          <Name>GRL FIN Dim COA Group Account</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c1f5e0c3-03cf-45eb-8f8e-f3615688f661">
-            <DataSourceViewID>SABZDW</DataSourceViewID>
-            <TableID>dbo_GRL_FIN_Dim_COA_GroupAccount</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
       <ID>GRL FIN Fact Receipt Babat View</ID>
       <Partitions>
         <Partition dwd:design-time-name="659f5366-91db-4592-9a20-287aff81abcd">
