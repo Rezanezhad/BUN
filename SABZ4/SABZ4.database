@@ -1,4 +1,4 @@
-﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="88c43618-3d1b-4227-b4cb-d66817d6902d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e4e29c9e-953a-42b9-9477-a213eed3fd67" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>SABZ4</ID>
   <Name>SABZ4</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -9,10 +9,10 @@
   <Language>1033</Language>
   <Collation>Latin1_General_CI_AS</Collation>
   <Translations>
-    <Translation dwd:design-time-name="a2ba94ad-c418-46d3-941b-839ef94ac857">
+    <Translation dwd:design-time-name="b627468c-a0a6-449e-b5e3-b8cd3c6a8b98">
       <Language>1065</Language>
     </Translation>
-    <Translation dwd:design-time-name="bf57e1eb-7536-454d-a3d2-de1a1ded156f">
+    <Translation dwd:design-time-name="1690bb93-1023-47ca-8dfc-5d3d6c46a1b2">
       <Language>1033</Language>
     </Translation>
   </Translations>
@@ -26,26 +26,26 @@
   <DataSources />
   <DataSourceViews />
   <Accounts>
-    <Account dwd:design-time-name="48c0cb02-8e10-4744-a352-c4669d3a513c">
+    <Account dwd:design-time-name="f577949e-c25d-475d-b2a1-aed27b1919d7">
       <AccountType>Income</AccountType>
       <AggregationFunction>LastNonEmpty</AggregationFunction>
     </Account>
-    <Account dwd:design-time-name="cb6bed60-c108-44fd-857f-84a85ce434be">
+    <Account dwd:design-time-name="378da92f-88ed-4967-a7d6-8c65ed1c7d10">
       <AccountType>Balance</AccountType>
       <AggregationFunction>LastNonEmpty</AggregationFunction>
     </Account>
-    <Account dwd:design-time-name="dd598393-f68e-43bb-ae46-64963bdc875c">
+    <Account dwd:design-time-name="297eb51a-db20-4b52-af90-6d9d56ed401c">
       <AccountType>Flow</AccountType>
       <AggregationFunction>LastNonEmpty</AggregationFunction>
     </Account>
-    <Account dwd:design-time-name="40c7743c-4c8d-4860-a814-4859e6a7ea03">
+    <Account dwd:design-time-name="7be405d7-88bd-48f1-8bd0-181e8fab927f">
       <AccountType>Statistical</AccountType>
       <AggregationFunction>LastNonEmpty</AggregationFunction>
     </Account>
   </Accounts>
   <Roles />
   <DatabasePermissions>
-    <DatabasePermission dwd:design-time-name="4b51d5f6-06ae-4dcb-9602-2dd926f6efa4">
+    <DatabasePermission dwd:design-time-name="49ac862e-031f-42c7-a0b6-9e3b5a386d9f">
       <ID>DatabasePermission</ID>
       <Name>DatabasePermission</Name>
       <CreatedTimestamp>2020-02-29T07:25:12.02Z</CreatedTimestamp>
@@ -54,7 +54,7 @@
       <ReadDefinition>Allowed</ReadDefinition>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="a480cdbd-c8a2-41cc-bbd5-ec8d89720c50">
+    <DatabasePermission dwd:design-time-name="ea204b47-80a6-451d-9f9f-63c1e361ba28">
       <ID>DatabasePermission 129</ID>
       <Name>DatabasePermission 129</Name>
       <CreatedTimestamp>2020-02-29T07:25:12.02Z</CreatedTimestamp>
@@ -65,12 +65,13 @@
       <Read>Allowed</Read>
       <Administer>true</Administer>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="127bc0ab-2d6d-454b-a4fd-79115fd2ae2c">
-      <ID>DatabasePermission 1</ID>
-      <Name>DatabasePermission 1</Name>
+    <DatabasePermission dwd:design-time-name="77d600ee-79eb-4d0e-ac4c-cbe22fa3cd89">
+      <ID>DatabasePermission 2</ID>
+      <Name>DatabasePermission 2</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <RoleID>Role 1</RoleID>
+      <RoleID>Role 2</RoleID>
+      <ReadDefinition>Allowed</ReadDefinition>
       <Read>Allowed</Read>
     </DatabasePermission>
   </DatabasePermissions>
