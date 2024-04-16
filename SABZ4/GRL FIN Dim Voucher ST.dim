@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0cdf265c-a785-47bd-b5c2-8f98c1cb9f54" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c6f48bd1-77c9-4729-a9e8-7c841351bef0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>GRL FIN Dim Voucher ST</ID>
   <Name>GRL FIN Dim Voucher ST</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -68,35 +68,35 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="b065dc67-2da3-42a2-9147-f697ee41c748">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="aef9ce4d-dd4f-4ce7-9a39-7b588cc20db4">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="35e35a65-eaf8-4510-a774-74b9ef627782">
+  <ErrorConfiguration dwd:design-time-name="aa4491b4-99fb-4d3f-b058-77adf7bd2fe9">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="540b411f-9f2a-42b6-a493-b69e1f5bc57a">
+    <Attribute dwd:design-time-name="6513c44f-2d93-4393-8276-d71233d87134">
       <ID>Voucher ST Id</ID>
       <Name>Voucher ST Id</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="806c1b20-c5be-4c0b-8e87-efeeffd61e42">
+        <KeyColumn dwd:design-time-name="3d9d2e5e-2dbf-420b-a330-56ae01e83378">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d48602b7-aad5-476e-8331-94277c584d50">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="431ff014-3c3a-4206-9e0d-7ac03532547f">
             <TableID>GRL_FIN_Dim_Voucher_ST</TableID>
             <ColumnID>Voucher_ST_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="986ecae0-969b-4385-b2c0-c36e4f922b4b">
+      <NameColumn dwd:design-time-name="f361b22e-7f0f-4ae9-bf49-1b107fc9806d">
         <DataType>WChar</DataType>
         <DataSize>43</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="8ecd0220-8c5c-4002-a1de-0007cd87badc">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="719cc420-3c9f-42cd-b040-b61df341d206">
           <TableID>GRL_FIN_Dim_Voucher_ST</TableID>
           <ColumnID>Voucher_ST_Name</ColumnID>
         </Source>

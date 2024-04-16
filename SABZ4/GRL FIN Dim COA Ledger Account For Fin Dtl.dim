@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2cfd9070-d4cc-474c-b55e-36bc4b43b0e0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="bc6fdaae-3133-4f7f-86da-8193e7d462d1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>GRL FIN Dim COA Ledger Account For Fin Dtl</ID>
   <Name>GRL FIN Dim COA Ledger Account For Fin Dtl</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,32 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1885" scrolltop="-4987" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12700" y="20585" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="GRL_FIN_Dim_COA_LedgerAccount_ForFinDtl" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3678" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00005e0e00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="GRL_FIN_Dim_COA_LedgerAccount_ForFinDtl" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-1885</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-4987</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -42,45 +68,46 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3671d8ac-bc44-48f8-8599-3e323cccb967">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="dbb7d99c-d5c1-4bf5-87ab-4ae8731215bb">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="f28d48ee-6e03-4975-ad44-d3b27af484fd">
+  <ErrorConfiguration dwd:design-time-name="a7cc00a0-bc0c-41ba-90ac-26aeb394de27">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyConvertedToUnknown>ReportAndStop</NullKeyConvertedToUnknown>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="4cb8fe71-ed2c-4702-a16a-ce8949dc36ea">
+    <Attribute dwd:design-time-name="c1698ea6-b231-4f50-a439-c83e2c4c30d6">
       <ID>SLID</ID>
       <Name>SLID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0a326e0c-8eff-4d10-a88f-471bec329ba2">
+        <KeyColumn dwd:design-time-name="5df83bf8-19ac-428f-821d-da5d97d760b1">
           <DataType>BigInt</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="76e11412-8a17-4e64-923b-e89918ff82b5">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="29d7ab33-c9fd-4af7-966a-1380905cc0d6">
             <TableID>GRL_FIN_Dim_COA_LedgerAccount_ForFinDtl</TableID>
             <ColumnID>SLID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="a782a619-4463-4c9b-9b76-7c6b8869f5c9">
+        <AttributeRelationship dwd:design-time-name="c2d63bf6-9be1-43c2-a264-bb3e837418c5">
           <AttributeID>Code</AttributeID>
           <Name>Code</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="4fdb3897-0cab-4a0c-b0ee-f6474fd35c00">
+        <AttributeRelationship dwd:design-time-name="d8da766f-3f9e-4d86-a7cd-f3f357642cc7">
           <AttributeID>Title</AttributeID>
           <Name>Title</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="73949de4-e514-42ab-9004-abd1accdbb3e">
+        <AttributeRelationship dwd:design-time-name="2b8f60e0-0214-4d18-b96b-a0aa2b44c865">
           <AttributeID>Company Id</AttributeID>
           <Name>Company Id</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="0a3735fd-8827-4828-9ad5-13ad1b7e8689">
+        <AttributeRelationship dwd:design-time-name="bfcade4c-4b8d-406c-a42d-b06febb595cd">
           <AttributeID>Del Income And Retn</AttributeID>
           <Name>Del Income And Retn</Name>
         </AttributeRelationship>
@@ -89,13 +116,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="65b03f8c-f332-4afd-82b3-bd308e0a970e">
+    <Attribute dwd:design-time-name="1f0f227d-9427-45cf-8c16-8d2716d272a1">
       <ID>Code</ID>
       <Name>Code</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d6221143-73a8-4a9f-bc7a-a7e0c4dd5fe2">
+        <KeyColumn dwd:design-time-name="b270f642-d969-4513-8022-2b21e31eefbf">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="1236879d-fecc-42e3-8784-68353a688336">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5cc13b66-6f10-49e6-b760-997650674d97">
             <TableID>GRL_FIN_Dim_COA_LedgerAccount_ForFinDtl</TableID>
             <ColumnID>Code</ColumnID>
           </Source>
@@ -105,14 +132,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="83fda417-dc75-4f21-86f5-5547757a0bc3">
+    <Attribute dwd:design-time-name="60d94cfb-93fb-4468-9c5d-3aa9cd5cc352">
       <ID>Title</ID>
       <Name>Title</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4b7f91ac-3e20-4e0e-9fd5-10371e8bf5dc">
+        <KeyColumn dwd:design-time-name="90606221-57bd-47d3-aa54-fabfeb16f852">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="822e73bb-7a7f-4422-b31d-eeaaaf0c7f23">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b8b12bae-cc03-45a2-b753-a94388cd23c6">
             <TableID>GRL_FIN_Dim_COA_LedgerAccount_ForFinDtl</TableID>
             <ColumnID>Title</ColumnID>
           </Source>
@@ -122,13 +149,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="3425e23a-f978-4b3d-9fed-6afd6efad94e">
+    <Attribute dwd:design-time-name="4f28b11a-49a0-4263-9df8-d1a8aebc289f">
       <ID>Company Id</ID>
       <Name>Company Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a0e9ea1c-ebde-4e0b-ba50-696d39599b39">
+        <KeyColumn dwd:design-time-name="276adf07-7581-4de6-8b78-f7b74293950b">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8d44bf8d-98d1-4655-9d1e-1b6706e62304">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1d7511fb-d2f1-482b-a5c1-520528ad48d8">
             <TableID>GRL_FIN_Dim_COA_LedgerAccount_ForFinDtl</TableID>
             <ColumnID>Company_Id</ColumnID>
           </Source>
@@ -138,13 +165,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d734be93-dd51-4ee0-84d2-b358f93e9411">
+    <Attribute dwd:design-time-name="ddf4a0d0-f19a-443b-8660-6e2c88a34de6">
       <ID>Del Income And Retn</ID>
       <Name>Del Income And Retn</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4910d68e-144c-4040-9993-ec2747563d7a">
+        <KeyColumn dwd:design-time-name="71bd68d8-4f87-42b6-832e-f73e88819ae0">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9835c9fd-9af6-4820-a8ba-71fbe91ad136">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="679ca4e9-5ea2-410b-b8c0-f844177f4cfd">
             <TableID>GRL_FIN_Dim_COA_LedgerAccount_ForFinDtl</TableID>
             <ColumnID>DelIncomeAndRetn</ColumnID>
           </Source>
