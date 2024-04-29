@@ -1,0 +1,641 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d7cc51d6-6b05-4eac-b2e8-8b1417cf684e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>SCM PUB GNR Dim Product</ID>
+  <Name>SCM PUB GNR Dim Product</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="7" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3708" scrolltop="5233" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="9631" y="15875" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="SCM_PUB_GNR_Dim_Product" left="-1920" top="9459" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4339" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000f310000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="PUB_GNR_Dim_Product_HN" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="GRL_GNR_Dim_Company" left="2605" top="17670" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3757" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000ad0e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_GRL_GNR_Dim_Company" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="GRL_GNR_Dim_FullDate" left="-1391" top="2293" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="5794" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000a216000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_GRL_GNR_Dim_FullDate" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1305" top="16370" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="2378" height="2550" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[GRL_GNR_Dim_Company-GRL_GNR_Dim_Company]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="2" sourceattachpoint="16" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2605" y="18520" />
+              <point x="1605" y="18520" />
+              <point x="1605" y="16670" />
+              <point x="3383" y="16670" />
+              <point x="3383" y="17670" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1049" top="14159" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="2184" height="4011" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[SCM_PUB_GNR_Dim_Product-GRL_GNR_Dim_Company]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="0" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2833" y="17670" />
+              <point x="2833" y="14859" />
+              <point x="1349" y="14859" />
+              <point x="1349" y="14459" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3708</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>5233</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1920</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>2293</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="4215caa3-8f05-415b-9526-9d35d161e734">
+    <DataSourceViewID>SABZDW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="03ccf040-567e-4a63-8e6b-b485e7558635">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="47000c2c-b83e-408f-8f6f-44269713ffec">
+      <ID>Product Id</ID>
+      <Name>Product Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1a5e4f46-d152-4595-96f4-b2a967245fe2">
+          <DataType>BigInt</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2a524b3c-9e8f-41da-930a-f0a24887247f">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>Product_Id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="85d6d78d-7ee9-40ce-9343-d535121f2c7d">
+          <AttributeID>Sdate</AttributeID>
+          <Name>Sdate</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5a190628-8b34-4949-b420-7630c2a8e8a2">
+          <AttributeID>First In Forecast Value</AttributeID>
+          <Name>First In Forecast Value</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4febd189-7aea-4579-8839-5934489b3742">
+          <AttributeID>Product Title</AttributeID>
+          <Name>Product Title</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="908128e5-14ac-4d96-978e-d484e8393494">
+          <AttributeID>Product Code</AttributeID>
+          <Name>Product Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="10857b4a-7b91-42b9-91e4-11cb896edde6">
+          <AttributeID>Parent Product Id</AttributeID>
+          <Name>Parent Product Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9af5d327-47df-4421-ba7b-46917c4e8e7d">
+          <AttributeID>Product Iran Code</AttributeID>
+          <Name>Product Iran Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b2bc2bf3-bb62-4e7a-9b97-982c6653a240">
+          <AttributeID>Product Group Id</AttributeID>
+          <Name>Product Group Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="24ba4acc-3527-442c-8108-e6b3eb93e915">
+          <AttributeID>Product Origin Id</AttributeID>
+          <Name>Product Origin Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bd369b36-47b6-4044-bdbe-d852a0a95ac5">
+          <AttributeID>Unit Id</AttributeID>
+          <Name>Unit Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a6f414f5-c2f8-42c7-971d-629f9275c807">
+          <AttributeID>Grade Id</AttributeID>
+          <Name>Grade Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c0ef0b98-7eb8-42ab-b564-da408c766f5b">
+          <AttributeID>Lesson Id</AttributeID>
+          <Name>Lesson Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="33cdfc67-a177-4f7b-9d8f-3f5a5153de2b">
+          <AttributeID>Product Parent Id</AttributeID>
+          <Name>Product Parent Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f1333b1f-e408-4dfe-b7cc-eb3acba529e8">
+          <AttributeID>Product Fee</AttributeID>
+          <Name>Product Fee</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="73218130-c10e-4300-afed-3d96e5cfef2c">
+          <AttributeID>Product Grade Group ID</AttributeID>
+          <Name>Product Grade Group ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="911b2e86-077b-4084-809e-b3b568fccc69">
+          <AttributeID>Major Id</AttributeID>
+          <Name>Major Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2422dee7-d0fb-48fa-b31a-23e36aa6ecd4">
+          <AttributeID>Major Title</AttributeID>
+          <Name>Major Title</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7ff2c21f-a59a-43b4-9904-576803480864">
+          <AttributeID>Takhasos</AttributeID>
+          <Name>Takhasos</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8d4db87d-fb13-4184-91b4-00ab1e554b70">
+          <AttributeID>Target Product Status</AttributeID>
+          <Name>Target Product Status</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d67097e3-a3cf-42c3-8518-8bc64afb5bda">
+          <AttributeID>SLP Group Title</AttributeID>
+          <Name>SLP Group Title</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="99ec9ae4-cbf8-41a8-8bfe-e8549aa1d349">
+          <AttributeID>GRL GNR Dim Company - Company Id</AttributeID>
+          <Name>GRL GNR Dim Company - Company Id</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8edbc473-bf85-459a-97de-a0ba76495f8f">
+      <ID>Sdate</ID>
+      <Name>Sdate</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c075d6ba-21cf-4f09-b9b5-de341e428d00">
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9d67f42b-c1aa-4cb4-b83b-c6455e1296cd">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>sdate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="af4baeb7-6027-4959-8700-cfabebe83c23">
+      <ID>First In Forecast Value</ID>
+      <Name>First In Forecast Value</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ee40d7c1-4104-4f55-92fa-50016355be67">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="920c2d85-c9aa-4ccf-9678-e126db0762ec">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>FirstInForecast_Value</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="21c8956f-12ad-490e-986d-d60ba174376d">
+      <ID>Product Title</ID>
+      <Name>Product Title</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="88d6aadd-04f5-40f1-9913-ca606859ac6e">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="15adf600-3999-409c-875c-42ea50ede9fe">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>Product_Title</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="eaded3a9-7f86-49fd-9a7c-a65ec112972a">
+      <ID>Product Code</ID>
+      <Name>Product Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e585eea4-0d5e-48a5-ba25-65d327e19710">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c68cfd92-924a-448d-95e0-dd32ab841705">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>Product_Code</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a461bfa9-ccee-4a78-86b4-4acac534f041">
+      <ID>Parent Product Id</ID>
+      <Name>Parent Product Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a532c6f6-fae0-403c-b113-d4b503fa4384">
+          <DataType>WChar</DataType>
+          <DataSize>16</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f80cad70-4350-4e0f-9fae-6987b37af139">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>ParentProduct_Id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c0d13cbf-885d-4848-ac3b-c4aea8d7196b">
+      <ID>Product Iran Code</ID>
+      <Name>Product Iran Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7517412a-05da-4fce-9a61-ca8e2fbdb3b9">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="340841fd-12cf-4382-9a3b-4a5a52f51d81">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>Product_IranCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d8684469-7f22-4d26-b3c1-ec1fd31ed5bf">
+      <ID>Product Group Id</ID>
+      <Name>Product Group Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4dbd808d-4de4-441f-9f8c-68bd8ee8e144">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1b0a10c7-63bd-47df-bab0-af59c0c8a04a">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>ProductGroup_Id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c2378249-1f42-41d6-9b9c-f81fa4839376">
+      <ID>Product Origin Id</ID>
+      <Name>Product Origin Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="59d86bcb-df86-4326-9434-f58f12d4c70b">
+          <DataType>UnsignedTinyInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fbe9c8ff-235c-4fdc-95e3-a86d8a2113a6">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>ProductOrigin_Id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5aa7ef2f-a120-4902-bece-e4213861af12">
+      <ID>Unit Id</ID>
+      <Name>Unit Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e1aa4e4f-de60-4eb6-a278-c100cf0d3822">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ceb28a07-29e2-464d-949b-a9a4a0ac3fcf">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>Unit_Id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c9e32aa1-ae38-4643-a067-3569c61ac57c">
+      <ID>Grade Id</ID>
+      <Name>Grade Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6a7d27e0-f527-4aa0-a89c-299158abbf07">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="346b415c-69d4-42f6-a015-2f529c281d3d">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>Grade_Id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a3e291b3-621e-4f84-a5da-cd59798f0359">
+      <ID>Lesson Id</ID>
+      <Name>Lesson Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5bd6d7fb-21b6-494f-9174-caf9ae0cab56">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="34221a90-81ef-4843-89b5-95bb2614e07a">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>Lesson_Id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="24dcf479-8052-454f-a567-39207a00418d">
+      <ID>Product Parent Id</ID>
+      <Name>Product Parent Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="437b171a-af47-4e3d-b257-b47fd713b64c">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="93375bab-aac4-42fb-a607-bfa26b39e761">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>ProductParent_Id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="be23a9f1-5bb1-4af4-8725-1b2f6c82f258">
+      <ID>Product Fee</ID>
+      <Name>Product Fee</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ba0d0fa6-9dfb-4f67-8b68-d537f4a77a14">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c5ba9025-38bc-4a3b-8f8a-e65dc851ece3">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>Product_Fee</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1f9bf0f7-5c32-440c-baec-946b13d9db3d">
+      <ID>Product Grade Group ID</ID>
+      <Name>Product Grade Group ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6f9caed8-fa42-43cb-bbbb-2fad586c7bb3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b5b1ebd4-2356-4fa2-8cf0-9f2fecad2a5c">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>ProductGrade_Group_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3e97d7d6-8da3-483f-ab92-77d8c931b12c">
+      <ID>Major Id</ID>
+      <Name>Major Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fe2fe434-56ad-42b7-a223-ac12e9ef6107">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7e4bc943-ee0e-451f-8631-7edba098732a">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>Major_Id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1f8460e5-5810-49d9-a9b8-2f64af9cb4a8">
+      <ID>Major Title</ID>
+      <Name>Major Title</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0d4aeffe-2eba-484d-b0c6-8045ad852b78">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0b9d9b31-1bfd-4515-8ea9-3c24a779fce2">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>Major_Title</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1459fe98-f86f-442e-a2a7-f3a6f9640515">
+      <ID>Takhasos</ID>
+      <Name>Takhasos</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dfb1e05d-8eb5-4fc1-88f0-e2b525b196cb">
+          <DataType>WChar</DataType>
+          <DataSize>5</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b91a1449-64fa-48dd-8b49-4a7c99fd7725">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>Takhasos</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f4de99db-7f87-4212-8aa4-c4a0ec92e9ea">
+      <ID>Target Product Status</ID>
+      <Name>Target Product Status</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4a1fcce2-65bb-43bc-bd16-ff6d0562eddf">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4b19fe14-aaac-4c64-b558-c7b04316833d">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>TargetProductStatus</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="84bb9030-a2f7-48eb-81f2-59de84ff2abd">
+      <ID>SLP Group Title</ID>
+      <Name>SLP Group Title</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8b055916-cd8a-4a32-99fd-95c7244941d3">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d3796f99-3b7c-4d40-a7b7-dfcb8940d68b">
+            <TableID>PUB_GNR_Dim_Product_HN</TableID>
+            <ColumnID>SLP_GroupTitle</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ee121581-a3ba-41af-ad0c-5271b57667d7">
+      <ID>GRL GNR Dim Company - Company Id</ID>
+      <Name>GRL GNR Dim Company - Company Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="95b275a5-1290-4d60-a2ab-4959bb1ad7d2">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="92cbf59a-3f88-46f9-9512-39284f871381">
+            <TableID>dbo_GRL_GNR_Dim_Company</TableID>
+            <ColumnID>Company_Id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="8c63dc00-c106-4a6e-b0d2-62372051ca96">
+          <AttributeID>Industry Id</AttributeID>
+          <Name>Industry Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a9573a20-f587-435d-97e3-bf24910ec611">
+          <AttributeID>Company Type Id</AttributeID>
+          <Name>Company Type Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1426f952-25ba-4c7f-820f-f9ff62f9bc9a">
+          <AttributeID>Holding Id</AttributeID>
+          <Name>Holding Id</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9b1f17b9-3e1e-4740-a9e3-cca98b2aca76">
+      <ID>Industry Id</ID>
+      <Name>Industry Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a7df2ac7-167a-499b-b8e8-a9a164584042">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8e33cd49-4524-4ef5-a842-cbfdfd947fa6">
+            <TableID>dbo_GRL_GNR_Dim_Company</TableID>
+            <ColumnID>Industry_Id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="77bdbac2-6f50-4e6f-8b9d-31c20623a8a0">
+      <ID>Company Type Id</ID>
+      <Name>Company Type Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2dea9712-0e06-49be-b3ab-2e2f84daf249">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a1eae426-3a01-4423-8bbd-c3692eb8a18b">
+            <TableID>dbo_GRL_GNR_Dim_Company</TableID>
+            <ColumnID>CompanyType_Id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e24b25c3-c102-4e87-884f-4deec5fb6eab">
+      <ID>Holding Id</ID>
+      <Name>Holding Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7d45ce5c-212f-4f94-ac36-f82cf352ea08">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1756c6d4-0f3b-49bd-905f-e08efe9b6366">
+            <TableID>dbo_GRL_GNR_Dim_Company</TableID>
+            <ColumnID>Holding_Id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
