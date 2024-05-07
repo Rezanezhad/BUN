@@ -1,29 +1,29 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f73f4c2a-6093-410f-a900-d522c68c193a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5d5b3801-41f0-4677-8905-b9b34bcba6ff" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>PUB</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>PUB SLE Fact Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="e0fc76ae-3049-4ff5-a0ea-881f417e6b2b">
+        <Partition dwd:design-time-name="e2fed313-fdb8-4f8b-9a54-40e100d29b97">
           <ID>PUB SLE Fact Sale</ID>
           <Name>PUB SLE Fact Sale</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.646667Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.646667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:59.623333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="19f298e2-3fb6-496a-8562-8c2d68036f7e">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6a584718-f5ef-4ded-ac22-53f4cbabe474">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="c7f0bfe8-92f5-4d46-a61a-a1d00195a0fc">
+          <ProactiveCaching dwd:design-time-name="be3e66f1-e8d0-4d42-bb40-a4cd6df0bff3">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="fd529d56-02ac-46a7-846c-4f7eda63ba11" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="6a7515a5-5a04-4ed7-84ac-01609a819461" />
           </ProactiveCaching>
           <EstimatedSize>118150126</EstimatedSize>
           <EstimatedRows>4934007</EstimatedRows>
@@ -238,114 +238,19 @@
                   <EstimatedCount>4383</EstimatedCount>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>Month Order</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Week Day Id</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Day</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Semi Year Order</AttributeID>
-                  <EstimatedCount>24</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Semi Year Id</AttributeID>
-                </Attribute>
-                <Attribute>
                   <AttributeID>m Date</AttributeID>
                   <EstimatedCount>144</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Month Id</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Season Order</AttributeID>
-                  <EstimatedCount>48</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Season Id</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Week Order</AttributeID>
-                  <EstimatedCount>637</EstimatedCount>
                 </Attribute>
                 <Attribute>
                   <AttributeID>Year</AttributeID>
                   <EstimatedCount>12</EstimatedCount>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>m Year</AttributeID>
-                  <EstimatedCount>13</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>m Month</AttributeID>
-                  <EstimatedCount>145</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Year 3</AttributeID>
-                  <EstimatedCount>13</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Year 4</AttributeID>
-                  <EstimatedCount>13</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Season 4</AttributeID>
-                  <EstimatedCount>48</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Season 3</AttributeID>
-                  <EstimatedCount>49</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Year 10</AttributeID>
-                  <EstimatedCount>13</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Season 10</AttributeID>
-                  <EstimatedCount>48</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Week Order 1</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Year 7</AttributeID>
-                  <EstimatedCount>13</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Season 7</AttributeID>
-                  <EstimatedCount>48</EstimatedCount>
-                </Attribute>
-                <Attribute>
                   <AttributeID>Sdatenoslash</AttributeID>
                   <EstimatedCount>4383</EstimatedCount>
                 </Attribute>
                 <Attribute>
-                  <AttributeID>m Date 1</AttributeID>
-                </Attribute>
-                <Attribute>
                   <AttributeID>Date Id 1</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Year New</AttributeID>
-                  <EstimatedCount>12</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Year 1</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>M Date Date Type</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Date Now Status</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Date After Now Status</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Current Month And After Status</AttributeID>
                 </Attribute>
               </Attributes>
             </Dimension>
@@ -1138,11 +1043,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Season Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -1283,11 +1183,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -1349,11 +1244,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -1425,11 +1315,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Season Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -2486,11 +2371,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -3256,11 +3136,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -3322,11 +3197,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -3540,11 +3410,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -3606,11 +3471,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -3677,11 +3537,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -3753,11 +3608,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -3824,11 +3674,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -3890,11 +3735,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -4326,11 +4166,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -4468,11 +4303,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -4677,11 +4507,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -4748,11 +4573,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -4819,11 +4639,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -4895,11 +4710,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -5099,11 +4909,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -5239,11 +5044,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -5315,11 +5115,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -5455,11 +5250,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -5659,11 +5449,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -5868,11 +5653,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -5939,11 +5719,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -6010,11 +5785,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -6081,11 +5851,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -6152,11 +5917,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -6228,11 +5988,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -6363,11 +6118,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -6434,11 +6184,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -6574,11 +6319,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -6788,11 +6528,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -6859,11 +6594,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -6930,11 +6660,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -6996,11 +6721,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -7067,11 +6787,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -7143,11 +6858,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -7212,11 +6922,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -7278,14 +6983,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -7352,11 +7049,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -7423,11 +7115,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Month</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -8255,14 +7942,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -8327,11 +8006,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -8393,14 +8067,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -8465,11 +8131,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -8531,14 +8192,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -8600,14 +8253,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -8669,14 +8314,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -8741,11 +8378,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -8810,11 +8442,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -9013,11 +8640,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -9082,11 +8704,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -9151,11 +8768,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -9217,14 +8829,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -9289,11 +8893,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -9358,11 +8957,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -9424,14 +9018,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -9493,14 +9079,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -9562,14 +9140,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -9631,14 +9201,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -9850,11 +9412,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -9921,11 +9478,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -10132,11 +9684,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -10203,11 +9750,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -10417,11 +9959,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -10483,14 +10020,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -10552,14 +10081,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -10621,14 +10142,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -10693,11 +10206,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -10759,14 +10267,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -10828,14 +10328,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -10897,14 +10389,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -10966,14 +10450,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -11035,14 +10511,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -11104,14 +10572,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -11176,11 +10636,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -11245,11 +10700,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -11314,11 +10764,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -11383,11 +10828,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -11452,11 +10892,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -11585,14 +11020,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -11657,11 +11084,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -11726,11 +11148,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -11795,11 +11212,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -12138,11 +11550,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -12485,11 +11892,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -12556,11 +11958,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -12627,11 +12024,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -12698,11 +12090,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -12769,11 +12156,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -12840,11 +12222,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -12911,11 +12288,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -12982,11 +12354,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -13053,11 +12420,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -13129,11 +12491,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -13200,11 +12557,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -13271,11 +12623,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -13342,11 +12689,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -13885,11 +13227,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -14807,11 +14144,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -14878,11 +14210,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -16074,11 +15401,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -16145,11 +15467,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -16216,11 +15533,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -16287,11 +15599,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -16427,11 +15734,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -16633,11 +15935,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -17052,11 +16349,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -17118,11 +16410,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -17189,11 +16476,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -17390,11 +16672,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Season Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -17594,11 +16871,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -17665,11 +16937,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -17736,11 +17003,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -17807,11 +17069,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -17878,11 +17135,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -17949,11 +17201,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -18213,11 +17460,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -18343,11 +17585,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -18473,11 +17710,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -18539,11 +17771,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -18733,11 +17960,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -18799,11 +18021,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -18865,11 +18082,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -18931,11 +18143,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -18997,11 +18204,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -19063,11 +18265,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -19134,11 +18331,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -19200,11 +18392,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -19266,11 +18453,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -19332,11 +18514,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -19462,11 +18639,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -19801,11 +18973,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -19870,11 +19037,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Season Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -20010,11 +19172,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Semi Year Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -20346,11 +19503,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -20417,11 +19569,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -20547,11 +19694,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -20613,11 +19755,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -20679,11 +19816,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -20809,11 +19941,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -21076,11 +20203,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -21147,11 +20269,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -21218,11 +20335,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -21422,11 +20534,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Season Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -21552,11 +20659,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Season Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -21682,11 +20784,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -21748,11 +20845,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -21814,11 +20906,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -21880,11 +20967,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -21946,11 +21028,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -22012,11 +21089,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -22078,11 +21150,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -22144,11 +21211,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -24078,11 +23140,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -24144,11 +23201,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -24353,11 +23405,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -24427,11 +23474,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year New</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -24776,11 +23818,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Season Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -24906,11 +23943,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -24972,11 +24004,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -25038,11 +24065,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -25307,11 +24329,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -25985,11 +25002,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -26056,11 +25068,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -26265,11 +25272,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -26336,11 +25338,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -26407,11 +25404,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -26473,11 +25465,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -26549,11 +25536,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -26682,11 +25664,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -27025,11 +26002,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -27163,11 +26135,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -27232,11 +26199,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -27306,11 +26268,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -27377,11 +26334,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -27443,11 +26395,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -27517,11 +26464,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -27583,11 +26525,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>m Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -27654,11 +26591,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -27725,11 +26657,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -27796,11 +26723,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -27872,11 +26794,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Year 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -28661,11 +27578,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -28727,11 +27639,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -28793,11 +27700,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -28854,11 +27756,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Season Order</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -28984,11 +27881,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 4</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -29050,11 +27942,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 7</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -29116,11 +28003,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 10</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -29256,11 +28138,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -29317,11 +28194,6 @@
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Fiscal Season 3</AttributeID>
-                    </Attribute>
-                  </Attributes>
                 </Dimension>
                 <Dimension>
                   <CubeDimensionID>PUB GNR Dim Product</CubeDimensionID>
@@ -30325,26 +29197,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Gifts Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="5d362ecf-031b-49f8-9dbf-1c601dccd429">
+        <Partition dwd:design-time-name="411c780d-619f-4334-9708-a341cfe56189">
           <ID>PUB SLE Fact Gifts Sale</ID>
           <Name>PUB SLE Fact Gifts Sale</Name>
           <CreatedTimestamp>2020-06-01T04:22:46.443333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.776667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:44.64Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d760f743-4e76-4232-81b7-0839d39bcd41">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ff19ea13-03cf-4375-a212-5cfcffeb41e7">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE_PUB_SLE_Fact_GiftsSale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="74249b1a-bc8b-49af-9de3-0f02ee4cb8d8">
+          <ProactiveCaching dwd:design-time-name="135ec3f5-932f-4bc0-96cd-045feda39361">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="ef0876bb-fa05-4466-8906-af281ea8dd39" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="67525c47-4d24-432a-acb3-8f4d729c6782" />
           </ProactiveCaching>
           <EstimatedSize>969472</EstimatedSize>
         </Partition>
@@ -30353,26 +29225,26 @@
     <MeasureGroup>
       <ID>PUB INV Fact Product Inventory</ID>
       <Partitions>
-        <Partition dwd:design-time-name="a7abd026-6e00-4a16-ac63-5afa3825a43d">
+        <Partition dwd:design-time-name="42c45da8-6fd5-448b-a253-17d36a50682a">
           <ID>PUB INV Fact Product Inventory</ID>
           <Name>PUB INV Fact Product Inventory</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.67Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.833333Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:52.45Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="22e43ef9-ffe7-41eb-a55d-3518df753051">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ef74244a-f655-4f6d-a023-6f8ef35a1f2f">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_pub_inv_fact_ProductInventory</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="2edddf8c-5329-4b01-9f55-5af432dd6a77">
+          <ProactiveCaching dwd:design-time-name="2d13bd34-0745-41b8-a3e2-ea4f3879e859">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="4f6c0c83-634e-4625-885d-41ccefef196e" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="f7246bac-5e31-420b-81f3-a07793cbd5cd" />
           </ProactiveCaching>
           <EstimatedSize>52843258</EstimatedSize>
         </Partition>
@@ -30381,26 +29253,26 @@
     <MeasureGroup>
       <ID>PUB PRD Fact Production</ID>
       <Partitions>
-        <Partition dwd:design-time-name="50c11046-7e43-4431-ba00-9d507d8081e0">
+        <Partition dwd:design-time-name="39c40d9f-2377-4920-9361-51f07eb9c2fe">
           <ID>PUB PRD Fact Production</ID>
           <Name>PUB PRD Fact Production</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.69Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.886667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:36.55Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="97aad6dd-a443-4e00-ba93-41a48346e6eb">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7889d644-8cbb-4302-93ab-56f9c8618dd0">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_PUB_PRD_Fact_Production</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="25ec8238-1d01-4c39-a685-829e66066b59">
+          <ProactiveCaching dwd:design-time-name="b59ab5e9-fb57-48c6-9116-ad476d367e82">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="866697fa-28a3-4824-bcb5-ff8da17e2394" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="5a1c4ede-9a3e-41d1-9da3-1548301a9b70" />
           </ProactiveCaching>
           <EstimatedSize>953453</EstimatedSize>
         </Partition>
@@ -30409,26 +29281,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale Budget</ID>
       <Partitions>
-        <Partition dwd:design-time-name="8c137762-8822-4a0b-9aa7-2d558804ea3f">
+        <Partition dwd:design-time-name="f3b899a2-dd7a-49e4-9bc6-263d40fe975d">
           <ID>PUB SLE Fact Sale Budget</ID>
           <Name>PUB SLE Fact Sale Budget</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.743333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.09Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:37.583333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5c3e59b0-ef6b-44b6-9eec-fc740adea6ea">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ea8867ef-0e4f-40a1-a04e-ae85dbc0259e">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE.PUB_SLE_Fact_Sale_Budget</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="a2b93561-14f1-410b-8f7d-d2c79c0e859b">
+          <ProactiveCaching dwd:design-time-name="b21d0713-37f1-4676-89c5-df24b0b3d418">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="a45a02c4-d121-4334-b5e8-56ae64fe422d" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="c3319552-68ee-4fd8-a3ea-37ffc3a4dc46" />
           </ProactiveCaching>
           <EstimatedSize>158979</EstimatedSize>
         </Partition>
@@ -30437,26 +29309,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Return Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="2d2cff70-6608-4ce8-a506-30d6dbcf942e">
+        <Partition dwd:design-time-name="8b4eb027-53be-47cf-be0a-f2c121a54ef3">
           <ID>PUB SLE Fact Return Sale</ID>
           <Name>PUB SLE Fact Return Sale</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.85Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.366667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:09.37Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8b1bab3c-07c5-4506-bb63-7f3190927f2f">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9a897505-da31-449d-a1dc-461b904f7d12">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE_PUB_SLE_Fact_ReturnSale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="9a2680ca-fd21-44aa-9ace-ead49c3d29cb">
+          <ProactiveCaching dwd:design-time-name="d3ca4d0c-d0cb-4cca-80eb-47fefbe06470">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="0a63471e-fdaf-4ddd-ba2a-535d0841e589" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="1cdcb25d-2a0b-4edf-90c5-7603f071f280" />
           </ProactiveCaching>
           <EstimatedSize>9706850</EstimatedSize>
         </Partition>
@@ -30465,26 +29337,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Special Discount</ID>
       <Partitions>
-        <Partition dwd:design-time-name="092845f0-2984-4491-8532-a68edb660af9">
+        <Partition dwd:design-time-name="e8b6fabb-e98f-4a54-9027-f12c13f122aa">
           <ID>PUB SLE Fact Special Discount</ID>
           <Name>PUB SLE Fact Special Discount</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.903333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.513333Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:44.566667Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d58b67b3-2faf-4675-bc7e-a2f03cf05fba">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="01cc1645-c3da-48e7-926e-03c872ddbe1e">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_PUB_SLE_Fact_SpecialDiscount</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="1f5b8bc3-a745-4d10-8149-2be532a91f97">
+          <ProactiveCaching dwd:design-time-name="67c3ac2b-ef7b-4851-ba87-30acc45b2c8c">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="67099afa-0c35-418a-9fdd-6428e82ee999" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="a1545278-e564-4948-85cb-96ae87859327" />
           </ProactiveCaching>
           <EstimatedSize>1911</EstimatedSize>
         </Partition>
@@ -30493,26 +29365,26 @@
     <MeasureGroup>
       <ID>PUB CRM Fact Print Order</ID>
       <Partitions>
-        <Partition dwd:design-time-name="86ad3307-3323-46c6-8d54-55fdbf281862">
+        <Partition dwd:design-time-name="25abd181-710d-411f-b3b6-3fcebfd6b31e">
           <ID>PUB CRM Fact Print Order</ID>
           <Name>PUB CRM Fact Print Order</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.923333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.56Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:45.89Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="68df514d-ae1f-450b-b1ad-01d164042357">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0c6ec6a2-b5b3-4acf-ae27-4ca050b7e3a6">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_PUB_CRM_Fact_PrintOrder</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="e9ff50e4-6446-420c-94ed-3341fec2f8df">
+          <ProactiveCaching dwd:design-time-name="635ca865-372a-4994-ae5c-324b2809f678">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="93eb219a-9a87-4f16-895e-30798876549c" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="45fc9771-6d14-4714-9a26-38766ba0e574" />
           </ProactiveCaching>
           <EstimatedSize>1642309</EstimatedSize>
         </Partition>
@@ -30521,26 +29393,26 @@
     <MeasureGroup>
       <ID>PUB CRM Fact First In Forecast</ID>
       <Partitions>
-        <Partition dwd:design-time-name="a39048bf-b63c-494f-9fd9-4a2271bca99f">
+        <Partition dwd:design-time-name="2f37c1d6-40c7-4abb-bb4d-fb90eabebdb2">
           <ID>PUB CRM Fact First In Forecast</ID>
           <Name>PUB CRM Fact First In Forecast</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.94Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.606667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:26.52Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="071d88c2-50d7-44bd-bbfa-7cfd157b6595">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="02323399-ea5e-4f9a-b134-f61d2fcc177a">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>PUB_CRM_Fact_FirstInForecast</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="c5dab293-58b3-49a3-9678-60559d47b2b5">
+          <ProactiveCaching dwd:design-time-name="0764a1a9-9d4f-4d65-9fb2-a6d89e65d2d7">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="5d67c0fe-ede6-473d-a74b-c7755f1f8bae" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="2f99747c-014a-4958-a071-8d3b05a3ec94" />
           </ProactiveCaching>
           <EstimatedSize>21590</EstimatedSize>
         </Partition>
@@ -30549,26 +29421,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale Request</ID>
       <Partitions>
-        <Partition dwd:design-time-name="d537100b-1828-4290-bfb5-1108c2205da9">
+        <Partition dwd:design-time-name="e7cb853c-55ea-4447-ab41-529460142a43">
           <ID>PUB SLE Fact Sale Request</ID>
           <Name>PUB SLE Fact Sale Request</Name>
           <CreatedTimestamp>2020-06-01T04:22:53.043333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.653333Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:33.746667Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d0103e8a-0ffe-4fcf-bcae-a43f073ce315">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a9c153c2-a431-4277-b34d-596e837b3a89">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE_PUB_SLE_Fact_SaleRequest</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="55fd13b2-ba91-406c-9443-985b74e19421">
+          <ProactiveCaching dwd:design-time-name="18c0559d-9ad0-454d-9cab-c3198ae2131f">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="75e0b641-88e7-463e-83a4-f740343c3300" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="a33180b1-e436-4a5f-b053-026cf3df1e13" />
           </ProactiveCaching>
           <EstimatedSize>7463</EstimatedSize>
         </Partition>
@@ -30577,26 +29449,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale Order</ID>
       <Partitions>
-        <Partition dwd:design-time-name="5b2a91c8-4c32-4b92-8eb9-bc553cbe1347">
+        <Partition dwd:design-time-name="44a42fbb-ed91-45fa-980a-4662409ec6ce">
           <ID>PUB SLE Fact Sale Order</ID>
           <Name>PUB SLE Fact Sale Order</Name>
           <CreatedTimestamp>2020-06-02T08:36:41.036667Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.696667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:13:28.723333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="24b730ca-bbba-4c5d-87dc-38c45791b652">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e9b6dfc8-b3ef-4898-97f9-c237273998ff">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE_PUB_SLE_Fact_SaleOrder</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="472d8933-dadb-4a11-b0ed-82b0497fb68b">
+          <ProactiveCaching dwd:design-time-name="be9d5270-d2af-4206-b377-12f9a46c5ecb">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="41f738d2-d4cf-47a0-b064-c9a315dca72f" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="8d81e987-32cf-4a1f-9882-71bd360f114f" />
           </ProactiveCaching>
           <EstimatedSize>156</EstimatedSize>
         </Partition>
@@ -30605,26 +29477,26 @@
     <MeasureGroup>
       <ID>Vw PUB SLE Fact Product Life Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="c1d27537-0a8c-456b-94b3-683bc4447c37">
+        <Partition dwd:design-time-name="d7709421-92b0-48ca-828d-a6e0b3b82f4a">
           <ID>Vw PUB SLE Fact Product Life Sale</ID>
           <Name>Vw PUB SLE Fact Product Life Sale</Name>
           <CreatedTimestamp>2020-06-10T10:17:27.403333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.743333Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:16.176667Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fc89a8db-4b7b-4cb8-9c8a-b196daa6368b">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6bbdf6a1-a291-4bb4-b016-5e77045e08aa">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_Vw_PUB_SLE_Fact_ProductLife_Sale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="6aa420d9-31a9-4d8f-b09a-34dc11c7a688">
+          <ProactiveCaching dwd:design-time-name="8ad54523-f8c6-447d-92a2-8408719b6ecf">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="a81a0691-a5a8-4ca6-899b-fabf0a925140" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="727c0e6c-16f5-49e3-8205-061be949c815" />
           </ProactiveCaching>
           <EstimatedSize>64820</EstimatedSize>
         </Partition>
@@ -30633,26 +29505,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale 1</ID>
       <Partitions>
-        <Partition dwd:design-time-name="9505d69c-e5dc-4f6d-82c0-107f02e93023">
+        <Partition dwd:design-time-name="1624f3aa-de37-4867-a052-dcef73d36cea">
           <ID>PUB SLE Fact Sale</ID>
           <Name>PUB SLE Fact Sale</Name>
           <CreatedTimestamp>2020-10-24T12:43:18.283333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:46.99Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:27.546667Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9e7924d4-ea83-4ee3-af62-b30594cc39c5">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="18be89af-fce2-40fd-8b6a-5de1a9f5d4a4">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="15a5944b-9eb5-4107-baac-648f4de1c0b5">
+          <ProactiveCaching dwd:design-time-name="92ab32b2-c122-4729-8856-b23f589f966c">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="48122bba-271e-4831-8f41-e5cd47e25549" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="767dfa3c-5a13-46eb-b98a-f9b587389b6b" />
           </ProactiveCaching>
           <EstimatedSize>33552534</EstimatedSize>
         </Partition>
@@ -30661,26 +29533,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale Target Total</ID>
       <Partitions>
-        <Partition dwd:design-time-name="af2f5011-60be-480f-b99e-34034663443d">
+        <Partition dwd:design-time-name="9fd94fa9-b8f8-4784-8184-a8a54f398515">
           <ID>PUB SLE Fact Sale Target Total</ID>
           <Name>PUB SLE Fact Sale Target Total</Name>
           <CreatedTimestamp>2020-11-17T07:03:54.803333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:47.043333Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:14:49.766667Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="23ba2ce0-46ad-4a73-9f42-82f0b43b8701">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="668e4666-3998-4f13-b25a-82cb23367dea">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_PUB_SLE_Fact_SaleTargetTotal</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="d33e3883-4aca-4ac0-aba8-06f9be93bff8">
+          <ProactiveCaching dwd:design-time-name="8c2c3f34-fe60-44a6-bb77-a788fa2d8994">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="90296cc0-143e-473f-8b09-a9b7371ec908" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="92b685a4-22af-4af0-a811-139f70901e00" />
           </ProactiveCaching>
           <EstimatedSize>15501468</EstimatedSize>
           <EstimatedRows>3949899</EstimatedRows>
@@ -36402,26 +35274,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale Target Month Now</ID>
       <Partitions>
-        <Partition dwd:design-time-name="2655d7cf-0367-492a-81fe-6c31da8f723e">
+        <Partition dwd:design-time-name="ed1afe51-d3de-441a-9504-7ca6fa95b0e4">
           <ID>PUB SLE Fact Sale Target Month Now</ID>
           <Name>PUB SLE Fact Sale Target Month Now</Name>
           <CreatedTimestamp>2020-11-17T07:03:54.816667Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:47.1Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:08.823333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="743e341f-67c1-4914-be38-103de9cd5914">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7f3444ce-6119-483a-9a8a-3e7a7d6db942">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_PUB_SLE_Fact_SaleTarget_MonthNow</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="d43fc164-22a8-4a0d-bed2-307371e916af">
+          <ProactiveCaching dwd:design-time-name="3f73319b-7a2b-499f-b3a4-fd288035fc1c">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="800ff980-e2ab-4a41-bb05-93ebfc1d4b9f" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="006c5b5c-d9ab-4c38-bedb-b170140d41d7" />
           </ProactiveCaching>
           <EstimatedSize>4155096</EstimatedSize>
         </Partition>
@@ -36430,26 +35302,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale Target Total Til Begin Of Current Mont</ID>
       <Partitions>
-        <Partition dwd:design-time-name="10f6bfb2-8ce2-4ce4-aaa6-2a0c191b2797">
+        <Partition dwd:design-time-name="c8809a97-0e89-413d-bdb7-fb56e94aaa37">
           <ID>PUB SLE Fact Sale Target Total Til Begin Of Current Mont</ID>
           <Name>PUB SLE Fact Sale Target Total Til Begin Of Current Mont</Name>
           <CreatedTimestamp>2020-11-17T07:03:54.83Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:47.146667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:14:54.343333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="61a8e08f-650f-4aaf-a373-92db99f78a12">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="335b9540-6236-4782-b2bc-a2720d4cca2b">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>PUB_SLE_Fact_SaleTargetTotal_TilBeginOfCurrentMont</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="a7ebf511-999d-4831-86aa-02c4755d2e9b">
+          <ProactiveCaching dwd:design-time-name="158190df-01ef-4912-9f31-c3f5c4176be5">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="a5db8873-ab2c-4c07-ad69-19218afa3fec" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="9f3f81e0-3189-4123-bc62-6a1c8931482c" />
           </ProactiveCaching>
           <EstimatedSize>17240199</EstimatedSize>
         </Partition>
@@ -36458,26 +35330,26 @@
     <MeasureGroup>
       <ID>Vw PUB SLE Fact Product First Month And AVG Net Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="18be5df7-ce85-49be-9fc0-24473ef5ada2">
+        <Partition dwd:design-time-name="00163806-381e-4a56-a17e-5b6ddcd3fefe">
           <ID>Vw PUB SLE Fact Product First Month And AVG Net Sale</ID>
           <Name>Vw PUB SLE Fact Product First Month And AVG Net Sale</Name>
           <CreatedTimestamp>2021-11-07T12:07:47.19Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:47.233333Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:43.736667Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="73d2fa95-2450-4d45-ad36-1140a7aa8076">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="71b79c4a-6b92-4c76-8300-d73226b374d3">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_Vw_PUB_SLE_Fact_ProductFirstMonthAndAVGNetSale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="d9142069-ae77-4cc0-a1b1-9498b011b0b0">
+          <ProactiveCaching dwd:design-time-name="1ddc02e5-8778-4749-83fe-b9b3c31a6b6e">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="d8900524-b655-44e8-9746-ad52a0f2e709" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="80550ea2-ad87-4eec-97f5-effdd1245a4e" />
           </ProactiveCaching>
           <EstimatedSize>813124</EstimatedSize>
         </Partition>
@@ -36486,14 +35358,14 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Daily Target Discount</ID>
       <Partitions>
-        <Partition dwd:design-time-name="4383a8bd-462e-4837-9568-14151f7da871">
+        <Partition dwd:design-time-name="86b155c7-336b-4dc5-b204-86f8fa648d8b">
           <ID>PUB SLE Fact Daily Target Discount</ID>
           <Name>PUB SLE Fact Daily Target Discount</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0e1df7e0-7b16-4845-acc9-895993a80e97">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="06a83dc3-18bf-415f-9fd8-1ec9f47579ac">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>PUB_SLE_Fact_Daily_Target_Discount</TableID>
           </Source>
@@ -36506,14 +35378,14 @@
     <MeasureGroup>
       <ID>Vw PUB SLE Fact Return Sale Tax</ID>
       <Partitions>
-        <Partition dwd:design-time-name="7344a968-25a1-42ec-a5f4-ef5c7a9d766c">
+        <Partition dwd:design-time-name="fc028c4e-7450-4a60-84ee-3409a36ad19c">
           <ID>Vw PUB SLE Fact Return Sale Tax</ID>
           <Name>Vw PUB SLE Fact Return Sale Tax</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5f5aba79-a280-4521-a74b-3afa79f71aa7">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b9201503-fb15-47e4-83dd-e96ece3a2947">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_Vw_PUB_SLE_Fact_ReturnSaleTax</TableID>
           </Source>
@@ -36526,14 +35398,14 @@
     <MeasureGroup>
       <ID>Vw PUB SLE Fact Sale For Discount</ID>
       <Partitions>
-        <Partition dwd:design-time-name="046f4f9b-b288-4d72-bc5a-0d1564583325">
+        <Partition dwd:design-time-name="a9b74a9d-c4d8-45ef-a429-72b0640cc351">
           <ID>Vw PUB SLE Fact Sale For Discount</ID>
           <Name>Vw PUB SLE Fact Sale For Discount</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4a4e6e91-aea3-4577-8a58-035bcbefdf48">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="14efd51e-738a-4c94-9e29-4de6161b975a">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_Vw_PUB_SLE_Fact_Sale_ForDiscount</TableID>
           </Source>
@@ -36546,14 +35418,14 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Gifts Sale For Discount</ID>
       <Partitions>
-        <Partition dwd:design-time-name="d05724e2-905c-4e46-b715-45eaf5ced240">
+        <Partition dwd:design-time-name="26ec9f41-328e-4cdd-85cd-d97380742a40">
           <ID>PUB SLE Fact Gifts Sale For Discount</ID>
           <Name>PUB SLE Fact Gifts Sale For Discount</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="17689295-2be2-4b94-aa1a-f456ffa29b02">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="561124c1-fb09-434e-9868-0e862a76b14b">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>PUB_SLE_Fact_GiftsSaleForDiscount</TableID>
           </Source>
@@ -36566,14 +35438,14 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Gifts Return Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="758edb45-eb11-4292-a2b0-1001f57b7384">
+        <Partition dwd:design-time-name="a37fe8aa-647b-488c-8130-d8fc5d422f28">
           <ID>PUB SLE Fact Gifts Return Sale</ID>
           <Name>PUB SLE Fact Gifts Return Sale</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d6c08281-5760-475e-b2e5-1f642d9577f0">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="14cab6a0-5217-4063-bfb7-6009f3b30d75">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>PUB_SLE_Fact_GiftsReturnSale</TableID>
           </Source>
@@ -36586,14 +35458,14 @@
     <MeasureGroup>
       <ID>Vw PUB SLE Fact Sale For Discount Gift</ID>
       <Partitions>
-        <Partition dwd:design-time-name="a1f992c5-286d-42bf-bf50-75a98a1436cb">
+        <Partition dwd:design-time-name="222a471f-0741-4d6f-953c-ab94d29a46f3">
           <ID>Vw PUB SLE Fact Sale For Discount Gift</ID>
           <Name>Vw PUB SLE Fact Sale For Discount Gift</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="77e9dbc7-8c94-4222-b642-b8c5f24851cc">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="73bc6bad-e025-47c5-96d8-5950504c3b15">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>Vw_PUB_SLE_Fact_Sale_ForDiscountGift</TableID>
           </Source>
@@ -36606,14 +35478,14 @@
     <MeasureGroup>
       <ID>Vw PUB SLE Fact Product Life Return Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="4b48e55d-0efd-4928-9441-44df2c1bac84">
+        <Partition dwd:design-time-name="f916e46c-b7a4-44fc-b0bc-e58d3ddd854f">
           <ID>Vw PUB SLE Fact Product Life Return Sale</ID>
           <Name>Vw PUB SLE Fact Product Life Return Sale</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8e125382-4d04-44e1-9067-17a7334e032f">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a50ae1f4-a817-4862-ad29-d650d41c9727">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_Vw_PUB_SLE_Fact_ProductLife_ReturnSale</TableID>
           </Source>
@@ -36626,26 +35498,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale 4</ID>
       <Partitions>
-        <Partition dwd:design-time-name="a0180fc6-919d-4a73-8657-7c9c080577fb">
+        <Partition dwd:design-time-name="d5d301e4-7367-4cff-8e7a-a06aa81b6f3d">
           <ID>PUB SLE Fact Sale</ID>
           <Name>PUB SLE Fact Sale</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.646667Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.646667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:59.623333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a109baa5-4707-4a31-a0f1-4b3db3be1018">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="44f63c85-e8eb-46f9-83fa-552a5fe2fedd">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="05a701b8-0970-45ee-89b7-c7cf07300b73">
+          <ProactiveCaching dwd:design-time-name="e733de28-daf5-4211-8989-910e3103ff71">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="dd2ea405-fe98-4a50-a5cc-6091d9173bc3" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="44585ca1-b09c-413a-82c7-73bed5a9ddda" />
           </ProactiveCaching>
           <EstimatedSize>118150126</EstimatedSize>
         </Partition>
@@ -36654,26 +35526,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale 2</ID>
       <Partitions>
-        <Partition dwd:design-time-name="345f97be-0ac0-4e7b-a184-7398052b7fad">
+        <Partition dwd:design-time-name="dd9d48c9-394f-4b80-bad0-b2b7529f86b9">
           <ID>PUB SLE Fact Sale</ID>
           <Name>PUB SLE Fact Sale</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.646667Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.646667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:59.623333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0f31c33c-c9c4-4fa0-ba14-49ad701e58e0">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a0321852-4cd3-4b01-8475-c5988c2af25c">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="ad10f7c5-25e4-462e-bae2-fc0f5639a485">
+          <ProactiveCaching dwd:design-time-name="52b87257-052a-4948-a1c7-ce6f2994e3eb">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="734f2e3e-a8c4-43d9-b43c-c83c3ddce4f6" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="e8448795-a560-470f-867b-4cd624b0cf5e" />
           </ProactiveCaching>
           <EstimatedSize>118150126</EstimatedSize>
         </Partition>
@@ -36682,26 +35554,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale 3</ID>
       <Partitions>
-        <Partition dwd:design-time-name="0b540d7b-8be1-4079-8a31-a71abae8b8f4">
+        <Partition dwd:design-time-name="0e6a16a5-e8e4-40e7-b211-b0da0bdb76ec">
           <ID>PUB SLE Fact Sale</ID>
           <Name>PUB SLE Fact Sale</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.646667Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.646667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:59.623333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3b40a8ea-f3e0-46a2-bec4-900d596a007c">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b745dabf-d9d4-42b6-8717-48bc50af9dab">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="16ed1ebc-cfeb-4a5c-8708-fbba4f10fffa">
+          <ProactiveCaching dwd:design-time-name="cb1fe8e9-43fa-47d6-b20a-4968fed57432">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="07ab6d4a-8fe4-4cf5-b1d0-a40c45a1641c" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="a2ef4868-3280-4c7d-bdfd-8e3b6424d492" />
           </ProactiveCaching>
           <EstimatedSize>118150126</EstimatedSize>
         </Partition>
@@ -36710,26 +35582,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale 5</ID>
       <Partitions>
-        <Partition dwd:design-time-name="a616071d-c570-44ef-bebf-539546d5fedb">
+        <Partition dwd:design-time-name="27f5c78f-6eaf-43a2-a44a-1bac6ac1950e">
           <ID>PUB SLE Fact Sale</ID>
           <Name>PUB SLE Fact Sale</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.646667Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.646667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:59.623333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e04805c9-9ea3-4a1d-ad92-39dbf787ff11">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="580420ff-a9a2-4baf-bf2b-5f0b657b4fd0">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="8049515e-0d8f-4bdc-b16a-52f1851e155a">
+          <ProactiveCaching dwd:design-time-name="cf19fed2-e94c-4951-9579-a95cf8ea6e7b">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="5231be61-4699-43c7-ba46-2b9a64b05f2e" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="7dbfe841-c9ed-4c40-9f0c-dac093602c29" />
           </ProactiveCaching>
           <EstimatedSize>118150126</EstimatedSize>
         </Partition>
@@ -36738,14 +35610,14 @@
     <MeasureGroup>
       <ID>Vw PUB SLE Calc New Product</ID>
       <Partitions>
-        <Partition dwd:design-time-name="360b14b0-02a1-4d97-adb3-9df209689b6e">
+        <Partition dwd:design-time-name="8e3a08b1-f5a2-4a79-a221-f2101c8f724a">
           <ID>Vw PUB SLE Calc New Product</ID>
           <Name>Vw PUB SLE Calc New Product</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f14a7a8c-c40d-4085-a0f5-9ff819d88bb9">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="949458b6-613c-4e0c-8a12-d8ca0904bb27">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>Vw_PUB_SLE_Calc_NewProduct</TableID>
           </Source>
@@ -36758,14 +35630,14 @@
     <MeasureGroup>
       <ID>Vw PUB SLE Fact Sale New Customer</ID>
       <Partitions>
-        <Partition dwd:design-time-name="9ed0fdc6-1f54-4c3d-bcea-c2779279caf8">
+        <Partition dwd:design-time-name="c7b3df75-6b46-4b19-b5b8-87a83f8b47c5">
           <ID>Vw PUB SLE Fact Sale New Customer</ID>
           <Name>Vw PUB SLE Fact Sale New Customer</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ef6b2029-55bf-4319-8f04-b71076ae5c8a">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="81909112-6bd0-4060-9607-a04c21015e3a">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>Vw_PUB_SLE_Fact_SaleNewCustomer</TableID>
           </Source>
@@ -36778,26 +35650,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale 6</ID>
       <Partitions>
-        <Partition dwd:design-time-name="d8f078e3-3221-4c15-b38e-f9c56ef863df">
+        <Partition dwd:design-time-name="7ae90bb4-c608-47ed-ade9-d42e13052f53">
           <ID>PUB SLE Fact Sale</ID>
           <Name>PUB SLE Fact Sale</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.646667Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.646667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:59.623333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="49ca6e2d-5c86-47df-aeb4-70cf63a89e1a">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a4cbcbcd-1463-44f8-a838-1d1de108099b">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="4356516a-8201-4d45-a01b-2413a9bc2453">
+          <ProactiveCaching dwd:design-time-name="456d86a4-eba1-4e0a-bec7-2e34bed05117">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="7ad2466c-2623-4cee-84fe-fca0b66a2d3e" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="761d800d-f071-454f-9864-b0c92455ff27" />
           </ProactiveCaching>
           <EstimatedSize>118150126</EstimatedSize>
         </Partition>
@@ -36806,26 +35678,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale 7</ID>
       <Partitions>
-        <Partition dwd:design-time-name="e1f3dd01-a395-47ac-8415-5954af9508c1">
+        <Partition dwd:design-time-name="c7ae2319-21f0-4029-968e-5b3b6b0c09e8">
           <ID>PUB SLE Fact Sale</ID>
           <Name>PUB SLE Fact Sale</Name>
           <CreatedTimestamp>2020-02-29T07:25:11.646667Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:45.646667Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:15:59.623333Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1dbb6845-e132-40e0-a00d-67a23bab75d3">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1f6b8b80-837a-4d8e-8820-16e2a1d42427">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="4740d979-d652-4c3b-a527-e02898eba7bc">
+          <ProactiveCaching dwd:design-time-name="32347673-6d61-4588-9d0e-6dd6c1adbed8">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="1003fd01-49bd-4d24-9b57-d973fd3105d4" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="2e20bb3b-3e6f-4a6e-8d7d-9bd38e93a916" />
           </ProactiveCaching>
           <EstimatedSize>118150126</EstimatedSize>
         </Partition>
@@ -36834,14 +35706,14 @@
     <MeasureGroup>
       <ID>View PUB GNR Dim Product Price</ID>
       <Partitions>
-        <Partition dwd:design-time-name="d9313a9a-1405-4463-88ae-d5d8a0cbd86f">
+        <Partition dwd:design-time-name="612d756a-66c1-4a67-8b80-aef33f71702c">
           <ID>View PUB GNR Dim Product Price</ID>
           <Name>View PUB GNR Dim Product Price</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="dca56ee8-a956-4c9e-ab0c-2221c9658640">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="989e9b18-d031-43be-9c49-7f1cb6725ad1">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>View_PUB_GNR_Dim_ProductPrice</TableID>
           </Source>
@@ -36854,26 +35726,26 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale Target Total 1</ID>
       <Partitions>
-        <Partition dwd:design-time-name="9b594f19-feaa-4085-9a29-c198cf317e52">
+        <Partition dwd:design-time-name="27eaae4f-6737-4a35-ac70-8a82f94f58d7">
           <ID>PUB SLE Fact Sale Target Total</ID>
           <Name>PUB SLE Fact Sale Target Total</Name>
           <CreatedTimestamp>2020-11-17T07:03:54.803333Z</CreatedTimestamp>
           <LastSchemaUpdate>2022-02-21T14:57:47.043333Z</LastSchemaUpdate>
           <LastProcessed>2022-02-22T03:14:49.766667Z</LastProcessed>
           <State>Processed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1f34fa86-14e6-45e4-87db-3eb1c153cc86">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="cc333ecf-ea00-4d10-a36d-2a8fd2c9e49f">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_PUB_SLE_Fact_SaleTargetTotal</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ProactiveCaching dwd:design-time-name="4e6620c1-66f7-4d55-8ae7-9823493d8406">
+          <ProactiveCaching dwd:design-time-name="7815bd03-a14b-4c34-bb7a-9db71ed46f4c">
             <SilenceInterval>-PT1S</SilenceInterval>
             <Latency>-PT1S</Latency>
             <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
             <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="63fa4c95-00df-41e4-82bf-f4cc22232dc5" />
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="0b17c3de-a3ea-499a-9221-7fbebdcfc0cb" />
           </ProactiveCaching>
           <EstimatedSize>15501468</EstimatedSize>
         </Partition>
@@ -36882,14 +35754,14 @@
     <MeasureGroup>
       <ID>PUB SLE Fact Sale Target Until Today IRR</ID>
       <Partitions>
-        <Partition dwd:design-time-name="17e8b11f-52c1-47aa-8957-bfbc91f8e0d6">
+        <Partition dwd:design-time-name="7bcfa2ef-27e0-4cbb-a2dc-9c5454a45976">
           <ID>PUB SLE Fact Sale Target Until Today IRR</ID>
           <Name>PUB SLE Fact Sale Target Until Today IRR</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="61e29de8-ba0b-45da-a7d1-265c61eb6129">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="02ecdca9-cbd7-445e-a2a0-480c339548b2">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>PUB_SLE_Fact_SaleTarget_UntilToday_IRR</TableID>
           </Source>
