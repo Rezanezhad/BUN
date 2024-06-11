@@ -1,0 +1,1420 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="621e9a6a-d61a-490a-a257-951e4e397f36" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Barizo</ID>
+  <Name>Barizo</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="30" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6431" scrolltop="-4336" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="85" x="29501" y="15425" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="BarizoVoucherStatus" left="17698" top="8537" logicalid="14" controlid="1" masterid="0" hint1="0" hint2="0" width="3598" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00000e0e0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_BarizoVoucherStatus" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="BarizoProductMaterial" left="5727" top="7479" logicalid="15" controlid="2" masterid="0" hint1="0" hint2="0" width="3043" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000e30b0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_BarizoProductMaterial" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="GRL_GNR_Dim_FullDate" left="10483" top="436" logicalid="16" controlid="3" masterid="0" hint1="0" hint2="0" width="5483" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00006b15000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_GRL_GNR_Dim_FullDate" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="BarizoProductGroup" left="5748" top="2777" logicalid="17" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_BarizoProductGroup" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="BarizoBOM" left="-1723" top="7400" logicalid="18" controlid="5" masterid="0" hint1="0" hint2="0" width="5050" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000ba13000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_BarizoBOM" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="BarizoUnit" left="5748" top="14721" logicalid="19" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_BarizoUnit" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="BarizoInventoryVoucher" left="11170" top="7400" logicalid="20" controlid="7" masterid="0" hint1="0" hint2="0" width="4128" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00002010000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_BarizoInventoryVoucher" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="BarizoVoucherKind" left="11421" top="14800" logicalid="21" controlid="8" masterid="0" hint1="0" hint2="0" width="3625" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000290e0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_BarizoVoucherKind" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6849" top="12021" logicalid="22" controlid="9" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[BarizoProductMaterial-BarizoUnit]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="2" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7248" y="14721" />
+              <point x="7248" y="12321" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="12825" top="4937" logicalid="24" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="2763" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[BarizoInventoryVoucher-GRL_GNR_Dim_FullDate]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="7" sourceattachpoint="9" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13224" y="5436" />
+              <point x="13224" y="6200" />
+              <point x="13234" y="6200" />
+              <point x="13234" y="7400" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5749" top="4580" logicalid="26" controlid="13" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[BarizoProductGroup-BarizoProductMaterial]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="1" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6148" y="5079" />
+              <point x="6148" y="7479" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="14998" top="8400" logicalid="28" controlid="15" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[BarizoInventoryVoucher-BarizoVoucherStatus]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="7" sourceattachpoint="14" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="17698" y="8799" />
+              <point x="16498" y="8799" />
+              <point x="16498" y="8800" />
+              <point x="15298" y="8800" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="11184" top="12100" logicalid="29" controlid="16" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[BarizoInventoryVoucher-BarizoVoucherKind]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="7" sourceattachpoint="0" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11583" y="14800" />
+              <point x="11583" y="13600" />
+              <point x="11584" y="13600" />
+              <point x="11584" y="12400" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-6431</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4336</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1723</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>436</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>85</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="c337eb4d-ae26-44ec-9b98-119a94657922">
+      <ID>Barizo BOM</ID>
+      <Name>Barizo BOM</Name>
+      <DimensionID>Barizo BOM</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f5f9f6d8-edb3-4eb1-8d84-2a1a298f66dd">
+          <AttributeID>BOM Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2aad8088-29db-4f82-b2d7-3cf5238b619a">
+          <AttributeID>Product Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="f6406efe-86e6-432c-884e-ff1a799272ea">
+      <ID>Barizo Product Material</ID>
+      <Name>Barizo Product Material</Name>
+      <DimensionID>Barizo Product Material</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="66c05570-0d7b-4aea-9da6-2f50477a33da">
+          <AttributeID>Product Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="082bc8ed-b0a7-4ac5-900a-eed9a43d761d">
+          <AttributeID>Unit Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="44b26333-6f84-453e-ae7e-6d9eb9a9ec0e">
+      <ID>Barizo Unit</ID>
+      <Name>Barizo Unit</Name>
+      <DimensionID>Barizo Unit</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c94084d4-44e1-4b2e-bb3a-709b840b5c26">
+          <AttributeID>Unit ID</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="1d99f73f-d7c5-457c-acfb-2f6a93b0fc36">
+      <ID>Barizo Product Group</ID>
+      <Name>Barizo Product Group</Name>
+      <DimensionID>Barizo Product Group</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="89f21573-221f-4e7d-a8d8-01320f2829a3">
+          <AttributeID>Group ID</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="71af076b-7627-4b4c-b048-639a20e26deb">
+      <ID>Barizo Voucher Status</ID>
+      <Name>Barizo Voucher Status</Name>
+      <DimensionID>Barizo Voucher Status</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="98642c92-bbba-475c-aeb2-006c52991195">
+          <AttributeID>Voucher Status ID</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="24bac25d-1c75-4f72-a550-01e5a2d3295d">
+      <ID>GRL GNR Dim Full Date 1</ID>
+      <Name>GRL GNR Dim Full Date 1</Name>
+      <DimensionID>GRL GNR Dim Full Date 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2d7ffcc3-4356-49f5-ab39-734354839eec">
+          <AttributeID>Date Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="5016b776-1272-49a7-8146-1f637948cb24">
+      <ID>Barizo BOM</ID>
+      <Name>Barizo BOM</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="2a71c0f7-8c07-4d14-96c6-42f39e1d27cc">
+          <ID>Product Unit ID</ID>
+          <Name>Product Unit ID</Name>
+          <Source dwd:design-time-name="b60a106a-35e4-4aa5-b82b-db0de6e131e2">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a49bd36a-8b5f-4d7f-ac94-db41064e8865">
+              <TableID>dbo_BarizoBOM</TableID>
+              <ColumnID>ProductUnitID</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7f68027a-f243-4cef-8218-2bf1778592c3">
+          <ID>Product Amount</ID>
+          <Name>Product Amount</Name>
+          <Source dwd:design-time-name="71cb795c-a3c0-495d-87c4-91573b5ddd65">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c6c8b532-190b-4602-8ddd-038ff22cd825">
+              <TableID>dbo_BarizoBOM</TableID>
+              <ColumnID>ProductAmount</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a2259090-a5b6-4513-b292-aeda1046d842">
+          <ID>Creation Date ID</ID>
+          <Name>Creation Date ID</Name>
+          <Source dwd:design-time-name="586d755d-7152-42ea-bacc-651082833066">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="99c26f36-24f8-4570-934c-70f1f3a12e1e">
+              <TableID>dbo_BarizoBOM</TableID>
+              <ColumnID>CreationDateID</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5bf6f8c9-2adb-4764-bda9-d8e9894732f4">
+          <ID>Material ID</ID>
+          <Name>Material ID</Name>
+          <Source dwd:design-time-name="02c535f3-c656-45bb-a84c-a3fa74996740">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="58aba86f-71fa-4869-8a5b-632d23b846b4">
+              <TableID>dbo_BarizoBOM</TableID>
+              <ColumnID>MaterialID</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="88ea5919-2720-47f8-b034-841488f1707f">
+          <ID>Material Unit ID</ID>
+          <Name>Material Unit ID</Name>
+          <Source dwd:design-time-name="a023b18f-030b-423c-a8f6-c4a75c52fd27">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b3966378-7c65-4dcd-ac17-8fee824ab300">
+              <TableID>dbo_BarizoBOM</TableID>
+              <ColumnID>MaterialUnitID</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2e687ad3-5cf9-44b3-a839-7255774fa6e9">
+          <ID>Standard Amount</ID>
+          <Name>Standard Amount</Name>
+          <Source dwd:design-time-name="b9c641fd-e3a5-4b73-8c80-ccde53a7a3ad">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e12753b3-e5a1-4669-a2e7-843310666486">
+              <TableID>dbo_BarizoBOM</TableID>
+              <ColumnID>StandardAmount</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1909f0f4-eb11-4149-8ae1-9005fbb360c0">
+          <ID>Barizo BOM Count</ID>
+          <Name>Barizo BOM Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="7a915204-53aa-4d23-bac8-4d76d25c8c1d">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="a379c327-2a66-4f6d-8064-69a1f8fabcce">
+              <TableID>dbo_BarizoBOM</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="dcbafc46-ee89-40ca-bb83-b28722aedeb1">
+          <CubeDimensionID>Barizo BOM</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9408bc93-1dc2-4e72-86e0-10dc31c10704">
+              <AttributeID>BOM Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1baddb54-9ed1-4ac5-876f-8f96b52f0163">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2d5dfb95-0ab8-41cf-aad5-2fba7fde621b">
+                    <TableID>dbo_BarizoBOM</TableID>
+                    <ColumnID>BOM_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="79744e9a-f7ea-4049-a181-36cc06e72a58">
+          <CubeDimensionID>Barizo Product Material</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1b9af797-2ece-499f-8c6e-6c8082d1f88d">
+              <AttributeID>Product Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5b3be459-5b4c-4184-b02c-3796e4f0cccf">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="191c3ce9-c380-46bb-bcdc-d184e9adf3be">
+                    <TableID>dbo_BarizoBOM</TableID>
+                    <ColumnID>Product_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="235888b1-3bca-4c1f-b974-fed4690d65e2">
+          <CubeDimensionID>Barizo Unit</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4855232b-e5d2-41f5-961e-62be94ecd864">
+              <AttributeID>Unit ID</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Barizo Product Material</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Unit Id</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="9745200f-7744-4db0-8e90-31fb1908b998">
+      <ID>Barizo Unit</ID>
+      <Name>Barizo Unit</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="e4b4fd7c-8b0e-44bd-a084-634b27440058">
+          <ID>Unit Code</ID>
+          <Name>Unit Code</Name>
+          <Source dwd:design-time-name="b95df06d-38c5-4fbc-bb76-885444e59f20">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e7056db4-fab8-4c08-a7b1-6aaf36ce8a8e">
+              <TableID>dbo_BarizoUnit</TableID>
+              <ColumnID>UnitCode</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cdd92871-8e98-4c80-81bb-c23989e11ae3">
+          <ID>Barizo Unit Count</ID>
+          <Name>Barizo Unit Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="2542c142-a059-4402-8ef9-60aaca3109a1">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="da43c5cd-3df0-45dc-91f3-c238f6487c84">
+              <TableID>dbo_BarizoUnit</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="593b7859-514b-45c6-8a41-97716b380a20">
+          <CubeDimensionID>Barizo Unit</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d87689b8-6da4-4f3a-a648-47d68a38fd99">
+              <AttributeID>Unit ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="54cf7ba6-5bbf-497a-a716-94064e05c8be">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d1738ae6-6813-46da-a8d2-865637ec865d">
+                    <TableID>dbo_BarizoUnit</TableID>
+                    <ColumnID>UnitID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="2ba837d1-46b2-488a-8302-82efba910612">
+      <ID>Barizo Product Material</ID>
+      <Name>Barizo Product Material</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="bdf8662e-5912-4d3b-8e8a-34128e57c55b">
+          <ID>Default Unit Id</ID>
+          <Name>Default Unit Id</Name>
+          <Source dwd:design-time-name="3ae781fd-0720-41df-a641-49f1e4f57ad0">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f39a6981-1929-45fc-a5e4-09375e9433f2">
+              <TableID>dbo_BarizoProductMaterial</TableID>
+              <ColumnID>DefaultUnitId</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="94132fd4-dfe8-4e71-a235-428a98464c3b">
+          <ID>Owner Id</ID>
+          <Name>Owner Id</Name>
+          <Source dwd:design-time-name="6fbd1175-3260-440f-aab5-15b987108b00">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fb13771d-c16e-41c7-8065-a604166febd0">
+              <TableID>dbo_BarizoProductMaterial</TableID>
+              <ColumnID>OwnerId</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="362d036b-f5f7-45cc-9d43-5ff60e64190c">
+          <ID>Barizo Product Material Count</ID>
+          <Name>Barizo Product Material Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="b84ccfe9-88d5-449a-a246-19f6c9ba9818">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="aa8c3993-60fb-45fa-9c5c-28ecc7928152">
+              <TableID>dbo_BarizoProductMaterial</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="6278e011-2d0b-4a78-998c-f3ebfd5e9a83">
+          <CubeDimensionID>Barizo Product Material</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e602a882-951e-41ff-a80c-31e281e38aac">
+              <AttributeID>Product Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3622defc-63fa-4f26-bdf7-d431b0917377">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b141daeb-585a-4b5b-84cb-62de6f6ffb07">
+                    <TableID>dbo_BarizoProductMaterial</TableID>
+                    <ColumnID>Product_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="09c9671b-7306-415d-8177-52aa845a6916">
+          <CubeDimensionID>Barizo Unit</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0a68f247-f310-4b56-a797-a0449bcc2252">
+              <AttributeID>Unit ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c1095ab3-3f1e-42d2-be8a-a2d2e2bd2ec9">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d8b4740c-2158-496d-a9d9-e86d81d324e6">
+                    <TableID>dbo_BarizoProductMaterial</TableID>
+                    <ColumnID>UnitId</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="1941806b-dbed-4998-92ca-d04888be2b8e">
+      <ID>Barizo Product Group</ID>
+      <Name>Barizo Product Group</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="37380770-a981-477e-b8ea-5088f5e3df9a">
+          <ID>Barizo Product Group Count</ID>
+          <Name>Barizo Product Group Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="b0a34df2-4b3c-4f00-8854-b2def67add04">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="2fe7f39a-7e48-4bf5-bc31-859755b73e09">
+              <TableID>dbo_BarizoProductGroup</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="8e3d16f1-a55e-411c-a26f-70e32754a478">
+          <CubeDimensionID>Barizo Product Group</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f2e5b6d4-963a-4fff-a1d8-4bd9848cc91c">
+              <AttributeID>Group ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3be214d0-926b-44c8-a331-64e255a83911">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="248a9c5c-71ca-4524-bfa4-86a04f08194d">
+                    <TableID>dbo_BarizoProductGroup</TableID>
+                    <ColumnID>GroupID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="a0b301f1-6189-42f5-8afb-b5fd1a4d8130">
+      <ID>Barizo Voucher Status</ID>
+      <Name>Barizo Voucher Status</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="f97d3781-6899-4ea0-b553-a21c71e33c41">
+          <ID>Barizo Voucher Status Count</ID>
+          <Name>Barizo Voucher Status Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="1756d3d0-80e3-4280-80b5-402201834483">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="7cddb628-64e9-470f-b035-581151626a91">
+              <TableID>dbo_BarizoVoucherStatus</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="b2a3489a-36e9-47de-9b56-650de23de6f7">
+          <CubeDimensionID>Barizo Voucher Status</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8063afed-e098-4fcf-a7f3-4c8220e5fd9b">
+              <AttributeID>Voucher Status ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="eece62b0-a482-4952-8bda-efe064529f20">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="04c6b8b3-51cc-4ffe-9293-763277ec96a1">
+                    <TableID>dbo_BarizoVoucherStatus</TableID>
+                    <ColumnID>VoucherStatusID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="5326da9c-85c5-4848-a2ab-31ee9b004413">
+      <ID>Barizo Inventory Voucher</ID>
+      <Name>Barizo Inventory Voucher</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="e2883221-c835-4207-ad0f-1be228656b61">
+          <ID>Branch Code</ID>
+          <Name>Branch Code</Name>
+          <Source dwd:design-time-name="95d04fe1-cf9b-4041-8fbd-d9fddb634f5d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d2586953-78b5-46e7-9ba1-2da10eb3d462">
+              <TableID>dbo_BarizoInventoryVoucher</TableID>
+              <ColumnID>BranchCode</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ad9513ef-0298-4984-9929-32e9e4a35d69">
+          <ID>Product Unit ID - Barizo Inventory Voucher</ID>
+          <Name>Product Unit ID - Barizo Inventory Voucher</Name>
+          <Source dwd:design-time-name="c2794583-227c-46e5-ab13-15785462cfae">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="923f4b37-576e-4a42-bade-8a70baaa744d">
+              <TableID>dbo_BarizoInventoryVoucher</TableID>
+              <ColumnID>ProductUnitID</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9cf85edb-43e2-4104-ae42-653de26794d6">
+          <ID>Amount</ID>
+          <Name>Amount</Name>
+          <Source dwd:design-time-name="6173920d-00e6-4caa-8fa8-325661c76103">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="029bb4c0-d79c-476c-985e-07b483dc5eba">
+              <TableID>dbo_BarizoInventoryVoucher</TableID>
+              <ColumnID>Amount</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d0206bcb-bd66-4566-a1a2-30b3c6b3469b">
+          <ID>Unit Price</ID>
+          <Name>Unit Price</Name>
+          <Source dwd:design-time-name="7b9e851a-7e03-43c3-9e8a-d678671e7410">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="60a447e0-b2b9-48bf-922a-a9d648e982c5">
+              <TableID>dbo_BarizoInventoryVoucher</TableID>
+              <ColumnID>UnitPrice</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1253d0ef-b0b6-4c06-ba7c-ef7dfb9e62b1">
+          <ID>Main Amount</ID>
+          <Name>Main Amount</Name>
+          <Source dwd:design-time-name="d12b0955-6d22-44e8-aed6-a65d0a14333a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="de484b70-ab9e-4212-8f01-a90f03e68890">
+              <TableID>dbo_BarizoInventoryVoucher</TableID>
+              <ColumnID>MainAmount</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="dad324c7-b329-4f40-994d-11563195eceb">
+          <ID>Discount Rate</ID>
+          <Name>Discount Rate</Name>
+          <Source dwd:design-time-name="45d504a8-a229-4ab0-9200-6593b504156c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="14fa6355-387f-4995-b0c8-78544a4736f4">
+              <TableID>dbo_BarizoInventoryVoucher</TableID>
+              <ColumnID>DiscountRate</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="05969572-5ccf-423a-95c6-554f3a53f348">
+          <ID>Discount Amount</ID>
+          <Name>Discount Amount</Name>
+          <Source dwd:design-time-name="41868b11-1062-416b-9ce0-95e2b1e04abb">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c4919785-148e-4c84-8f6d-175418e6e39e">
+              <TableID>dbo_BarizoInventoryVoucher</TableID>
+              <ColumnID>DiscountAmount</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4d2f520d-6326-4742-81a5-e3084cd146f7">
+          <ID>Reference Code</ID>
+          <Name>Reference Code</Name>
+          <Source dwd:design-time-name="b7a1eff2-5f8e-4a6a-bbee-bb7ed4a9e4b5">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="49a3f9a1-93a5-4e41-9af7-742b07d67444">
+              <TableID>dbo_BarizoInventoryVoucher</TableID>
+              <ColumnID>ReferenceCode</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="17032087-2647-4129-adb1-5590ab194b08">
+          <ID>Root Id</ID>
+          <Name>Root Id</Name>
+          <Source dwd:design-time-name="5b2680f8-e1c3-4e4f-9c44-d9d9a0037957">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c715babf-8873-487f-9d4a-e0ae84b64901">
+              <TableID>dbo_BarizoInventoryVoucher</TableID>
+              <ColumnID>RootId</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="30194174-19ba-4d1c-ba58-59ed92e13f79">
+          <ID>First Out Amount</ID>
+          <Name>First Out Amount</Name>
+          <Source dwd:design-time-name="ba777c71-37b7-448e-b03f-ede89601dbb1">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="85949bcf-710e-4fb1-acd7-6d23a38632d7">
+              <TableID>dbo_BarizoInventoryVoucher</TableID>
+              <ColumnID>FirstOutAmount</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="13995ac5-c98e-4a7d-9e46-b39e12a817b1">
+          <ID>Pre Remain Amount</ID>
+          <Name>Pre Remain Amount</Name>
+          <Source dwd:design-time-name="d1657f62-0374-4b27-b49d-1fd8aed932a1">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ce8104d1-e7c3-40b7-bff8-6e0b43acf563">
+              <TableID>dbo_BarizoInventoryVoucher</TableID>
+              <ColumnID>PreRemainAmount</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="fc778d58-d7d7-4e74-ae69-3560124fa53c">
+          <ID>Remain Amount</ID>
+          <Name>Remain Amount</Name>
+          <Source dwd:design-time-name="c87c6d57-aeab-4218-90c3-c3e5eebf4748">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="aab970be-5dbb-4401-a940-e067c783b0f8">
+              <TableID>dbo_BarizoInventoryVoucher</TableID>
+              <ColumnID>RemainAmount</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8a62cd78-213f-4acf-9cbb-8adad87e9afc">
+          <ID>Avrage Unit Price</ID>
+          <Name>Avrage Unit Price</Name>
+          <Source dwd:design-time-name="aa16bea2-fbbd-4eae-98e7-d963f6a7cc63">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5fe81c2c-1b9e-446b-9685-0584c6d42014">
+              <TableID>dbo_BarizoInventoryVoucher</TableID>
+              <ColumnID>AvrageUnitPrice</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="49dfe72a-120e-4e4d-93ad-c8f63d76ffe6">
+          <ID>Transport Price</ID>
+          <Name>Transport Price</Name>
+          <Source dwd:design-time-name="1232bab6-673a-4154-b9e4-076623d27545">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9f7c0fee-54ff-40c5-b052-9feb47d97115">
+              <TableID>dbo_BarizoInventoryVoucher</TableID>
+              <ColumnID>TransportPrice</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="75e648ce-8342-40c0-94e5-f114592f2701">
+          <ID>Transport Tax</ID>
+          <Name>Transport Tax</Name>
+          <Source dwd:design-time-name="a2948b43-3a86-4f18-9921-fd7a63686556">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="032e2246-1d1a-4411-a8ae-2aefe6d09498">
+              <TableID>dbo_BarizoInventoryVoucher</TableID>
+              <ColumnID>TransportTax</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="19074f5c-7e40-4068-b212-8ddb33081b93">
+          <ID>Transport Complications</ID>
+          <Name>Transport Complications</Name>
+          <Source dwd:design-time-name="cae923b5-989b-4ad7-967f-fe7dfc2e6181">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="68a8ba1d-9d62-46d1-ac07-23b43ac68665">
+              <TableID>dbo_BarizoInventoryVoucher</TableID>
+              <ColumnID>TransportComplications</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b1613df8-28b5-4d47-af86-4a5667dd24b2">
+          <ID>Product Unit Ratio</ID>
+          <Name>Product Unit Ratio</Name>
+          <Source dwd:design-time-name="7a02a5b1-2a87-421a-97c1-efc9c0ab83ce">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c964768d-407a-42ba-ab9c-c93773d2d331">
+              <TableID>dbo_BarizoInventoryVoucher</TableID>
+              <ColumnID>ProductUnitRatio</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6c4af7b1-b3e7-42d4-9b65-359e018db57f">
+          <ID>Barizo Inventory Voucher Count</ID>
+          <Name>Barizo Inventory Voucher Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="9157f101-e784-4408-831a-073afff2ac74">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="df6f7510-4d85-4409-b176-724ddb6ab062">
+              <TableID>dbo_BarizoInventoryVoucher</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7b438ad2-a8f1-45e9-b2a8-1c12f877c177">
+          <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="761c0c15-17d7-4c44-9fd8-06c8295d7cfa">
+              <AttributeID>Date Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fd786fa7-39bd-4dc5-90cc-fc6cc3a6ec5c">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6c24162f-01e8-40b0-92cc-ce83d5d8add6">
+                    <TableID>dbo_BarizoInventoryVoucher</TableID>
+                    <ColumnID>VoucherDateID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="db306b88-8efb-4f4d-b72d-abb750d5b398">
+          <CubeDimensionID>Barizo Product Material</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c01e3caa-77f3-4523-8a55-1820e1323d77">
+              <AttributeID>Product Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5af53117-1642-49b4-bbd3-1fb5ea4d0715">
+                  <DataType>BigInt</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d1f64c67-7929-4121-9df8-7aeb5acef834">
+                    <TableID>dbo_BarizoInventoryVoucher</TableID>
+                    <ColumnID>Product_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="df2f2a66-d2b1-444b-b7b1-469a07ec7871">
+          <CubeDimensionID>Barizo Unit</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6ffad1be-e818-4bc9-8711-12b78294b492">
+              <AttributeID>Unit ID</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>Barizo Product Material</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Unit Id</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="218c584e-3100-4888-969b-302482765cb5">
+      <ID>GRL GNR Dim Full Date</ID>
+      <Name>GRL GNR Dim Full Date</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="e069134c-6573-41f1-9421-45e52aba8516">
+          <ID>Week Id</ID>
+          <Name>Week Id</Name>
+          <Source dwd:design-time-name="f5ac00d0-7286-4efe-9e09-7f4365bf7ecb">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="71c91f69-79d4-443c-8af5-09269f8968b5">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>WeekId</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c4d7ad73-4d6c-45b7-b94e-31faae80eea4">
+          <ID>Day Of Month</ID>
+          <Name>Day Of Month</Name>
+          <Source dwd:design-time-name="1a7e1d24-1853-445a-b0bf-70529bfb230f">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a457972a-a193-4944-a19d-76fa6c9a3c94">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>DayOfMonth</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="622215c0-a379-4c30-bec5-7d07288e8a46">
+          <ID>Day</ID>
+          <Name>Day</Name>
+          <Source dwd:design-time-name="8e8db68f-6bd4-4546-9d33-9641ad63c659">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="11c37ea8-2a0b-4db0-8de0-71ed38efb0c9">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>Day</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="931791b7-0982-4f2c-8a83-6ffc11cecb73">
+          <ID>Semi Year Id</ID>
+          <Name>Semi Year Id</Name>
+          <Source dwd:design-time-name="8e0c6857-1e2a-486c-b7a9-5d87b8df850d">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c68f7d38-0634-4caf-b8d8-ba5e0da98dfe">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>SemiYearId</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="712d47c2-41c1-41d8-a88e-ec7955126f84">
+          <ID>Month Id</ID>
+          <Name>Month Id</Name>
+          <Source dwd:design-time-name="37462d9d-6c4a-4974-b969-00719fd1140b">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="93e491c7-f96a-46e8-9133-0b67ae5a65a8">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>MonthId</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f95f32c7-966b-4489-93ac-a7de1288481c">
+          <ID>Week Day Id</ID>
+          <Name>Week Day Id</Name>
+          <Source dwd:design-time-name="0455248c-db84-4a6d-a29a-21ac8fc616e8">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a6894f9c-4daf-4a0e-bf90-e52a4a7ce679">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>WeekDayId</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e196d1f2-1e91-4eac-b14b-93f6294338e6">
+          <ID>Season Id</ID>
+          <Name>Season Id</Name>
+          <Source dwd:design-time-name="5b66d7e9-90cd-4a3e-b318-8bff9888b9e1">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d58ee6c6-791a-4fc2-bad7-0b15091ac133">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>SeasonId</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6f3d32a9-5a26-4de5-95f4-57e863ca6e52">
+          <ID>m Year</ID>
+          <Name>m Year</Name>
+          <Source dwd:design-time-name="ef4594f6-a615-40df-b74b-dcfe6ab4fc91">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cca8df5a-54cd-4a74-a5f2-f4c2bb4ae30f">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>mYear</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4496df4f-d2de-4049-a23f-7cf96b57cb71">
+          <ID>m Semi Year Id</ID>
+          <Name>m Semi Year Id</Name>
+          <Source dwd:design-time-name="b29afe59-4bde-460b-9413-3f207106ed26">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="49dd5e99-63eb-48b5-a0cf-0ba167e9e371">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>mSemiYearId</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="940d6e72-91dd-4d67-b97b-ed1ae6704217">
+          <ID>m Semi Year Order</ID>
+          <Name>m Semi Year Order</Name>
+          <Source dwd:design-time-name="460075e4-b239-4023-a5bc-e0d519bd5d9c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="559c5da3-9b67-4635-8e65-e914987e2ede">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>mSemiYearOrder</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d2b3c43d-01af-49f1-b56a-a3ae47989152">
+          <ID>m Season Id</ID>
+          <Name>m Season Id</Name>
+          <Source dwd:design-time-name="c3eb7c95-7dcc-4e41-b5d6-45df56106509">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="61795cb5-afb8-466d-8d87-713c81e1338a">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>mSeasonId</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cb7341ef-8f48-41be-9b05-523ca479e2e6">
+          <ID>m Season Y Order</ID>
+          <Name>m Season Y Order</Name>
+          <Source dwd:design-time-name="d3168ed8-53b2-4a4d-845e-a3a208e96082">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f1468744-dd2e-4df1-81d5-e1f08e4cf415">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>mSeasonYOrder</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ea96d7d2-ecec-4c28-b9b2-bff17124e758">
+          <ID>m Month Id</ID>
+          <Name>m Month Id</Name>
+          <Source dwd:design-time-name="df21a58d-0063-48f9-be74-1dc067493e9f">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7134497f-ff77-437a-9803-0d2c0a7f0fb5">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>mMonthId</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="67016ef8-36a9-45f9-a126-2c616eff515a">
+          <ID>m Month Order</ID>
+          <Name>m Month Order</Name>
+          <Source dwd:design-time-name="60589ad1-70f7-4f10-aa37-fb58dd99161e">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="63891701-e5f8-40f1-a64f-d06c97b0d01f">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>mMonthOrder</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e5564be1-e027-4c45-bb24-9d1a920711d7">
+          <ID>m Day Of Month</ID>
+          <Name>m Day Of Month</Name>
+          <Source dwd:design-time-name="f7777d9b-6e72-480e-b3cb-473539829cb4">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d891fa09-5b50-4a0b-b6be-e1a90f92b73b">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>mDayOfMonth</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5bae059e-c40b-4750-a09a-aa3c5a059a58">
+          <ID>m Day Of Year</ID>
+          <Name>m Day Of Year</Name>
+          <Source dwd:design-time-name="98f283df-5f8d-439d-82d2-1a619dc1f5e0">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3b0d838c-edb4-47d9-96a9-eb4c5a903cb6">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>mDayOfYear</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="353463cd-7ba6-4f05-b4fa-6cd7e97cd4bf">
+          <ID>m Week Id</ID>
+          <Name>m Week Id</Name>
+          <Source dwd:design-time-name="f8c5deed-5756-4498-89d3-c41c4b5fada4">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c413ae40-0512-4c62-ac4f-bc8970ca667d">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>mWeekId</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ab713596-22fd-41f5-aa23-d889dba318bb">
+          <ID>m Week Order</ID>
+          <Name>m Week Order</Name>
+          <Source dwd:design-time-name="e2db377e-6e74-434b-b6ee-12e1c64b922a">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="947916d8-6a49-4c39-879a-bbeeb380507b">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>mWeekOrder</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="06e9c69a-a232-4d30-b681-3b4729b1d7be">
+          <ID>Fiscal Year 3</ID>
+          <Name>Fiscal Year 3</Name>
+          <Source dwd:design-time-name="c7ec38ef-6951-4971-86f5-3b1a2b9eeb2d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7f89fe45-7eab-4c6c-91ce-231c935cfbaa">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>FiscalYear_3</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2608b2e0-c7e8-49a1-848d-db79f08f54d1">
+          <ID>Fiscal Year 4</ID>
+          <Name>Fiscal Year 4</Name>
+          <Source dwd:design-time-name="e26cc3a3-5d04-4939-bcfb-70c1b2d77f19">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="19e22cb2-408b-4da4-8f31-3e8a01f8f5d1">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>FiscalYear_4</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="37b35d7d-3806-4af4-82ff-7e36081133f8">
+          <ID>Fiscal Season 3</ID>
+          <Name>Fiscal Season 3</Name>
+          <Source dwd:design-time-name="7c0bacae-4f11-4826-b152-48527ca46482">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="94ad5a36-8b53-4ccb-8785-1cc7fc3243e6">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>FiscalSeason_3</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0328b4bb-ce78-4328-8260-1ac9386e7104">
+          <ID>Fiscal Season 4</ID>
+          <Name>Fiscal Season 4</Name>
+          <Source dwd:design-time-name="446926d2-c1b3-47a7-8a7d-4915ddd9de3a">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9d72852c-7ac1-48e1-9bc1-2b2589d8521f">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>FiscalSeason_4</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3295de98-01c8-48ea-b957-8f574b0cd7bb">
+          <ID>Fiscal Semi Year 3</ID>
+          <Name>Fiscal Semi Year 3</Name>
+          <Source dwd:design-time-name="e14ad61b-940a-46bf-97ae-78b822d0f863">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9c1f66ee-d25d-499a-84f5-a60eb4f7d45f">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>FiscalSemiYear_3</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8c55be54-15ea-4a4f-bd53-38923b784d97">
+          <ID>Fiscal Semi Year 4</ID>
+          <Name>Fiscal Semi Year 4</Name>
+          <Source dwd:design-time-name="ed574182-2bea-4704-8b2f-73615af1efe0">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="11415150-432a-4b24-a2d0-f8498ea87e5e">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>FiscalSemiYear_4</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4a298c83-9d31-40e0-a042-e3761b3b22dd">
+          <ID>Fiscal Year 10</ID>
+          <Name>Fiscal Year 10</Name>
+          <Source dwd:design-time-name="6ea69b42-39a9-4f16-9c95-ed60b7dc4065">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="20c5667c-70ce-440a-90a3-7cf704726179">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>FiscalYear_10</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="21a36d71-902e-4eb1-bc00-d24c291841d6">
+          <ID>Fiscal Semi Year 10</ID>
+          <Name>Fiscal Semi Year 10</Name>
+          <Source dwd:design-time-name="eb63c247-8a25-4c88-aff4-c11f25ebad21">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f69cb1b8-ece4-4be2-b877-e2d4643f814d">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>FiscalSemiYear_10</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7ca59026-8caf-4bfc-9b3a-1a720778d2eb">
+          <ID>Fiscal Season 10</ID>
+          <Name>Fiscal Season 10</Name>
+          <Source dwd:design-time-name="c43db050-92a2-4de8-8531-1e5aeb19d570">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="1552c18b-890a-4979-abfc-d569bbfe8225">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>FiscalSeason_10</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="14672fb9-e59a-4b8c-bd01-8d8eada0eef1">
+          <ID>Fiscal Year 7</ID>
+          <Name>Fiscal Year 7</Name>
+          <Source dwd:design-time-name="757636e6-77df-4d84-8556-6fcd2544bbcd">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="84a6cfb6-d8d1-4e2b-8774-2b59e506c21f">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>FiscalYear_7</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7c09cea9-b3ca-4648-b523-a1cf6a04b333">
+          <ID>Fiscal Semi Year 7</ID>
+          <Name>Fiscal Semi Year 7</Name>
+          <Source dwd:design-time-name="eb212256-ab98-496a-8661-a7b1b93c0243">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7c991172-f543-491d-b314-5126923be7e0">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>FiscalSemiYear_7</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4f6c3bd0-7b7a-4c0f-a4ca-6801f7ec9b65">
+          <ID>Fiscal Season 7</ID>
+          <Name>Fiscal Season 7</Name>
+          <Source dwd:design-time-name="856c508c-2ceb-4924-839c-7c697c262806">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c3121a71-0875-478a-9b71-7bc5cf3443b3">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>FiscalSeason_7</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b074936f-141b-4d08-9a24-b000177c9eb7">
+          <ID>Date Now</ID>
+          <Name>Date Now</Name>
+          <Source dwd:design-time-name="e072a4ba-750a-418c-a407-91e65bc33b00">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8b8abb6e-17fe-4bdc-ac26-27b8cf14e05e">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>Date_Now</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4e75918b-cc06-4f9f-9d5e-dc58ed5273f3">
+          <ID>Date Now Status</ID>
+          <Name>Date Now Status</Name>
+          <Source dwd:design-time-name="5d3cdd58-8baf-46d3-b780-1666e65a9bd0">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e63d3668-aabe-432a-ac5b-0d6d6b65712f">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>Date_NowStatus</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="156d3381-7654-4499-954e-fe79a654d65d">
+          <ID>Date After Now Status</ID>
+          <Name>Date After Now Status</Name>
+          <Source dwd:design-time-name="f362ff51-7f4a-440d-90a2-46d3f81275c3">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="13fa9015-9650-4568-8813-251f4b64c020">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>Date_AfterNowStatus</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="21c777ca-4151-41c8-a830-7686ff19f944">
+          <ID>Current Month And After Status</ID>
+          <Name>Current Month And After Status</Name>
+          <Source dwd:design-time-name="77f22974-a936-48f7-a96d-e899ceb65f9c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b25f830b-dba2-451c-8654-382003b7960f">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>CurrentMonthAndAfterStatus</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="63f3dda8-b906-4148-af04-b2340c99fc39">
+          <ID>Date Tomorrow Status</ID>
+          <Name>Date Tomorrow Status</Name>
+          <Source dwd:design-time-name="e4ebad41-0932-4376-bd26-350ed74fb438">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cb7559dd-63f5-4176-839b-e96ecd75bb9d">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>Date_TomorrowStatus</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5de5fb16-e6fa-4a07-bddf-f722d4bbb23e">
+          <ID>Date Last Day Of Current Month Status</ID>
+          <Name>Date Last Day Of Current Month Status</Name>
+          <Source dwd:design-time-name="c8f2c75f-9c1a-4cf7-ae94-a034e33a60da">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="05e07c36-f661-45b4-b9b0-0d6beb2f1b27">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>Date_LastDayOfCurrentMonthStatus</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ceea51f1-cb6d-4cda-b8cf-ec9a989eb33a">
+          <ID>Today Is End Of Month</ID>
+          <Name>Today Is End Of Month</Name>
+          <Source dwd:design-time-name="64a3f714-3703-4499-a0b8-5086fc272ff6">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5cb073be-f9b6-46f0-a566-a9d8f3125c6c">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>TodayIsEndOfMonth</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c3bf9244-5705-439d-8a30-07e4f918e897">
+          <ID>Month Today Is End Of Month</ID>
+          <Name>Month Today Is End Of Month</Name>
+          <Source dwd:design-time-name="cf1b24d7-c04e-4c30-91fa-68e3628bf5bd">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="57154505-b012-4c42-86f9-39e98e4fe253">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+              <ColumnID>MonthTodayIsEndOfMonth</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="df892745-d304-4f18-a4bb-22dfa8ae5f26">
+          <ID>GRL GNR Dim Full Date Count</ID>
+          <Name>GRL GNR Dim Full Date Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="85bc95a3-0158-4741-9495-2ddc4b375cc3">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="b2952e3d-cfe4-4a4a-85e4-5dc9557ac260">
+              <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="c09ad834-819d-4135-b55e-1e96311b4c5d">
+          <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="fe212cca-1a69-4846-93c7-0a2b7a939f2a">
+              <AttributeID>Date Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ace636ce-6bc1-4a25-b8df-84239081b67a">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9bae2172-1a49-4d83-a736-cba5372d8a86">
+                    <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
+                    <ColumnID>Date_Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="a35491f4-64a8-4230-a0a1-82dbc21b198a">
+    <DataSourceViewID>SABZDW</DataSourceViewID>
+  </Source>
+</Cube>
