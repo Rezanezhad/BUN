@@ -1,139 +1,19 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6d5496de-d1c1-4a66-8a7d-ebcf4af6755a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="71abba13-c01e-4b21-a866-2db3f2b35848" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Barizo</ID>
   <MeasureGroups>
     <MeasureGroup>
-      <ID>Barizo BOM</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="a6512006-db78-47f5-9727-5b82ac750987">
-          <ID>Barizo BOM</ID>
-          <Name>Barizo BOM</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="df287ddd-332e-46b2-abc8-e5c0d1c92d64">
-            <DataSourceViewID>SABZDW</DataSourceViewID>
-            <TableID>dbo_BarizoBOM</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
-      <ID>Barizo Unit</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="e6b84da5-4b67-467e-bc80-cbead4ba8066">
-          <ID>Barizo Unit</ID>
-          <Name>Barizo Unit</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d469c358-a914-4cde-b343-a054145bac2a">
-            <DataSourceViewID>SABZDW</DataSourceViewID>
-            <TableID>dbo_BarizoUnit</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
-      <ID>Barizo Product Material</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="8b86d890-f385-4d30-bebf-fc0ac4a355a0">
-          <ID>Barizo Product Material</ID>
-          <Name>Barizo Product Material</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c3b47411-5442-40de-b816-a7b7f8a8e84a">
-            <DataSourceViewID>SABZDW</DataSourceViewID>
-            <TableID>dbo_BarizoProductMaterial</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
-      <ID>Barizo Product Group</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="92db99d0-03d8-4eaa-a1c5-e72b7454c7c4">
-          <ID>Barizo Product Group</ID>
-          <Name>Barizo Product Group</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="20825e62-0027-4cae-ad96-389a5c956ca3">
-            <DataSourceViewID>SABZDW</DataSourceViewID>
-            <TableID>dbo_BarizoProductGroup</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
-      <ID>Barizo Voucher Status</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="60d09e7b-e70d-4245-8a1c-62ca8cd5c3eb">
-          <ID>Barizo Voucher Status</ID>
-          <Name>Barizo Voucher Status</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3f745061-f34c-4ad9-bc35-e0e60370544b">
-            <DataSourceViewID>SABZDW</DataSourceViewID>
-            <TableID>dbo_BarizoVoucherStatus</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
       <ID>Barizo Inventory Voucher</ID>
       <Partitions>
-        <Partition dwd:design-time-name="5b7d0ac5-c2fc-441f-a2f7-9454f37b262c">
+        <Partition dwd:design-time-name="71d38722-a65a-412c-8344-f51cdf85f745">
           <ID>Barizo Inventory Voucher</ID>
           <Name>Barizo Inventory Voucher</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6db2cb3d-57cc-49bc-ab56-e130e1bbaccc">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fb9902e2-12ee-463c-8359-0bc20c4ff86a">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_BarizoInventoryVoucher</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
-      <ID>GRL GNR Dim Full Date</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="a05985a6-4c34-4c48-a638-7fb9447e6d48">
-          <ID>GRL GNR Dim Full Date</ID>
-          <Name>GRL GNR Dim Full Date</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bdc48ab9-d719-4fce-890e-7d83611cdfb7">
-            <DataSourceViewID>SABZDW</DataSourceViewID>
-            <TableID>dbo_GRL_GNR_Dim_FullDate</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
