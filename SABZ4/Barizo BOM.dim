@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7c8d5dac-2535-43f4-b792-6f94d81555de" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a7fbb873-482c-4d37-a21b-d95ea73dafc0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Barizo BOM</ID>
   <Name>Barizo BOM</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,32 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3513" scrolltop="-5914" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10372" y="16828" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="BarizoBOM" left="-959" top="556" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="3307" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000eb0c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_BarizoBOM" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,19 +47,19 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-3513</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-5914</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>-959</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>0</Value>
+      <Value>556</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -42,56 +68,141 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="b5da1228-2e70-4fcf-9d15-f4a83480082d">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e44b5bf4-2564-4c7d-a613-86c6b6b047fe">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="e6757ab2-93f5-41ee-903a-df45969716c6">
+  <ErrorConfiguration dwd:design-time-name="395de6de-9178-48d0-8443-7afdf3550c24">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="553785a3-aa43-4f57-996c-e0312ab5c157">
-      <ID>BOM Id</ID>
-      <Name>BOM Id</Name>
+    <Attribute dwd:design-time-name="7b326a85-6e26-412d-97e7-9b6043d4a163">
+      <ID>ID</ID>
+      <Name>ID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="1b4b1430-fbfe-4c86-9642-8670848f4f92">
+        <KeyColumn dwd:design-time-name="93082cfa-4f23-43d7-a05c-32a6d2774aae">
           <DataType>BigInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e241a1dd-db21-4371-a6a7-b32bfc1271ff">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f946e679-189e-4f2b-9d5f-8688aa3b9948">
             <TableID>dbo_BarizoBOM</TableID>
-            <ColumnID>BOM_Id</ColumnID>
+            <ColumnID>ID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="0128d9af-de7f-4528-8a29-0794329bb83f">
+        <AttributeRelationship dwd:design-time-name="133167ee-dc10-4dc7-ae9f-d9cfa6b81b98">
+          <AttributeID>BOM Id</AttributeID>
+          <Name>BOM Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7de3f82e-56cb-4467-b0c7-a03c7cef162a">
           <AttributeID>Product Id</AttributeID>
           <Name>Product Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="57188923-dc71-4d5b-b1f3-d88385dfd042">
+          <AttributeID>Material ID</AttributeID>
+          <Name>Material ID</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="a0674a59-f37b-4a84-98ef-78e394d9e046">
+    <Attribute dwd:design-time-name="08fbc672-045c-47be-8adb-4e59e1013ce5">
+      <ID>BOM Id</ID>
+      <Name>BOM Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9f51080b-eb6b-4fbd-8572-18b6311eaa2c">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c3d78eb6-bc88-4b4a-a89f-65d58a69f9fe">
+            <TableID>dbo_BarizoBOM</TableID>
+            <ColumnID>BOM_Id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e5fcfe6b-a117-41b5-8650-aefd3d24cfa4">
       <ID>Product Id</ID>
       <Name>Product Id</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d5090602-e96f-4902-ba0e-d5f633f0caf8">
+        <KeyColumn dwd:design-time-name="e8d01bbf-ddcc-42bb-b501-dabecbab2b9a">
           <DataType>BigInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0881d5c7-512e-4d13-a89d-44abe4fe96c7">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="95059e8d-40ce-43ed-bd7a-5f21adf6162d">
             <TableID>dbo_BarizoBOM</TableID>
             <ColumnID>Product_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="23a10c25-cdb6-4809-961d-db7b6d411096">
+        <DataType>WChar</DataType>
+        <DataSize>4000</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="8e904c44-0d85-4b97-a7f5-ec92200e5966">
+          <TableID>BarizoProduct</TableID>
+          <ColumnID>ProductTitle</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0b079c10-e06d-488d-ac5a-df327b7450ce">
+      <ID>Material ID</ID>
+      <Name>Material ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8c88a17a-80a4-4a15-9629-6e00e0107928">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="83eebf5e-c45a-4cdf-ab41-55ec5f658f04">
+            <TableID>dbo_BarizoBOM</TableID>
+            <ColumnID>MaterialID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="0a60f533-7a75-4af8-be91-c110700a9710">
+        <DataType>WChar</DataType>
+        <DataSize>4000</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="1e01a4f4-9ac5-48aa-8d1d-0a534ca45989">
+          <TableID>dbo_BarizoProductMaterial</TableID>
+          <ColumnID>ProductTitle</ColumnID>
+        </Source>
+      </NameColumn>
       <OrderBy>Key</OrderBy>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
   </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="962365be-6d80-4a06-a357-e864bb92980b">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="1f48e42b-349b-447c-8d96-03ac7db2e21a">
+          <ID>ID</ID>
+          <Name>ID</Name>
+          <SourceAttributeID>ID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="fc842d78-618d-4e5a-bf66-0e48bfa02b0c">
+          <ID>BOM Id</ID>
+          <Name>BOM Id</Name>
+          <SourceAttributeID>BOM Id</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="1da1d516-bbbe-4e26-b50f-421d0b21d18d">
+          <ID>Product Id</ID>
+          <Name>Product Id</Name>
+          <SourceAttributeID>Product Id</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ae538e2b-93ed-46ca-866d-d80e67932dcb">
+          <ID>Material ID</ID>
+          <Name>Material ID</Name>
+          <SourceAttributeID>Material ID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>

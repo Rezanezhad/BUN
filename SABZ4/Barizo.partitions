@@ -21,5 +21,25 @@
         </Partition>
       </Partitions>
     </MeasureGroup>
+    <MeasureGroup>
+      <ID>Barizo PUB SLE Fact Sale</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="85cd4bda-00ea-4885-89c9-e4e12fcdb0e3">
+          <ID>Barizo PUB SLE Fact Sale</ID>
+          <Name>Barizo PUB SLE Fact Sale</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="af05bbb9-44ca-401e-8b63-cc38d0c8a6c7">
+            <DataSourceViewID>SABZDW</DataSourceViewID>
+            <TableID>Barizo_PUB_SLE_Fact_Sale</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
   </MeasureGroups>
 </Cube>
