@@ -1,19 +1,19 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="71abba13-c01e-4b21-a866-2db3f2b35848" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="60e7701c-4814-4eaa-aa23-a6262dd4f727" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Barizo</ID>
   <MeasureGroups>
     <MeasureGroup>
-      <ID>Barizo Inventory Voucher</ID>
+      <ID>Barizo PUB SLE Fact Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="71d38722-a65a-412c-8344-f51cdf85f745">
-          <ID>Barizo Inventory Voucher</ID>
-          <Name>Barizo Inventory Voucher</Name>
+        <Partition dwd:design-time-name="0d2b958a-2f0a-4d6f-985d-2cfd05c54658">
+          <ID>Barizo PUB SLE Fact Sale</ID>
+          <Name>Barizo PUB SLE Fact Sale</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fb9902e2-12ee-463c-8359-0bc20c4ff86a">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8f5a4374-66b3-4734-9ac2-1c2aaaa073bc">
             <DataSourceViewID>SABZDW</DataSourceViewID>
-            <TableID>dbo_BarizoInventoryVoucher</TableID>
+            <TableID>Barizo_PUB_SLE_Fact_Sale</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
@@ -22,18 +22,18 @@
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
-      <ID>Barizo PUB SLE Fact Sale</ID>
+      <ID>Fact Barizo Inventory Voucher</ID>
       <Partitions>
-        <Partition dwd:design-time-name="85cd4bda-00ea-4885-89c9-e4e12fcdb0e3">
-          <ID>Barizo PUB SLE Fact Sale</ID>
-          <Name>Barizo PUB SLE Fact Sale</Name>
+        <Partition dwd:design-time-name="c921dfec-3934-435f-90bd-c724437f73ce">
+          <ID>Fact Barizo Inventory Voucher</ID>
+          <Name>Fact Barizo Inventory Voucher</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="af05bbb9-44ca-401e-8b63-cc38d0c8a6c7">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="45f48532-8d69-479e-851d-2aed29aa23a0">
             <DataSourceViewID>SABZDW</DataSourceViewID>
-            <TableID>Barizo_PUB_SLE_Fact_Sale</TableID>
+            <TableID>dbo_FactBarizoInventoryVoucher</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
