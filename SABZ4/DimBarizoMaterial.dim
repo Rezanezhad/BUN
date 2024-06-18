@@ -93,25 +93,42 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="d90c66d1-70d3-4133-a6de-40cf8b8c9029">
+        <DataType>WChar</DataType>
+        <DataSize>4000</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a6a17caa-ded1-45a3-8926-3f7e49316df5">
+          <TableID>dbo_BarizoProductMaterial</TableID>
+          <ColumnID>MaterialTitle</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="54e6d5c4-20bc-4725-8e62-82a15feabfe0">
-          <AttributeID>Goods Group Id</AttributeID>
-          <Name>Goods Group Id</Name>
+        <AttributeRelationship dwd:design-time-name="a4c478ef-c35b-4604-b28a-e8c0ccdec466">
+          <AttributeID>Material Code</AttributeID>
+          <Name>Material Code</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
+      <ValueColumn dwd:design-time-name="122fd766-6bf1-4386-bdeb-2b8199f85023">
+        <DataType>WChar</DataType>
+        <DataSize>4000</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="6464370f-c924-4a47-ad0a-4aa53e24033a">
+          <TableID>dbo_BarizoProductMaterial</TableID>
+          <ColumnID>MaterialTitle</ColumnID>
+        </Source>
+      </ValueColumn>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="4266a028-bb29-4d69-91ff-0f183919ccd4">
-      <ID>Goods Group Id</ID>
-      <Name>Goods Group Id</Name>
+    <Attribute dwd:design-time-name="42c0ebf8-dff9-479f-b557-f20088bf5ccd">
+      <ID>Material Code</ID>
+      <Name>Material Code</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2b254276-157a-4304-bb2c-8dd063380d68">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d6d6997b-5f9f-4154-85ae-ccd394fc89f1">
+        <KeyColumn dwd:design-time-name="5c7684ab-6fd0-4609-824f-3f77c16294fa">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="31d1291c-fe75-4962-95c3-0f860df5f130">
             <TableID>dbo_BarizoProductMaterial</TableID>
-            <ColumnID>GoodsGroupId</ColumnID>
+            <ColumnID>MaterialCode</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>

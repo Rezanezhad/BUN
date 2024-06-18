@@ -41,5 +41,25 @@
         </Partition>
       </Partitions>
     </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim Barizo BOM</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="87e30c27-233b-4d1e-b321-273da24629a5">
+          <ID>Dim Barizo BOM</ID>
+          <Name>Dim Barizo BOM</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b1b42208-6f7f-4719-93ad-6a3a0a1aba82">
+            <DataSourceViewID>SABZDW</DataSourceViewID>
+            <TableID>dbo_DimBarizoBOM</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
   </MeasureGroups>
 </Cube>
