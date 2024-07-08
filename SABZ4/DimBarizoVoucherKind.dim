@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="efb74198-9e4a-4188-8c08-f921ca4880ae" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="06234004-b985-409f-b4d4-469195bbd583" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DimBarizoVoucherKind</ID>
   <Name>DimBarizoVoucherKind</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -68,44 +68,51 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="71511462-746d-4aa9-9885-e8a61006a28a">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="0644771f-7a3f-4e75-a3cb-0cba3fe04b88">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="55aa5cd1-f686-46b0-afdc-49ccfea39486">
+  <ErrorConfiguration dwd:design-time-name="e672ad1d-03f4-4ea8-9d5b-92f3af794487">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1065</Language>
   <Attributes>
-    <Attribute dwd:design-time-name="76f7a926-ff47-4af8-be2e-b0cfef030c89">
+    <Attribute dwd:design-time-name="c8bc5047-6e8c-4615-8a8b-7fb9add9bfe1">
       <ID>Voucher Kind ID</ID>
       <Name>Voucher Kind ID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e5ba2760-c8b1-4d2b-8eae-44b0722c698c">
+        <KeyColumn dwd:design-time-name="ee58170c-c1fe-4fc0-b005-4c7d5006a7dd">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c33189f5-8fa2-4839-a821-334fdf1e57fe">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9d9d183e-6f44-4e9b-8b54-deafb9c21b5b">
             <TableID>dbo_DimBarizoVoucherKind</TableID>
             <ColumnID>VoucherKindID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="bf1173fa-56f7-4e8a-a2a1-e5752df8af22">
+      <NameColumn dwd:design-time-name="cb13f520-4f58-48c1-9c28-54976b26ab54">
         <DataType>WChar</DataType>
         <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="12fee422-ddcd-45fa-860d-f18e700cbe29">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="6937f62e-ded5-4445-8723-c748e6e6b5d8">
           <TableID>dbo_DimBarizoVoucherKind</TableID>
           <ColumnID>VoucherKindTitle</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="9e9af211-0b46-48d1-9f73-f56c11cbca26">
+          <Language>1065</Language>
+          <Caption>نوع سند</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
-      <ValueColumn dwd:design-time-name="723eff9e-d7ef-4ab6-859f-740bfaf32b6e">
+      <ValueColumn dwd:design-time-name="4419a08f-8190-4926-a09a-5cb992909ae2">
         <DataType>WChar</DataType>
         <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="12ec0002-f5cd-4cce-93cf-d0a19d00079d">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a45da3d2-21f2-4960-983e-1a7ff32485fe">
           <TableID>dbo_DimBarizoVoucherKind</TableID>
           <ColumnID>VoucherKindTitle</ColumnID>
         </Source>

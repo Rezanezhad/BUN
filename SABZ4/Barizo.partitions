@@ -1,17 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="12b2d1f2-09af-4eed-b8a3-b31959c31d30" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fd27d0e9-b5a6-46b8-be04-988452b1ae98" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Barizo</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Barizo PUB SLE Fact Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="fcd233df-716a-4c14-9a55-7d2dc74dd04a">
+        <Partition dwd:design-time-name="b17e2357-b592-48bd-b570-f7a5b5ba6aea">
           <ID>Barizo PUB SLE Fact Sale</ID>
           <Name>Barizo PUB SLE Fact Sale</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="29d55095-9e49-4ed6-ab1a-e0a981abeb1a">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3f6caecf-1bc2-4552-a39e-24b041339fff">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>Barizo_PUB_SLE_Fact_Sale</TableID>
           </Source>
@@ -24,14 +24,14 @@
     <MeasureGroup>
       <ID>Fact Barizo Inventory Voucher</ID>
       <Partitions>
-        <Partition dwd:design-time-name="64662817-d822-4957-bfa7-b652c9d91b9f">
+        <Partition dwd:design-time-name="cadecd84-6a92-4426-ab09-b77e88ba1458">
           <ID>Fact Barizo Inventory Voucher</ID>
           <Name>Fact Barizo Inventory Voucher</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b80e5def-f637-4ef2-bece-c58d8f00fb0b">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a5ab3b10-aae7-496b-889c-f1e2cc19e4f3">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_FactBarizoInventoryVoucher</TableID>
           </Source>
@@ -44,16 +44,36 @@
     <MeasureGroup>
       <ID>Dim Barizo BOM</ID>
       <Partitions>
-        <Partition dwd:design-time-name="53306320-d351-4f85-bfbd-985c8e350518">
+        <Partition dwd:design-time-name="aa414b5f-4237-4cb7-85dc-f02c3c2eab67">
           <ID>Dim Barizo BOM</ID>
           <Name>Dim Barizo BOM</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9dea9dad-5910-429d-a221-6a692fc5d34e">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="98817991-71c5-4837-a7fe-cef2f93b9c1c">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_DimBarizoBOM</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>View Barizo Fact Sale And BOM</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="01e2a18b-9188-48c2-9ed4-c4d8035b7200">
+          <ID>View Barizo Fact Sale And BOM</ID>
+          <Name>View Barizo Fact Sale And BOM</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="87430aca-91a4-4651-85cf-de820398259d">
+            <DataSourceViewID>SABZDW</DataSourceViewID>
+            <TableID>dbo_View_BarizoFactSaleAndBOM</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>

@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9e761bd0-25bc-400f-bcfa-e192c469f810" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d79b46db-f40e-4608-a8cc-c98b53786866" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DimBarizoProduct</ID>
   <Name>DimBarizoProduct</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -68,54 +68,61 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="57835ea6-7748-4f54-91ec-60533c51f231">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="0c2188b7-825b-45aa-8980-c8ad4f884cff">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="254ea14d-ccf6-4bf3-8857-b5331c6d676a">
+  <ErrorConfiguration dwd:design-time-name="c7403044-2d6c-4bb7-952c-a785beae8beb">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1065</Language>
+  <Translations>
+    <Translation dwd:design-time-name="6cad3c83-35bc-4f44-ae39-432b8c10eb0e">
+      <Language>1065</Language>
+      <Caption>جدول محصولات</Caption>
+    </Translation>
+  </Translations>
   <Attributes>
-    <Attribute dwd:design-time-name="2d42d18c-8d42-4767-a8c9-304d0bea3abd">
+    <Attribute dwd:design-time-name="db9ba8be-f181-4642-8f64-2e06786d7f83">
       <ID>Sales Product Id</ID>
       <Name>Sales Product Id</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ea280f48-85df-4a7d-b040-afe80bf91ce9">
+        <KeyColumn dwd:design-time-name="167bd200-8681-4671-80cb-242d94f0694f">
           <DataType>BigInt</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b756fc04-bf11-4abd-b3d1-b9fc38a5990b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2979d29d-0371-4517-82c9-0282982b0a41">
             <TableID>BarizoProduct</TableID>
             <ColumnID>SalesProductId</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="b560cf81-f58c-4e01-b734-65bce5c84763">
+      <NameColumn dwd:design-time-name="354764c5-7249-44eb-b000-f78e58653f37">
         <DataType>WChar</DataType>
         <DataSize>200</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="6aa2ae99-1ddf-44ff-a8db-79f4a93f402c">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="0b6a0762-7074-4166-906b-fc69637646ed">
           <TableID>BarizoProduct</TableID>
           <ColumnID>Product_Title</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="960086a1-de2a-4c44-a470-6f4abf231a58">
+        <AttributeRelationship dwd:design-time-name="47043334-4ba8-4c91-a05d-7b00cbaf13cb">
           <AttributeID>Product Code</AttributeID>
           <Name>Product Code</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="b3282a19-c635-43c6-8103-97413dcbb9d5">
+        <AttributeRelationship dwd:design-time-name="46a2ebe0-a7e7-4f4d-bba0-02707edb1eda">
           <AttributeID>Product Title</AttributeID>
           <Name>Product Title</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
-      <ValueColumn dwd:design-time-name="80605eef-9a3b-4382-a6a2-785be3692ce3">
+      <ValueColumn dwd:design-time-name="4cfd70da-2fbb-4cbf-8a25-003632d85411">
         <DataType>WChar</DataType>
         <DataSize>200</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="b2794815-9da0-4bc2-91e8-3b9efa33e148">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="1bcb91ce-fdc2-4be3-8221-bc6f1a0818db">
           <TableID>BarizoProduct</TableID>
           <ColumnID>Product_Title</ColumnID>
         </Source>
@@ -123,34 +130,46 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="866367f0-0b0a-46fb-a9b6-26b03ea8e453">
+    <Attribute dwd:design-time-name="1b2aecd3-4fb6-47d4-b6d6-81f04d1750f2">
       <ID>Product Code</ID>
       <Name>Product Code</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e38e4c5f-3fd3-482a-8abc-fb05c5661aac">
+        <KeyColumn dwd:design-time-name="738cb5d1-4934-4bc7-9fa7-533cd78249ff">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a015a909-da3d-4f94-9d90-31530b4a48fe">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="52ebee89-29a4-47b2-864e-f4b5b6fe8bd9">
             <TableID>BarizoProduct</TableID>
             <ColumnID>Product_Code</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="613af4c1-b69c-4717-aa19-31418bba4087">
+          <Language>1065</Language>
+          <Caption>کد محصول</Caption>
+        </Translation>
+      </Translations>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="f1ca771b-3d6d-41f3-90bb-a2470f1e80f3">
+    <Attribute dwd:design-time-name="a3fd260b-c3e6-492d-995b-587497d97fc4">
       <ID>Product Title</ID>
       <Name>Product Title</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="da778d12-a130-4efb-88bb-9e99260fc94f">
+        <KeyColumn dwd:design-time-name="966699de-f620-4a45-a4e8-51724a31abe5">
           <DataType>WChar</DataType>
           <DataSize>200</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c0957748-b99b-474e-bb8e-5674cbf7ebce">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a9070fc9-3bc8-49d5-a32e-4f87a0f457ae">
             <TableID>BarizoProduct</TableID>
             <ColumnID>Product_Title</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="be91f030-108c-43c4-bb03-30f1b56d5d90">
+          <Language>1065</Language>
+          <Caption>عنوان محصول</Caption>
+        </Translation>
+      </Translations>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
