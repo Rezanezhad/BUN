@@ -1,4 +1,4 @@
-﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0b99c3c1-2ba0-4179-9f67-855f3118f598" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e2a5a86d-a936-4961-a7fd-c4c159398fa4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>SABZ4</ID>
   <Name>SABZ4</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -9,10 +9,10 @@
   <Language>1033</Language>
   <Collation>Latin1_General_CI_AS</Collation>
   <Translations>
-    <Translation dwd:design-time-name="55bb4317-28fe-45a9-ad33-b1e4dbec6958">
+    <Translation dwd:design-time-name="a0e25300-5ddf-46bb-8342-b12c0f4bdbac">
       <Language>1065</Language>
     </Translation>
-    <Translation dwd:design-time-name="f42b7920-5006-4f87-99f7-dc4a21c2dae6">
+    <Translation dwd:design-time-name="fbcb34d2-8286-4a86-9607-0eea0637d6fb">
       <Language>1033</Language>
     </Translation>
   </Translations>
@@ -26,26 +26,26 @@
   <DataSources />
   <DataSourceViews />
   <Accounts>
-    <Account dwd:design-time-name="7bba7c4a-8c8e-435f-991f-bc07833abeca">
+    <Account dwd:design-time-name="6982a9e6-4384-4971-808c-a3e5e4f48dbe">
       <AccountType>Income</AccountType>
       <AggregationFunction>LastNonEmpty</AggregationFunction>
     </Account>
-    <Account dwd:design-time-name="9e006532-6691-4899-8e18-3a6090d63b75">
+    <Account dwd:design-time-name="a66ef1a1-8b48-43b3-98af-e7b391f57084">
       <AccountType>Balance</AccountType>
       <AggregationFunction>LastNonEmpty</AggregationFunction>
     </Account>
-    <Account dwd:design-time-name="98e1518d-784c-44f7-bc21-22585c6c0f78">
+    <Account dwd:design-time-name="d80d959d-f0d9-4a10-bc66-82510c2b572d">
       <AccountType>Flow</AccountType>
       <AggregationFunction>LastNonEmpty</AggregationFunction>
     </Account>
-    <Account dwd:design-time-name="0dd248dd-a140-4f13-8200-b16d39ead2fc">
+    <Account dwd:design-time-name="22278046-6934-4bad-9e04-b5e31ab004a1">
       <AccountType>Statistical</AccountType>
       <AggregationFunction>LastNonEmpty</AggregationFunction>
     </Account>
   </Accounts>
   <Roles />
   <DatabasePermissions>
-    <DatabasePermission dwd:design-time-name="ed0144e2-196c-40f6-ae70-630c88a03223">
+    <DatabasePermission dwd:design-time-name="22506425-db72-49e7-8cd7-719d4ed046fe">
       <ID>DatabasePermission</ID>
       <Name>DatabasePermission</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -53,7 +53,7 @@
       <RoleID>Role</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="7913070f-8e31-48f2-bf54-5af8d9d3969c">
+    <DatabasePermission dwd:design-time-name="1c808315-d92d-4e6f-8ed6-6b57564a9861">
       <ID>DatabasePermission 1</ID>
       <Name>DatabasePermission 1</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -61,7 +61,7 @@
       <RoleID>Role 1</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="b8883a9d-a974-4d24-8352-824a535b3f92">
+    <DatabasePermission dwd:design-time-name="fbd95e91-d517-45bd-aae3-a607e18100d0">
       <ID>DatabasePermission 2</ID>
       <Name>DatabasePermission 2</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -72,7 +72,7 @@
       <Read>Allowed</Read>
       <Administer>true</Administer>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="1b186e43-12ac-4885-ac46-b58ab8cec537">
+    <DatabasePermission dwd:design-time-name="d481ce92-66f1-4fbd-9cef-13789a8aad69">
       <ID>DatabasePermission 3</ID>
       <Name>DatabasePermission 3</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -80,7 +80,7 @@
       <RoleID>Role 3</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="6ca34ba1-a6dc-41b4-bac5-51d6c8d313f2">
+    <DatabasePermission dwd:design-time-name="eb40a4cc-ada5-41ce-bca0-f212f22b7738">
       <ID>DatabasePermission 4</ID>
       <Name>DatabasePermission 4</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -88,7 +88,7 @@
       <RoleID>Role 4</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="e4a4291a-11bb-4e5a-8a7c-a0d8fed13e31">
+    <DatabasePermission dwd:design-time-name="16af83c6-7063-4416-9807-891d3f7afe53">
       <ID>DatabasePermission 5</ID>
       <Name>DatabasePermission 5</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -96,7 +96,7 @@
       <RoleID>Role 5</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="b14118cc-48a6-4e88-ba22-a29f6f4dd0c4">
+    <DatabasePermission dwd:design-time-name="9c707062-7279-4849-b69d-920310abb9b1">
       <ID>DatabasePermission 6</ID>
       <Name>DatabasePermission 6</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -104,7 +104,7 @@
       <RoleID>Role 6</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="3340e5b8-0c30-461d-8a9a-7a91fae2f0ad">
+    <DatabasePermission dwd:design-time-name="65d87a5b-4f46-4180-a19f-3ce1855d20d3">
       <ID>DatabasePermission 7</ID>
       <Name>DatabasePermission 7</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -112,7 +112,7 @@
       <RoleID>Role 7</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="e982d8fb-5426-4b51-861d-92833591ba3c">
+    <DatabasePermission dwd:design-time-name="39dbdd28-6dda-40b3-a6e2-da789f9205c8">
       <ID>DatabasePermission 8</ID>
       <Name>DatabasePermission 8</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -120,7 +120,7 @@
       <RoleID>Role 8</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="b309975f-9611-4c34-985d-0fbe580d0ab2">
+    <DatabasePermission dwd:design-time-name="b308ca80-0846-405a-a777-e98d4e239d94">
       <ID>DatabasePermission 9</ID>
       <Name>DatabasePermission 9</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -128,7 +128,7 @@
       <RoleID>Role 9</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="f3f618e6-aafd-4376-a88e-7f85d08bd800">
+    <DatabasePermission dwd:design-time-name="abc25290-3771-486e-b63c-f61588a61075">
       <ID>DatabasePermission 10</ID>
       <Name>DatabasePermission 10</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -136,7 +136,7 @@
       <RoleID>Role 10</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="5c046d99-f007-4178-9364-bcf4a6c2ea57">
+    <DatabasePermission dwd:design-time-name="05e9480d-0bc5-4675-822d-a74f25dc633f">
       <ID>DatabasePermission 11</ID>
       <Name>DatabasePermission 11</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -144,7 +144,7 @@
       <RoleID>Role 11</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="38c355fe-17e6-4e6e-ba75-c26aebe56300">
+    <DatabasePermission dwd:design-time-name="4fec157d-597e-473d-814d-e2d953bbe3e4">
       <ID>DatabasePermission 12</ID>
       <Name>DatabasePermission 12</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -152,7 +152,7 @@
       <RoleID>Role 12</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="5de3a4c1-9752-43d0-882a-a189e8a2f4d5">
+    <DatabasePermission dwd:design-time-name="e9c0ea82-b135-49fa-bcea-08d8c82c13e1">
       <ID>DatabasePermission 13</ID>
       <Name>DatabasePermission 13</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -160,7 +160,7 @@
       <RoleID>Role 13</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="94e383a0-c589-4d51-8001-fb71e2a5ab81">
+    <DatabasePermission dwd:design-time-name="ca79a63b-c93d-45ab-9314-d07b0e19a1a5">
       <ID>DatabasePermission 14</ID>
       <Name>DatabasePermission 14</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -168,7 +168,7 @@
       <RoleID>Role 14</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="3ca867ce-c827-4971-8265-1f46a4a26c74">
+    <DatabasePermission dwd:design-time-name="e7ae43a0-1f1f-46f0-b793-934089e4f4e7">
       <ID>DatabasePermission 15</ID>
       <Name>DatabasePermission 15</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -176,7 +176,7 @@
       <RoleID>Role 15</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="10dd124b-8ecc-4f47-b337-466f4902242e">
+    <DatabasePermission dwd:design-time-name="db75ce7a-6b8f-453f-9d62-e98d38c50735">
       <ID>DatabasePermission 16</ID>
       <Name>DatabasePermission 16</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -184,7 +184,7 @@
       <RoleID>Role 16</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="fcd6bcfd-5977-4d7a-866d-7f642d54f658">
+    <DatabasePermission dwd:design-time-name="918e490b-8120-4bd7-8309-f4828345f067">
       <ID>DatabasePermission 17</ID>
       <Name>DatabasePermission 17</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -192,7 +192,7 @@
       <RoleID>Role 17</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="97f00de3-49d5-457b-ab3a-853b34236840">
+    <DatabasePermission dwd:design-time-name="e1c02e43-c3b4-4cf9-9d47-1dd21700258a">
       <ID>DatabasePermission 18</ID>
       <Name>DatabasePermission 18</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -200,7 +200,7 @@
       <RoleID>Role 18</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="91b41bc5-cf0c-48fe-af98-c2aefbdd4cbe">
+    <DatabasePermission dwd:design-time-name="6edc3eaf-a230-4359-ba72-d2c8cf37fbff">
       <ID>DatabasePermission 19</ID>
       <Name>DatabasePermission 19</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -208,7 +208,7 @@
       <RoleID>Role 19</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="ef34266b-2ae2-4a59-924c-e5e996d9fe59">
+    <DatabasePermission dwd:design-time-name="34685fe1-22db-43f6-ba3a-77b2281bb73d">
       <ID>DatabasePermission 20</ID>
       <Name>DatabasePermission 20</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -216,7 +216,7 @@
       <RoleID>Role 20</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="4d093e92-16a3-4c42-9603-1cdcc09fe367">
+    <DatabasePermission dwd:design-time-name="04cccd15-ea9d-4fef-a00c-6db992a4dc6c">
       <ID>DatabasePermission 21</ID>
       <Name>DatabasePermission 21</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -224,7 +224,7 @@
       <RoleID>Role 21</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="53aca307-34aa-4847-9cee-c6c5f9229a6e">
+    <DatabasePermission dwd:design-time-name="4c5fc217-446e-42a8-9740-7c2457c84a39">
       <ID>DatabasePermission 22</ID>
       <Name>DatabasePermission 22</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -232,7 +232,7 @@
       <RoleID>Role 22</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="09f90c50-3221-47c0-85f8-b6c1ee1d35a5">
+    <DatabasePermission dwd:design-time-name="0a5fe2a2-4717-4678-9d56-a5a92c2989e1">
       <ID>DatabasePermission 23</ID>
       <Name>DatabasePermission 23</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -240,7 +240,7 @@
       <RoleID>Role 23</RoleID>
       <Read>Allowed</Read>
     </DatabasePermission>
-    <DatabasePermission dwd:design-time-name="76c90829-8f4d-4002-8a83-454535d1062b">
+    <DatabasePermission dwd:design-time-name="64ffc28d-16ab-4264-9419-90abce18bd49">
       <ID>DatabasePermission 24</ID>
       <Name>DatabasePermission 24</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
