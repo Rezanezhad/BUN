@@ -21,5 +21,45 @@
         </Partition>
       </Partitions>
     </MeasureGroup>
+    <MeasureGroup>
+      <ID>Product Inventory Day By Day</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="8bc7a627-8f88-4db6-84e4-fd2c1a7a44e9">
+          <ID>Product Inventory Day By Day</ID>
+          <Name>Product Inventory Day By Day</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="aa34b687-60dd-4bf3-9681-c5327d4dfd8b">
+            <DataSourceViewID>SABZDW</DataSourceViewID>
+            <TableID>dbo_ProductInventoryDayByDay</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>PUB SLE Fact Return Sale</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="56c94707-952d-4449-bcbe-8778e07e1b5d">
+          <ID>PUB SLE Fact Return Sale</ID>
+          <Name>PUB SLE Fact Return Sale</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="92275a47-6892-4bda-86c9-c7bca7fe954d">
+            <DataSourceViewID>SABZDW</DataSourceViewID>
+            <TableID>SLE_PUB_SLE_Fact_ReturnSale</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
   </MeasureGroups>
 </Cube>
