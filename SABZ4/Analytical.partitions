@@ -61,5 +61,25 @@
         </Partition>
       </Partitions>
     </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact AVG Last6 Month</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="ba14352e-6975-489e-aaa1-78273ca3dc0b">
+          <ID>Fact AVG Last6 Month</ID>
+          <Name>Fact AVG Last6 Month</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1b69f0b6-e0dd-42f2-a53a-14caebdea144">
+            <DataSourceViewID>SABZDW</DataSourceViewID>
+            <TableID>FactAVGLast6Month</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
   </MeasureGroups>
 </Cube>
