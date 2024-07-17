@@ -2,26 +2,6 @@
   <ID>Analytical</ID>
   <MeasureGroups>
     <MeasureGroup>
-      <ID>PUB SLE Fact Sale</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="36ae995a-56c6-4a49-bca3-52260c574958">
-          <ID>PUB SLE Fact Sale</ID>
-          <Name>PUB SLE Fact Sale</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="eaf34b0d-56eb-4b34-b0ac-8844e45bac70">
-            <DataSourceViewID>SABZDW</DataSourceViewID>
-            <TableID>SLE.PUB_SLE_Fact_Sale</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
       <ID>Product Inventory Day By Day</ID>
       <Partitions>
         <Partition dwd:design-time-name="8bc7a627-8f88-4db6-84e4-fd2c1a7a44e9">
@@ -42,18 +22,38 @@
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
-      <ID>PUB SLE Fact Return Sale</ID>
+      <ID>STG Export Based On Inventory Vouchers</ID>
       <Partitions>
-        <Partition dwd:design-time-name="56c94707-952d-4449-bcbe-8778e07e1b5d">
-          <ID>PUB SLE Fact Return Sale</ID>
-          <Name>PUB SLE Fact Return Sale</Name>
+        <Partition dwd:design-time-name="8b9dd465-ff3b-49e1-ad1d-5fc06e43e784">
+          <ID>STG Export Based On Inventory Vouchers</ID>
+          <Name>STG Export Based On Inventory Vouchers</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="92275a47-6892-4bda-86c9-c7bca7fe954d">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1dbe22a0-7c23-4c1d-b621-c6744a5ab2d5">
             <DataSourceViewID>SABZDW</DataSourceViewID>
-            <TableID>SLE_PUB_SLE_Fact_ReturnSale</TableID>
+            <TableID>STG.ExportBasedOnInventoryVouchers</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact STG Inventory Vouchers</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="98cd1a92-ff10-43eb-a0b8-e88c594093eb">
+          <ID>Fact STG Inventory Vouchers</ID>
+          <Name>Fact STG Inventory Vouchers</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ebabdd1a-6a9c-48be-8c3a-1c9bc22b7b07">
+            <DataSourceViewID>SABZDW</DataSourceViewID>
+            <TableID>FactSTG_InventoryVouchers</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
