@@ -1,77 +1,1258 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="60a092b8-7ecc-4d48-ac91-eaa9d9d528a6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="49682ca1-95a7-435d-966e-557d5bc86fce" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Analytical</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Product Inventory Day By Day</ID>
       <Partitions>
-        <Partition dwd:design-time-name="8bc7a627-8f88-4db6-84e4-fd2c1a7a44e9">
+        <Partition dwd:design-time-name="adbd2bc4-ce47-4920-a07c-d8e498df0b1e">
           <ID>Product Inventory Day By Day</ID>
           <Name>Product Inventory Day By Day</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="aa34b687-60dd-4bf3-9681-c5327d4dfd8b">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a2934f6a-a33a-44bd-aa9e-f5c1e7b513fa">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_ProductInventoryDayByDay</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>12507215</EstimatedRows>
+          <AggregationDesignID>AggregationDesign_14030430</AggregationDesignID>
         </Partition>
       </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign_14030430</ID>
+          <Name>AggregationDesign_14030430</Name>
+          <CreatedTimestamp>2024-07-20T05:41:25.503333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2024-07-20T05:41:25.503333Z</LastSchemaUpdate>
+          <EstimatedRows>12507215</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Date Id</AttributeID>
+                  <EstimatedCount>4383</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Year</AttributeID>
+                  <EstimatedCount>12</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Month Order</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Month Title</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Store Id</AttributeID>
+                  <EstimatedCount>1634</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Organization Id</AttributeID>
+                  <EstimatedCount>6</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Product Id</AttributeID>
+                  <EstimatedCount>58830</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Organization ID</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Product Title</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Parent Title</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Product Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Parent Code</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Sales Organization Id</AttributeID>
+                  <EstimatedCount>11</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Sales Organization Title</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Sales Organization EN Title</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Parent Code</AttributeID>
+                  <EstimatedCount>5578</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Parent Sales Date Status</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Sales Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 1</ID>
+              <Name>Aggregation 1</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Store Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Sales Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 2</ID>
+              <Name>Aggregation 2</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 3</ID>
+              <Name>Aggregation 3</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Store Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 4</ID>
+              <Name>Aggregation 4</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Date Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Sales Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 5</ID>
+              <Name>Aggregation 5</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Sales Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 6</ID>
+              <Name>Aggregation 6</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Date Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 7</ID>
+              <Name>Aggregation 7</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 8</ID>
+              <Name>Aggregation 8</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Parent Code</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 9</ID>
+              <Name>Aggregation 9</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Product Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation a</ID>
+              <Name>Aggregation a</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Sales Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Parent Code</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation b</ID>
+              <Name>Aggregation b</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Parent Code</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation c</ID>
+              <Name>Aggregation c</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Product Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Sales Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation d</ID>
+              <Name>Aggregation d</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Product Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation e</ID>
+              <Name>Aggregation e</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Sales Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Parent Code</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
     </MeasureGroup>
     <MeasureGroup>
       <ID>STG Export Based On Inventory Vouchers</ID>
       <Partitions>
-        <Partition dwd:design-time-name="8b9dd465-ff3b-49e1-ad1d-5fc06e43e784">
+        <Partition dwd:design-time-name="35792ac4-3216-48f7-b471-42bd11edce95">
           <ID>STG Export Based On Inventory Vouchers</ID>
           <Name>STG Export Based On Inventory Vouchers</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1dbe22a0-7c23-4c1d-b621-c6744a5ab2d5">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="53e76a1c-80ca-4819-860d-8c1502ccd6bd">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>STG.ExportBasedOnInventoryVouchers</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>3611376</EstimatedRows>
+          <AggregationDesignID>AggregationDesign_14030430</AggregationDesignID>
         </Partition>
       </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign_14030430</ID>
+          <Name>AggregationDesign_14030430</Name>
+          <CreatedTimestamp>2024-07-20T05:52:42.366667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2024-07-20T05:52:42.366667Z</LastSchemaUpdate>
+          <EstimatedRows>3611376</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Date Id</AttributeID>
+                  <EstimatedCount>4383</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Year</AttributeID>
+                  <EstimatedCount>12</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Month Order</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Month Title</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Store Id</AttributeID>
+                  <EstimatedCount>1634</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Organization Id</AttributeID>
+                  <EstimatedCount>6</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Voucher Desc ID</AttributeID>
+                  <EstimatedCount>52</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ST</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Product Id</AttributeID>
+                  <EstimatedCount>58830</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Organization ID</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Product Title</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Parent Title</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Product Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Parent Code</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Sales Organization Id</AttributeID>
+                  <EstimatedCount>11</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Sales Organization Title</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Sales Organization EN Title</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Parent Code</AttributeID>
+                  <EstimatedCount>5578</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Parent Sales Date Status</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Voucher Desc ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 1</ID>
+              <Name>Aggregation 1</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Sales Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 2</ID>
+              <Name>Aggregation 2</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 3</ID>
+              <Name>Aggregation 3</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Sales Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
     </MeasureGroup>
     <MeasureGroup>
       <ID>Fact STG Inventory Vouchers</ID>
       <Partitions>
-        <Partition dwd:design-time-name="98cd1a92-ff10-43eb-a0b8-e88c594093eb">
+        <Partition dwd:design-time-name="9124288e-2d0c-4e1c-abdc-3b1c9af96575">
           <ID>Fact STG Inventory Vouchers</ID>
           <Name>Fact STG Inventory Vouchers</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ebabdd1a-6a9c-48be-8c3a-1c9bc22b7b07">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="226e0db3-ac64-455f-b2ea-9a02b760cda3">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>FactSTG_InventoryVouchers</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>4466801</EstimatedRows>
+          <AggregationDesignID>AggregationDesign_14030430</AggregationDesignID>
         </Partition>
       </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign_14030430</ID>
+          <Name>AggregationDesign_14030430</Name>
+          <CreatedTimestamp>2024-07-20T05:55:17.79Z</CreatedTimestamp>
+          <LastSchemaUpdate>2024-07-20T05:55:17.79Z</LastSchemaUpdate>
+          <EstimatedRows>4466801</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Date Id</AttributeID>
+                  <EstimatedCount>4383</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Year</AttributeID>
+                  <EstimatedCount>12</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Month Order</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Month Title</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Voucher Desc ID</AttributeID>
+                  <EstimatedCount>52</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>ST</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Store Id</AttributeID>
+                  <EstimatedCount>1634</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Organization Id</AttributeID>
+                  <EstimatedCount>6</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Product Id</AttributeID>
+                  <EstimatedCount>58830</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Organization ID</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Product Title</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Parent Title</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Product Code</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Parent Code</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Sales Organization Id</AttributeID>
+                  <EstimatedCount>11</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Sales Organization Title</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Sales Organization EN Title</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Parent Code</AttributeID>
+                  <EstimatedCount>5578</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Parent Sales Date Status</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Aggregations>
+            <Aggregation>
+              <ID>Aggregation 0</ID>
+              <Name>Aggregation 0</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Sales Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 1</ID>
+              <Name>Aggregation 1</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Store Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 2</ID>
+              <Name>Aggregation 2</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Voucher Desc ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Sales Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 3</ID>
+              <Name>Aggregation 3</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Voucher Desc ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 4</ID>
+              <Name>Aggregation 4</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Date Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 5</ID>
+              <Name>Aggregation 5</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Parent Code</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 6</ID>
+              <Name>Aggregation 6</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+            <Aggregation>
+              <ID>Aggregation 7</ID>
+              <Name>Aggregation 7</Name>
+              <Dimensions>
+                <Dimension>
+                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Year</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Voucher Desc ID</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUBGNRDimProductWithParent</CubeDimensionID>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>PUB SLE Dim Sales Organization</CubeDimensionID>
+                  <Attributes>
+                    <Attribute>
+                      <AttributeID>Sales Organization Id</AttributeID>
+                    </Attribute>
+                  </Attributes>
+                </Dimension>
+                <Dimension>
+                  <CubeDimensionID>DimSalesDateStatus</CubeDimensionID>
+                </Dimension>
+              </Dimensions>
+            </Aggregation>
+          </Aggregations>
+        </AggregationDesign>
+      </AggregationDesigns>
     </MeasureGroup>
     <MeasureGroup>
       <ID>Fact AVG Last6 Month</ID>
       <Partitions>
-        <Partition dwd:design-time-name="ba14352e-6975-489e-aaa1-78273ca3dc0b">
+        <Partition dwd:design-time-name="3327dcea-73bc-4788-98db-2d00bbca2060">
           <ID>Fact AVG Last6 Month</ID>
           <Name>Fact AVG Last6 Month</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1b69f0b6-e0dd-42f2-a53a-14caebdea144">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="44fdd182-4e08-4abe-a272-af3d2014529c">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>FactAVGLast6Month</TableID>
           </Source>

@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1d7e8ffb-7a84-4cb8-9b72-cc15321e5cf2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>GRL INV Dim Store</ID>
   <Name>GRL INV Dim Store</Name>
   <CreatedTimestamp>2020-02-29T07:25:10.276667Z</CreatedTimestamp>
@@ -68,11 +68,11 @@
   </Annotations>
   <LastProcessed>2022-02-22T03:10:55.74Z</LastProcessed>
   <State>Processed</State>
-  <Source xsi:type="DataSourceViewBinding">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="9449c81c-9b12-4f8a-85b6-e0a1ce455b90">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
   <UnknownMember>Hidden</UnknownMember>
-  <ErrorConfiguration>
+  <ErrorConfiguration dwd:design-time-name="6b7affe4-99d4-49a2-9e57-9332b5510cc4">
     <KeyNotFound>IgnoreError</KeyNotFound>
     <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
   </ErrorConfiguration>
@@ -80,46 +80,47 @@
   <Language>1065</Language>
   <UnknownMemberName>Unknown</UnknownMemberName>
   <Translations>
-    <Translation>
+    <Translation dwd:design-time-name="712d0e45-4bc7-4f64-9362-b934696c4246">
       <Language>1065</Language>
       <Caption>اطلاعات انبارها</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute>
+    <Attribute dwd:design-time-name="597a6dcd-5cf4-488b-bc8e-d09f6db32602">
       <ID>Store Id</ID>
       <Name>Store Id</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>1634</EstimatedCount>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="bc658519-4751-4fe5-a503-e96345742df5">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0b9b5c6b-490f-48d2-b144-5a8fa1c9db94">
             <TableID>dbo_GRL_INV_Dim_Store</TableID>
             <ColumnID>Store_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="e68b958d-9781-421a-83ff-fe51127fa1d0">
         <DataType>WChar</DataType>
         <DataSize>500</DataSize>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="5d431dd0-2c99-485e-84e8-069d53e1c062">
           <TableID>dbo_GRL_INV_Dim_Store</TableID>
           <ColumnID>Store_Tiltle</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="6157d438-1cb7-47a3-ac6d-83f5020b5df2">
           <Language>1065</Language>
           <Caption>عنوان انبار</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c2899a0b-68ad-417d-b408-3cc6d7b4404e">
           <AttributeID>Organization Id</AttributeID>
           <Name>Organization Id</Name>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="3de809fa-85da-4ecd-b947-04879836d2cb">
               <Language>1065</Language>
               <Caption>سازمان فروش</Caption>
             </Translation>
@@ -130,28 +131,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute>
+    <Attribute dwd:design-time-name="c8008f46-9db0-40ca-b25a-0870377e50e4">
       <ID>Organization Id</ID>
       <Name>Organization Id</Name>
+      <EstimatedCount>6</EstimatedCount>
       <KeyColumns>
-        <KeyColumn>
+        <KeyColumn dwd:design-time-name="c47e05eb-2890-4a4c-a4d6-f4b442e31b93">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b5c17525-55bc-41c2-8f8e-58d30973e4c8">
             <TableID>dbo_GRL_INV_Dim_Store</TableID>
             <ColumnID>Organization_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn>
+      <NameColumn dwd:design-time-name="68d208b1-383e-4947-ba1c-7a761dc6bf53">
         <DataType>WChar</DataType>
         <DataSize>500</DataSize>
-        <Source xsi:type="ColumnBinding">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d2bef50b-2318-4ab2-a147-e9e748c3f772">
           <TableID>SLE_PUB_SLE_Dim_SalesOrganization</TableID>
           <ColumnID>SalesOrganization_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="2891204a-ff0d-43b6-a6ff-5e40b0a2fcd5">
           <Language>1065</Language>
           <Caption>سازمان فروش</Caption>
         </Translation>
@@ -161,33 +163,33 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy>
+    <Hierarchy dwd:design-time-name="4b28b907-50b2-457e-8495-cb80ea34ff60">
       <ID>Hierarchy 1</ID>
       <Name>organization-store</Name>
       <Translations>
-        <Translation>
+        <Translation dwd:design-time-name="d5b147f3-1e99-40ab-9c95-3b7b75567ad7">
           <Language>1065</Language>
           <Caption>ساختار درختی سازمان فروش - انبار</Caption>
         </Translation>
       </Translations>
       <Levels>
-        <Level>
+        <Level dwd:design-time-name="3213c2a6-d78b-4794-8d3e-f0601e3e1721">
           <ID>Organization Id</ID>
           <Name>Organization Id</Name>
           <SourceAttributeID>Organization Id</SourceAttributeID>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="be254863-0667-4148-9f62-d83d11d5938d">
               <Language>1065</Language>
               <Caption>سازمان فروش</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level>
+        <Level dwd:design-time-name="ddf19b24-1041-4ca2-af6c-669829a3a550">
           <ID>Store Id</ID>
           <Name>Store Id</Name>
           <SourceAttributeID>Store Id</SourceAttributeID>
           <Translations>
-            <Translation>
+            <Translation dwd:design-time-name="3fb90609-cd97-4b96-95ea-f6d4864067c9">
               <Language>1065</Language>
               <Caption>انبار</Caption>
             </Translation>
@@ -196,12 +198,12 @@
       </Levels>
     </Hierarchy>
   </Hierarchies>
-  <ProactiveCaching>
+  <ProactiveCaching dwd:design-time-name="0b0216ce-cc8d-4cfe-83fd-c81aae7154b5">
     <SilenceInterval>-PT1S</SilenceInterval>
     <Latency>-PT1S</Latency>
     <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
     <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-    <Source xsi:type="ProactiveCachingInheritedBinding" />
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="40b293c1-6a37-4dba-adf6-342885a5a7b7" />
   </ProactiveCaching>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>

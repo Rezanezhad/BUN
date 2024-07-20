@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2cd714e5-7326-4375-95ac-64e2eb81dbe8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="842e2599-44e8-4632-bd26-3b6a68de6ee4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DimSTGVoucherDescription</ID>
   <Name>DimSTGVoucherDescription</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -68,50 +68,51 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="062d3126-6d61-4ea3-9beb-fe0ce4345e83">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="eb3292fb-da99-4f31-8b67-2286a61c5fb7">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="1ac6dfc9-5249-4fb9-8e3b-301fe809a31c">
+  <ErrorConfiguration dwd:design-time-name="d2203ed5-aa00-4f4f-b81f-0980626bfbd6">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="d039b4c2-fb44-49c8-a890-b980e7a06e6c">
+    <Attribute dwd:design-time-name="9956193c-e7ad-41cb-8e67-4f04a2d70376">
       <ID>Voucher Desc ID</ID>
       <Name>Voucher Desc ID</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>52</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2ae866b6-c46f-46c0-97a8-a0327eba3476">
+        <KeyColumn dwd:design-time-name="5e933f2d-3155-4d3e-8e78-a17b24f5d757">
           <DataType>BigInt</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="11d75e8b-1e8c-4fdb-abc0-ff98bdab5d44">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4b2e0536-001b-4c74-8342-cad67b6f2a9c">
             <TableID>DimSTGVoucherDescription</TableID>
             <ColumnID>VoucherDesc_ID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="2788fbdb-2e50-4e26-94e7-59bd92a1e1f2">
+      <NameColumn dwd:design-time-name="2aacc2c4-8a5c-4dd3-93ac-0b37574e51f1">
         <DataType>WChar</DataType>
         <DataSize>250</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="8c2fbb39-38d7-49f2-b893-91ab607c0891">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="54e9394f-cb50-427c-9bee-d9857b780883">
           <TableID>DimSTGVoucherDescription</TableID>
           <ColumnID>VoucherDesc</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="e4580e31-c2ed-49c2-b0dd-059eae26b2e9">
+        <AttributeRelationship dwd:design-time-name="6f89e3ce-6c9f-40b4-9db8-e11bc16ff06c">
           <AttributeID>ST</AttributeID>
           <Name>ST</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
-      <ValueColumn dwd:design-time-name="15e1452f-3457-4bca-8ea7-f6c9e3fa422e">
+      <ValueColumn dwd:design-time-name="13326cf6-ac23-4dd4-bd16-c4b9e8ff9690">
         <DataType>WChar</DataType>
         <DataSize>250</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="48c5fdbe-87fd-4c74-a181-bf8b99d47959">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="dd470729-736d-44e7-9d07-99135238dd70">
           <TableID>DimSTGVoucherDescription</TableID>
           <ColumnID>VoucherDesc</ColumnID>
         </Source>
@@ -119,13 +120,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="c438805d-1fb1-4f17-b0de-7a54663b18bf">
+    <Attribute dwd:design-time-name="7c9e9001-8ac3-491d-8ba0-f5a926ed00a9">
       <ID>ST</ID>
       <Name>ST</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4520dec0-66f9-4b30-b456-75553c0aea4c">
+        <KeyColumn dwd:design-time-name="87616db6-e871-45aa-9b39-2d21fb0c0ae0">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8bd03219-fd7d-4d8e-b84c-ff5d4d1d03a3">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="448ddf06-0fe9-4f81-b93b-15540cbb8e18">
             <TableID>DimSTGVoucherDescription</TableID>
             <ColumnID>ST</ColumnID>
           </Source>
