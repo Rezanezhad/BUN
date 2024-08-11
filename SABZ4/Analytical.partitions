@@ -1,17 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="af0ab3d4-9c31-43cc-8bb1-9ac4db408193" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3f4bf2de-9696-4788-8e80-77f3fe9d605d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Analytical</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Product Inventory Day By Day</ID>
       <Partitions>
-        <Partition dwd:design-time-name="9fbe4060-8b0f-414a-877a-cecf2c2c7df3">
+        <Partition dwd:design-time-name="c7e23bdf-1f3f-4704-bec5-37e9ee76063c">
           <ID>Product Inventory Day By Day</ID>
           <Name>Product Inventory Day By Day</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9d2d3b04-d8f4-4cab-846c-c8bdceeb366d">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d00a22d1-e513-4f24-a739-8bc93e7b9cc7">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_ProductInventoryDayByDay</TableID>
           </Source>
@@ -30,25 +30,6 @@
           <LastSchemaUpdate>2024-07-20T05:41:25.503333Z</LastSchemaUpdate>
           <EstimatedRows>12507215</EstimatedRows>
           <Dimensions>
-            <Dimension>
-              <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-              <Attributes>
-                <Attribute>
-                  <AttributeID>Date Id</AttributeID>
-                  <EstimatedCount>4383</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Year</AttributeID>
-                  <EstimatedCount>12</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Month Order</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Month Title</AttributeID>
-                </Attribute>
-              </Attributes>
-            </Dimension>
             <Dimension>
               <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
               <Attributes>
@@ -120,14 +101,6 @@
               <Name>Aggregation 0</Name>
               <Dimensions>
                 <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
-                </Dimension>
-                <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                   <Attributes>
                     <Attribute>
@@ -155,14 +128,6 @@
               <ID>Aggregation 1</ID>
               <Name>Aggregation 1</Name>
               <Dimensions>
-                <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
-                </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                   <Attributes>
@@ -192,9 +157,6 @@
               <Name>Aggregation 2</Name>
               <Dimensions>
                 <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                </Dimension>
-                <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                   <Attributes>
                     <Attribute>
@@ -218,9 +180,6 @@
               <Name>Aggregation 3</Name>
               <Dimensions>
                 <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                </Dimension>
-                <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                   <Attributes>
                     <Attribute>
@@ -243,14 +202,6 @@
               <ID>Aggregation 4</ID>
               <Name>Aggregation 4</Name>
               <Dimensions>
-                <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Date Id</AttributeID>
-                    </Attribute>
-                  </Attributes>
-                </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                   <Attributes>
@@ -280,9 +231,6 @@
               <Name>Aggregation 5</Name>
               <Dimensions>
                 <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                </Dimension>
-                <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                 </Dimension>
                 <Dimension>
@@ -306,14 +254,6 @@
               <Name>Aggregation 6</Name>
               <Dimensions>
                 <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Date Id</AttributeID>
-                    </Attribute>
-                  </Attributes>
-                </Dimension>
-                <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                 </Dimension>
                 <Dimension>
@@ -332,14 +272,6 @@
               <Name>Aggregation 7</Name>
               <Dimensions>
                 <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
-                </Dimension>
-                <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                 </Dimension>
                 <Dimension>
@@ -357,9 +289,6 @@
               <ID>Aggregation 8</ID>
               <Name>Aggregation 8</Name>
               <Dimensions>
-                <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                 </Dimension>
@@ -383,9 +312,6 @@
               <ID>Aggregation 9</ID>
               <Name>Aggregation 9</Name>
               <Dimensions>
-                <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                   <Attributes>
@@ -414,9 +340,6 @@
               <ID>Aggregation a</ID>
               <Name>Aggregation a</Name>
               <Dimensions>
-                <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                   <Attributes>
@@ -451,14 +374,6 @@
               <Name>Aggregation b</Name>
               <Dimensions>
                 <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
-                </Dimension>
-                <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                   <Attributes>
                     <Attribute>
@@ -486,9 +401,6 @@
               <ID>Aggregation c</ID>
               <Name>Aggregation c</Name>
               <Dimensions>
-                <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                 </Dimension>
@@ -518,14 +430,6 @@
               <Name>Aggregation d</Name>
               <Dimensions>
                 <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
-                </Dimension>
-                <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                 </Dimension>
                 <Dimension>
@@ -548,14 +452,6 @@
               <ID>Aggregation e</ID>
               <Name>Aggregation e</Name>
               <Dimensions>
-                <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
-                </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                 </Dimension>
@@ -587,14 +483,14 @@
     <MeasureGroup>
       <ID>STG Export Based On Inventory Vouchers</ID>
       <Partitions>
-        <Partition dwd:design-time-name="2473ed48-f1e8-492e-8853-99b5a13c422a">
+        <Partition dwd:design-time-name="85bf50e9-c701-4135-83cb-7a890fd997ed">
           <ID>STG Export Based On Inventory Vouchers</ID>
           <Name>STG Export Based On Inventory Vouchers</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fef0d83d-2dc4-4089-9b32-7ace60347821">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="269c46cc-e021-46c3-94f9-ebc7dfca7876">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>STG.ExportBasedOnInventoryVouchers</TableID>
           </Source>
@@ -613,25 +509,6 @@
           <LastSchemaUpdate>2024-07-20T05:52:42.366667Z</LastSchemaUpdate>
           <EstimatedRows>3611376</EstimatedRows>
           <Dimensions>
-            <Dimension>
-              <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-              <Attributes>
-                <Attribute>
-                  <AttributeID>Date Id</AttributeID>
-                  <EstimatedCount>4383</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Year</AttributeID>
-                  <EstimatedCount>12</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Month Order</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Month Title</AttributeID>
-                </Attribute>
-              </Attributes>
-            </Dimension>
             <Dimension>
               <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
               <Attributes>
@@ -715,9 +592,6 @@
               <Name>Aggregation 0</Name>
               <Dimensions>
                 <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                </Dimension>
-                <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                 </Dimension>
                 <Dimension>
@@ -743,9 +617,6 @@
               <ID>Aggregation 1</ID>
               <Name>Aggregation 1</Name>
               <Dimensions>
-                <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                   <Attributes>
@@ -778,14 +649,6 @@
               <Name>Aggregation 2</Name>
               <Dimensions>
                 <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
-                </Dimension>
-                <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                   <Attributes>
                     <Attribute>
@@ -811,14 +674,6 @@
               <ID>Aggregation 3</ID>
               <Name>Aggregation 3</Name>
               <Dimensions>
-                <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
-                </Dimension>
                 <Dimension>
                   <CubeDimensionID>GRL INV Dim Store</CubeDimensionID>
                 </Dimension>
@@ -848,14 +703,14 @@
     <MeasureGroup>
       <ID>Fact STG Inventory Vouchers</ID>
       <Partitions>
-        <Partition dwd:design-time-name="58db74a8-1b45-4ea7-b67d-55b150418281">
+        <Partition dwd:design-time-name="2614f285-521d-4483-8e7b-d152a64c8b2b">
           <ID>Fact STG Inventory Vouchers</ID>
           <Name>Fact STG Inventory Vouchers</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="907baf88-9af3-4c1d-ad05-2ba7ee832c5a">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="32e99a0e-3fd7-4d4d-80e3-91e842ab7286">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>FactSTG_InventoryVouchers</TableID>
           </Source>
@@ -874,25 +729,6 @@
           <LastSchemaUpdate>2024-07-20T05:55:17.79Z</LastSchemaUpdate>
           <EstimatedRows>4466801</EstimatedRows>
           <Dimensions>
-            <Dimension>
-              <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-              <Attributes>
-                <Attribute>
-                  <AttributeID>Date Id</AttributeID>
-                  <EstimatedCount>4383</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Year</AttributeID>
-                  <EstimatedCount>12</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Month Order</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Month Title</AttributeID>
-                </Attribute>
-              </Attributes>
-            </Dimension>
             <Dimension>
               <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
               <Attributes>
@@ -976,14 +812,6 @@
               <Name>Aggregation 0</Name>
               <Dimensions>
                 <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
-                </Dimension>
-                <Dimension>
                   <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
                 </Dimension>
                 <Dimension>
@@ -1015,9 +843,6 @@
               <Name>Aggregation 1</Name>
               <Dimensions>
                 <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                </Dimension>
-                <Dimension>
                   <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
                 </Dimension>
                 <Dimension>
@@ -1043,9 +868,6 @@
               <ID>Aggregation 2</ID>
               <Name>Aggregation 2</Name>
               <Dimensions>
-                <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                </Dimension>
                 <Dimension>
                   <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
                   <Attributes>
@@ -1082,14 +904,6 @@
               <ID>Aggregation 3</ID>
               <Name>Aggregation 3</Name>
               <Dimensions>
-                <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
-                </Dimension>
                 <Dimension>
                   <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
                   <Attributes>
@@ -1122,14 +936,6 @@
               <Name>Aggregation 4</Name>
               <Dimensions>
                 <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Date Id</AttributeID>
-                    </Attribute>
-                  </Attributes>
-                </Dimension>
-                <Dimension>
                   <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
                 </Dimension>
                 <Dimension>
@@ -1150,9 +956,6 @@
               <ID>Aggregation 5</ID>
               <Name>Aggregation 5</Name>
               <Dimensions>
-                <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                </Dimension>
                 <Dimension>
                   <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
                 </Dimension>
@@ -1180,9 +983,6 @@
               <Name>Aggregation 6</Name>
               <Dimensions>
                 <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                </Dimension>
-                <Dimension>
                   <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
                 </Dimension>
                 <Dimension>
@@ -1203,14 +1003,6 @@
               <ID>Aggregation 7</ID>
               <Name>Aggregation 7</Name>
               <Dimensions>
-                <Dimension>
-                  <CubeDimensionID>GRL GNR Dim Full Date 1</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Year</AttributeID>
-                    </Attribute>
-                  </Attributes>
-                </Dimension>
                 <Dimension>
                   <CubeDimensionID>DimSTGVoucherDescription</CubeDimensionID>
                   <Attributes>
@@ -1245,14 +1037,14 @@
     <MeasureGroup>
       <ID>Fact AVG Last6 Month</ID>
       <Partitions>
-        <Partition dwd:design-time-name="90808231-9d20-4681-a437-87f82992aae6">
+        <Partition dwd:design-time-name="ffc6a86f-e1b7-485b-9b40-3f078fc8e3f7">
           <ID>Fact AVG Last6 Month</ID>
           <Name>Fact AVG Last6 Month</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d7e8b32c-bd9f-4ac3-a265-67306c4a5764">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fa8fb4ec-2aec-4cc7-b351-061866caa85f">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>FactAVGLast6Month</TableID>
           </Source>
