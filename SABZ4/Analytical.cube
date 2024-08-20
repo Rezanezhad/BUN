@@ -8,9 +8,9 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="54" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-11910" scrolltop="-5487" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="80" x="32491" y="20585" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="55" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-11910" scrolltop="-5487" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="80" x="37634" y="22627" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
-              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
             <mouseicon>
               <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -447,6 +447,17 @@
               <point x="3506" y="3485" />
             </connector>
           </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="GRL_GNR_Dim_FullDateWeekly" left="6290" top="-487" logicalid="54" controlid="28" masterid="0" hint1="0" hint2="0" width="4551" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000c711000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="t" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
         </dds>
       </Value>
     </Annotation>
@@ -476,7 +487,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>0</Value>
+      <Value>-487</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -769,6 +780,168 @@
         </Hierarchy>
         <Hierarchy dwd:design-time-name="dc3cfa82-31ac-4767-8bb5-dd52a474a95f">
           <HierarchyID>Hierarchy 1 4</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="e936bcaa-fcba-4b9b-bbb7-254c4b20d71a">
+      <ID>GRL GNR Dim Full Date weekly</ID>
+      <Name>GRL GNR Dim Full Date weekly</Name>
+      <Translations>
+        <Translation dwd:design-time-name="72b5a431-1081-42f2-a711-10628591d2c3">
+          <Language>1065</Language>
+          <Caption>زمان بر اساس هفته</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>GRL GNR Dim Full Date weekly</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9f916774-3a03-4efe-949e-30d7638d4e4e">
+          <AttributeID>Date Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8570760e-77d1-4c04-9b3d-bfd0b35953fb">
+          <AttributeID>Month Order</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d9840b9b-6f24-4129-b892-f159f322388a">
+          <AttributeID>Week Day Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8be294e4-0582-4ec5-a932-b17041fde26c">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="574abacb-d543-4392-9eeb-76969b5a714f">
+          <AttributeID>Semi Year Order</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="00d21170-31ae-4ef8-b9a6-36b4e1158185">
+          <AttributeID>Semi Year Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7a2885ba-0168-4631-ad3f-39b462f66b85">
+          <AttributeID>m Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="25ea24d2-be8f-4cc5-9a55-997176406c61">
+          <AttributeID>Month Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1478429c-a7f4-4471-a6a8-39231ee619ae">
+          <AttributeID>Season Order</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="14c81c19-c6c8-40f0-9d2a-d363b6d6eef3">
+          <AttributeID>Season Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e80deaaf-cc83-45f4-b738-d1efb739edb2">
+          <AttributeID>Week Order</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8459f1f2-98f9-40b2-8224-b941375e6707">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ba7bf855-e808-4673-8756-b4f232d1df50">
+          <AttributeID>m Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3248dc04-5c4a-420e-99ea-1134a03879ac">
+          <AttributeID>m Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4ac40e03-1b0b-4612-8fa2-280d5f7da1e5">
+          <AttributeID>Week Order 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="63b1f13f-586e-4401-ad9a-9632ab2c505e">
+          <AttributeID>Sdatenoslash</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b3455c2c-63d0-461c-a68a-3a3fcc2d04b3">
+          <AttributeID>m Date 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d51ccb63-b811-4cbb-bcf6-1106c4061658">
+          <AttributeID>Week Customize</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="590ab6c6-4958-4818-8d00-9b2fc1fee127">
+          <AttributeID>Date Id Perv1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="10f5865b-6183-4ab5-bb85-c50db80a7107">
+          <AttributeID>Sdatenoslash 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f05fc5a6-49c4-4113-ad89-4b7a26276271">
+          <AttributeID>Fiscal Season 4</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3a86400c-d614-4f01-9a1e-73aa6303ef15">
+          <AttributeID>Fiscal Year 4</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4b859f8d-5004-4b19-9cab-f3b40c549089">
+          <AttributeID>Date Now</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4eb51b33-570d-4001-808f-062deb73ba6c">
+          <AttributeID>Calendar Date Calculations</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a4a29cfc-51c7-4ae4-b627-fceafad37c5a">
+          <AttributeID>Calendar Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bd31da47-9d29-4c1b-8f4f-f886d58a7302">
+          <AttributeID>Month Title</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="70517daf-0e13-4312-9eb2-0051f0679319">
+          <AttributeID>Month Id 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="378d2980-4cef-4707-a36e-10b118493170">
+          <AttributeID>Date Id 1</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="58945550-2f71-4a46-a120-a662cfd33d34">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="51f84d7b-df09-4e06-97ee-fbff59be7956">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="5a865ebc-ab29-4f50-bab5-9a8645165e57">
+          <HierarchyID>Hierarchy 2</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="b350c2e2-fd74-49be-9018-ba33c6863182">
+          <HierarchyID>Hierarchy 3 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="5fe9ae65-8949-4c7c-97c8-de70429318cd">
+          <HierarchyID>Hierarchy 3</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="17dd3d13-0da2-4458-822c-04a395dce855">
+          <HierarchyID>Hierarchy 1 1</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="d7b8dd9b-8183-4937-9145-5c0bb888e3af">
+          <HierarchyID>Hierarchy 10</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="8f21f7cf-d34d-4bce-9b4f-c50e2435cf48">
+          <HierarchyID>Hierarchy 4</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="e15419d0-6de7-4cc9-9edf-a15d30524874">
+          <HierarchyID>Hierarchy 1 2</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="38f2c5ea-bf5f-48ed-b12f-6125a56eb3c9">
+          <HierarchyID>Hierarchy 5</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="abf9afe1-706c-4fa4-bddb-a4345495c961">
+          <HierarchyID>Hierarchy 9</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="47b589c1-4888-4d7d-89e8-49f92fad9b9c">
+          <HierarchyID>Hierarchy 6</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="ded51554-0913-4b17-84bf-2cbd5c50b9a0">
+          <HierarchyID>Hierarchy 7</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="cf44ce93-dddb-4e4a-9a3f-1e4b10838b36">
+          <HierarchyID>Hierarchy 8</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="19717e4e-eb42-4fd2-91a8-c5157c5d9cb6">
+          <HierarchyID>Hierarchy 1 3</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="d4cec7e0-09d1-4f43-ba9d-24878b1dff48">
+          <HierarchyID>Hierarchy 11</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="ff69ff5e-3ee7-49a5-ad31-0f955eef179d">
+          <HierarchyID>Hierarchy 12</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="2ae7620f-fd2f-41db-93ec-0168af3ecd96">
+          <HierarchyID>Hierarchy 13</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="d25d233a-77f6-483b-8f2e-daaccd00a6c0">
+          <HierarchyID>Hierarchy 14</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="cbaa46af-60f1-4a87-aa2e-9a1b9ff117f8">
+          <HierarchyID>Hierarchy 15</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="0906a793-b947-401d-9272-84cd0c899ab9">
+          <HierarchyID>Hierarchy 16</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
@@ -1561,38 +1734,32 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE;  
+CALCULATE;   
 CREATE MEMBER CURRENTCUBE.[Measures].[NetSalesQTY]
  AS -[Measures].[SaleQTY], 
-VISIBLE = 1;    
+VISIBLE = 1;     
 CREATE MEMBER CURRENTCUBE.[Measures].[Supply]
  AS [Measures].[MonthlyInventoryQTY]/[Measures].[AVG Last6 Month], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;   
+VISIBLE = 1;    
 CREATE MEMBER CURRENTCUBE.[Measures].[DailyInventoryValue]
  AS [Measures].[Maximum Product Fee]*[Measures].[DailyInventoryQTY], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;   
+VISIBLE = 1;    
 CREATE MEMBER CURRENTCUBE.[Measures].[MonthlyInventoryValue]
  AS [Measures].[Maximum Product Fee]*[Measures].[MonthlyInventoryQTY], 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1;   
+VISIBLE = 1;    
 CREATE MEMBER CURRENTCUBE.[Measures].[YearlyInventoryValue]
  AS [Measures].[Maximum Product Fee]*[Measures].[YearlyInventoryQTY], 
 FORMAT_STRING = "#,##;-#,##", 
 VISIBLE = 1; 
-CREATE MEMBER CURRENTCUBE.[Measures].[Current Date Id int]
- AS EXISTS(
-    [GRL GNR Dim Full Date].[Hierarchy].[Date Id-int].members,
-   [GRL GNR Dim Full Date].[Hierarchy].CurrentMember
-  ).ITEM(0).Member_Caption, 
-VISIBLE = 1  ; 
-CREATE MEMBER CURRENTCUBE.[Measures].[Current Launch Date int]
- AS EXISTS(
-    [DimSalesDateStatus].[Min Date Id].members,
-   [DimSalesDateStatus].CurrentMember
-  ).ITEM(0).Member_Caption, 
-VISIBLE = 1  ; </Text>
+CREATE DYNAMIC SET CURRENTCUBE.[set Full Date weekly Date Id]
+as  Existing [GRL GNR Dim Full Date weekly].[Date Id].allmembers
+   ; 
+CREATE DYNAMIC SET CURRENTCUBE.[set DimProductWithParent Product  Id]
+as  Existing [PUBGNRDimProductWithParent].[Product Id].allmembers
+   ; </Text>
         </Command>
       </Commands>
     </MdxScript>
