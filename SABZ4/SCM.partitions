@@ -102,26 +102,6 @@
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
-      <ID>SCM Fact Print Order</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="697d1619-f266-4a68-9773-ea293a7125b5">
-          <ID>SCM Fact Print Order</ID>
-          <Name>SCM Fact Print Order</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9ca36b47-552d-404b-8511-1a71c92d301f">
-            <DataSourceViewID>SABZDW</DataSourceViewID>
-            <TableID>SCM_Fact_PrintOrder</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
       <ID>SCM FACT Stock Inventory</ID>
       <Partitions>
         <Partition dwd:design-time-name="25b4334f-51a2-434e-8273-59c193eb21ba">
@@ -134,6 +114,26 @@
           <Source xsi:type="DsvTableBinding" dwd:design-time-name="673ab0d4-bb97-41c7-9769-48ad185b0914">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>Fact_SCM_StockInventory</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>PUB CRM Fact Print Order</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d3877499-de0a-43bf-a60a-329b3410ed4b">
+          <ID>PUB CRM Fact Print Order</ID>
+          <Name>PUB CRM Fact Print Order</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="35205e14-c92b-4cd9-ada1-b4c4b66a5d3e">
+            <DataSourceViewID>SABZDW</DataSourceViewID>
+            <TableID>dbo_PUB_CRM_Fact_PrintOrder</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
