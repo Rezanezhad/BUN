@@ -1,0 +1,161 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="616c4675-dc62-427a-8a96-063cae8049b6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>PUBGNRDimDashboardDarsi</ID>
+  <Name>PUBGNRDimDashboardDarsi</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a8ebd712-75a4-4026-9ec6-1d1a28f7123c">
+    <DataSourceViewID>SABZDW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="b0ebd9d1-e089-4060-b438-eb681d0d0ac4">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="c92405f2-432c-4fa8-89b3-0570c9dd624e">
+      <ID>Project Type ID</ID>
+      <Name>Project Type ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5000253d-422c-4b00-9b3d-00ff98357560">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bb9cc051-7fe6-4e40-906f-12cb8d93d904">
+            <TableID>PUB_GNR_Dim_DashboardDarsi</TableID>
+            <ColumnID>ProjectTypeID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="0a85f236-7632-45a4-850e-70b204b80ce1">
+          <AttributeID>Parent Code</AttributeID>
+          <Name>Parent Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bd50b23e-b3d9-43b4-946a-b762955b69db">
+          <AttributeID>Sabad</AttributeID>
+          <Name>Sabad</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="484feea4-fd38-44b5-81ba-f2b7bad586a6">
+          <AttributeID>Project Type</AttributeID>
+          <Name>Project Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8992c48f-fcee-44a0-a369-fe9f8c2b8fdc">
+          <AttributeID>Project Year</AttributeID>
+          <Name>Project Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="28a16e79-c877-40fc-99cd-40d67b5e0643">
+      <ID>Parent Code</ID>
+      <Name>Parent Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1a3669ac-2da5-4789-bee4-9a3153b36c15">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="488f620e-22ed-46e9-ab33-36b07647bdca">
+            <TableID>PUB_GNR_Dim_DashboardDarsi</TableID>
+            <ColumnID>ParentCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="53699845-c9e8-414e-9887-5fb170dc3caa">
+      <ID>Sabad</ID>
+      <Name>Sabad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0acc86a2-b1c7-4e60-a650-7a368ae29324">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="675fa045-29f6-41a1-a999-f49cc121f11e">
+            <TableID>PUB_GNR_Dim_DashboardDarsi</TableID>
+            <ColumnID>Sabad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="924120b1-0add-41ff-991e-d9d54a61170d">
+      <ID>Project Type</ID>
+      <Name>Project Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="130108b3-a2bf-4d10-94a7-7775e93f944f">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="366dbf34-4bd9-4f58-aa9b-e4a83ae73ed5">
+            <TableID>PUB_GNR_Dim_DashboardDarsi</TableID>
+            <ColumnID>ProjectType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2e30a2c6-0de0-49f6-95bc-e0ebe4ad6690">
+      <ID>Project Year</ID>
+      <Name>Project Year</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7947e2ef-0470-4a4d-b81a-8034ba215a71">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0146d2d6-b4c5-484d-a992-5a0f115aeb1e">
+            <TableID>PUB_GNR_Dim_DashboardDarsi</TableID>
+            <ColumnID>ProjectYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
