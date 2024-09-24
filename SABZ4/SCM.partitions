@@ -1,37 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="991e11c6-6617-4246-bad2-4999dbc654ae" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0f62f636-8eee-4db6-bc14-d6b66c775cb1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>SCM</ID>
   <MeasureGroups>
     <MeasureGroup>
-      <ID>SCM DIM Print Order</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="5b52077b-7390-41fe-9d4e-9a54408b9cb7">
-          <ID>SCM DIM Print Order</ID>
-          <Name>SCM DIM Print Order</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a5177c06-dd8f-4e06-87a8-c11d29c87cfd">
-            <DataSourceViewID>SABZDW</DataSourceViewID>
-            <TableID>SCM_DIM_PrintOrder</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
       <ID>Vw PUB SLE Fact Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="89ff879b-d02a-4033-8c38-9d913cc5aebc">
+        <Partition dwd:design-time-name="7af54e89-7596-4fbc-9a22-271fe82606dc">
           <ID>Vw PUB SLE Fact Sale</ID>
           <Name>Vw PUB SLE Fact Sale</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ae349a85-6b5e-4d4a-87e6-63bb4e10514d">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9483eb80-7162-42be-a9d1-9c028e15c19c">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_Vw_PUB_SLE_Fact_Sale</TableID>
           </Source>
@@ -44,14 +24,14 @@
     <MeasureGroup>
       <ID>Vw PUB SLE Fact Return Sale</ID>
       <Partitions>
-        <Partition dwd:design-time-name="9fe719e4-d83e-4884-91a8-685a139ae83e">
+        <Partition dwd:design-time-name="a7a0e618-e86d-4e9d-979d-1a9b391295de">
           <ID>Vw PUB SLE Fact Return Sale</ID>
           <Name>Vw PUB SLE Fact Return Sale</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ea6e1edc-8f69-4b61-ad13-b0a20964226b">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="454983d1-8c23-43fe-918a-f9d8eb69038e">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_Vw_PUB_SLE_Fact_ReturnSale</TableID>
           </Source>
@@ -64,14 +44,14 @@
     <MeasureGroup>
       <ID>Product Daily Inventory</ID>
       <Partitions>
-        <Partition dwd:design-time-name="5483ed7c-d907-4c70-8c91-2f064d34d20e">
+        <Partition dwd:design-time-name="bf2b7230-b029-467e-8ea0-b07e10d8cccb">
           <ID>Product Daily Inventory</ID>
           <Name>Product Daily Inventory</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6aed9ba5-d9e1-4b94-bd19-1b9e38010cbc">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a5b093e0-00bd-42b2-a97f-50b08ae1e9a1">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>STG_Product_DailyInventory</TableID>
           </Source>
@@ -84,14 +64,14 @@
     <MeasureGroup>
       <ID>Vw PUB SLE Fact Sale For Discount</ID>
       <Partitions>
-        <Partition dwd:design-time-name="46042a85-e8f6-4684-9087-98a4b71dc1c7">
+        <Partition dwd:design-time-name="47f74c97-8af3-4124-b324-933f2d47cebc">
           <ID>Vw PUB SLE Fact Sale For Discount</ID>
           <Name>Vw PUB SLE Fact Sale For Discount</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8cd72092-6fd0-4853-9b6e-b513fd73cec8">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="011a3dd9-4bdd-4a92-b67f-1042747e43fb">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_Vw_PUB_SLE_Fact_Sale_ForDiscount</TableID>
           </Source>
@@ -104,14 +84,14 @@
     <MeasureGroup>
       <ID>SCM FACT Stock Inventory</ID>
       <Partitions>
-        <Partition dwd:design-time-name="25b4334f-51a2-434e-8273-59c193eb21ba">
+        <Partition dwd:design-time-name="c8fbf4cd-992a-4e93-804d-3454c494ffcb">
           <ID>SCM FACT Stock Inventory</ID>
           <Name>SCM FACT Stock Inventory</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="673ab0d4-bb97-41c7-9769-48ad185b0914">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a87c2a1f-8916-402b-84d9-2b588a4ed1fb">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>Fact_SCM_StockInventory</TableID>
           </Source>
@@ -122,18 +102,18 @@
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
-      <ID>PUB CRM Fact Print Order</ID>
+      <ID>SCM Fact Print Order</ID>
       <Partitions>
-        <Partition dwd:design-time-name="d3877499-de0a-43bf-a60a-329b3410ed4b">
-          <ID>PUB CRM Fact Print Order</ID>
-          <Name>PUB CRM Fact Print Order</Name>
+        <Partition dwd:design-time-name="0c617d74-f21a-4e9e-91c8-0f3e6dd32980">
+          <ID>SCM Fact Print Order</ID>
+          <Name>SCM Fact Print Order</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="35205e14-c92b-4cd9-ada1-b4c4b66a5d3e">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6a893fd1-2c70-48b5-960b-9f71083276fa">
             <DataSourceViewID>SABZDW</DataSourceViewID>
-            <TableID>dbo_PUB_CRM_Fact_PrintOrder</TableID>
+            <TableID>SCM_Fact_PrintOrder</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
