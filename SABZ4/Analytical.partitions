@@ -1,17 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="eec86d1d-67d3-477d-89db-8d31d549fe45" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3f4bf2de-9696-4788-8e80-77f3fe9d605d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Analytical</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Product Inventory Day By Day</ID>
       <Partitions>
-        <Partition dwd:design-time-name="df0c4366-5374-4d54-a179-62ccf6e6ea7a">
+        <Partition dwd:design-time-name="c7e23bdf-1f3f-4704-bec5-37e9ee76063c">
           <ID>Product Inventory Day By Day</ID>
           <Name>Product Inventory Day By Day</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a92be310-3030-4458-972b-4cc74697015f">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d00a22d1-e513-4f24-a739-8bc93e7b9cc7">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>dbo_ProductInventoryDayByDay</TableID>
           </Source>
@@ -483,14 +483,14 @@
     <MeasureGroup>
       <ID>STG Export Based On Inventory Vouchers</ID>
       <Partitions>
-        <Partition dwd:design-time-name="699b4a8c-413e-41dc-9ad3-565b83e2879a">
+        <Partition dwd:design-time-name="85bf50e9-c701-4135-83cb-7a890fd997ed">
           <ID>STG Export Based On Inventory Vouchers</ID>
           <Name>STG Export Based On Inventory Vouchers</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4e464af8-0eab-491c-bc3d-acea0d23ccf5">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="269c46cc-e021-46c3-94f9-ebc7dfca7876">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>STG.ExportBasedOnInventoryVouchers</TableID>
           </Source>
@@ -703,14 +703,14 @@
     <MeasureGroup>
       <ID>Fact STG Inventory Vouchers</ID>
       <Partitions>
-        <Partition dwd:design-time-name="7ec01374-091c-456d-b825-c54e3841fc80">
+        <Partition dwd:design-time-name="2614f285-521d-4483-8e7b-d152a64c8b2b">
           <ID>Fact STG Inventory Vouchers</ID>
           <Name>Fact STG Inventory Vouchers</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8470772d-1279-4998-954d-50467d4af7d5">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="32e99a0e-3fd7-4d4d-80e3-91e842ab7286">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>FactSTG_InventoryVouchers</TableID>
           </Source>
@@ -1037,14 +1037,14 @@
     <MeasureGroup>
       <ID>Fact AVG Last6 Month</ID>
       <Partitions>
-        <Partition dwd:design-time-name="485fc819-7d91-428b-bdcb-f595d602d1d3">
+        <Partition dwd:design-time-name="ffc6a86f-e1b7-485b-9b40-3f078fc8e3f7">
           <ID>Fact AVG Last6 Month</ID>
           <Name>Fact AVG Last6 Month</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b70e4cc5-e451-44eb-ba1c-07f69e431175">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fa8fb4ec-2aec-4cc7-b351-061866caa85f">
             <DataSourceViewID>SABZDW</DataSourceViewID>
             <TableID>FactAVGLast6Month</TableID>
           </Source>
