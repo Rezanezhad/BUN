@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="58991f1a-daef-497f-8b9b-f2136a7749a3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="088d33ec-06aa-48ee-b82d-448d4f9f429b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>PUB SLE Dim Sales Organization</ID>
   <Name>PUB SLE Dim Sales Organization</Name>
   <CreatedTimestamp>2020-02-29T07:25:10.34Z</CreatedTimestamp>
@@ -8,9 +8,9 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2745" scrolltop="-7197" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9631" y="21325" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2745" scrolltop="-7197" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="0" y="0" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
-              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+              <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
             </font>
             <mouseicon>
               <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -83,59 +83,261 @@
   </Annotations>
   <LastProcessed>2022-02-22T03:10:50.886667Z</LastProcessed>
   <State>Processed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="462ff5c3-ba5e-4220-96f2-5fd2ff014736">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8ca932d2-163c-452f-9c46-f8131283ebed">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="b9a89063-4dd1-4cfd-9513-a33aa2d91305">
+  <ErrorConfiguration dwd:design-time-name="cce01aed-d6ee-4ce4-b52a-0472ee80b657">
     <KeyNotFound>IgnoreError</KeyNotFound>
     <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <DimensionPermissions>
+    <DimensionPermission dwd:design-time-name="5032340b-d062-4473-8b78-6f8340954435">
+      <ID>DimensionPermission</ID>
+      <Name>DimensionPermission</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 25</RoleID>
+      <Read>Allowed</Read>
+      <AttributePermissions>
+        <AttributePermission dwd:design-time-name="7dc2bee8-513a-46ed-aeb3-0e61a45e7ddd">
+          <AttributeID>Sales Organization EN Title</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization EN Title].&amp;[KheiliSabz]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+        <AttributePermission dwd:design-time-name="419c12b1-baa7-4c7b-8027-25604a327bd8">
+          <AttributeID>Sales Organization Id</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[2]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+        <AttributePermission dwd:design-time-name="238e3f85-f2d1-4358-b858-dbb58257a999">
+          <AttributeID>Sales Organization Title</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization Title].&amp;[خیلی سبز]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+      </AttributePermissions>
+    </DimensionPermission>
+    <DimensionPermission dwd:design-time-name="4abdf8cb-7057-4359-b30e-6c8dee1a2763">
+      <ID>DimensionPermission 1</ID>
+      <Name>DimensionPermission 1</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 27</RoleID>
+      <Read>Allowed</Read>
+      <AttributePermissions>
+        <AttributePermission dwd:design-time-name="7dc14274-bfd1-4db8-8b35-da6381584b65">
+          <AttributeID>Sales Organization EN Title</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization EN Title].&amp;[Azmoon]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+        <AttributePermission dwd:design-time-name="40477d32-d7fa-422b-b176-f046ee52d69e">
+          <AttributeID>Sales Organization Id</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[5]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+        <AttributePermission dwd:design-time-name="945225fc-ed67-4deb-b3ba-8054d1699865">
+          <AttributeID>Sales Organization Title</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization Title].&amp;[آزمون]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+      </AttributePermissions>
+    </DimensionPermission>
+    <DimensionPermission dwd:design-time-name="4d1a2b76-4241-4997-8bc0-b6ccfa34f3f6">
+      <ID>DimensionPermission 2</ID>
+      <Name>DimensionPermission 2</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 28</RoleID>
+      <Read>Allowed</Read>
+      <AttributePermissions>
+        <AttributePermission dwd:design-time-name="c20fbfc4-e9e8-46c5-a38c-accca92954bf">
+          <AttributeID>Sales Organization EN Title</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization EN Title].&amp;[Elipon]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+        <AttributePermission dwd:design-time-name="6782cb46-9130-4d39-8c79-940c87f1b2ab">
+          <AttributeID>Sales Organization Id</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[8]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+        <AttributePermission dwd:design-time-name="2753c1ba-2f40-426d-9b0d-c14f306ac9ba">
+          <AttributeID>Sales Organization Title</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization Title].&amp;[الیپون]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+      </AttributePermissions>
+    </DimensionPermission>
+    <DimensionPermission dwd:design-time-name="9dcd7e1f-d852-4d2a-8fcb-d5ba46d72564">
+      <ID>DimensionPermission 3</ID>
+      <Name>DimensionPermission 3</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 29</RoleID>
+      <Read>Allowed</Read>
+      <AttributePermissions>
+        <AttributePermission dwd:design-time-name="6f5af09f-cff9-4c71-ab71-9c8b8e1b7c22">
+          <AttributeID>Sales Organization EN Title</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization EN Title].&amp;[Khoob]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+        <AttributePermission dwd:design-time-name="6d708411-f956-47b3-9889-50d698e937cb">
+          <AttributeID>Sales Organization Id</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[7]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+        <AttributePermission dwd:design-time-name="c0c53221-55c1-4b02-825e-95858c5898b2">
+          <AttributeID>Sales Organization Title</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization Title].&amp;[خوب]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+      </AttributePermissions>
+    </DimensionPermission>
+    <DimensionPermission dwd:design-time-name="8fc5568a-7c39-4312-9529-3bbbe7d95b16">
+      <ID>DimensionPermission 4</ID>
+      <Name>DimensionPermission 4</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 30</RoleID>
+      <Read>Allowed</Read>
+      <AttributePermissions>
+        <AttributePermission dwd:design-time-name="fae6bd1e-00e5-470d-9dba-fff129f17f94">
+          <AttributeID>Sales Organization EN Title</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization EN Title].&amp;[Montasheran]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+        <AttributePermission dwd:design-time-name="765b0839-aeeb-4783-bd68-4fe830ecddf7">
+          <AttributeID>Sales Organization Id</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[9]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+        <AttributePermission dwd:design-time-name="d14f5d55-2401-494f-8c80-c9d7a32fee43">
+          <AttributeID>Sales Organization Title</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization Title].&amp;[منتشران]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+      </AttributePermissions>
+    </DimensionPermission>
+    <DimensionPermission dwd:design-time-name="32a858a3-3c9b-4237-b324-acecc0fc0dd7">
+      <ID>DimensionPermission 5</ID>
+      <Name>DimensionPermission 5</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 31</RoleID>
+      <Read>Allowed</Read>
+      <AttributePermissions>
+        <AttributePermission dwd:design-time-name="c766c59a-6bac-4b73-a691-3ea6581ef174">
+          <AttributeID>Sales Organization EN Title</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization EN Title].&amp;[Moon]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+        <AttributePermission dwd:design-time-name="e5bb2a72-0dc7-4f3e-bef4-5f5ce6ce5363">
+          <AttributeID>Sales Organization Id</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[12]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+        <AttributePermission dwd:design-time-name="696fda47-d855-4fe8-b4ae-9bff5b456cf6">
+          <AttributeID>Sales Organization Title</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization Title].&amp;[مون]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+      </AttributePermissions>
+    </DimensionPermission>
+    <DimensionPermission dwd:design-time-name="84d0100b-0444-4958-81f5-4cc79a7c4bb9">
+      <ID>DimensionPermission 6</ID>
+      <Name>DimensionPermission 6</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 32</RoleID>
+      <Read>Allowed</Read>
+      <AttributePermissions>
+        <AttributePermission dwd:design-time-name="629448b9-c1b3-4714-beec-bb0f8361decb">
+          <AttributeID>Sales Organization EN Title</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization EN Title].&amp;[Porteghal]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+        <AttributePermission dwd:design-time-name="37e6f376-67b7-4a9b-9215-927c30e46f2b">
+          <AttributeID>Sales Organization Id</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[3]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+        <AttributePermission dwd:design-time-name="2c7c4540-1bc9-4bef-bd75-9a59cd109bb8">
+          <AttributeID>Sales Organization Title</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization Title].&amp;[پرتقال]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+      </AttributePermissions>
+    </DimensionPermission>
+    <DimensionPermission dwd:design-time-name="dbd0929a-3d5f-4bc0-bd00-ff7e4e6f52c9">
+      <ID>DimensionPermission 7</ID>
+      <Name>DimensionPermission 7</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 33</RoleID>
+      <Read>Allowed</Read>
+      <AttributePermissions>
+        <AttributePermission dwd:design-time-name="44559c90-7ce4-4a1f-a6e4-be6ae79ba3e7">
+          <AttributeID>Sales Organization EN Title</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization EN Title].&amp;[Zingo]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+        <AttributePermission dwd:design-time-name="7dab1847-97ed-48cf-8990-6008f345de38">
+          <AttributeID>Sales Organization Id</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization Id].&amp;[4]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+        <AttributePermission dwd:design-time-name="71621536-e4fb-4502-a2b3-ddf2d99717a0">
+          <AttributeID>Sales Organization Title</AttributeID>
+          <AllowedSet>{[PUB SLE Dim Sales Organization].[Sales Organization Title].&amp;[زینگو]}</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+      </AttributePermissions>
+    </DimensionPermission>
+  </DimensionPermissions>
   <Language>1065</Language>
   <UnknownMemberName>Unknown</UnknownMemberName>
   <Translations>
-    <Translation dwd:design-time-name="f18f2822-3981-4585-8b40-c26f2e96cf1b">
+    <Translation dwd:design-time-name="7dce11e8-39d0-47e5-9892-bfd66fed1bba">
       <Language>1065</Language>
       <Caption>سازمان های فروش</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute dwd:design-time-name="2aa552b5-33a7-4c11-90e8-c9a1e57579b6">
+    <Attribute dwd:design-time-name="e772fb20-5590-46c8-991a-fbe8be12eaa5">
       <ID>Sales Organization Id</ID>
       <Name>Sales Organization Id</Name>
       <Usage>Key</Usage>
       <EstimatedCount>11</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="61576da2-db8f-4748-b545-ed7b4c536c1e">
+        <KeyColumn dwd:design-time-name="8b3d7b92-9758-4789-b0b5-00fcc78b9507">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d51ba5e0-f923-4adc-a373-c1b3ceeb4d15">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e95b54d7-f159-4b8f-b0ca-d77a7a7149c4">
             <TableID>SLE_PUB_SLE_Dim_SalesOrganization</TableID>
             <ColumnID>SalesOrganization_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="55bfd53a-f43d-4229-a131-846a59f4ec0f">
+      <NameColumn dwd:design-time-name="0e112dcd-af8b-4685-aa2d-74222a6b1afd">
         <DataType>WChar</DataType>
         <DataSize>500</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="7b7a239a-c1ee-4488-b517-e2a9d738bd58">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="11993d0c-6457-4be7-b66d-7add0766f195">
           <TableID>SLE_PUB_SLE_Dim_SalesOrganization</TableID>
           <ColumnID>SalesOrganization_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="152e8453-1fe4-43e8-8390-a9fb02957932">
+        <Translation dwd:design-time-name="f6537f48-3758-4adb-9989-a3fad24e333b">
           <Language>1065</Language>
           <Caption>سازمان فروش</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="adf45828-b33b-41be-9de4-717da3ba6d96">
+        <AttributeRelationship dwd:design-time-name="51b4b1b0-8e5b-4b88-84c6-568ba63a17b8">
           <AttributeID>Sales Organization Title</AttributeID>
           <Name>Sales Organization Title</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="81967cf4-32c8-420b-8736-87f533ed2df4">
+        <AttributeRelationship dwd:design-time-name="eb34a1d9-c4d0-4caa-9d29-058ce9d4d1da">
           <AttributeID>Sales Organization EN Title</AttributeID>
           <Name>Sales Organization EN Title</Name>
         </AttributeRelationship>
@@ -144,14 +346,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="80272c0a-afa6-4553-8d3a-c53f4c45f61c">
+    <Attribute dwd:design-time-name="77c4058b-afe1-46da-9432-b4ec84edd738">
       <ID>Sales Organization Title</ID>
       <Name>Sales Organization Title</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="eb465b72-d759-423c-a5c5-3c09bbde9d3c">
+        <KeyColumn dwd:design-time-name="e525ca34-04c9-45a3-8b1b-808453461bed">
           <DataType>WChar</DataType>
           <DataSize>500</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="deeeffb8-535c-4caa-b1af-c542dcade884">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="254a54df-a736-43da-924f-63df08ee8774">
             <TableID>SLE_PUB_SLE_Dim_SalesOrganization</TableID>
             <ColumnID>SalesOrganization_Title</ColumnID>
           </Source>
@@ -160,14 +362,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="5c1aea36-bf77-43e8-ac9a-b51405a388e0">
+    <Attribute dwd:design-time-name="bb5838ac-285b-4aa0-944d-39c3e0db4157">
       <ID>Sales Organization EN Title</ID>
       <Name>Sales Organization EN Title</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a0463801-445a-4fc4-8eaf-1365f08e5e56">
+        <KeyColumn dwd:design-time-name="675a8e6b-4863-4976-9acd-8400d1de0d26">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8a364e49-a7df-4fce-b05c-44feaab2db59">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="306ad3c0-f407-411c-b057-d10abd491d11">
             <TableID>SLE_PUB_SLE_Dim_SalesOrganization</TableID>
             <ColumnID>SalesOrganization_EN_Title</ColumnID>
           </Source>
@@ -177,12 +379,12 @@
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
   </Attributes>
-  <ProactiveCaching dwd:design-time-name="afd03a14-adbb-456a-83c6-0df74944681b">
+  <ProactiveCaching dwd:design-time-name="cf77f92f-ad82-43aa-9ac2-276135386f33">
     <SilenceInterval>-PT1S</SilenceInterval>
     <Latency>-PT1S</Latency>
     <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
     <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="839c8cf4-5da0-4125-ba03-9d647b4c728b" />
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="abd11549-8553-489e-9f07-3baa9d67ca3e" />
   </ProactiveCaching>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>
