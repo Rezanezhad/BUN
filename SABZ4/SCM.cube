@@ -2483,16 +2483,16 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE;  
+CALCULATE;   
 CREATE MEMBER CURRENTCUBE.[Measures].[Avg_PrintOrder]
  AS (Tirazh/[Tirazh Count]), 
-VISIBLE = 1;   
+VISIBLE = 1;    
 CREATE MEMBER CURRENTCUBE.[Measures].Remain
  AS (([Measures].[Tirazh]-[Measures].[Receive])), 
-VISIBLE = 1;    
+VISIBLE = 1;     
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Net Qty Aggregation By Year]
  AS [Measures].[PUB SLE Fact Sale Qty Aggregation By Year]-[Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year], 
-VISIBLE = 1;    
+VISIBLE = 1;     
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Sale Qty Aggregation By Year]
  AS AGGREGATE(
 PeriodsToDate(
@@ -2500,7 +2500,7 @@ PeriodsToDate(
 ,
 [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember),
 [Measures].[PUB SLE Fact Sale Second Qty]), 
-VISIBLE = 1;    
+VISIBLE = 1;     
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Return Sale Qty Aggregation By Year]
  AS AGGREGATE(
 PeriodsToDate(
@@ -2508,10 +2508,10 @@ PeriodsToDate(
 ,
 [GRL GNR Dim Full Date weekly].[Year-Month-Week-Date].currentmember),
 [Measures].[Return Sale Second Qty]), 
-VISIBLE = 1;     
+VISIBLE = 1;      
 CREATE MEMBER CURRENTCUBE.[Measures].[NetSale_QTY]
  AS ([Sale First Qty  For SCM] - [Return Sale First Qty For SCM]), 
-VISIBLE = 1  ;     
+VISIBLE = 1;      
 CREATE MEMBER CURRENTCUBE.[Measures].[NetSale_QTY_LastYear]
  AS (
 ([NetSale_QTY])
@@ -2520,10 +2520,10 @@ ParallelPeriod([GRL GNR Dim Full Date].[Year-Month-Week-Date].[Year] ,
              1,
                [GRL GNR Dim Full Date].[Year-Month-Week-Date].currentmember)
 ), 
-VISIBLE = 1;      
+VISIBLE = 1;       
 CREATE MEMBER CURRENTCUBE.[Measures].[SCM_Mojoodie_Ebtedaie_Doreh]
- AS ([Measures].[QTY Multiplexed Ratio_QTSMRatio],[SCM DIM Stock Inventory].[Voucher Desc ID].&amp;[1]), 
-VISIBLE = 1; </Text>
+ AS ([Measures].[QTY Multiplexed Ratio],[SCM DIM Stock Inventory].[Voucher Desc ID].&amp;[1]), 
+VISIBLE = 1  ; </Text>
         </Command>
       </Commands>
       <CalculationProperties>
