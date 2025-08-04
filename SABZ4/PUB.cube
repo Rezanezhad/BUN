@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="779" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-30712" scrolltop="8296" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="80" x="23839" y="20611" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="779" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-30712" scrolltop="8296" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="80" x="23178" y="20611" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -6356,26 +6356,6 @@
               </ddsxmlobj>
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="-23529" top="3162" logicalid="778" controlid="389" masterid="0" hint1="0" hint2="0" width="23829" height="9498" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[ZingoFirstEntrySalePercent-PUB_SLE_Dim_SalesOrganization]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="357" destid="388" sourceattachpoint="19" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="-23229" y="12260" />
-              <point x="-11615" y="12260" />
-              <point x="-11615" y="3462" />
-              <point x="0" y="3462" />
-            </connector>
           </ddscontrol>
         </dds>
       </Value>
@@ -34001,52 +33981,6 @@
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="ca719f05-5c81-48aa-8536-dedb3afcef2b">
                     <TableID>PUB_SLE_Fact_SaleTarget_UntilToday_IRR</TableID>
                     <ColumnID>Status_ID</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-      </Dimensions>
-      <Partitions />
-    </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="4fcec01d-2126-441b-a25f-9d03406f67d7">
-      <ID>Zingo First Entry Sale Percent</ID>
-      <Name>Zingo First Entry Sale Percent</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-      <State>Unprocessed</State>
-      <Measures>
-        <Measure dwd:design-time-name="605cab19-1cc3-4df3-b95b-9eca69c951df">
-          <ID>Maximum 1398</ID>
-          <Name>Maximum 1398</Name>
-          <AggregateFunction>Max</AggregateFunction>
-          <Source dwd:design-time-name="e9b42439-b3b3-46e4-b83a-1216bc2a4158">
-            <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a4af42e5-b1a3-4f20-adfe-b00bc6df4a65">
-              <TableID>dbo_ZingoFirstEntrySalePercent</TableID>
-              <ColumnID>_x0031_398</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
-      </Measures>
-      <StorageMode>Molap</StorageMode>
-      <ProcessingMode>Regular</ProcessingMode>
-      <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="232daa7e-3b2e-4d96-bb25-48187c6bbc76">
-          <CubeDimensionID>Organization</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="734aecbb-19a0-44c3-947a-e95624ac262f">
-              <AttributeID>Sales Organization Id</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="872b3026-508c-45da-9cbb-13615dab1df9">
-                  <DataType>Integer</DataType>
-                  <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8f71d07b-625b-4dbb-9f04-81479a11b256">
-                    <TableID>dbo_ZingoFirstEntrySalePercent</TableID>
-                    <ColumnID>organizationId</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
