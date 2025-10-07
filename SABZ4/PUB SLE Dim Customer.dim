@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9d491f6b-c22a-4e86-a2db-432d668d10b4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="73ad06bc-6a1e-44de-834d-7310d08fb61a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>PUB SLE Dim Customer</ID>
   <Name>PUB SLE Dim Customer</Name>
   <CreatedTimestamp>2020-02-29T07:25:09.896667Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="22" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4980" scrolltop="-4459" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="9631" y="22040" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="22" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4980" scrolltop="-4459" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="12700" y="20585" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -241,11 +241,11 @@
   </Annotations>
   <LastProcessed>2022-02-22T03:10:51.846667Z</LastProcessed>
   <State>Processed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="28c8e8fc-cd30-445c-ad5b-7d65e2f11187">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="57ebe0fe-3d33-4e9c-a886-915279a8c2f9">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="ab48be6f-de63-4bab-b17c-ed52a744c35a">
+  <ErrorConfiguration dwd:design-time-name="2160a3a9-119f-4d4e-8be8-e3a7e41e1497">
     <KeyNotFound>IgnoreError</KeyNotFound>
     <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
   </ErrorConfiguration>
@@ -253,63 +253,63 @@
   <Language>1065</Language>
   <UnknownMemberName>UnknownCustomer</UnknownMemberName>
   <UnknownMemberTranslations>
-    <UnknownMemberTranslation dwd:design-time-name="a14a09b1-2c28-4fb1-9650-0020e8df45ce">
+    <UnknownMemberTranslation dwd:design-time-name="1420b1b0-d27d-4b19-8173-29b3e467dd1a">
       <Language>1065</Language>
       <Caption>مشتری نامشخص</Caption>
     </UnknownMemberTranslation>
   </UnknownMemberTranslations>
   <Translations>
-    <Translation dwd:design-time-name="66a05e07-243b-4ca0-8919-e8a4a6f315ea">
+    <Translation dwd:design-time-name="1fe682f1-e72b-4ba0-ade1-86d99f3557de">
       <Language>1065</Language>
       <Caption>مشتری ها</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute dwd:design-time-name="ff923b5d-cc22-47fa-ae13-6e39edf142f9">
+    <Attribute dwd:design-time-name="4a078a5d-8448-42fc-ad0e-ab4fce0f2f79">
       <ID>Customer Id</ID>
       <Name>Customer Id</Name>
       <Usage>Key</Usage>
       <EstimatedCount>122392</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c5bd25bd-2aa1-42ae-8b46-4905b418e588">
-          <DataType>BigInt</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="80e09805-c8e3-4c28-b312-b07c618cd60a">
+        <KeyColumn dwd:design-time-name="d65ebc08-fd37-4553-8efd-6e3929780bd1">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7c0864b7-8772-4954-9e01-4bab4fc4bb7d">
             <TableID>SLE_PUB_SLE_Dim_Customer</TableID>
-            <ColumnID>Customer_Id</ColumnID>
+            <ColumnID>Customer</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="447fce35-07f6-4302-b474-f9b48b69c791">
+      <NameColumn dwd:design-time-name="d4aafd16-edfd-4bb7-8d73-d4ce606d7e64">
         <DataType>WChar</DataType>
-        <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="565e9fa4-9891-469e-a705-a7ade6a31686">
+        <DataSize>30</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="bea89d92-2766-436e-8659-cddb8f99c3f8">
           <TableID>SLE_PUB_SLE_Dim_Customer</TableID>
-          <ColumnID>Customer_Id</ColumnID>
+          <ColumnID>Customer</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="df41a7be-e723-4f38-8b77-01acbece4bdb">
+        <Translation dwd:design-time-name="8d11ac8e-cade-40e9-b926-2199d965032e">
           <Language>1065</Language>
           <Caption>عنوان مشتری</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="996969b8-04d5-431e-b31d-6ff301b80ae4">
+        <AttributeRelationship dwd:design-time-name="468e9cfa-df6f-4210-8db0-a33cc7077d32">
           <AttributeID>Company Id</AttributeID>
           <Name>Company Id</Name>
           <Translations>
-            <Translation dwd:design-time-name="4a906552-e988-4123-bb63-adb3e28dcb50">
+            <Translation dwd:design-time-name="175e3af8-7c59-43f3-a7d7-6fd445ba6b95">
               <Language>1065</Language>
               <Caption>نام شرکت</Caption>
             </Translation>
           </Translations>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="cde36eae-5fcf-4efd-85fb-1f43c3eea942">
+        <AttributeRelationship dwd:design-time-name="cf697d59-aab5-4ff3-9518-7c543abcc1ab">
           <AttributeID>Customer Is Person</AttributeID>
           <Name>Customer Is Person</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="e8ce37d3-2857-4c1d-a3b7-b43422cdea31">
+        <AttributeRelationship dwd:design-time-name="ff42d66c-b85f-4d65-83ae-6c250b02010d">
           <AttributeID>Customer Title</AttributeID>
           <Name>Customer Title</Name>
         </AttributeRelationship>
@@ -318,40 +318,40 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="a29423f6-6a75-4b0a-b73b-fbf88fd801ee">
+    <Attribute dwd:design-time-name="0e267c8f-d6ad-42bb-90f6-b9778c96ec0a">
       <ID>Company Id</ID>
       <Name>Company Id</Name>
       <EstimatedCount>10</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2075cc8e-49e5-4d60-8bdd-9dd2839c8275">
+        <KeyColumn dwd:design-time-name="cd3b6ee3-fefb-432b-a9fd-eb1cf8ac1be4">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d4b39ff2-4cad-4a47-8b01-52ffad201239">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b41b9fa7-f303-46f4-b776-6e33576b3eb0">
             <TableID>dbo_GRL_GNR_Dim_Company</TableID>
             <ColumnID>Company_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="62502531-b88a-4a87-988a-b274f4f9cf40">
+      <NameColumn dwd:design-time-name="a9be6f1c-b958-4533-b8db-3037809f0193">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="8b211820-5928-4cfc-a6de-acfcf9c573f5">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="22de20e2-1a6c-46e6-b4af-68a71d7bc1f5">
           <TableID>dbo_GRL_GNR_Dim_Company</TableID>
           <ColumnID>Company_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="c3e95aea-b372-4322-ae26-5912c5f7a211">
+        <Translation dwd:design-time-name="9937dc06-7d69-4d32-899d-a0bec442e360">
           <Language>1065</Language>
           <Caption>نام شرکت</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="fc09cf9c-b314-41d4-a8cd-621760e773b9">
+        <AttributeRelationship dwd:design-time-name="a7e7f5b6-b5d5-4420-a8e5-5762bbb1c174">
           <AttributeID>Industry Id</AttributeID>
           <Name>Industry Id</Name>
           <Translations>
-            <Translation dwd:design-time-name="a9e564da-7844-459d-b008-7bdc053f9517">
+            <Translation dwd:design-time-name="bb53380d-277a-412d-a65d-6885fa5acbd0">
               <Language>1065</Language>
               <Caption>عنوان صنعت</Caption>
             </Translation>
@@ -362,30 +362,30 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d9a02fa8-18e4-49cf-8df3-c94b299a5dde">
+    <Attribute dwd:design-time-name="0e4a79c1-d529-4cd3-a05f-0114d660f3a2">
       <ID>Industry Id</ID>
       <Name>Industry Id</Name>
       <EstimatedCount>5</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c7053197-3fbd-4be6-8ae9-09b0aca81a2f">
+        <KeyColumn dwd:design-time-name="9c455ca4-6d60-491c-8f67-94db94f19102">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="16f333f4-593e-4e87-8776-35fd40bc121d">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c105f290-035b-4ee1-893f-b184a1b18b44">
             <TableID>dbo_GRL_GNR_Dim_Industry</TableID>
             <ColumnID>Industry_Id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="d4de7b70-d11d-4e4b-8b33-fbb13c5b1298">
+      <NameColumn dwd:design-time-name="49caaf05-b13f-4a15-ad48-f5b1672b11e4">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="151f76a4-738e-42e9-8c73-ef4fa7c7a2dc">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="eafdfa7a-091e-4065-9bbc-a27bc4bab96f">
           <TableID>dbo_GRL_GNR_Dim_Industry</TableID>
           <ColumnID>Industry_Title</ColumnID>
         </Source>
       </NameColumn>
       <Translations>
-        <Translation dwd:design-time-name="5cf2019e-9679-4c9f-bc0f-06ee11a9fb17">
+        <Translation dwd:design-time-name="0543e462-a211-471f-81ab-5bd35368a173">
           <Language>1065</Language>
           <Caption>عنوان صنعت</Caption>
         </Translation>
@@ -394,13 +394,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="c815621b-99e3-4564-8199-ec101f141965">
+    <Attribute dwd:design-time-name="91153e2e-f337-4b66-9fe3-89118cb56a99">
       <ID>Customer Is Person</ID>
       <Name>Customer Is Person</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3ab3f24a-06c2-421a-80c7-b970c7dbe109">
+        <KeyColumn dwd:design-time-name="56374307-f55d-47f5-8e8d-31776601779a">
           <DataType>UnsignedTinyInt</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b21366c2-3263-4b62-9ea0-361f2a34accb">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="89d17b45-8212-4cae-8ac8-a6f981f00eb5">
             <TableID>SLE_PUB_SLE_Dim_Customer</TableID>
             <ColumnID>Customer_IsPerson</ColumnID>
           </Source>
@@ -409,14 +409,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="cdc5d6e6-524b-4b46-aeb1-4ee2257f6046">
+    <Attribute dwd:design-time-name="873ab596-3b4e-46f6-9014-3783287ca49a">
       <ID>Customer Title</ID>
       <Name>Customer Title</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="76b1aa86-d9de-4ed0-8394-8acc6b0e161b">
+        <KeyColumn dwd:design-time-name="efe465a8-beba-4616-b417-6d73e82c2fe8">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e967ca4f-b2eb-48bf-9920-157db69117c3">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e5d034e7-abf0-40d3-91cc-daaf21313558">
             <TableID>SLE_PUB_SLE_Dim_Customer</TableID>
             <ColumnID>Customer_Title</ColumnID>
           </Source>
@@ -428,40 +428,40 @@
   </Attributes>
   <AttributeAllMemberName>AllCustomer</AttributeAllMemberName>
   <AttributeAllMemberTranslations>
-    <AttributeAllMemberTranslation dwd:design-time-name="2a40dbd2-9d54-44c6-a425-0d8352388f2f">
+    <AttributeAllMemberTranslation dwd:design-time-name="34e524fb-8a63-4c5f-a920-130d51ddc848">
       <Language>1065</Language>
       <Caption>همه مشتری ها</Caption>
     </AttributeAllMemberTranslation>
   </AttributeAllMemberTranslations>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="ee9520bb-d15d-400d-a9fa-1682457c2163">
+    <Hierarchy dwd:design-time-name="cd3cfbb5-8bbc-4ea5-84d7-10d8bf698595">
       <ID>Hierarchy</ID>
       <Name>Company - Customer</Name>
       <Translations>
-        <Translation dwd:design-time-name="0a49209a-7191-48af-830c-273326f0f3f8">
+        <Translation dwd:design-time-name="c66a3b9b-12fa-4108-bbdc-4b3376ca9c0d">
           <Language>1065</Language>
           <Caption>ساختار درختی شرکت - مشتری</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level dwd:design-time-name="7b557123-1369-41ae-900e-f1f3e5e45769">
+        <Level dwd:design-time-name="86153204-f248-4d6d-924e-2df42718028e">
           <ID>Company Id</ID>
           <Name>Company Id</Name>
           <SourceAttributeID>Company Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="6be23085-0e22-4fa0-be92-3ce3fc756cf6">
+            <Translation dwd:design-time-name="40e63938-2e77-4eeb-87af-2d72a499394e">
               <Language>1065</Language>
               <Caption>نام شرکت</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="1dd8de45-48d5-416b-88c6-f4925851d86b">
+        <Level dwd:design-time-name="766daf48-1654-4d6f-aa41-0338272cfadc">
           <ID>Customer Id</ID>
           <Name>Customer Id</Name>
           <SourceAttributeID>Customer Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="e45242bc-0ddf-4804-9764-1e1293b0a109">
+            <Translation dwd:design-time-name="0388659c-16a0-495f-9322-65d2968d27f7">
               <Language>1065</Language>
               <Caption>عنوان مشتری</Caption>
             </Translation>
@@ -469,45 +469,45 @@
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="bc0aff97-7396-4e3f-b7b0-8cd14e802119">
+    <Hierarchy dwd:design-time-name="3b004807-c598-4596-a3ad-bdbb5915e1a7">
       <ID>Hierarchy 1</ID>
       <Name>Industry - Company - Customer</Name>
       <Translations>
-        <Translation dwd:design-time-name="d69bcc78-28c1-473a-8641-e906142d1480">
+        <Translation dwd:design-time-name="8c2509d7-407e-4a23-b613-336726875f7b">
           <Language>1065</Language>
           <Caption>ساختار درختی صنعت - شرکت - مشتری</Caption>
         </Translation>
       </Translations>
       <AllMemberName>همه موارد</AllMemberName>
       <Levels>
-        <Level dwd:design-time-name="621dbf81-1359-4b2e-8aa2-59d4c051cf89">
+        <Level dwd:design-time-name="a1fc3738-1b87-4ccd-a455-66ee392be76b">
           <ID>Industry Id</ID>
           <Name>Industry Id</Name>
           <SourceAttributeID>Industry Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="ef7e3c6b-14d3-490f-91f2-20de5077ae44">
+            <Translation dwd:design-time-name="cfd1de24-743a-42d4-8f21-8aa7f08cb284">
               <Language>1065</Language>
               <Caption>عنوان صنعت</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="00dd8377-c462-476e-933a-b4b57262a2cf">
+        <Level dwd:design-time-name="898c2694-3cd2-48e2-8eb5-b6f24f0886f2">
           <ID>Company Id</ID>
           <Name>Company Id</Name>
           <SourceAttributeID>Company Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="68f385a2-ff09-4129-a8a4-ca81f4eaf734">
+            <Translation dwd:design-time-name="2554a99c-5383-4df0-9488-be5478663ed3">
               <Language>1065</Language>
               <Caption>نام شرکت</Caption>
             </Translation>
           </Translations>
         </Level>
-        <Level dwd:design-time-name="596695d4-45d1-4828-8abd-b242bb939c6c">
+        <Level dwd:design-time-name="46a78f7e-306f-417d-896a-076a0655cd68">
           <ID>Customer Id</ID>
           <Name>Customer Id</Name>
           <SourceAttributeID>Customer Id</SourceAttributeID>
           <Translations>
-            <Translation dwd:design-time-name="ce037c34-e418-4214-9779-faa52c3e068f">
+            <Translation dwd:design-time-name="635a4cd1-c310-4a5e-94cd-083df3130b3e">
               <Language>1065</Language>
               <Caption>عنوان مشتری</Caption>
             </Translation>
@@ -516,12 +516,12 @@
       </Levels>
     </Hierarchy>
   </Hierarchies>
-  <ProactiveCaching dwd:design-time-name="8baf30cb-2939-43b3-8d4a-8b45a3a20879">
+  <ProactiveCaching dwd:design-time-name="906ef00d-9920-4244-aea4-0e9ad076ebcf">
     <SilenceInterval>-PT1S</SilenceInterval>
     <Latency>-PT1S</Latency>
     <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
     <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
-    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="e42d9767-da25-4e8b-8001-c70b18a62baa" />
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="a8d9e487-3df2-4348-9772-179712ebe6b0" />
   </ProactiveCaching>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>
