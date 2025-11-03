@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="684ae5a6-407f-45a6-b4a7-d01aea7504aa" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b473fed8-beca-47f7-9fa9-69613d863b33" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Barizo</ID>
   <Name>Barizo</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -393,320 +393,320 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="c4fc561a-578c-4913-875b-a1a3ddd03ef6">
+    <Dimension dwd:design-time-name="7f5e6442-cb90-46ed-92de-65dc7f140035">
       <ID>DimBarizoDimJunkBOM</ID>
       <Name>DimBarizoDimJunkBOM</Name>
       <DimensionID>DimBarizoDimJunkBOM</DimensionID>
       <Visible>false</Visible>
       <Attributes>
-        <Attribute dwd:design-time-name="f3c50ccc-74be-4039-865d-9046e8fd177c">
+        <Attribute dwd:design-time-name="a550b86a-2be3-4a8b-a43b-48b1d2d80723">
           <AttributeID>Product BOM ID</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="551d2be1-e0e8-48c5-8d18-fe6de468c657">
+    <Dimension dwd:design-time-name="5ae63dd9-830d-4f3b-8cc1-2852003ab84a">
       <ID>DimBarizoVoucherKind</ID>
       <Name>DimBarizoVoucherKind</Name>
       <DimensionID>DimBarizoVoucherKind</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="8aca48ed-4da2-4379-a978-eebfc4f26609">
+        <Attribute dwd:design-time-name="1550ddb5-d65e-41b7-a97c-10a32c5f7b9f">
           <AttributeID>Voucher Kind ID</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="92745e1c-b569-4db5-ba4e-2ed58a2e418a">
+    <Dimension dwd:design-time-name="49619bb6-4eb3-41b8-ae9f-c60e0e57883e">
       <ID>DimBarizoVoucherStatus</ID>
       <Name>DimBarizoVoucherStatus</Name>
       <DimensionID>DimBarizoVoucherStatus</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="10bbd3e9-f5d7-449f-8c03-fee0851b58b3">
+        <Attribute dwd:design-time-name="09e16651-ee81-4074-b63b-899e6472ad3e">
           <AttributeID>Voucher Status ID</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="aa91d43c-354e-4029-acbc-df16cca79b6a">
+    <Dimension dwd:design-time-name="956f5235-4831-45ba-9870-8dbed780fe98">
       <ID>DimBarizoBOM</ID>
       <Name>DimBarizoBOM</Name>
       <DimensionID>DimBarizoBOM</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="3d1077c4-6415-4945-a7ef-758d1d167044">
+        <Attribute dwd:design-time-name="166acb46-b228-4738-b692-912a3297b43e">
           <AttributeID>ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6edb0a86-16e6-47cf-9825-d0fb67c0f4ae">
+        <Attribute dwd:design-time-name="4effc58a-6dc6-4b65-adef-23c660470217">
           <AttributeID>BOM Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6ebae877-ef37-45cb-828b-d1d094997b09">
+        <Attribute dwd:design-time-name="3e48bf2d-532b-45ae-92d6-d8dd62aac25e">
           <AttributeID>Product Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="036f305b-87d1-40af-b3c9-adf6b6a716c3">
+        <Attribute dwd:design-time-name="416b1d0a-2b9e-4bd4-8d83-2bf4d972823c">
           <AttributeID>Material ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="923e8643-437e-4c52-a18e-5c978946daeb">
+        <Attribute dwd:design-time-name="8457a5c3-77ea-4119-a066-8811af0736bc">
           <AttributeID>Product Code</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5e30e6d6-76dd-466d-9720-569af7ed00c6">
+        <Attribute dwd:design-time-name="9f3e4bbd-52ab-4eb4-9708-b2d5e9773ce6">
           <AttributeID>Material Code</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1f1d9bce-1eea-49f1-b6c2-a9de354c8ede">
+        <Attribute dwd:design-time-name="dacbbf47-4b18-4043-97d8-bd2a0f9e482e">
           <AttributeID>Material Title</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0fb1ffb7-2a22-4940-84ca-361825b29342">
+        <Attribute dwd:design-time-name="e858380e-aee9-40d6-843c-5cf4faf8b89c">
           <AttributeID>Product Title</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9c0929bb-01e4-4f2c-8a23-0557eb7f5fd5">
+        <Attribute dwd:design-time-name="5c192a3d-d739-487d-ac40-00b930d6f102">
           <AttributeID>Product BOM ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="45af0b34-ab0d-40eb-a551-5f66e319c7eb">
+        <Attribute dwd:design-time-name="ec1a2de9-fd22-4260-92f4-b9e9111ac434">
           <AttributeID>Sales Product ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8ce16d6b-6c2b-4cfe-91cc-af834fb79e3c">
+        <Attribute dwd:design-time-name="75159eea-2071-4a98-af5a-db606a5e7b47">
           <AttributeID>Material Unit Title</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="c13ca41d-d292-4094-bfc9-dd6a76153dd1">
+    <Dimension dwd:design-time-name="d3349c8b-bfc6-4f8c-9ea9-442488f0fc09">
       <ID>DimBarizoProduct</ID>
       <Name>DimBarizoProduct</Name>
       <Translations>
-        <Translation dwd:design-time-name="f9eb5a70-9637-45ed-adcd-1f1f3c792133">
+        <Translation dwd:design-time-name="2958b5ff-d88e-463f-83d7-00d2d9f1030a">
           <Language>1065</Language>
           <Caption>جدول محصولات</Caption>
         </Translation>
       </Translations>
       <DimensionID>DimBarizoProduct</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="c2fca84c-4deb-438e-9d09-dab0bcee6269">
+        <Attribute dwd:design-time-name="1bf1f0d3-5ef3-486e-86d5-963d82d4d183">
           <AttributeID>Sales Product Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8d89ff8a-a6e0-4b72-95ba-a5a399369900">
+        <Attribute dwd:design-time-name="7a5bf941-0628-46e9-9b1b-47395475b6db">
           <AttributeID>Product Code</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ba1e183b-1efd-42b6-b9ba-bb66a901ed0f">
+        <Attribute dwd:design-time-name="38ccc053-6135-42b7-9877-443f95f98fb0">
           <AttributeID>Product Title</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="0d47bcb5-ca48-4311-bda1-9534829e70cd">
+    <Dimension dwd:design-time-name="75c83e35-f96d-415d-9054-aea6d4ac4ab0">
       <ID>PUBSLEDimBarizoBranch</ID>
       <Name>PUBSLEDimBarizoBranch</Name>
       <DimensionID>PUBSLEDimBarizoBranch</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="daead79a-1ae6-4a48-b3ec-d8331856ea69">
+        <Attribute dwd:design-time-name="a1941cf2-f935-44c6-9e73-e39390e9f1bc">
           <AttributeID>Barizo Branch Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="77b8f3d7-1845-4293-b7c7-835b113e8b88">
+    <Dimension dwd:design-time-name="aaeaae9d-eb9d-447c-b17f-d19e0d293810">
       <ID>DimBarizoJunkMaterial</ID>
       <Name>DimBarizoMaterial</Name>
       <Translations>
-        <Translation dwd:design-time-name="423cca64-cb15-44da-9761-a7cba615e9db">
+        <Translation dwd:design-time-name="b9d324fd-27f1-4b08-8f14-d695504fc8b0">
           <Language>1065</Language>
           <Caption>جدول مواد اولیه</Caption>
         </Translation>
       </Translations>
       <DimensionID>DimBarizoJunkMaterial</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="98269c80-313d-485e-975c-10ce2b2999df">
+        <Attribute dwd:design-time-name="0fef47d6-2653-4b65-b23d-a4e2b72700a1">
           <AttributeID>Material ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5e8ed8b5-2618-4dde-8738-40a5b3c9058a">
+        <Attribute dwd:design-time-name="e7a8c3f4-c19b-46a5-aa15-e87010c717b3">
           <AttributeID>Material Code</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="572c0a7b-9f0d-4682-8e0e-105c33c665f3">
+        <Attribute dwd:design-time-name="9af2268f-15ac-4994-99da-3310ed1ca8e9">
           <AttributeID>Material Title</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4be0b668-200a-4ecb-ba4a-e0d67be2d6c7">
+        <Attribute dwd:design-time-name="256a2d03-38cb-42b4-aeff-a7d23d8533ac">
           <AttributeID>Material Unit Title</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="3ab041aa-3f13-4d80-aaa7-f23ef9733fce">
+    <Dimension dwd:design-time-name="16e55efd-fffc-4eab-b540-6edf9e97c96b">
       <ID>GRL GNR Dim Full Date</ID>
       <Name>GRL GNR Dim Full Date</Name>
       <Translations>
-        <Translation dwd:design-time-name="2237c0dd-d147-4c65-8a53-0c8c67a43ac7">
+        <Translation dwd:design-time-name="9bf23265-9fdd-4f01-9aff-e805c6002e1e">
           <Language>1065</Language>
           <Caption>زمان</Caption>
         </Translation>
       </Translations>
       <DimensionID>GRL GNR Dim Full Date</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="6b33496c-a70c-49ac-a562-6c114929afaa">
+        <Attribute dwd:design-time-name="a5c194e6-60b2-4d11-8390-2b153f8f4e21">
           <AttributeID>Date Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="62b1b8c7-e5ae-4713-90bb-7f5b564a1db6">
+        <Attribute dwd:design-time-name="93389c05-aacc-434b-835e-2cc4a4f1ab30">
           <AttributeID>Month Order</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2914f803-cc0d-40f1-8711-10b28a2d4144">
+        <Attribute dwd:design-time-name="81fd3e8a-cfc6-4ae4-b731-650231a217bc">
           <AttributeID>Week Day Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="326b4906-604c-48b8-86f1-a57cda0828ef">
+        <Attribute dwd:design-time-name="802d63b9-00df-4d2c-8d19-dbbed66b7a63">
           <AttributeID>Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e4ede085-72a8-4793-bec4-3e4db589ce9f">
+        <Attribute dwd:design-time-name="519a6270-c4bb-47e2-9119-47895a2a7d7f">
           <AttributeID>Semi Year Order</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f0453d77-4cb4-40c6-9704-3ed3f33e7d2a">
+        <Attribute dwd:design-time-name="b8da6052-70ca-4365-b7e9-dca2a9d73104">
           <AttributeID>Semi Year Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ca44ad0e-c38e-4879-8d89-7dd32c1a2590">
+        <Attribute dwd:design-time-name="2a766458-dcde-4f7c-b293-006c92ecac2e">
           <AttributeID>m Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="bda06254-b8fb-442f-ab87-a4626c034db1">
+        <Attribute dwd:design-time-name="7d573d11-cd7d-4c38-9420-c0763eb16a52">
           <AttributeID>Month Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6c5aa93e-4f01-4824-9efb-892fc79908d7">
+        <Attribute dwd:design-time-name="7afb9ca9-3ccd-439b-94be-9da7c967864e">
           <AttributeID>Season Order</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b1707d48-271f-4106-9cc9-9c5cf4c4b092">
+        <Attribute dwd:design-time-name="7d5d9083-7e9f-4981-b3e5-a98c5247ab74">
           <AttributeID>Season Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8ebd8ff3-1ec9-4db0-be22-b6565f71dd18">
+        <Attribute dwd:design-time-name="c8b156c1-535f-410f-9a43-c12343def410">
           <AttributeID>Week Order</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f1641428-92b9-4a56-aff3-aa99313b5a16">
+        <Attribute dwd:design-time-name="f04c4961-713f-482e-b027-123e3f023d99">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="08adc66e-2296-43a9-841a-e9f4fc5f035a">
+        <Attribute dwd:design-time-name="6945f015-e752-412f-918a-336924629126">
           <AttributeID>m Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="169d829e-9f7d-4528-9f67-92c813cd59e4">
+        <Attribute dwd:design-time-name="cbbdeff9-c5b9-450a-a6cb-f4c183be8696">
           <AttributeID>m Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="07ad5f2e-3e15-4254-9115-7c98796fed1b">
+        <Attribute dwd:design-time-name="7d7ec520-df05-4b59-bbf2-877ba9a6e4dc">
           <AttributeID>Fiscal Year 3</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="57b687ba-449e-4bc0-b4e0-ef1c128d320a">
+        <Attribute dwd:design-time-name="112f3a06-5694-45e0-a5d9-1be3ddb9c605">
           <AttributeID>Fiscal Year 4</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="37ca13ae-7b38-44e8-a147-8ab747fed978">
+        <Attribute dwd:design-time-name="d8f0df80-921d-48dd-ab2a-4495e4b02b90">
           <AttributeID>Fiscal Season 4</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a27bc2a8-2f73-461f-bd55-579b4a86cd88">
+        <Attribute dwd:design-time-name="0488d8a1-001f-4ea6-838f-76a9dbc12bad">
           <AttributeID>Fiscal Season 3</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5df10e07-97eb-4eb2-a45b-6973ac08c1f8">
+        <Attribute dwd:design-time-name="d0af78e1-d821-4c17-ae85-9478ac0c695a">
           <AttributeID>Fiscal Year 10</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e23c7339-e78d-4a79-94b2-41a29a404747">
+        <Attribute dwd:design-time-name="7ff06135-0019-41ef-bb1f-b6ab016a5986">
           <AttributeID>Fiscal Season 10</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9edf3262-e515-40bf-99d6-b3c9c1849560">
+        <Attribute dwd:design-time-name="22df8289-9c50-4001-baf9-aefa981786e0">
           <AttributeID>Week Order 1</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1316f84d-f027-4a36-8150-54422588ea41">
+        <Attribute dwd:design-time-name="4e867062-2486-4e2e-b4e1-c6961218674a">
           <AttributeID>Fiscal Year 7</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0c467882-89ee-46a5-ac7b-cc887e15dc12">
+        <Attribute dwd:design-time-name="3e39e8ab-46de-4104-8503-a26aa34b581c">
           <AttributeID>Fiscal Season 7</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8a101181-5134-4da2-a4b4-6b878fffaa78">
+        <Attribute dwd:design-time-name="0a8bc3b3-05eb-44c3-a8fc-da5a0af1cfb4">
           <AttributeID>Sdatenoslash</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a8e04e9b-fcc5-4587-bcc9-8452d1ea3993">
+        <Attribute dwd:design-time-name="6ac70997-8906-4c42-9404-d43dc9253445">
           <AttributeID>m Date 1</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a4125581-f5c1-41e4-9c6b-6e60d4409a17">
+        <Attribute dwd:design-time-name="8bf83580-413e-44d3-ae76-698ec10d1931">
           <AttributeID>Date Id 1</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="fec8cce6-63f8-431d-9915-c526587a23c6">
+        <Attribute dwd:design-time-name="aa4f84dd-5e18-4da3-801a-9616eb8a4829">
           <AttributeID>Year New</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f0d1367a-4908-47d2-97e4-3b09a9a75d5d">
+        <Attribute dwd:design-time-name="a69d9a05-da2a-42db-a1f1-69d31c094ead">
           <AttributeID>Year 1</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0924a3cb-9329-487e-be28-99c956d9983f">
+        <Attribute dwd:design-time-name="3f0bdefc-43e3-4c4a-b8ee-b5070077b5c6">
           <AttributeID>M Date Date Type</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b4bf2549-cea5-4fee-90e0-65e92dd4b14d">
+        <Attribute dwd:design-time-name="ea9712bd-9393-41c8-960e-8f55ee5e481d">
           <AttributeID>Date Now Status</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3f630925-39a7-49e5-8efb-18dc61ae8119">
+        <Attribute dwd:design-time-name="c5dd5305-12c0-4140-9f2d-1cd1ee7fa4c8">
           <AttributeID>Date After Now Status</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cee19b44-d79c-4211-9653-3cd86b640ce6">
+        <Attribute dwd:design-time-name="9be44d01-19f7-425d-b999-58eebf0e7f45">
           <AttributeID>Current Month And After Status</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6caf4566-11a3-46be-ba69-0a1be441e034">
+        <Attribute dwd:design-time-name="b2538504-9801-4f3a-88a7-10c685c79a6d">
           <AttributeID>Date Tomorrow Status</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8c8ecbec-e2a7-4071-9a29-99228d08bae1">
+        <Attribute dwd:design-time-name="85dfcc7c-a22e-42f8-bd45-1fe648598e71">
           <AttributeID>Date Last Day Of Current Month Status</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ccd2ac88-2d7d-45ee-b004-c8dc0e042271">
+        <Attribute dwd:design-time-name="8420e127-6031-499d-94c3-b5bc4dd9e3e9">
           <AttributeID>Month Today Is End Of Month</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="c2782b99-2e84-4432-954e-eaea022b373f">
+        <Hierarchy dwd:design-time-name="62bfb61e-129e-422f-9ddd-87f7f9972249">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="eb92326e-633b-4a35-a614-6e27d54eb9da">
+        <Hierarchy dwd:design-time-name="33136c47-0998-4959-aa3f-a330e78e7f27">
           <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="dc070611-19df-49f1-9a24-4eabae0482ca">
+        <Hierarchy dwd:design-time-name="c0c95ba9-0ce1-47ef-b5ec-86a14b2f695d">
           <HierarchyID>Hierarchy 2</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="87d78280-ddac-4981-b181-6398bff0447e">
+        <Hierarchy dwd:design-time-name="31a93d57-b707-4976-849b-8cf9746b7dc8">
           <HierarchyID>Hierarchy 3 1</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="6297d86a-c056-4130-b35b-5f3b6e437f3d">
+        <Hierarchy dwd:design-time-name="481a585c-d3e5-4254-b677-e0d7e61274aa">
           <HierarchyID>Hierarchy 3</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="b7098db6-2ef1-4911-9b73-ecf2827a2388">
+        <Hierarchy dwd:design-time-name="cc2e68d4-39b9-4470-b051-16e677b9919f">
           <HierarchyID>Hierarchy 1 1</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="74044333-8ba7-4fb8-9e41-31cf4a26cbfa">
+        <Hierarchy dwd:design-time-name="c57e935f-bf0e-4f9b-8ecd-88de7dfbb899">
           <HierarchyID>Hierarchy 10</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="6a2aed38-420d-45ee-a6a5-a81e64503d98">
+        <Hierarchy dwd:design-time-name="cafec6c7-24ab-49dd-94e3-0247bd37a555">
           <HierarchyID>Hierarchy 4</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="0a8b6d5a-5e50-4130-acf2-15ecfff91ffa">
+        <Hierarchy dwd:design-time-name="55e6557e-53ee-4b0c-aca4-11b509255c8a">
           <HierarchyID>Hierarchy 1 2</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="240c1640-8aad-4162-957d-03dc03a79334">
+        <Hierarchy dwd:design-time-name="1f43c5bf-98bc-4e6e-8266-87c0e7fdc203">
           <HierarchyID>Hierarchy 5</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="cf91489b-7911-4397-8c23-0774726f8835">
+        <Hierarchy dwd:design-time-name="fb06d9d0-159e-4ee6-ada1-c81144bfd153">
           <HierarchyID>Hierarchy 9</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="f8216f56-50a4-4aeb-a9b0-cb2bf347f855">
+        <Hierarchy dwd:design-time-name="944936f0-c8de-44cf-a0db-9116b8d4bdf1">
           <HierarchyID>Hierarchy 6</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="85ca66e3-a0da-4d3e-a10e-a16ff3389908">
+        <Hierarchy dwd:design-time-name="f530ba96-8e88-4b78-87ea-796ad69a4853">
           <HierarchyID>Hierarchy 7</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="529ee04b-3573-4d3f-8221-27ee889f0e61">
+        <Hierarchy dwd:design-time-name="6d08c63c-3125-499a-9c32-21a701ef52fe">
           <HierarchyID>Hierarchy 8</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="b5e77048-951d-4131-b086-3c1557de2613">
+        <Hierarchy dwd:design-time-name="05452baa-46f6-4b27-8819-1005595aee34">
           <HierarchyID>Hierarchy 1 3</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="64d3eb40-72d7-482a-b515-394332fad237">
+        <Hierarchy dwd:design-time-name="f66cd6fa-cd7a-46f0-bc45-c45b76a36d9b">
           <HierarchyID>Hierarchy 11</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="de6d3b02-5435-499d-be77-f442f10fb06f">
+        <Hierarchy dwd:design-time-name="a5677a50-1a2e-4154-94a8-ac387468da1b">
           <HierarchyID>Hierarchy 12</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="5bbc3a57-0a76-434e-90ba-477e697dca3a">
+        <Hierarchy dwd:design-time-name="628552bb-cd8c-40d6-82f3-72e0dff55c62">
           <HierarchyID>Hierarchy 13</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="e6d1bdcb-ecbc-41c3-9814-e7b051ac76b2">
+        <Hierarchy dwd:design-time-name="8ed249db-2dc3-43dc-ba09-946cfdde95bc">
           <HierarchyID>Hierarchy 14</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="483ff5a1-7a33-4b77-9cf9-e79187597fa9">
+        <Hierarchy dwd:design-time-name="5e99e241-04bb-4425-b52c-4ce46256e84c">
           <HierarchyID>Hierarchy 15</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="822b58f5-d836-4c96-975a-3007a0bed43e">
+        <Hierarchy dwd:design-time-name="ed5ad087-9141-418f-9483-8cf7645a2531">
           <HierarchyID>Hierarchy 1 4</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
   </Dimensions>
   <CubePermissions>
-    <CubePermission dwd:design-time-name="2bba1a00-c93d-4af2-9ca1-1e3cbcbe75bb">
+    <CubePermission dwd:design-time-name="38005842-42cf-4c8e-af4f-85a38bd9e164">
       <ID>CubePermission</ID>
       <Name>CubePermission</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -715,7 +715,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="e2fc5019-c6ed-41e3-a45f-108bb59437c7">
+    <CubePermission dwd:design-time-name="8b2a622c-e997-4355-9d48-3e1c2289dde8">
       <ID>CubePermission 1</ID>
       <Name>CubePermission 1</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -724,7 +724,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="408bae7f-8eba-4f19-8ff1-51c3187ac9cc">
+    <CubePermission dwd:design-time-name="2f3dc9fa-4593-4e99-ae24-f35d921171a3">
       <ID>CubePermission 2</ID>
       <Name>CubePermission 2</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -733,7 +733,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="c0596a15-6524-421c-b19e-b5e52b80350d">
+    <CubePermission dwd:design-time-name="15ab00cd-8733-4396-8490-a4fbc64fa59b">
       <ID>CubePermission 3</ID>
       <Name>CubePermission 3</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -742,7 +742,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="e4008710-16e0-4fdd-8e7d-0562700b6a3b">
+    <CubePermission dwd:design-time-name="ecf749cb-075b-46e0-b02a-34f44abac318">
       <ID>CubePermission 4</ID>
       <Name>CubePermission 4</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -751,7 +751,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="4f47ae42-0313-4680-b484-3592606bc44f">
+    <CubePermission dwd:design-time-name="07dc3504-512a-4418-86f2-599c37aacb35">
       <ID>CubePermission 5</ID>
       <Name>CubePermission 5</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -760,7 +760,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="b9e3d376-a3fb-47f2-bce8-78ed382b485d">
+    <CubePermission dwd:design-time-name="650aaccd-4a81-4789-9f92-eb34863c33a4">
       <ID>CubePermission 6</ID>
       <Name>CubePermission 6</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -769,7 +769,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="904c9834-fa37-4e50-92ac-e370452337e7">
+    <CubePermission dwd:design-time-name="a6e28af6-ace6-4c7e-9332-7a592f4efed4">
       <ID>CubePermission 7</ID>
       <Name>CubePermission 7</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -778,7 +778,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="1cb095b7-3f3f-4ecd-abf5-85d4c166fc89">
+    <CubePermission dwd:design-time-name="bc8d8437-a9de-45e9-9bb7-b4ea736a9894">
       <ID>CubePermission 8</ID>
       <Name>CubePermission 8</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -787,7 +787,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="d3f5252e-b0d9-424a-a84f-b694a9f68a6e">
+    <CubePermission dwd:design-time-name="7479d690-73d6-46d1-9e97-9aaf21791cbf">
       <ID>CubePermission 9</ID>
       <Name>CubePermission 9</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -796,7 +796,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="d908d4a5-074c-459c-b0d1-f9e0074fc75a">
+    <CubePermission dwd:design-time-name="abd683e7-a22e-42bd-bd5d-07dc026fa8d7">
       <ID>CubePermission 10</ID>
       <Name>CubePermission 10</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -805,7 +805,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="d71e82f1-217e-495a-8668-0f572f462979">
+    <CubePermission dwd:design-time-name="20aebd31-19ed-4b33-8eb2-b8660d98651c">
       <ID>CubePermission 11</ID>
       <Name>CubePermission 11</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -814,7 +814,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="ff70bc80-b709-45d7-873e-b63c25451547">
+    <CubePermission dwd:design-time-name="1fe12581-aaa7-4820-b948-8918af8ed805">
       <ID>CubePermission 12</ID>
       <Name>CubePermission 12</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -823,7 +823,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="c62fbba9-8d6c-4566-adce-e95569d6e60d">
+    <CubePermission dwd:design-time-name="1a21a25f-3037-417b-8aa0-143cfed5dffb">
       <ID>CubePermission 13</ID>
       <Name>CubePermission 13</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -832,7 +832,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="c39e5559-e62a-4e7c-888b-0564d2410733">
+    <CubePermission dwd:design-time-name="a0a603b7-1b78-4183-8d99-da1d534b304c">
       <ID>CubePermission 14</ID>
       <Name>CubePermission 14</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -841,7 +841,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="dc252151-6e3e-476d-a42c-fa4143daad04">
+    <CubePermission dwd:design-time-name="4810242c-e06b-4170-b3b9-96b1dc162ad3">
       <ID>CubePermission 15</ID>
       <Name>CubePermission 15</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -850,7 +850,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="7eee0f38-b0f3-443f-9e63-40966c9ec89e">
+    <CubePermission dwd:design-time-name="f82b4645-af6d-4885-8412-c2ef98cf08c7">
       <ID>CubePermission 16</ID>
       <Name>CubePermission 16</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -859,7 +859,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="7ce87ff6-8127-4fbb-a5ba-d8e38c11b3df">
+    <CubePermission dwd:design-time-name="e093bdbb-2ef4-41de-b58b-b6e17515edc4">
       <ID>CubePermission 17</ID>
       <Name>CubePermission 17</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -868,7 +868,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="c2ba09b7-3e7e-46d8-a20f-76176cfbc5f9">
+    <CubePermission dwd:design-time-name="bcbffdf2-e62f-4755-a0bd-34d27c1a44da">
       <ID>CubePermission 18</ID>
       <Name>CubePermission 18</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -877,7 +877,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="f33abb08-787e-4eb1-9fac-9992eb39b406">
+    <CubePermission dwd:design-time-name="0009c28e-424b-4304-8f67-02a88e528701">
       <ID>CubePermission 19</ID>
       <Name>CubePermission 19</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -886,7 +886,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="2cc0add0-99bd-45ba-9e1e-262c8a990304">
+    <CubePermission dwd:design-time-name="01cad8ac-c36f-4006-baad-8fb1aca18ffd">
       <ID>CubePermission 20</ID>
       <Name>CubePermission 20</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -895,7 +895,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="57521bbb-6abc-46f8-848f-6faa200e4925">
+    <CubePermission dwd:design-time-name="79f8ad80-b99e-4a5a-acae-a5a37549df61">
       <ID>CubePermission 21</ID>
       <Name>CubePermission 21</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -904,7 +904,7 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
-    <CubePermission dwd:design-time-name="8ca4cf77-39f1-4603-9be9-ada94fd5a968">
+    <CubePermission dwd:design-time-name="7c716d19-a23a-40d3-bf40-aa337b859c67">
       <ID>CubePermission 22</ID>
       <Name>CubePermission 22</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -913,9 +913,19 @@
       <Read>Allowed</Read>
       <ReadSourceData>None</ReadSourceData>
     </CubePermission>
+    <CubePermission dwd:design-time-name="31a83346-d38e-49ae-82c5-b76f07ab0266">
+      <ID>CubePermission 23</ID>
+      <Name>CubePermission 23</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 2</RoleID>
+      <Read>Allowed</Read>
+      <Write>Allowed</Write>
+      <ReadSourceData>None</ReadSourceData>
+    </CubePermission>
   </CubePermissions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="b2325bc7-7e02-47d1-a0b9-34f5d4838d09">
+    <MeasureGroup dwd:design-time-name="c0aad0d9-3a48-4e1c-a050-dd816b78b63c">
       <ID>Barizo PUB SLE Fact Sale</ID>
       <Name>Barizo PUB SLE Fact Sale</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -923,12 +933,12 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="407460b1-c914-4982-9666-e8ed8eca75d0">
+        <Measure dwd:design-time-name="7abe07cb-3947-47bf-bd79-ff791d4b3590">
           <ID>Sale First Qty</ID>
           <Name>Sale First Qty</Name>
-          <Source dwd:design-time-name="f39422cd-d480-41be-9c94-bcddcf38af15">
+          <Source dwd:design-time-name="0a7ceb3e-5b23-4171-81ba-d54d7c834c06">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="1444c4a5-a440-4819-a3a3-c7032df2ed06">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b24f9606-c38a-47b9-95f8-8823f2142dee">
               <TableID>Barizo_PUB_SLE_Fact_Sale</TableID>
               <ColumnID>Sale_FirstQty</ColumnID>
             </Source>
@@ -938,15 +948,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c35f61a3-4404-4176-b984-0ceb337e1175">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="95943f16-5395-40d5-aa80-c907657299b5">
           <CubeDimensionID>DimBarizoDimJunkBOM</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="9a490745-60ba-40ad-b100-d55ed8874edb">
+            <Attribute dwd:design-time-name="5d2a1747-b6d9-4a0f-8c1e-81eb172090a2">
               <AttributeID>Product BOM ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="0354475f-c9d0-4136-b7d0-d0d307322397">
+                <KeyColumn dwd:design-time-name="e14abcb1-ff4a-48b1-809c-bd5dea8a01c4">
                   <DataType>BigInt</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="28cd1a45-38a0-47c1-97bf-2d027242bee6">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c2172b5d-dd91-47a1-8d06-e4541c6640ad">
                     <TableID>Barizo_PUB_SLE_Fact_Sale</TableID>
                     <ColumnID>ProductBOM_ID</ColumnID>
                   </Source>
@@ -956,10 +966,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="6381cb45-8c64-4bd1-a3f3-9497faf17f4c">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="7d089dec-2bb7-4590-a6a1-f7b96f89b3e1">
           <CubeDimensionID>DimBarizoBOM</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="4214274b-f9f4-49c1-b0e0-c74a350bf5af">
+            <Attribute dwd:design-time-name="bea48716-efb4-44ce-92b2-0a31fb2d8e84">
               <AttributeID>Product BOM ID</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -969,16 +979,16 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="530ddcd8-65a1-4955-86c5-eea5372a0158">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d3bcade1-c72c-4d3e-be36-3bb3e3f24aff">
           <CubeDimensionID>DimBarizoProduct</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="09fbe321-3c30-4527-ab12-16d45115226d">
+            <Attribute dwd:design-time-name="32b307eb-2e1b-4a74-ae30-3a144ed486d1">
               <AttributeID>Sales Product Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="5facec4c-7540-4b79-8780-4ba6767d1e68">
+                <KeyColumn dwd:design-time-name="99d3ef12-475f-4b88-b29e-12d3ff87bfc0">
                   <DataType>BigInt</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="00857fac-ba68-4bf7-94f9-1f7e939ddae1">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c9bd8cce-c8fb-4863-8ff3-3f9568ee68a0">
                     <TableID>Barizo_PUB_SLE_Fact_Sale</TableID>
                     <ColumnID>Product_Id</ColumnID>
                   </Source>
@@ -988,16 +998,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="45ae0b39-606d-464f-9447-d6d3d79ef220">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b05c8a2f-6ee2-468d-b83e-0d53b88dd0b8">
           <CubeDimensionID>PUBSLEDimBarizoBranch</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="5929aca1-916d-4e91-80ad-6941543dd76c">
+            <Attribute dwd:design-time-name="bec19bf0-b991-4eef-a006-8acc3ae7b8c0">
               <AttributeID>Barizo Branch Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="cbcdbf10-02d1-4262-b684-47c31ae07723">
+                <KeyColumn dwd:design-time-name="c9289687-7786-4ad7-a5e4-6feccc484bb0">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a837b5fe-90b2-49a0-8ea2-939919b8aa0e">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1497ece9-d2d6-4623-9349-5b51dac7e9e9">
                     <TableID>Barizo_PUB_SLE_Fact_Sale</TableID>
                     <ColumnID>BarizoBranchID</ColumnID>
                   </Source>
@@ -1007,15 +1017,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="79b4a585-0848-41a3-9632-7e672f0d7043">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="92bc30ef-056d-4f8e-a911-203913c08f94">
           <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="49e0a507-dff7-4b1b-a1ef-a212ff063eec">
+            <Attribute dwd:design-time-name="c767fdfd-9dcb-49ff-bf30-136cea3619a7">
               <AttributeID>Date Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="488da04a-4a98-4303-9800-93d432887561">
+                <KeyColumn dwd:design-time-name="53e2f8d7-0517-4573-9889-a65031a19f81">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bd0fc647-5060-4eb5-af49-218b022f6708">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="74cbd1d8-6021-4e10-96c2-53ffc0a5c18e">
                     <TableID>Barizo_PUB_SLE_Fact_Sale</TableID>
                     <ColumnID>Date_Id</ColumnID>
                   </Source>
@@ -1028,7 +1038,7 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="e6042326-8e9f-45f6-835f-eb8292ad0458">
+    <MeasureGroup dwd:design-time-name="a1ebf32d-0496-4a7b-b798-05f8cc988f43">
       <ID>Fact Barizo Inventory Voucher</ID>
       <Name>Fact Barizo Inventory Voucher Based On BOM</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1036,12 +1046,12 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="0c389fa0-fff3-42e5-8b1a-61f673a127c9">
+        <Measure dwd:design-time-name="ecac75e5-0e76-47e8-984f-a3b807f338d8">
           <ID>Amount</ID>
           <Name>Amount</Name>
-          <Source dwd:design-time-name="1d5678b8-8832-4aea-9b4b-72b096a1fa29">
+          <Source dwd:design-time-name="333010aa-8a94-4bc9-97d8-b28c251dce48">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="bea11ae6-e120-4174-b831-c6526347cab0">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="dfbf96a0-5686-4e14-918c-4a8a272b187a">
               <TableID>dbo_FactBarizoInventoryVoucher</TableID>
               <ColumnID>Amount</ColumnID>
             </Source>
@@ -1051,16 +1061,16 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="84f43b80-c571-466a-9bf4-49e189777c11">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="37ccb42d-5783-4e2b-b776-4e996d8d02e7">
           <CubeDimensionID>DimBarizoVoucherKind</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="e9d7b45c-8877-40f8-a98c-1bab00ce716f">
+            <Attribute dwd:design-time-name="8bd8ca07-a99a-4cbc-8464-5451cac53d52">
               <AttributeID>Voucher Kind ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="a3f6c71f-9257-4e51-8d4e-3a42e06f9b47">
+                <KeyColumn dwd:design-time-name="adbb8448-8325-460f-bc81-6c9e34b2b110">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b4eb744e-e1c8-4527-ae02-cece9af11377">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="490f0c3d-99e3-4b0c-9905-8afcd91b48bb">
                     <TableID>dbo_FactBarizoInventoryVoucher</TableID>
                     <ColumnID>VoucherKindID</ColumnID>
                   </Source>
@@ -1070,16 +1080,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b6a01f6d-bd40-4c02-898a-b507f7132531">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b201aeb7-ab21-4182-8216-df7e5a52f14f">
           <CubeDimensionID>DimBarizoVoucherStatus</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="cd1ea800-35a8-4eaf-9672-355495e7ea5e">
+            <Attribute dwd:design-time-name="aece91b3-08be-4ceb-b6fc-44165cf9f267">
               <AttributeID>Voucher Status ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="a3532a38-5d55-44d0-b391-d3a1ee8dde8c">
+                <KeyColumn dwd:design-time-name="ff0d792f-47e5-4897-bcd4-fb8618bdd0cd">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="05279df6-d214-438e-8361-48abe5d4929d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0d60c949-376f-492e-a867-3bd7414be323">
                     <TableID>dbo_FactBarizoInventoryVoucher</TableID>
                     <ColumnID>VoucherStatusID</ColumnID>
                   </Source>
@@ -1089,16 +1099,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cee4fd96-744e-4af6-b8bb-fa90ae509bfe">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5f81274e-89ff-4b5a-b0b3-95f938a108cc">
           <CubeDimensionID>DimBarizoJunkMaterial</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="1ba74808-fe36-4148-a71e-f12009bffa19">
+            <Attribute dwd:design-time-name="a4680d92-2a6b-44d9-b2f2-da28b33bf53f">
               <AttributeID>Material ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="a9fce97d-f226-410f-83f9-70bde010590f">
+                <KeyColumn dwd:design-time-name="cb2f0666-6809-4802-b7e3-0d723e586202">
                   <DataType>BigInt</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="45358027-b1a6-43f6-b0c4-651e8b1aea1e">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c210869e-aee8-40f0-82db-eea8c9266d1a">
                     <TableID>dbo_FactBarizoInventoryVoucher</TableID>
                     <ColumnID>Material_Id</ColumnID>
                   </Source>
@@ -1108,10 +1118,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="4971dc73-9bcb-4265-bb8d-05dfc0821413">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="08ddf9f4-4d77-4c45-b627-e370d097c0d6">
           <CubeDimensionID>DimBarizoBOM</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="1a0299e9-42cf-40d1-b352-dcea48220eae">
+            <Attribute dwd:design-time-name="f28dfa6f-4b15-41a2-baf9-87e2125d11a0">
               <AttributeID>Material ID</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1121,15 +1131,15 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fed26d9f-a9da-419a-b514-9ed6d84396f5">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2ad999b1-60c3-4ddb-ae48-f9716df0918a">
           <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="898d8f4f-9ac9-4629-b963-c07a349007de">
+            <Attribute dwd:design-time-name="77478201-1c99-42f3-b13b-bf9180a2b56c">
               <AttributeID>Date Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="197c7a95-3915-4b95-9ff3-140cb976563f">
+                <KeyColumn dwd:design-time-name="906b9b25-5bb2-48a0-b7a2-18b90f6e81fe">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a27f18cf-bc2b-4ead-80d9-e172bb09d391">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="09e41302-0812-4324-8a8d-8f76753f37b7">
                     <TableID>dbo_FactBarizoInventoryVoucher</TableID>
                     <ColumnID>VoucherDateID</ColumnID>
                   </Source>
@@ -1142,7 +1152,7 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="e4be1ff3-fc84-4e47-a57f-87cf64b27313">
+    <MeasureGroup dwd:design-time-name="fc3ffe56-28ba-461d-99d0-f07cd2c6c976">
       <ID>Dim Barizo BOM</ID>
       <Name>Dim Barizo BOM</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1150,12 +1160,12 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="6a72a3bf-31e8-4375-add1-ebdb213b374a">
+        <Measure dwd:design-time-name="01e0725a-b725-44ef-98d2-9e0ec1d8152d">
           <ID>Standard Amount</ID>
           <Name>Standard Amount</Name>
-          <Source dwd:design-time-name="661e6d9f-ad80-42d3-80ed-5ae49142da03">
+          <Source dwd:design-time-name="efb215da-1010-4663-97a2-705553589d90">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c8bcecd0-bacb-4f07-81a2-ed18972d9912">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="92f3f33d-2fd3-4eae-aa39-71421ad00e54">
               <TableID>dbo_DimBarizoBOM</TableID>
               <ColumnID>StandardAmount</ColumnID>
             </Source>
@@ -1165,15 +1175,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="96497897-0eb4-41c2-a817-fb0ef93d14a6">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="696f359b-22e9-4fc1-a805-0aba03c22fd7">
           <CubeDimensionID>DimBarizoBOM</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="6a5694e2-55da-4be8-b196-6511aefb513d">
+            <Attribute dwd:design-time-name="3a3f04ec-b543-414d-a6fc-09298d02e060">
               <AttributeID>ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="55d9c92c-5576-403f-8f7a-772badd87c39">
+                <KeyColumn dwd:design-time-name="b72c0646-4ebe-4f74-acce-2c216e6e95ea">
                   <DataType>BigInt</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bae00891-cc1d-4502-9f0d-10a0439a37d1">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a7267391-e6d5-4cfc-a9bf-74a58a998e65">
                     <TableID>dbo_DimBarizoBOM</TableID>
                     <ColumnID>ID</ColumnID>
                   </Source>
@@ -1183,16 +1193,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fbc64b6e-55ad-4194-a2c6-475f5aa87f98">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fcc3a377-a305-4eb9-bafe-86ba179d57d9">
           <CubeDimensionID>DimBarizoDimJunkBOM</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="fa541c2a-2d6c-44e5-99c9-7fb57919052e">
+            <Attribute dwd:design-time-name="bcfcd92a-a326-45f6-91dd-3c7be7c9db75">
               <AttributeID>Product BOM ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="71de8d3e-ab62-4518-9281-01e7b5503a6a">
+                <KeyColumn dwd:design-time-name="d370be08-0feb-48e5-983d-032167b24f6d">
                   <DataType>BigInt</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d2aed2ed-7dde-455d-aa79-6c96b96c0b2b">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7b13cec0-9541-440f-800e-867b910e16d0">
                     <TableID>dbo_DimBarizoBOM</TableID>
                     <ColumnID>ProductBOM_ID</ColumnID>
                   </Source>
@@ -1202,10 +1212,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="656d091a-020c-442d-bda5-c3161f93eee9">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="55e67d49-0885-44f1-b4da-fb7d77e856b5">
           <CubeDimensionID>DimBarizoProduct</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="c68c17ce-fc2b-4019-83a2-afabadb4fc64">
+            <Attribute dwd:design-time-name="6a43b3ec-35b9-4e49-b68b-3ba202d7adb6">
               <AttributeID>Sales Product Id</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1215,16 +1225,16 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a5738379-c725-495d-86f7-b45b73728951">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0ccc67e4-895e-4f66-a8e8-e61a3e29c55d">
           <CubeDimensionID>DimBarizoJunkMaterial</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="57ca8a9d-4c69-4034-be98-1472239fa72d">
+            <Attribute dwd:design-time-name="3f59192a-2e55-4f49-853b-0855eacf6867">
               <AttributeID>Material ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="f7bebfea-5e0a-46bd-baf0-2bf9a083d9e9">
+                <KeyColumn dwd:design-time-name="931268b7-4299-4d5d-a3cd-521567f44d92">
                   <DataType>BigInt</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="16b85824-af05-4746-b3fd-4ec45693064d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8c992ab7-5cbc-43b6-8a26-0710375f4c60">
                     <TableID>dbo_DimBarizoBOM</TableID>
                     <ColumnID>MaterialID</ColumnID>
                   </Source>
@@ -1237,7 +1247,7 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="f106b49e-b152-46ae-8f7f-53709ca80327">
+    <MeasureGroup dwd:design-time-name="dbe8ebd2-9d32-4ffc-a436-a75b18cd1ac2">
       <ID>View Barizo Fact Sale And BOM</ID>
       <Name>View Barizo Fact Sale And BOM</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1245,34 +1255,34 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="ea6eae14-d078-4872-bbbd-65f7f5faf25c">
+        <Measure dwd:design-time-name="3e33b63f-ae3e-4aa2-8b5a-64a6be66a5a6">
           <ID>Sale First Qty - View Barizo Fact Sale And BOM</ID>
           <Name>Sale First Qty - View Barizo Fact Sale And BOM</Name>
-          <Source dwd:design-time-name="d910fbea-19d5-47e3-b553-1d0b46657e36">
+          <Source dwd:design-time-name="730d4d27-9be8-4701-9916-6b64463fea8c">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="8822bc63-a3d9-4685-a70b-f94304ca5b5c">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="accd6188-7dce-4a89-88e5-d64d533e7e3f">
               <TableID>dbo_View_BarizoFactSaleAndBOM</TableID>
               <ColumnID>Sale_FirstQty</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="0457c85a-00f6-4234-8ae7-c46de3ef9ebc">
+        <Measure dwd:design-time-name="076cea37-67e7-41c1-88f0-97817060d833">
           <ID>Standard Amount - View Barizo Fact Sale And BOM</ID>
           <Name>Standard Amount - View Barizo Fact Sale And BOM</Name>
-          <Source dwd:design-time-name="ebba3d7a-c116-4a8f-9fac-d8accda1eabd">
+          <Source dwd:design-time-name="bdc84fef-6963-4a5d-821f-9dabe7fa19c3">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="9b9f9346-1be4-4d53-8bd9-5e49cc14c329">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a5a60724-4377-4a9f-b08a-9734dd23c7d9">
               <TableID>dbo_View_BarizoFactSaleAndBOM</TableID>
               <ColumnID>StandardAmount</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="bdbe920d-28b3-44a9-986d-3d5deef1a63b">
+        <Measure dwd:design-time-name="23a22488-cd27-4308-9e8c-edcb6120bfaa">
           <ID>Consumed Value</ID>
           <Name>Consumed Value</Name>
-          <Source dwd:design-time-name="d3809253-5b7a-457a-a9e4-a090e6f7105c">
+          <Source dwd:design-time-name="87f748d9-4e32-439d-b409-9ed773376e5b">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="142e8b8c-f0b7-4cee-a6bb-bd75e2e2d3ce">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="82756527-3406-4342-a8a7-276e4b16d74a">
               <TableID>dbo_View_BarizoFactSaleAndBOM</TableID>
               <ColumnID>ConsumedValue</ColumnID>
             </Source>
@@ -1282,16 +1292,16 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="13ddad6d-99b2-48f7-b700-8b5851aa0a27">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f28cbe4a-2f60-47ca-b67f-62395a0bf781">
           <CubeDimensionID>DimBarizoDimJunkBOM</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="05f9d354-48e0-4eb8-8256-dffbbf7076ed">
+            <Attribute dwd:design-time-name="34a6853f-a1a5-497c-ac71-37583898807f">
               <AttributeID>Product BOM ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="72fe5659-2d0a-4903-a8bb-cb595d535278">
+                <KeyColumn dwd:design-time-name="3a497df3-758c-40b0-b4d2-4146643b4ba1">
                   <DataType>BigInt</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2eedeb0d-766a-4528-8379-2671860def23">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="26f71543-dc64-4e96-94df-b72de6ab176f">
                     <TableID>dbo_View_BarizoFactSaleAndBOM</TableID>
                     <ColumnID>ProductBOM_ID</ColumnID>
                   </Source>
@@ -1301,10 +1311,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="f9176b05-407c-4f61-b852-d02875bc57c4">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="5c93a0f8-03cc-4650-9014-029d035c8a79">
           <CubeDimensionID>DimBarizoBOM</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="71ce9e4b-ac06-4c42-a9f2-1f7b15641d4a">
+            <Attribute dwd:design-time-name="b9c31662-df49-43a4-aefb-6c7aab7ab897">
               <AttributeID>Product BOM ID</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1314,16 +1324,16 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="781f66a7-55bc-4a42-a945-efe25656b2be">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="15c4a99a-95c7-4773-95bd-415678fa2969">
           <CubeDimensionID>PUBSLEDimBarizoBranch</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ef8a12e1-c8fa-4bcc-99d9-7f8dc60acc26">
+            <Attribute dwd:design-time-name="5512f16c-b368-41c5-9307-341de63d4f9f">
               <AttributeID>Barizo Branch Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="bf2df64b-c197-4a91-8305-730e2692e878">
+                <KeyColumn dwd:design-time-name="b2288143-b9c9-4f89-9413-092d71c766fc">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a28708d6-325c-4796-9865-d2d92247cee4">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="39fde138-f84e-4ede-8395-88d85d9e2721">
                     <TableID>dbo_View_BarizoFactSaleAndBOM</TableID>
                     <ColumnID>BarizoBranchID</ColumnID>
                   </Source>
@@ -1333,16 +1343,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5f90d518-255c-4004-a660-54c32c8c4a52">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4445e591-de91-4d25-be63-91e5a3507896">
           <CubeDimensionID>DimBarizoJunkMaterial</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="aef751c5-9dd8-448f-9fe5-1f395c21b785">
+            <Attribute dwd:design-time-name="7a73c3ea-2c29-4216-9169-dfb9e7506421">
               <AttributeID>Material ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="7e92a2fe-e4d3-4e73-8273-55b2eb23a0a0">
+                <KeyColumn dwd:design-time-name="d16ee61c-5ef2-476c-9c3b-3b1397030f35">
                   <DataType>BigInt</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e5fe2ec1-b627-4256-975d-a67ee511a4c6">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="088c4502-1fa4-4d62-ace6-6336aec8a6fd">
                     <TableID>dbo_View_BarizoFactSaleAndBOM</TableID>
                     <ColumnID>MaterialID</ColumnID>
                   </Source>
@@ -1352,16 +1362,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ef61d30a-09f6-4cc5-ab7e-7503a22426da">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="23277326-7bee-4845-88d5-bbe3a0c9b2c2">
           <CubeDimensionID>GRL GNR Dim Full Date</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="665b1f5b-8b9c-486c-a973-ab4bcde11079">
+            <Attribute dwd:design-time-name="da7ab84c-5c28-4711-af0c-0567b0415ecb">
               <AttributeID>Date Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="a1b0fb6b-a1de-42e0-a976-d06c802d3171">
+                <KeyColumn dwd:design-time-name="604fa1da-7677-4ccc-90d3-d40d83e4ca8a">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="05833bb1-d552-4bf1-bdf5-aea2d0fd328a">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c5fae35d-2b7d-44e5-af87-2920f49cf4b2">
                     <TableID>dbo_View_BarizoFactSaleAndBOM</TableID>
                     <ColumnID>Date_Id</ColumnID>
                   </Source>
@@ -1375,11 +1385,11 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="f1521c27-6025-4f34-99db-97e50719128e">
+  <Source dwd:design-time-name="3e1375f5-a512-4dd9-bae7-82a6b9180a45">
     <DataSourceViewID>SABZDW</DataSourceViewID>
   </Source>
   <MdxScripts>
-    <MdxScript dwd:design-time-name="dfdadec3-1506-4295-ac4e-61cb7b1acddd">
+    <MdxScript dwd:design-time-name="0b78b9c9-ec07-4c43-aa02-729e33c81d4f">
       <ID>MdxScript</ID>
       <Name>MdxScript</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1405,7 +1415,7 @@ VISIBLE = 1  ; </Text>
         </Command>
       </Commands>
       <CalculationProperties>
-        <CalculationProperty dwd:design-time-name="35147731-b01b-44b8-bf6c-63876554c07a">
+        <CalculationProperty dwd:design-time-name="554a7c76-4202-43a0-8b48-a4a4938365a1">
           <CalculationReference>[Measures].[ConsumedValue]</CalculationReference>
           <CalculationType>Member</CalculationType>
         </CalculationProperty>
