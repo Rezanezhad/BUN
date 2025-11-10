@@ -35322,14 +35322,10 @@ FORMAT_STRING = "#,##;-#,##",
 VISIBLE = 1  ;      
 
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Discount Sale Policy ReturnSale Tooltip]
- AS iif(val([PUB SLE Dim Sales Organization].[Sales Organization Id].currentmember.member_key)&lt;&gt;4 and 
-    val([PUB SLE Dim Sales Organization].[Sales Organization Id].currentmember.member_key)&lt;&gt;8
-,([Measures].[PUB SLE Fact Return Sale Zingo Discount Policy Price]
-+[Measures].[PUB SLE Fact Return Sale Elipon Discount Policy Price])
-,(([Measures].[PUB SLE Fact Return Sale Zingo Discount Policy Price]
-+[Measures].[PUB SLE Fact Return Sale Elipon Discount Policy Price])  *-1)), 
+ AS ([Measures].[PUB SLE Fact Return Sale Zingo Discount Policy Price]
++[Measures].[PUB SLE Fact Return Sale Elipon Discount Policy Price])  , 
 FORMAT_STRING = "#,##;-#,##", 
-VISIBLE = 1  ;                                                                                                                                                                                                                                                                         
+VISIBLE = 1  ;                                                                                                                                                                                                                                                                    
                                                                                                      
                                  
 CREATE MEMBER CURRENTCUBE.[Measures].[PUB SLE Fact Net Sale Tax]
