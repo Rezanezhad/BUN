@@ -1,4 +1,4 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c10a968c-f563-4108-91ac-fe726b08c352" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6c773e84-7226-40d0-819b-15909288e9d7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>BunDW</ID>
   <Name>BunDW</Name>
   <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
@@ -10,7 +10,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
-      <Value>Financial Transaction</Value>
+      <Value>SaleAndReturn</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
@@ -922,7 +922,7 @@
             <Name>SaleAndReturn</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5426" scrolltop="-6048" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="33422" y="17166" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="58" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6914" scrolltop="-6327" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="33422" y="17145" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
                   </font>
@@ -933,7 +933,7 @@
                 <layoutmanager>
                   <ddsxmlobj />
                 </layoutmanager>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Vw_PUB_SLE_Fact_ReturnSale" left="11575" top="-5183" logicalid="12" controlid="1" masterid="0" hint1="0" hint2="0" width="4826" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Vw_PUB_SLE_Fact_ReturnSale" left="11575" top="-5183" logicalid="43" controlid="17" masterid="0" hint1="0" hint2="0" width="4826" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000da12000088130000" />
                   </control>
@@ -944,7 +944,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Vw_PUB_SLE_Fact_Sale_ForDiscount" left="-6916" top="-6479" logicalid="13" controlid="2" masterid="0" hint1="0" hint2="0" width="5567" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Vw_PUB_SLE_Fact_Sale_ForDiscount" left="-6916" top="-6479" logicalid="44" controlid="18" masterid="0" hint1="0" hint2="0" width="5567" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000bf15000088130000" />
                   </control>
@@ -955,7 +955,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimDate" left="2796" top="-2526" logicalid="14" controlid="3" masterid="0" hint1="0" hint2="0" width="4741" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimDate" left="2796" top="-2526" logicalid="45" controlid="19" masterid="0" hint1="0" hint2="0" width="4741" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e00008512000088130000" />
                   </control>
@@ -966,7 +966,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimOrganization" left="3431" top="-6612" logicalid="15" controlid="4" masterid="0" hint1="0" hint2="0" width="4318" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimOrganization" left="3431" top="-6612" logicalid="46" controlid="20" masterid="0" hint1="0" hint2="0" width="4318" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000de10000003090000" />
                   </control>
@@ -977,7 +977,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="7449" top="-5308" logicalid="16" controlid="5" masterid="0" hint1="0" hint2="0" width="4426" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="7449" top="-5308" logicalid="47" controlid="21" masterid="0" hint1="0" hint2="0" width="4426" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -990,14 +990,14 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="19" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="20" destid="17" sourceattachpoint="19" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="7749" y="-4909" />
                     <point x="9662" y="-4909" />
                     <point x="9662" y="-4883" />
                     <point x="11575" y="-4883" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="-1649" top="-6479" logicalid="17" controlid="6" masterid="0" hint1="0" hint2="0" width="5380" height="870" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-1649" top="-6479" logicalid="48" controlid="22" masterid="0" hint1="0" hint2="0" width="5380" height="870" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -1010,14 +1010,14 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="14" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="20" destid="18" sourceattachpoint="14" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="3431" y="-6009" />
                     <point x="1041" y="-6009" />
                     <point x="1041" y="-6179" />
                     <point x="-1349" y="-6179" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimSaleOffice" left="-3462" top="1314" logicalid="18" controlid="7" masterid="0" hint1="0" hint2="0" width="3360" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimSaleOffice" left="-3462" top="1314" logicalid="49" controlid="23" masterid="0" hint1="0" hint2="0" width="3360" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000200d000057070000" />
                   </control>
@@ -1028,7 +1028,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="-3333" top="-1779" logicalid="19" controlid="8" masterid="0" hint1="0" hint2="0" width="851" height="3593" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-3333" top="-1779" logicalid="50" controlid="24" masterid="0" hint1="0" hint2="0" width="851" height="3593" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -1041,14 +1041,14 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="2" sourceattachpoint="0" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="23" destid="18" sourceattachpoint="0" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="-2882" y="1314" />
                     <point x="-2882" y="-82" />
                     <point x="-3033" y="-82" />
                     <point x="-3033" y="-1479" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="-1649" top="-2629" logicalid="20" controlid="9" masterid="0" hint1="0" hint2="0" width="4745" height="803" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-1649" top="-2629" logicalid="51" controlid="25" masterid="0" hint1="0" hint2="0" width="4745" height="803" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -1061,14 +1061,14 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="18" destattachpoint="33" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="19" destid="18" sourceattachpoint="18" destattachpoint="33" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="2796" y="-2226" />
                     <point x="724" y="-2226" />
                     <point x="724" y="-2329" />
                     <point x="-1349" y="-2329" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="7237" top="-2625" logicalid="21" controlid="10" masterid="0" hint1="0" hint2="0" width="4638" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="7237" top="-2625" logicalid="52" controlid="26" masterid="0" hint1="0" hint2="0" width="4638" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -1081,14 +1081,14 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="19" destattachpoint="28" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="19" destid="17" sourceattachpoint="19" destattachpoint="28" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="7537" y="-2226" />
                     <point x="9556" y="-2226" />
                     <point x="9556" y="-2133" />
                     <point x="11575" y="-2133" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimCorporate_Budget_Strategy" left="9765" top="3431" logicalid="22" controlid="11" masterid="0" hint1="0" hint2="0" width="6223" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimCorporate_Budget_Strategy" left="9765" top="3431" logicalid="53" controlid="27" masterid="0" hint1="0" hint2="0" width="6223" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e00004f1800009b070000" />
                   </control>
@@ -1099,12 +1099,63 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="PUB_GNR_Dim_Product" left="8074" top="870" logicalid="55" controlid="29" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000003090000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="PUB_GNR_Dim_Product" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="10275" top="-483" logicalid="56" controlid="30" masterid="0" hint1="0" hint2="0" width="1813" height="1853" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Vw_PUB_SLE_Fact_ReturnSale-PUB_GNR_Dim_Product]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="29" destid="17" sourceattachpoint="8" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="10674" y="870" />
+                    <point x="10674" y="344" />
+                    <point x="11788" y="344" />
+                    <point x="11788" y="-183" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-1649" top="-2079" logicalid="57" controlid="31" masterid="0" hint1="0" hint2="0" width="10023" height="3952" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[Vw_PUB_SLE_Fact_Sale_ForDiscount-PUB_GNR_Dim_Product]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="29" destid="18" sourceattachpoint="10" destattachpoint="35" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="8074" y="1473" />
+                    <point x="3363" y="1473" />
+                    <point x="3363" y="-1779" />
+                    <point x="-1349" y="-1779" />
+                  </connector>
+                </ddscontrol>
               </dds>
-            </DiagramLayout>
+</DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>-5426</DiagramViewPortLeft>
-            <DiagramViewPortTop>-6048</DiagramViewPortTop>
+            <DiagramViewPortLeft>-6914</DiagramViewPortLeft>
+            <DiagramViewPortTop>-6327</DiagramViewPortTop>
             <DiagramBoundingLeft>-6916</DiagramBoundingLeft>
             <DiagramBoundingTop>-6612</DiagramBoundingTop>
             <DiagramZoom>100</DiagramZoom>
@@ -1122,7 +1173,7 @@
             <xs:element name="fin_DimAccount" msprop:design-time-name="f6207c31-045e-4d75-9af6-fafb6227f571" msprop:IsLogical="True" msprop:FriendlyName="DimAccount" msprop:DbTableName="DimAccount" msprop:TableType="View" msprop:QueryDefinition="SELECT     [fin].[DimAccount].*, iif([AccountType] = N'PL', 1, 0) AS [IsPL]&#xD;&#xA;FROM        [fin].[DimAccount]" msprop:QueryBuilder="SpecificQueryBuilder">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="AccountKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="d0b3df03-1006-4a96-90d0-7d4a95517c7b" msprop:DbColumnName="AccountKey" msprop:FriendlyName="AccountKey" type="xs:int" />
+                  <xs:element name="AccountKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="d0b3df03-1006-4a96-90d0-7d4a95517c7b" msprop:DbColumnName="AccountKey" msprop:FriendlyName="AccountKey" type="xs:int" minOccurs="0" />
                   <xs:element name="LedgerAccountAlternateKey" msprop:design-time-name="1200e6f0-e03e-4567-af7e-23ce47adb8b3" msprop:DbColumnName="LedgerAccountAlternateKey" msprop:FriendlyName="LedgerAccountAlternateKey" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
@@ -1688,7 +1739,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_Vw_PUB_SLE_Fact_ReturnSale" msprop:design-time-name="22ce4a1b-239f-4fc6-85c1-37fe0b9bf7e0" msprop:FriendlyName="Vw_PUB_SLE_Fact_ReturnSale" msprop:DbSchemaName="dbo" msprop:DbTableName="Vw_PUB_SLE_Fact_ReturnSale" msprop:TableType="View">
+            <xs:element name="dbo_Vw_PUB_SLE_Fact_ReturnSale" msprop:design-time-name="22ce4a1b-239f-4fc6-85c1-37fe0b9bf7e0" msprop:IsLogical="True" msprop:FriendlyName="Vw_PUB_SLE_Fact_ReturnSale" msprop:DbTableName="Vw_PUB_SLE_Fact_ReturnSale" msprop:TableType="View" msprop:QueryDefinition="SELECT     ReturnSale_Id, ReturnSale_FirstQty, ReturnSale_SecondQty, ReturnSale_Value, ReturnSale_CurrencyValue, Product_Id, Customer_Id, CurrencyType_Id, Company_Id, Date_Id, Province_Id, ReturnSalesOrganization_Id, ReturnSalesChannel_Id, Unit_Id, ProductParent_Id, &#xD;&#xA;                  ReturnSale_ValueGift, ReturnSale_SubGift, ReturnSale_Sub, SaleOffice_Id, ReturnSale_ValueWatage, ReturnSale_SubWatage, ReturnSale_ValueRawMaterial, ReturnSale_SubRawMaterial, ReturnSale_ValueGiftOnly, ReturnSale_SubGiftOnly, SalesOfficeRef, ReturnSale_NetValue, &#xD;&#xA;                  ReturnInvoiceNumber, ReductionAmount, AdditionAmount, Price, ZingoDiscountPolicyPrice, EliponDiscountPolicyPrice, ReturnSaleHandyTashim, Product_Code, OrganizationID, DateKey, CashSettlement&#xD;&#xA;FROM        Vw_PUB_SLE_Fact_ReturnSale AS a" msprop:QueryBuilder="SpecificQueryBuilder">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="ReturnSale_Id" msprop:design-time-name="6c01c896-6387-4b8d-8a31-8b50e6740cc2" msprop:DbColumnName="ReturnSale_Id" msprop:FriendlyName="ReturnSale_Id" type="xs:decimal" minOccurs="0" />
@@ -1704,18 +1755,18 @@
                   <xs:element name="Province_Id" msdata:ReadOnly="true" msprop:design-time-name="0887992d-aec5-44f3-bd2e-7512520b401f" msprop:DbColumnName="Province_Id" msprop:FriendlyName="Province_Id" type="xs:long" minOccurs="0" />
                   <xs:element name="ReturnSalesOrganization_Id" msprop:design-time-name="37f1e13c-0a59-463d-b0ae-f43748bfcfe8" msprop:DbColumnName="ReturnSalesOrganization_Id" msprop:FriendlyName="ReturnSalesOrganization_Id" type="xs:int" minOccurs="0" />
                   <xs:element name="ReturnSalesChannel_Id" msprop:design-time-name="355216ba-006d-41a3-aae7-4eb124e78bf2" msprop:DbColumnName="ReturnSalesChannel_Id" msprop:FriendlyName="ReturnSalesChannel_Id" type="xs:int" minOccurs="0" />
-                  <xs:element name="Unit_Id" msdata:ReadOnly="true" msprop:design-time-name="6af60444-3eed-4cc1-bed5-80449651c5ff" msprop:DbColumnName="Unit_Id" msprop:FriendlyName="Unit_Id" type="xs:int" />
+                  <xs:element name="Unit_Id" msdata:ReadOnly="true" msprop:design-time-name="6af60444-3eed-4cc1-bed5-80449651c5ff" msprop:DbColumnName="Unit_Id" msprop:FriendlyName="Unit_Id" type="xs:int" minOccurs="0" />
                   <xs:element name="ProductParent_Id" msdata:ReadOnly="true" msprop:design-time-name="2b11ddf7-4544-4386-80db-72735f34f22a" msprop:DbColumnName="ProductParent_Id" msprop:FriendlyName="ProductParent_Id" type="xs:long" minOccurs="0" />
                   <xs:element name="ReturnSale_ValueGift" msprop:design-time-name="c87cd43c-8b9f-4527-8915-4ad023ab9919" msprop:DbColumnName="ReturnSale_ValueGift" msprop:FriendlyName="ReturnSale_ValueGift" type="xs:decimal" minOccurs="0" />
                   <xs:element name="ReturnSale_SubGift" msprop:design-time-name="85e48c2f-ec16-49d6-acbb-a5be8ccb2fe7" msprop:DbColumnName="ReturnSale_SubGift" msprop:FriendlyName="ReturnSale_SubGift" type="xs:decimal" minOccurs="0" />
                   <xs:element name="ReturnSale_Sub" msdata:ReadOnly="true" msprop:design-time-name="cfabfc67-4dc1-44bb-88ae-808946dbf53d" msprop:DbColumnName="ReturnSale_Sub" msprop:FriendlyName="ReturnSale_Sub" type="xs:decimal" minOccurs="0" />
                   <xs:element name="SaleOffice_Id" msprop:design-time-name="ebec95e7-d1aa-4e4e-87e1-1d4439e836f5" msprop:DbColumnName="SaleOffice_Id" msprop:FriendlyName="SaleOffice_Id" type="xs:int" minOccurs="0" />
-                  <xs:element name="ReturnSale_ValueWatage" msdata:ReadOnly="true" msprop:design-time-name="e551ff65-055f-4212-94c3-d4b8aadbf054" msprop:DbColumnName="ReturnSale_ValueWatage" msprop:FriendlyName="ReturnSale_ValueWatage" type="xs:decimal" />
-                  <xs:element name="ReturnSale_SubWatage" msdata:ReadOnly="true" msprop:design-time-name="ad798c6c-08aa-4b20-84f0-fff720ff826a" msprop:DbColumnName="ReturnSale_SubWatage" msprop:FriendlyName="ReturnSale_SubWatage" type="xs:decimal" />
-                  <xs:element name="ReturnSale_ValueRawMaterial" msdata:ReadOnly="true" msprop:design-time-name="d4e13ef7-799b-4e28-b865-550aeb3b7187" msprop:DbColumnName="ReturnSale_ValueRawMaterial" msprop:FriendlyName="ReturnSale_ValueRawMaterial" type="xs:decimal" />
-                  <xs:element name="ReturnSale_SubRawMaterial" msdata:ReadOnly="true" msprop:design-time-name="00ab0465-be3e-4bc9-b509-9432fc64efeb" msprop:DbColumnName="ReturnSale_SubRawMaterial" msprop:FriendlyName="ReturnSale_SubRawMaterial" type="xs:decimal" />
-                  <xs:element name="ReturnSale_ValueGiftOnly" msdata:ReadOnly="true" msprop:design-time-name="b3648222-13a4-451a-94dc-04e00fa51d04" msprop:DbColumnName="ReturnSale_ValueGiftOnly" msprop:FriendlyName="ReturnSale_ValueGiftOnly" type="xs:decimal" />
-                  <xs:element name="ReturnSale_SubGiftOnly" msdata:ReadOnly="true" msprop:design-time-name="76e92eb6-02fe-4e2c-90a3-7ec7045c7bc2" msprop:DbColumnName="ReturnSale_SubGiftOnly" msprop:FriendlyName="ReturnSale_SubGiftOnly" type="xs:decimal" />
+                  <xs:element name="ReturnSale_ValueWatage" msdata:ReadOnly="true" msprop:design-time-name="e551ff65-055f-4212-94c3-d4b8aadbf054" msprop:DbColumnName="ReturnSale_ValueWatage" msprop:FriendlyName="ReturnSale_ValueWatage" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ReturnSale_SubWatage" msdata:ReadOnly="true" msprop:design-time-name="ad798c6c-08aa-4b20-84f0-fff720ff826a" msprop:DbColumnName="ReturnSale_SubWatage" msprop:FriendlyName="ReturnSale_SubWatage" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ReturnSale_ValueRawMaterial" msdata:ReadOnly="true" msprop:design-time-name="d4e13ef7-799b-4e28-b865-550aeb3b7187" msprop:DbColumnName="ReturnSale_ValueRawMaterial" msprop:FriendlyName="ReturnSale_ValueRawMaterial" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ReturnSale_SubRawMaterial" msdata:ReadOnly="true" msprop:design-time-name="00ab0465-be3e-4bc9-b509-9432fc64efeb" msprop:DbColumnName="ReturnSale_SubRawMaterial" msprop:FriendlyName="ReturnSale_SubRawMaterial" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ReturnSale_ValueGiftOnly" msdata:ReadOnly="true" msprop:design-time-name="b3648222-13a4-451a-94dc-04e00fa51d04" msprop:DbColumnName="ReturnSale_ValueGiftOnly" msprop:FriendlyName="ReturnSale_ValueGiftOnly" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ReturnSale_SubGiftOnly" msdata:ReadOnly="true" msprop:design-time-name="76e92eb6-02fe-4e2c-90a3-7ec7045c7bc2" msprop:DbColumnName="ReturnSale_SubGiftOnly" msprop:FriendlyName="ReturnSale_SubGiftOnly" type="xs:decimal" minOccurs="0" />
                   <xs:element name="SalesOfficeRef" msprop:design-time-name="8056ad4a-7f7e-49ee-8b11-501fd669500e" msprop:DbColumnName="SalesOfficeRef" msprop:FriendlyName="SalesOfficeRef" type="xs:int" minOccurs="0" />
                   <xs:element name="ReturnSale_NetValue" msdata:ReadOnly="true" msprop:design-time-name="fd9da5e8-cdf2-4689-bee6-894b11003ff8" msprop:DbColumnName="ReturnSale_NetValue" msprop:FriendlyName="ReturnSale_NetValue" type="xs:decimal" minOccurs="0" />
                   <xs:element name="ReturnInvoiceNumber" msprop:design-time-name="25b73352-13d0-4f6a-9765-3a80722ce71a" msprop:DbColumnName="ReturnInvoiceNumber" msprop:FriendlyName="ReturnInvoiceNumber" minOccurs="0">
@@ -1725,9 +1776,9 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="ReductionAmount" msdata:ReadOnly="true" msprop:design-time-name="92db0cf2-fd85-4f23-ae55-6769f177ca3e" msprop:DbColumnName="ReductionAmount" msprop:FriendlyName="ReductionAmount" type="xs:decimal" />
-                  <xs:element name="AdditionAmount" msdata:ReadOnly="true" msprop:design-time-name="a5079cca-41a5-4535-9f7a-b8bdc4dd6554" msprop:DbColumnName="AdditionAmount" msprop:FriendlyName="AdditionAmount" type="xs:decimal" />
-                  <xs:element name="Price" msdata:ReadOnly="true" msprop:design-time-name="4e11f8ab-1372-4280-8ef9-6112058260e8" msprop:DbColumnName="Price" msprop:FriendlyName="Price" type="xs:decimal" />
+                  <xs:element name="ReductionAmount" msdata:ReadOnly="true" msprop:design-time-name="92db0cf2-fd85-4f23-ae55-6769f177ca3e" msprop:DbColumnName="ReductionAmount" msprop:FriendlyName="ReductionAmount" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="AdditionAmount" msdata:ReadOnly="true" msprop:design-time-name="a5079cca-41a5-4535-9f7a-b8bdc4dd6554" msprop:DbColumnName="AdditionAmount" msprop:FriendlyName="AdditionAmount" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="Price" msdata:ReadOnly="true" msprop:design-time-name="4e11f8ab-1372-4280-8ef9-6112058260e8" msprop:DbColumnName="Price" msprop:FriendlyName="Price" type="xs:decimal" minOccurs="0" />
                   <xs:element name="ZingoDiscountPolicyPrice" msprop:design-time-name="79f0ef8c-babf-4e4f-a2c5-255301f0f402" msprop:DbColumnName="ZingoDiscountPolicyPrice" msprop:FriendlyName="ZingoDiscountPolicyPrice" type="xs:decimal" minOccurs="0" />
                   <xs:element name="EliponDiscountPolicyPrice" msprop:design-time-name="1fa5e766-9cfe-4aa9-accf-1713ae24ca8d" msprop:DbColumnName="EliponDiscountPolicyPrice" msprop:FriendlyName="EliponDiscountPolicyPrice" type="xs:decimal" minOccurs="0" />
                   <xs:element name="ReturnSaleHandyTashim" msdata:ReadOnly="true" msprop:design-time-name="a3287e30-8adb-4a1c-806e-2eb6f30601ec" msprop:DbColumnName="ReturnSaleHandyTashim" msprop:FriendlyName="ReturnSaleHandyTashim" type="xs:decimal" minOccurs="0" />
@@ -1740,6 +1791,7 @@
                   </xs:element>
                   <xs:element name="OrganizationID" msdata:ReadOnly="true" msprop:design-time-name="d66aaa4d-7c2a-4b57-a51e-ff01f4056273" msprop:DbColumnName="OrganizationID" msprop:FriendlyName="OrganizationID" type="xs:int" minOccurs="0" />
                   <xs:element name="DateKey" msprop:design-time-name="d219cacc-8414-435d-98ca-20d1b71d5716" msprop:DbColumnName="DateKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="CashSettlement" msprop:design-time-name="26716c1c-0a3c-4c72-a504-23f3e94a9008" msprop:DbColumnName="CashSettlement" type="xs:decimal" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -1785,8 +1837,8 @@
                   </xs:element>
                   <xs:element name="Sale_SecondQty" msprop:design-time-name="75dc5896-415b-44f8-bb80-92fc52498895" msprop:DbColumnName="Sale_SecondQty" type="xs:decimal" minOccurs="0" />
                   <xs:element name="DateKey" msprop:design-time-name="3b549e93-10ef-4a0b-b497-47f525a18a5f" msprop:DbColumnName="DateKey" type="xs:int" minOccurs="0" />
-                  <xs:element name="EliponPolicyPromotion" msprop:DbColumnName="EliponPolicyPromotion" msprop:design-time-name="fee5b7bc-9dcf-4b65-95fb-d6ccf6bfca71" type="xs:decimal" minOccurs="0" />
-                  <xs:element name="ZingoPolicyPromotion" msprop:DbColumnName="ZingoPolicyPromotion" msprop:design-time-name="1dd78d9a-3540-4cec-9ba8-2d416eda903a" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="EliponPolicyPromotion" msprop:design-time-name="fee5b7bc-9dcf-4b65-95fb-d6ccf6bfca71" msprop:DbColumnName="EliponPolicyPromotion" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="ZingoPolicyPromotion" msprop:design-time-name="1dd78d9a-3540-4cec-9ba8-2d416eda903a" msprop:DbColumnName="ZingoPolicyPromotion" type="xs:decimal" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -1804,7 +1856,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="DimCorporate_Budget_Strategy" msprop:design-time-name="30c83df2-2bef-403a-917e-09dd06270b73" msprop:IsLogical="True" msprop:FriendlyName="DimCorporate_Budget_Strategy" msprop:DbTableName="DimCorporate_Budget_Strategy" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT     Corporate_Budget_StrategyID, Corporate_Budget_StrategyName, Corporate_Budget_StrategyDescription&#xD;&#xA;FROM        (SELECT     CAST(Corporate_Budget_StrategyID AS INT) AS Corporate_Budget_StrategyID, CAST(Corporate_Budget_StrategyName AS NVARCHAR(100)) AS Corporate_Budget_StrategyName, CAST(Corporate_Budget_StrategyDescription AS NVARCHAR(100)) &#xD;&#xA;                                     AS Corporate_Budget_StrategyDescription&#xD;&#xA;                   FROM        (SELECT     1 AS Corporate_Budget_StrategyID, N'Sale Second Qty' AS Corporate_Budget_StrategyName, N'فروش تعدادی ناخالص' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     2 AS Corporate_Budget_StrategyID, N'Net Sales QTY' AS Corporate_Budget_StrategyName, N'فروش تعدادی خالص' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     3 AS Corporate_Budget_StrategyID, N'Gross revenue from sales' AS Corporate_Budget_StrategyName, N'درآمد ناخالص حاصل از فروش' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     4 AS Corporate_Budget_StrategyID, N'ReturnSale' AS Corporate_Budget_StrategyName, N'برگشت از فروش ' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     5 AS Corporate_Budget_StrategyID, N'Net Discount' AS Corporate_Budget_StrategyName, N'تخفیفات' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     6 AS Corporate_Budget_StrategyID, N'Taxes and duties' AS Corporate_Budget_StrategyName, N'ارزش افزوده' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     7 AS Corporate_Budget_StrategyID, N'Net Sale' AS Corporate_Budget_StrategyName, N'فروش خالص' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     8 AS Corporate_Budget_StrategyID, N'Cost of goods sold' AS Corporate_Budget_StrategyName, N' بهای تمام شده کالای فروش رفته' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     9 AS Corporate_Budget_StrategyID, N'Gross profit2' AS Corporate_Budget_StrategyName, N'سود/ زیان ناخالص' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     10 AS Corporate_Budget_StrategyID, N'Gross profit Percent' AS Corporate_Budget_StrategyName, N'درصد سود/زیان ناخالص' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     11 AS Corporate_Budget_StrategyID, N'Selling, administrative, general and organizational expenses' AS Corporate_Budget_StrategyName, N'هزینه‏های فروش، اداری، عمومی و تشکیلاتی' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     12 AS Corporate_Budget_StrategyID, N'Payroll Expenses WithNoAbs' AS Corporate_Budget_StrategyName, N' هزینه‏های حقوق و دستمزد' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     13 AS Corporate_Budget_StrategyID, N'Personnel Expenses WithNoAbs' AS Corporate_Budget_StrategyName, N'هزینه‏های کارکنان' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     14 AS Corporate_Budget_StrategyID, N'General and administrative-organizational costs' AS Corporate_Budget_StrategyName, N'هزینه‌های عمومی و اداری-تشکیلاتی' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     15 AS Corporate_Budget_StrategyID, N'Depreciation Expenses WithNo Abs' AS Corporate_Budget_StrategyName, N'هزینه‌های استهلاک' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     16 AS Corporate_Budget_StrategyID, N'Cost of Sales Withno abs' AS Corporate_Budget_StrategyName, N'هزینه‌های توزیع و فروش' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     17 AS Corporate_Budget_StrategyID, N'Marketing and advertising' AS Corporate_Budget_StrategyName, N'هزینه‌های بازاریابی و تبلیغات' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     18 AS Corporate_Budget_StrategyID, N'Trade Marketing And Advertisement Expenses' AS Corporate_Budget_StrategyName, N'هزینه‏‌های ترید مارکتینگ' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     19 AS Corporate_Budget_StrategyID, N'Other incomes' AS Corporate_Budget_StrategyName, N'ساير درآمدها' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     20 AS Corporate_Budget_StrategyID, N'Other costs' AS Corporate_Budget_StrategyName, N'سایر هزینه‌ها' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     21 AS Corporate_Budget_StrategyID, N'Operating Profit2' AS Corporate_Budget_StrategyName, N'سود/ زیان عملیاتی' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     22 AS Corporate_Budget_StrategyID, N'Operating profit Percent' AS Corporate_Budget_StrategyName, N'درصد سود/زیان عملیاتی' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     23 AS Corporate_Budget_StrategyID, N'Financial costs' AS Corporate_Budget_StrategyName, N'هزینه‌های مالی' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     24 AS Corporate_Budget_StrategyID, N'Other Revenue and Expenses WithNo abs' AS Corporate_Budget_StrategyName, N'ساير درآمدها و هزينه‏هاى غيرعملياتى' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     25 AS Corporate_Budget_StrategyID, N'Other notForecast Costs' AS Corporate_Budget_StrategyName, N'سایر هزینه‌های پیش بینی نشده' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     26 AS Corporate_Budget_StrategyID, N'Profit before tax' AS Corporate_Budget_StrategyName, N'سود قبل از کسر مالیات' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     27 AS Corporate_Budget_StrategyID, N'Profit before tax Percent' AS Corporate_Budget_StrategyName, N'درصد سود قبل از کسر مالیات' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     28 AS Corporate_Budget_StrategyID, N'Income tax expense' AS Corporate_Budget_StrategyName, N'هزینه مالیات بر درآمد' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     29 AS Corporate_Budget_StrategyID, N'Net profit after tax (M R)' AS Corporate_Budget_StrategyName, N'سود خالص بعد از کسر مالیات (م ر)' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     30 AS Corporate_Budget_StrategyID, N'Net profit after tax (M R) Percent' AS Corporate_Budget_StrategyName, N'درصد سود/زیان خالص' AS Corporate_Budget_StrategyDescription) AS a) AS b" msprop:QueryBuilder="SpecificQueryBuilder">
+            <xs:element name="DimCorporate_Budget_Strategy" msprop:design-time-name="30c83df2-2bef-403a-917e-09dd06270b73" msprop:IsLogical="True" msprop:FriendlyName="DimCorporate_Budget_Strategy" msprop:DbTableName="DimCorporate_Budget_Strategy" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT     Corporate_Budget_StrategyID, Corporate_Budget_StrategyName, Corporate_Budget_StrategyDescription&#xD;&#xA;FROM        (SELECT     CAST(Corporate_Budget_StrategyID AS INT) AS Corporate_Budget_StrategyID, CAST(Corporate_Budget_StrategyName AS NVARCHAR(100)) AS Corporate_Budget_StrategyName, CAST(Corporate_Budget_StrategyDescription AS NVARCHAR(100)) &#xD;&#xA;                                     AS Corporate_Budget_StrategyDescription&#xD;&#xA;                   FROM        (SELECT     1 AS Corporate_Budget_StrategyID, N'Sale Second Qty' AS Corporate_Budget_StrategyName, N'فروش تعدادی ناخالص' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     2 AS Corporate_Budget_StrategyID, N'Net Sales QTY' AS Corporate_Budget_StrategyName, N'فروش تعدادی خالص' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     3 AS Corporate_Budget_StrategyID, N'Gross revenue from sales' AS Corporate_Budget_StrategyName, N'درآمد ناخالص حاصل از فروش' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     4 AS Corporate_Budget_StrategyID, N'Gross Value Avg' AS Corporate_Budget_StrategyName, N'میانگین قیمت ناخالص' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     5 AS Corporate_Budget_StrategyID, N'ReturnSale' AS Corporate_Budget_StrategyName, N'برگشت از فروش ' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     6 AS Corporate_Budget_StrategyID, N'Net Discount' AS Corporate_Budget_StrategyName, N'تخفیفات' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     7 AS Corporate_Budget_StrategyID, N'Taxes and duties' AS Corporate_Budget_StrategyName, N'ارزش افزوده' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     8 AS Corporate_Budget_StrategyID, N'Net Sale' AS Corporate_Budget_StrategyName, N'فروش خالص' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     9 AS Corporate_Budget_StrategyID, N'Cost of goods sold' AS Corporate_Budget_StrategyName, N' بهای تمام شده کالای فروش رفته' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     10 AS Corporate_Budget_StrategyID, N'Gross profit2' AS Corporate_Budget_StrategyName, N'سود/ زیان ناخالص' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     11 AS Corporate_Budget_StrategyID, N'Gross profit Percent' AS Corporate_Budget_StrategyName, N'درصد سود/زیان ناخالص' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     12 AS Corporate_Budget_StrategyID, N'Selling, administrative, general and organizational expenses' AS Corporate_Budget_StrategyName, N'هزینه‏های فروش، اداری، عمومی و تشکیلاتی' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     13 AS Corporate_Budget_StrategyID, N'Payroll Expenses WithNoAbs' AS Corporate_Budget_StrategyName, N' هزینه‏های حقوق و دستمزد' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     14 AS Corporate_Budget_StrategyID, N'Personnel Expenses WithNoAbs' AS Corporate_Budget_StrategyName, N'هزینه‏های کارکنان' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     15 AS Corporate_Budget_StrategyID, N'General and administrative-organizational costs' AS Corporate_Budget_StrategyName, N'هزینه‌های عمومی و اداری-تشکیلاتی' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     16 AS Corporate_Budget_StrategyID, N'Depreciation Expenses WithNo Abs' AS Corporate_Budget_StrategyName, N'هزینه‌های استهلاک' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     17 AS Corporate_Budget_StrategyID, N'Cost of Sales Withno abs' AS Corporate_Budget_StrategyName, N'هزینه‌های توزیع و فروش' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     18 AS Corporate_Budget_StrategyID, N'Marketing and advertising' AS Corporate_Budget_StrategyName, N'هزینه‌های بازاریابی و تبلیغات' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     19 AS Corporate_Budget_StrategyID, N'Trade Marketing And Advertisement Expenses' AS Corporate_Budget_StrategyName, N'هزینه‏‌های ترید مارکتینگ' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     20 AS Corporate_Budget_StrategyID, N'Other incomes' AS Corporate_Budget_StrategyName, N'ساير درآمدها' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     21 AS Corporate_Budget_StrategyID, N'Other costs' AS Corporate_Budget_StrategyName, N'سایر هزینه‌ها' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     22 AS Corporate_Budget_StrategyID, N'Operating Profit2' AS Corporate_Budget_StrategyName, N'سود/ زیان عملیاتی' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     23 AS Corporate_Budget_StrategyID, N'Operating profit Percent' AS Corporate_Budget_StrategyName, N'درصد سود/زیان عملیاتی' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     24 AS Corporate_Budget_StrategyID, N'Financial costs' AS Corporate_Budget_StrategyName, N'هزینه‌های مالی' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     25 AS Corporate_Budget_StrategyID, N'Other Revenue and Expenses WithNo abs' AS Corporate_Budget_StrategyName, N'ساير درآمدها و هزينه‏هاى غيرعملياتى' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     26 AS Corporate_Budget_StrategyID, N'Other notForecast Costs' AS Corporate_Budget_StrategyName, N'سایر هزینه‌های پیش بینی نشده' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     27 AS Corporate_Budget_StrategyID, N'Profit before tax' AS Corporate_Budget_StrategyName, N'سود قبل از کسر مالیات' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     28 AS Corporate_Budget_StrategyID, N'Profit before tax Percent' AS Corporate_Budget_StrategyName, N'درصد سود قبل از کسر مالیات' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     29 AS Corporate_Budget_StrategyID, N'Income tax expense' AS Corporate_Budget_StrategyName, N'هزینه مالیات بر درآمد' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     30 AS Corporate_Budget_StrategyID, N'Net profit after tax (M R)' AS Corporate_Budget_StrategyName, N'سود خالص بعد از کسر مالیات (م ر)' AS Corporate_Budget_StrategyDescription&#xD;&#xA;                                      UNION ALL&#xD;&#xA;                                      SELECT     31 AS Corporate_Budget_StrategyID, N'Net profit after tax (M R) Percent' AS Corporate_Budget_StrategyName, N'درصد سود/زیان خالص' AS Corporate_Budget_StrategyDescription) AS a) AS b" msprop:QueryBuilder="SpecificQueryBuilder">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="Corporate_Budget_StrategyID" msdata:ReadOnly="true" msprop:design-time-name="e6adfcdd-ec34-47e5-9891-6fca431c36c5" msprop:DbColumnName="Corporate_Budget_StrategyID" msprop:FriendlyName="Corporate_Budget_StrategyID" type="xs:int" minOccurs="0" />
@@ -1819,6 +1871,41 @@
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="PUB_GNR_Dim_Product" msprop:design-time-name="5777d46b-a192-42a6-9dbb-858d6ed0a34e" msprop:IsLogical="True" msprop:FriendlyName="PUB_GNR_Dim_Product" msprop:DbTableName="PUB_GNR_Dim_Product" msprop:TableType="View" msprop:Description="" msprop:QueryDefinition="SELECT     p.Product_Id, p.Product_Title, CAST(p.Product_Code AS NVARCHAR(50)) AS Product_Code, CASE WHEN p.Product_Title LIKE N'%ضمیمه%' AND p.Product_Title NOT LIKE N'%+%' THEN N'ضمیمه' ELSE N'سایر' END AS ZamimehState, &#xD;&#xA;                  CASE WHEN p.Product_Code LIKE N'%E%' THEN N'ایبوک' ELSE N'سایر' END AS EbookState&#xD;&#xA;FROM        Vw_PUB_GNR_Dim_Product_WithParent AS p LEFT OUTER JOIN&#xD;&#xA;                  Vwe_PUB_GNR_Dim_ParentProduct AS pp ON p.Parent_Code = pp.ParentProduct_Code&#xD;&#xA;UNION ALL&#xD;&#xA;SELECT     CAST(9999 AS BIGINT) AS Product_Id, CAST(N'مربوط به اسناد دستی ' AS NVARCHAR(200)) AS Product_Title, CAST('9999' AS NVARCHAR(50)) AS Product_Code, N'سایر' AS ZamimehState, N'سایر' AS EbookState" msprop:QueryBuilder="SpecificQueryBuilder">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Product_Id" msdata:ReadOnly="true" msprop:design-time-name="857f1a7d-1388-4cb6-8905-6269dc73c24b" msprop:DbColumnName="Product_Id" msprop:FriendlyName="Product_Id" type="xs:long" minOccurs="0" />
+                  <xs:element name="Product_Title" msdata:ReadOnly="true" msprop:design-time-name="02a77d7a-9a11-478c-9a6e-2fc57dbf2750" msprop:DbColumnName="Product_Title" msprop:FriendlyName="Product_Title" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="200" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Product_Code" msdata:ReadOnly="true" msprop:design-time-name="71cfd74e-82a5-43eb-8ed2-4da969bf4f5d" msprop:DbColumnName="Product_Code" msprop:FriendlyName="Product_Code" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ZamimehState" msdata:ReadOnly="true" msprop:design-time-name="e07cdd5d-2ab2-4681-a7c2-5f03a29d4f8a" msprop:DbColumnName="ZamimehState" msprop:FriendlyName="ZamimehState" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="EbookState" msprop:design-time-name="a4ca64cc-f3df-4a5a-8f5e-a91b597da15b" msprop:DbColumnName="EbookState" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
@@ -1884,6 +1971,10 @@
           <xs:selector xpath=".//DimSaleOffice" />
           <xs:field xpath="SalesOfficeID" />
         </xs:unique>
+        <xs:unique name="PUB_GNR_Dim_Product_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//PUB_GNR_Dim_Product" />
+          <xs:field xpath="Product_Id" />
+        </xs:unique>
       </xs:element>
       <xs:annotation>
         <xs:appinfo>
@@ -1899,11 +1990,13 @@
           <msdata:Relationship name="FactFinancialForecast-DimScenario" msdata:parent="gen_DimScenario" msdata:child="fin_FactFinancialForecast" msdata:parentkey="ScenarioKey" msdata:childkey="ScenarioKey" msprop:IsLogical="True" msprop:Description="" />
           <msdata:Relationship name="DimLoan-DimLender" msdata:parent="fin_DimLender" msdata:child="fin_DimLoan" msdata:parentkey="LenderKey" msdata:childkey="LenderKey" msprop:IsLogical="True" msprop:Description="" />
           <msdata:Relationship name="FactFinancialTransaction-DimVoucherItem" msdata:parent="fin_DimVoucherItem" msdata:child="fin_FactFinancialTransaction" msdata:parentkey="VoucherItemKey" msdata:childkey="VoucherItemKey" msprop:IsLogical="True" msprop:Description="" />
-          <msdata:Relationship name="Vw_PUB_SLE_Fact_ReturnSale-DimOrganization" msdata:parent="gen_DimOrganization" msdata:child="dbo_Vw_PUB_SLE_Fact_ReturnSale" msdata:parentkey="OrganizationKey" msdata:childkey="ReturnSalesOrganization_Id" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="Vw_PUB_SLE_Fact_ReturnSale-DimOrganization" msdata:parent="gen_DimOrganization" msdata:child="dbo_Vw_PUB_SLE_Fact_ReturnSale" msdata:parentkey="OrganizationKey" msdata:childkey="ReturnSalesOrganization_Id" msprop:Description="" msprop:IsLogical="True" />
           <msdata:Relationship name="Vw_PUB_SLE_Fact_Sale_ForDiscount-DimOrganization" msdata:parent="gen_DimOrganization" msdata:child="dbo_Vw_PUB_SLE_Fact_Sale_ForDiscount" msdata:parentkey="OrganizationKey" msdata:childkey="SalesOrganization_Id" msprop:IsLogical="True" msprop:Description="" />
           <msdata:Relationship name="Vw_PUB_SLE_Fact_Sale_ForDiscount-DimSaleOffice" msdata:parent="DimSaleOffice" msdata:child="dbo_Vw_PUB_SLE_Fact_Sale_ForDiscount" msdata:parentkey="SalesOfficeID" msdata:childkey="SalesOfficeRef" msprop:IsLogical="True" msprop:Description="" />
           <msdata:Relationship name="Vw_PUB_SLE_Fact_Sale_ForDiscount-DimDate" msdata:parent="gen_DimDate" msdata:child="dbo_Vw_PUB_SLE_Fact_Sale_ForDiscount" msdata:parentkey="DateKey" msdata:childkey="DateKey" msprop:IsLogical="True" msprop:Description="" />
-          <msdata:Relationship name="Vw_PUB_SLE_Fact_ReturnSale-DimDate" msdata:parent="gen_DimDate" msdata:child="dbo_Vw_PUB_SLE_Fact_ReturnSale" msdata:parentkey="DateKey" msdata:childkey="DateKey" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="Vw_PUB_SLE_Fact_ReturnSale-DimDate" msdata:parent="gen_DimDate" msdata:child="dbo_Vw_PUB_SLE_Fact_ReturnSale" msdata:parentkey="DateKey" msdata:childkey="DateKey" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="Vw_PUB_SLE_Fact_ReturnSale-PUB_GNR_Dim_Product" msdata:parent="PUB_GNR_Dim_Product" msdata:child="dbo_Vw_PUB_SLE_Fact_ReturnSale" msdata:parentkey="Product_Id" msdata:childkey="Product_Id" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="Vw_PUB_SLE_Fact_Sale_ForDiscount-PUB_GNR_Dim_Product" msdata:parent="PUB_GNR_Dim_Product" msdata:child="dbo_Vw_PUB_SLE_Fact_Sale_ForDiscount" msdata:parentkey="Product_Id" msdata:childkey="Product_Id" msprop:IsLogical="True" msprop:Description="" />
         </xs:appinfo>
       </xs:annotation>
     </xs:schema>
